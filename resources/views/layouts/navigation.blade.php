@@ -15,6 +15,10 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
+                        {{ __('Spares') }}
+                    </x-nav-link>
+
                 </div>
             </div>
 
@@ -70,6 +74,10 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
+                {{ __('Spares') }}
+            </x-responsive-nav-link>
+
         </div>
 
         <!-- Responsive Settings Options -->
