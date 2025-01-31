@@ -26,7 +26,9 @@ class SpareController extends Controller
             $query->where(function($q) use ($search) {
                 $q->where('english_name', 'like', '%' . $search . '%')
                     ->orWhere('myanmar_name', 'like', '%' . $search . '%')
-                    ->orWhere('part_number', 'like', '%' . $search . '%');
+                    ->orWhere('part_number', 'like', '%' . $search . '%')
+                    ->orWhere('category', 'like', '%' . $search . '%')
+                    ->orWhere('category_type', 'like', '%' . $search . '%');
             });
         }
 
@@ -47,7 +49,7 @@ class SpareController extends Controller
             $query->orderBy($sortColumn, $direction === 'asc' ? 'asc' : 'desc');
         }
 
-        $spares = $query->paginate(12)->withQueryString();
+        $spares = $query->paginate(24)->withQueryString();
         
         return view('spares.index', compact('spares'));
     }

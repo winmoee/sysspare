@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
+            {{ __('စိမ်းရောင်စိုမှ ကြိုစိုပါသည် ။ Welcome to Seinn Yaung So!') }}
         </h2>
     </x-slot>
 
