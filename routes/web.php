@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\SpareController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\WavePaymentController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [SpareController::class, 'homepage']);
@@ -27,5 +28,11 @@ Route::resource('spares', SpareController::class)
     ->middleware(['auth', 'verified']);
 
 Route::get('spares/{spare}', [SpareController::class, 'show'])->name('spares.show');
+
+/* wave */
+// In routes/web.php
+Route::post('/wave/checkout', [WavePaymentController::class, 'checkout'])->name('wave.checkout');
+Route::post('/wave/callback', [WavePaymentController::class, 'callback'])->name('wave.callback');
+Route::get('/wave/return', [WavePaymentController::class, 'return'])->name('wave.return');
 
 require __DIR__.'/auth.php';

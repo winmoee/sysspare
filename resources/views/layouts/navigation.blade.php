@@ -5,11 +5,11 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ url('/') }}">
-                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
-                            {{ $attributes->merge(['class' => 'block h-9 w-auto']) }}
-                            alt="SYS Logo">
-                    </a>
+                <a href="{{ url('/') }}">
+                    <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
+                        class="block h-9 w-auto"
+                        alt="SYS Logo">
+                </a>
                 </div>
 
                 <!-- Navigation Links -->

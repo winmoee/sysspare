@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'wave' => [
+        'merchant_id' => env('WAVE_MERCHANT_ID', 'test_merchant'),
+        'secret_key' => env('WAVE_SECRET_KEY', 'test_secret'),
+        'merchant_name' => env('WAVE_MERCHANT_NAME', 'Test Store'),
+        'backend_url' => env('WAVE_BACKEND_URL', 'http://localhost:8000/wave/callback'),
+        'frontend_url' => env('WAVE_FRONTEND_URL', 'http://localhost:8000/wave/return'),
+    ],
 ];

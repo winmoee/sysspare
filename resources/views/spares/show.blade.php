@@ -52,12 +52,21 @@
                             </div>
                         @endif
 
-                        <!-- Wave Money Payment Button -->
-                        <div class="flex justify-center cursor-pointer hover:opacity-90 transition-opacity">
-                            <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg" 
-                                alt="Pay with Wave Money"
-                                class="h-auto w-full max-w-[200px]">
-                        </div>
+                        <!-- In views/spares/show.blade.php -->
+                        <form action="{{ route('wave.checkout') }}" method="POST">
+                            @csrf
+                            <input type="hidden" name="spare_name" value="{{ $spare->name }}">
+                            <input type="hidden" name="spare_price" value="{{ $spare->price }}">
+                            
+                            <!-- Wave Money Payment Button -->
+                            <div class="flex justify-center cursor-pointer hover:opacity-90 transition-opacity">
+                                <button type="submit" class="border-0 bg-transparent p-0">
+                                    <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg" 
+                                        alt="Pay with Wave Money"
+                                        class="h-auto w-full max-w-[200px]">
+                                </button>
+                            </div>
+                        </form>
                     </div>
 
                     <!-- Right Column - Details -->
