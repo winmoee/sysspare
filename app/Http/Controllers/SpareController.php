@@ -18,7 +18,37 @@ class SpareController extends Controller
      */
     public function index(): View
     {
-        $spares = Spare::paginate(20);  // This returns a LengthAwarePaginator instead of a Collection
+        $query = Spare::query();
+
+        // Handle search
+        if (request('search')) {
+            $search = request('search');
+            $query->where(function($q) use ($search) {
+                $q->where('english_name', 'like', '%' . $search . '%')
+                    ->orWhere('myanmar_name', 'like', '%' . $search . '%')
+                    ->orWhere('part_number', 'like', '%' . $search . '%');
+            });
+        }
+
+        // Handle sorting
+        $sortColumn = request('sort', 'created_at');
+        $direction = request('direction', 'desc');
+        
+        // Validate sort column to prevent SQL injection
+        $allowedSortColumns = [
+            'english_name',
+            'myanmar_name',
+            'part_number',
+            'price',
+            'created_at'
+        ];
+        
+        if (in_array($sortColumn, $allowedSortColumns)) {
+            $query->orderBy($sortColumn, $direction === 'asc' ? 'asc' : 'desc');
+        }
+
+        $spares = $query->paginate(12)->withQueryString();
+        
         return view('spares.index', compact('spares'));
     }
 

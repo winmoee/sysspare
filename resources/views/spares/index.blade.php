@@ -1,5 +1,60 @@
 <x-app-layout>
 
+    <!-- Search and Sort Section -->
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+        <div class="space-y-4">
+            <!-- Search Form -->
+            <form action="{{ route('spares.index') }}" method="GET" class="mb-6">
+                <div class="flex gap-4">
+                    <div class="flex-1">
+                        <input 
+                            type="text" 
+                            name="search" 
+                            placeholder="Search by name or part number..." 
+                            value="{{ request('search') }}"
+                            class="w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                        >
+                    </div>
+                    <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-200">
+                        Search
+                    </button>
+                </div>
+            </form>
+
+            <!-- Sort Controls -->
+            <div class="flex flex-wrap gap-2">
+                <span class="text-gray-700">Sort by:</span>
+                @php
+                    $sortOptions = [
+                        'english_name' => 'English Name',
+                        'myanmar_name' => 'Myanmar Name',
+                        'part_number' => 'Part Number',
+                        'price' => 'Price',
+                        'created_at' => 'Date Added'
+                    ];
+                    $currentSort = request('sort', 'created_at');
+                    $direction = request('direction', 'desc');
+                @endphp
+                
+                @foreach($sortOptions as $value => $label)
+                    <a 
+                        href="{{ route('spares.index', [
+                            'sort' => $value,
+                            'direction' => $value === $currentSort && $direction === 'asc' ? 'desc' : 'asc',
+                            'search' => request('search')
+                        ]) }}"
+                        class="px-3 py-1 text-sm rounded-full {{ $currentSort === $value ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}"
+                    >
+                        {{ $label }}
+                        @if($currentSort === $value)
+                            <span class="ml-1">{{ $direction === 'asc' ? '↑' : '↓' }}</span>
+                        @endif
+                    </a>
+                @endforeach
+            </div>
+        </div>
+    </div>
+
     <!-- Spare Section -->
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

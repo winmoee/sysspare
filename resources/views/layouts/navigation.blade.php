@@ -6,20 +6,22 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
+                    <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
+    {{ $attributes->merge(['class' => 'block h-9 w-auto']) }}
+    alt="SYS Logo">
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('ပစ္စည်းအသစ် (Add)') }}
                     </x-nav-link>
                     <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
-                        {{ __('Spares') }}
+                        {{ __('စပါယ်ရာပတ်များ (Parts)') }}
                     </x-nav-link>
                     <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
-                        {{ __('Upload CSV') }}
+                        {{ __('တင်ရန် (Upload)') }}
                     </x-nav-link>
                 </div>
             </div>
@@ -74,13 +76,13 @@
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                {{ __('Dashboard') }}
+                {{ __('ပစ္စည်းအသစ် (Add)') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
-                {{ __('Spares') }}
+                {{ __('စပါယ်ရာပတ်များ (Parts)') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
-                {{ __('Upload CSV') }}
+                {{ __('တင်ရန် (Upload)') }}
             </x-responsive-nav-link>
         </div>
 
