@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use League\Csv\Reader;
 use App\Models\Spare;
 use App\Models\User;
+use Illuminate\Support\Facades\Storage;
 
 class ImportSpares extends Command
 {
@@ -15,43 +16,42 @@ class ImportSpares extends Command
 
     public function handle()
     {
-        // First, let's make sure we have a user to associate with
-        $user = User::first(); // Get the first user in the system
-        
+        $user = User::first();
         if (!$user) {
-            $this->error('No users found in the system. Please create a user first.');
+            $this->error('No users found.');
             return 1;
         }
 
         $file = $this->argument('file');
-        
-        // Create CSV reader
-        $csv = Reader::createFromPath($file, 'r');
+        if (!Storage::disk('s3')->exists($file)) {
+            $this->error("File not found: {$file}");
+            return 1;
+        }
+
+        $stream = Storage::disk('s3')->readStream($file);
+        $csv = Reader::createFromStream($stream);
         $csv->setHeaderOffset(0);
         
-        $records = $csv->getRecords();
-        
         DB::beginTransaction();
-        
         try {
-            foreach ($records as $record) {
-                Spare::create([
-                    'category' => $record['category'],
-                    'part_number' => $record['part_number'],
-                    'english_name' => $record['english_name'],
-                    'myanmar_name' => $record['myanmar_name'],
-                    'price' => intval(preg_replace('/[^0-9]/', '', $record['price'])),
-                    'stock_quantity' => intval($record['stock_quantity']),
-                    'movement_level' => $record['movement_level'],
-                    'category_type' => $record['category_type'],
-                    'price_range' => $record['price_range'],
-                    'photo' => $record['photo'],
-                ]);
+            foreach ($csv->getRecords() as $record) {
+                Spare::updateOrCreate(
+                    ['part_number' => $record['part_number']], // Unique identifier
+                    [
+                        'category' => $record['category'],
+                        'english_name' => $record['english_name'],
+                        'myanmar_name' => $record['myanmar_name'],
+                        'price' => intval(preg_replace('/[^0-9]/', '', $record['price'])),
+                        'stock_quantity' => intval($record['stock_quantity']),
+                        'movement_level' => $record['movement_level'],
+                        'category_type' => $record['category_type'],
+                        'price_range' => $record['price_range'],
+                        'photo' => $record['photo'],
+                    ]
+                );
             }
-            
             DB::commit();
-            $this->info('Import completed successfully!');
-            
+            $this->info('Import completed successfully.');
         } catch (\Exception $e) {
             DB::rollBack();
             $this->error('Import failed: ' . $e->getMessage());
