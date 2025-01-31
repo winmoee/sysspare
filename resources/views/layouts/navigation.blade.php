@@ -18,7 +18,9 @@
                     <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
                         {{ __('Spares') }}
                     </x-nav-link>
-
+                    <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
+                        {{ __('Upload CSV') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -77,7 +79,9 @@
             <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
                 {{ __('Spares') }}
             </x-responsive-nav-link>
-
+            <x-responsive-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
+                {{ __('Upload CSV') }}
+            </x-responsive-nav-link>
         </div>
 
         <!-- Responsive Settings Options -->

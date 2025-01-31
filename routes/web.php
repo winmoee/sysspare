@@ -18,6 +18,12 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 }); 
 
+Route::get('/upload', function () {
+    return view('upload');
+})->middleware(['auth', 'verified'])->name('upload');
+
+Route::post('/upload', [SpareController::class, 'upload']);
+
 Route::resource('spares', SpareController::class)
     ->only(['index', 'store', 'edit', 'update','destroy','show'])
     ->middleware(['auth', 'verified']);
