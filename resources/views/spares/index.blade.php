@@ -12,10 +12,10 @@
                             name="search" 
                             placeholder="Search by name or part number..." 
                             value="{{ request('search') }}"
-                            class="w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                            class="w-full rounded-lg border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50"
                         >
                     </div>
-                    <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-200">
+                    <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200">
                         Search
                     </button>
                 </div>
@@ -43,7 +43,7 @@
                             'direction' => $value === $currentSort && $direction === 'asc' ? 'desc' : 'asc',
                             'search' => request('search')
                         ]) }}"
-                        class="px-3 py-1 text-sm rounded-full {{ $currentSort === $value ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}"
+                        class="px-3 py-1 text-sm rounded-full {{ $currentSort === $value ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}"
                     >
                         {{ $label }}
                         @if($currentSort === $value)

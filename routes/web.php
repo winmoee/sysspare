@@ -4,9 +4,7 @@ use App\Http\Controllers\SpareController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [SpareController::class, 'homepage']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -25,8 +23,9 @@ Route::get('/upload', function () {
 Route::post('/upload', [SpareController::class, 'upload']);
 
 Route::resource('spares', SpareController::class)
-    ->only(['index', 'store', 'edit', 'update','destroy','show'])
+    ->only(['index', 'store', 'edit', 'update', 'destroy'])
     ->middleware(['auth', 'verified']);
 
+Route::get('spares/{spare}', [SpareController::class, 'show'])->name('spares.show');
 
 require __DIR__.'/auth.php';
