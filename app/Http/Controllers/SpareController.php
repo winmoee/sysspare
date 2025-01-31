@@ -16,9 +16,8 @@ class SpareController extends Controller
      */
     public function index(): View
     {
-        return view('spares.index', [
-            'spares' => Spare::with('user')->latest()->get(),
-        ]);
+        $spares = Spare::paginate(20);  // This returns a LengthAwarePaginator instead of a Collection
+        return view('spares.index', compact('spares'));
     }
 
     /**
@@ -35,7 +34,17 @@ class SpareController extends Controller
     public function store(Request $request): RedirectResponse
     {
         $validated = $request->validate([
-            'message' => 'required|string|max:255',
+            'message' => 'nullable|string|max:255',
+            'category' => 'nullable|string|max:255',
+            'part_number' => 'nullable|string|max:255',
+            'english_name' => 'nullable|string|max:255',
+            'myanmar_name' => 'nullable|string|max:255',
+            'price' => 'nullable|integer',
+            'stock_quantity' => 'nullable|integer',
+            'movement_level' => 'nullable|string|max:255',
+            'photo' => 'nullable|string|max:2550',
+            'category_type' => 'nullable|string|max:255',
+            'price_range' => 'nullable|string|max:255',
         ]);
  
         $request->user()->spares()->create($validated);
@@ -46,10 +55,13 @@ class SpareController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Spare $spare)
+    public function show(Spare $spare): View
     {
-        //
+        return view('spares.show', [
+            'spare' => $spare
+        ]);
     }
+
 
     /**
      * Show the form for editing the specified resource.
@@ -71,7 +83,17 @@ class SpareController extends Controller
         Gate::authorize('update', $spare);
  
         $validated = $request->validate([
-            'message' => 'required|string|max:255',
+            'message' => 'nullable|string|max:255',
+            'category' => 'nullable|string|max:255',
+            'part_number' => 'nullable|string|max:255',
+            'english_name' => 'nullable|string|max:255',
+            'myanmar_name' => 'nullable|string|max:255',
+            'price' => 'nullable|integer',
+            'stock_quantity' => 'nullable|integer',
+            'movement_level' => 'nullable|string|max:255',
+            'photo' => 'nullable|string|max:2550',
+            'category_type' => 'nullable|string|max:255',
+            'price_range' => 'nullable|string|max:255',
         ]);
  
         $spare->update($validated);

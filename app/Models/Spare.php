@@ -10,8 +10,18 @@ class Spare extends Model
     //
     protected $fillable = [
         'message',
+        'category',
+        'part_number',
+        'english_name',
+        'myanmar_name',
+        'price',
+        'stock_quantity',
+        'movement_level',
+        'category_type',
+        'price_range',
+        'photo',
     ];
-
+        
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
