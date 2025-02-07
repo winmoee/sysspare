@@ -11,6 +11,25 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::get('/transport', function () {
+    return view('transport');
+});
+Route::get('/serviceteam', function () {
+    return view('serviceteam');
+});
+Route::get('/serviceworkshop', function () {
+    return view('serviceworkshop');
+});
+Route::get('/serviceaward', function () {
+    return view('serviceaward');
+});
+Route::get('/market', function () {
+    return view('market');
+});
+Route::get('/feedback', function () {
+    return view('feedback');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

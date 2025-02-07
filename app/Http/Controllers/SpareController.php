@@ -47,7 +47,7 @@ class SpareController extends Controller
             $query->orderBy($sortColumn, $direction === 'asc' ? 'asc' : 'desc');
         }
 
-        $spares = $query->paginate(24)->withQueryString();
+        $spares = $query->paginate(4)->withQueryString();
         
         return view('welcome', compact('spares'));
     }   

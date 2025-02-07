@@ -14,11 +14,11 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('ပစ္စည်းအသစ် (Add)') }}
-                    </x-nav-link>
                     <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
                         {{ __('စပါယ်ရာပတ်များ (Parts)') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                        {{ __('ပစ္စည်းအသစ် (Add)') }}
                     </x-nav-link>
                     <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
                         {{ __('တင်ရန် (Upload)') }}
