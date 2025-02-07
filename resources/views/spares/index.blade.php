@@ -90,7 +90,7 @@
                                 </div>
                             @endif
 
-                            <p class="text-sm text-gray-600">{{ $spare->myanmar_name }}</p>
+                            <p class="text-sm text-green-700">{{ $spare->myanmar_name }}</p>
                             <h3 class="text-lg font-semibold mt-1">{{ $spare->english_name }}</h3>
                             <p class="text-sm text-gray-500 mt-1">{{ $spare->part_number }}</p>
                             

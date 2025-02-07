@@ -1,6 +1,50 @@
 <x-app-layout>
-<!-- Search and Sort Section -->
-<div class="max-w-7xl mx-auto p-6 lg:p-8">
+<!-- Hero Section -->
+<div class="bg-white">
+        <div class="max-w-7xl mx-auto p-6 lg:p-8">
+            <div class="relative">
+                <!-- Main Hero Image -->
+                <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/272127725_3060596430881381_965171384066464558_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=5Xdn0GjamIgQ7kNvgGkfESp&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A7SYESwLuhUArgQhDqPGQzz&oh=00_AYAuT9e4Fxhn28WzJvwW3QMLc5dwRUy0RE5Sgv1koQRwJA&oe=67AB5708" 
+                     alt="စစ်မှန်စျေးချို စိမ်းရောင်စို" 
+                     class="w-full h-auto rounded-lg">
+                
+                <!-- Hero Text Overlay -->
+                <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50">
+                    <h2 class="text-white text-3xl font-bold">စစ်မှန်စျေးချို စိမ်းရောင်စို</h2>
+                    <p class="text-white mt-2">တစ်နေရာထဲမှာ အားလုံးစုံ</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Showroom Section -->
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+        <h3 class="text-xl font-medium text-green-600 mb-4">
+            Showroom and Sales<br>
+            (အရောင်းနှင့် အရောင်းပြခန်း)
+        </h3>
+        
+        <!-- Address Information -->
+        <div class="bg-white rounded-lg p-4 shadow mb-4">
+            <p class="text-gray-600 mb-2">
+                အရောင်းနှင့် ပြခန်းလိပ်စာ - အမှတ်(၁၄၈/ ၁၄၉)၊ အနော်ရထာရထာလမ်းမကြီး၊ လှိုင်သာယာစက်မှုဇုံအပိုင်း(၅) တိုးချဲ့။
+            </p>
+            <a href="https://maps.app.goo.gl/L2SfCDJeAJBv35Gm8" 
+               class="inline-flex items-center text-green-600 hover:text-green-700">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                          d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                          d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+                Seinn Yaung So Co.,Ltd (Showroom) zone-5
+            </a>
+            <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/srsDvBFG6CY05EuX8HCx.webp">
+        </div> 
+
+
+    <!-- Search and Sort Section -->
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
     <div class="space-y-4">
         <!-- Search Form -->
         <form action="{{ route('spares.index') }}" method="GET" class="mb-6">
@@ -89,7 +133,7 @@
                             </div>
                         @endif
 
-                        <p class="text-sm text-gray-600">{{ $spare->myanmar_name }}</p>
+                        <p class="text-sm text-green-700">{{ $spare->myanmar_name }}</p>
                         <h3 class="text-lg font-semibold mt-1">{{ $spare->english_name }}</h3>
                         <p class="text-sm text-gray-500 mt-1">{{ $spare->part_number }}</p>
                         
@@ -108,6 +152,155 @@
             {{ $spares->links() }}
         </div>
     @endif
+</div>
+
+    <!-- NEW IMAGE -->
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+            <div class="relative">
+                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/SLaxu5MEktimsQJmwNUF.webp" 
+                     alt="SYS" 
+                     class="w-full h-auto rounded-lg">
+            </div>
+    </div>
+    
+        <!-- Contact Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <!-- Contact Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow">
+            <h4 class="font-medium">ကောင်းပြည့်စုံထွန်း(အရောင်း)</h4>
+            <p class="text-gray-600">09443209946</p>
+            <div class="mt-2">
+                <button onclick="copyPhoneNumber('09443209946', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
+                    <span class="copy-button-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
+                        </svg>
+                        Copy Number
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Contact Card 2 -->
+        <div class="bg-white rounded-lg p-4 shadow">
+            <h4 class="font-medium">အိအိ‌‌ရွှေ (အရောင်းကြီးကြပ်)</h4>
+            <p class="text-gray-600">09798892678</p>
+            <div class="mt-2">
+                <button onclick="copyPhoneNumber('09798892678', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
+                    <span class="copy-button-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
+                        </svg>
+                        Copy Number
+                    </span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Contact Card 3 -->
+        <div class="bg-white rounded-lg p-4 shadow">
+            <h4 class="font-medium">နေနွယ်ဦး(SSA ပြုပြင်)</h4>
+            <p class="text-gray-600">09798890819</p>
+            <div class="mt-2">
+                <button onclick="copyPhoneNumber('09798890819', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
+                    <span class="copy-button-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
+                        </svg>
+                        Copy Number
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function copyPhoneNumber(phoneNumber, button) {
+        // Create temporary textarea
+        const textarea = document.createElement('textarea');
+        textarea.value = phoneNumber;
+        document.body.appendChild(textarea);
+        textarea.select();
+        
+        try {
+            // Copy the text
+            document.execCommand('copy');
+            
+            // Get the span element within this specific button
+            const buttonText = button.querySelector('.copy-button-text');
+            
+            // Update button text and icon temporarily
+            buttonText.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                Copied!`;
+                
+            // Reset after 2 seconds
+            setTimeout(() => {
+                buttonText.innerHTML = `
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
+                    </svg>
+                    Copy Number`;
+            }, 2000);
+        } catch (err) {
+            console.error('Failed to copy text:', err);
+        }
+        
+        // Remove temporary textarea
+        document.body.removeChild(textarea);
+    }
+    </script>
+</div>
+
+
+<!-- Service Section --> 
+<div class="max-w-7xl mx-auto p-6 lg:p-8">
+    <h3 class="text-xl font-medium text-green-600 mb-4">
+        Service<br>
+        (ဆားဗစ် ဝန်ဆောင်မှု)
+    </h3>
+    
+    <!-- Service Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_675,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FrVLgugAghG0Q4VIuyQnT%2Fpub%2FMEnv3wFiQurv5CgPgF1h.jpg" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Service Team</p>
+            <p class="text-sm text-gray-600">(စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</p>
+        </div>
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_675,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FrVLgugAghG0Q4VIuyQnT%2Fpub%2FnXoXOJe0JAKtWW3e77MY.jpg" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Service Workshop</p>
+            <p class="text-sm text-gray-600">(စက်ပြင်အလုပ်ရုံ)</p>
+        </div>
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/kJVfUiw71DqocDSfGNee.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Second Hand Market</p>
+            <p class="text-sm text-gray-600">(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</p>
+        </div>
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/nhPTrSfL9qirJwXCtdDs.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Service & Product Feedback</p>
+            <p class="text-sm text-gray-600">(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</p>
+        </div>
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/Ezn6hY8LL6sbAjCObZNT.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Outside Transportation</p>
+            <p class="text-sm text-gray-600">(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</p>
+        </div>
+        <!-- Service Card 1 -->
+        <div class="bg-white rounded-lg p-4 shadow text-center">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/sfh2rB5Al9D4u2l9XVQr.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+            <p class="text-green-600 font-medium">Service Award</p>
+            <p class="text-sm text-gray-600">(ဆားဗစ် ဆုများ)</p>
+        </div>
+    </div>
 </div>
 
 </x-app-layout>

@@ -24,8 +24,11 @@ Route::get('/upload', function () {
 Route::post('/upload', [SpareController::class, 'upload']);
 
 Route::resource('spares', SpareController::class)
-    ->only(['index', 'store', 'edit', 'update', 'destroy'])
+    ->only(['store', 'edit', 'update', 'destroy'])
     ->middleware(['auth', 'verified']);
+
+Route::resource('spares', SpareController::class)
+->only(['index']);
 
 Route::get('spares/{spare}', [SpareController::class, 'show'])->name('spares.show');
 
