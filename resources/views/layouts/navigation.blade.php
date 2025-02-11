@@ -13,8 +13,11 @@
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden sm:flex sm:space-x-8 sm:ms-10">
+                <div class="hidden sm:flex sm:space-x-2 sm:ms-10">
                     @auth
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
+                            {{ __('Spare Parts') }}
+                        </x-nav-link>
                         <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                             {{ __('ပစ္စည်းအသစ် (Add)') }}
                         </x-nav-link>
@@ -45,11 +48,16 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                <div class="px-4 py-2 text-med text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
                                 </div>
+                                <div class="px-4 py-2 text-med text-gray-700 font-medium">Brand</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
+
                             </div>
                         </div>
 
@@ -76,15 +84,15 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Purchasing Methods</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Cash Down</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">MADB</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">MEB</a>
                                 </div>
                             </div>
                         </div>
                         
-                        <!-- SERVICE Dropdown -->
+                        <!-- SPARE PARTS Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
                             <button @click="open = !open" @click.away="open = false"
@@ -107,15 +115,14 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                    <!-- <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div> -->
+                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Catalog (Market)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">About Spare Parts</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Showroom Dropdown -->
+                        <!-- SERVICE Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
                             <button @click="open = !open" @click.away="open = false"
@@ -138,15 +145,18 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">ဝန်ဆောင်မှုအသင်း</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- Showroom Dropdown -->
+                        <!-- SUBDIVISION Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
                             <button @click="open = !open" @click.away="open = false"
@@ -169,14 +179,19 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">Yangon - ရန်ကုန်</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Bayintnaung</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Z5 Showroom</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">MSY</a>
+                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">External - နယ်</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Pathein</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Hinthada</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Shwebo</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Taunggyi</a>
                                 </div>
                             </div>
                         </div>
-                        <!-- Showroom Dropdown -->
+                        <!-- CONTACT Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
                             <button @click="open = !open" @click.away="open = false"
@@ -199,10 +214,11 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">ဆက်သွယ်ရန်</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Sales</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Spare</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Office</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +256,7 @@
                 @else
                     <a href="{{ route('login') }}" class="px-3 py-2 text-black hover:text-gray-700">Log in</a>
                     @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="px-3 py-2 text-black hover:text-gray-700">Register</a>
+                        <!-- <a href="{{ route('register') }}" class="px-3 py-2 text-black hover:text-gray-700">Register</a> -->
                     @endif
                 @endauth
             </div>
@@ -278,9 +294,9 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
                     </div>
                 </div>
 
