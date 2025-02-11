@@ -49,17 +49,16 @@
                                 style="display: none;">
                                 <div class="py-2">
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">Product</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
-                                </div>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">Brand</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
-
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
                             </div>
                         </div>
+                    </div>
 
                         <!-- SALES Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
@@ -146,12 +145,12 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">ဝန်ဆောင်မှုအသင်း</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
+                                    <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
+                                    <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
+                                    <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
+                                    <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
+                                    <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
+                                    <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
                                 </div>
                             </div>
                         </div>
@@ -293,6 +292,25 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
+                    <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
+                    <div class="py-2 text-medium font-medium text-gray-600">Brand</div>
+                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
+                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
+                    </div>
+                </div>
+
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Sales</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">Product</div>
                         <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
                         <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
@@ -300,21 +318,66 @@
                     </div>
                 </div>
 
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Sales') }}
-                </x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Spare Parts') }}
-                </x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Service') }}
-                </x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Subdivision') }}
-                </x-responsive-nav-link>
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Contact') }}
-                </x-responsive-nav-link>
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Spare Parts</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
+                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                    </div>
+                </div>
+
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Service</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
+                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                    </div>
+                </div>
+
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Subdivision</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
+                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                    </div>
+                </div>
+
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Contact</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
+                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                    </div>
+                </div>
+
                 <x-responsive-nav-link :href="route('login')" :active="request()->routeIs('dashboard')">
                     {{ __('Log In') }}
                 </x-responsive-nav-link>
@@ -328,9 +391,7 @@
                     <div class="font-medium text-base text-gray-800">{{ Auth::user()->name }}</div>
                     <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
                 @else 
-                    <a href="{{ route('login') }}" class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]">
-                        Log in
-                    </a>
+
                 @endauth
             </div>
 

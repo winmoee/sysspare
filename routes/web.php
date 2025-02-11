@@ -12,22 +12,22 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/transport', function () {
-    return view('transport');
+    return view('service/transport');
 });
 Route::get('/serviceteam', function () {
-    return view('serviceteam');
+    return view('service/serviceteam');
 });
 Route::get('/serviceworkshop', function () {
-    return view('serviceworkshop');
+    return view('service/serviceworkshop');
 });
 Route::get('/serviceaward', function () {
-    return view('serviceaward');
+    return view('service/serviceaward');
 });
 Route::get('/market', function () {
-    return view('market');
+    return view('service/market');
 });
 Route::get('/feedback', function () {
-    return view('feedback');
+    return view('service/feedback');
 });
 
 Route::middleware('auth')->group(function () {
