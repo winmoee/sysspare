@@ -311,10 +311,10 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">Purchasing Methods</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Cash Down</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">MADB</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">MEB</a>
                     </div>
                 </div>
 
@@ -326,10 +326,8 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Catalog (Market)</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">About Spare Parts</a>
                     </div>
                 </div>
 
@@ -341,10 +339,13 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                    <div class="py-2 text-medium font-medium text-gray-600">ဝန်ဆောင်မှုအသင်း</div>
+                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
+                        <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
+                        <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
+                        <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
+                        <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
+                        <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
                     </div>
                 </div>
 
@@ -356,10 +357,15 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">Yangon - ရန်ကုန်</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Bayintnaung</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Z5 Showroom</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">MSY</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">External - နယ်</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Pathein</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Hinthada</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Shwebo</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Taunggyi</a>
                     </div>
                 </div>
 
@@ -371,10 +377,11 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar - ယန်မာ</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE - အေစီအီး</a>
-                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang - စီဖန်း</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">ဆက်သွယ်ရန်</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Sales</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Spare</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Office</a>
                     </div>
                 </div>
 
