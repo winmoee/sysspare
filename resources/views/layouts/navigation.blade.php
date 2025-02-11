@@ -1,22 +1,19 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+<nav x-data="{ open: false, productOpen: false, showroomOpen: false }" class="bg-white border-b border-gray-100 relative z-40">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                <a href="{{ url('/') }}">
-                    <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
-                        class="block h-9 w-auto"
-                        alt="SYS Logo">
-                </a>
+                    <a href="{{ url('/') }}">
+                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
+                            class="block h-9 w-auto"
+                            alt="SYS Logo">
+                    </a>
                 </div>
 
                 <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <!-- <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
-                        {{ __('စပါယ်ရာပတ်များ (Parts)') }}
-                    </x-nav-link> -->
+                <div class="hidden sm:flex sm:space-x-8 sm:ms-10">
                     @auth
                         <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                             {{ __('ပစ္စည်းအသစ် (Add)') }}
@@ -25,24 +22,190 @@
                             {{ __('တင်ရန် (Upload)') }}
                         </x-nav-link>
                     @else 
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Showroom') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Sales') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Spare Parts') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Service') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Subdivision') }}
-                        </x-nav-link>
-                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                            {{ __('Contact') }}
-                        </x-nav-link>
+                        <!-- Showroom Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Showroom') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SALES Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Sales') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- SERVICE Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Spare Parts') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Showroom Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Service') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Showroom Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Subdivision') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Showroom Dropdown -->
+                        <div class="relative group" x-data="{ open: false }">
+                            <!-- Button Trigger -->
+                            <button @click="open = !open" @click.away="open = false"
+                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
+                                {{ __('Contact') }}
+                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+
+                            <!-- Dropdown Menu -->
+                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                                x-transition:enter-start="opacity-0 transform scale-95"
+                                x-transition:enter-end="opacity-100 transform scale-100"
+                                x-transition:leave="transition ease-in duration-75"
+                                x-transition:leave-start="opacity-100 transform scale-100"
+                                x-transition:leave-end="opacity-0 transform scale-95"
+                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                                style="display: none;">
+                                <div class="py-2">
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang</a>
+                                </div>
+                            </div>
+                        </div>
                     @endauth
                 </div>
             </div>
@@ -94,7 +257,6 @@
         </div>
     </div>
 
-
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
@@ -106,9 +268,22 @@
                     {{ __('တင်ရန် (Upload)') }}
                 </x-responsive-nav-link>
             @else 
-                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
-                    {{ __('Showroom') }}
-                </x-responsive-nav-link>
+                <!-- Mobile Showroom Dropdown -->
+                <div x-data="{ showroomOpen: false }" class="space-y-1">
+                    <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+                        <span>Showroom</span>
+                        <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': showroomOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                    <div x-show="showroomOpen" class="pl-4">
+                        <div class="py-2 text-medium font-medium text-gray-600">Product</div>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-red-50">Yanmar</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-blue-50">ACE</a>
+                        <a href="{{ url('/serviceteam') }}" class="block text-sm px-4 py-2 font-medium text-base text-gray-600 hover:text-gray-800 hover:bg-orange-50">Sifang</a>
+                    </div>
+                </div>
+
                 <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
                     {{ __('Sales') }}
                 </x-responsive-nav-link>
@@ -137,11 +312,8 @@
                     <div class="font-medium text-base text-gray-800">{{ Auth::user()->name }}</div>
                     <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
                 @else 
-                    <a
-                    href="{{ route('login') }}"
-                    class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                >
-                    Log in
+                    <a href="{{ route('login') }}" class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20]">
+                        Log in
                     </a>
                 @endauth
             </div>
@@ -155,20 +327,10 @@
                     <!-- Authentication -->
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
-
-                        <x-responsive-nav-link :href="route('logout')"
-                                onclick="event.preventDefault();
-                                            this.closest('form').submit();">
+                        <x-responsive-nav-link :href="route('logout')" onclick="event.preventDefault(); this.closest('form').submit();">
                             {{ __('Log Out') }}
                         </x-responsive-nav-link>
                     </form>
-                @else 
-                    <a
-                        href="{{ route('login') }}"
-                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
-                    >
-                        Log in
-                    </a>
                 @endauth
             </div>
         </div>
