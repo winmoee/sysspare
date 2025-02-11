@@ -14,15 +14,36 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
+                    <!-- <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
                         {{ __('စပါယ်ရာပတ်များ (Parts)') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('ပစ္စည်းအသစ် (Add)') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
-                        {{ __('တင်ရန် (Upload)') }}
-                    </x-nav-link>
+                    </x-nav-link> -->
+                    @auth
+                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                            {{ __('ပစ္စည်းအသစ် (Add)') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
+                            {{ __('တင်ရန် (Upload)') }}
+                        </x-nav-link>
+                    @else 
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Showroom') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Sales') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Spare Parts') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Service') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Subdivision') }}
+                        </x-nav-link>
+                        <x-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                            {{ __('Contact') }}
+                        </x-nav-link>
+                    @endauth
                 </div>
             </div>
 
@@ -69,6 +90,86 @@
                         <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Responsive Navigation Menu -->
+    <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
+        <div class="pt-2 pb-3 space-y-1">
+            @auth
+                <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    {{ __('ပစ္စည်းအသစ် (Add)') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
+                    {{ __('တင်ရန် (Upload)') }}
+                </x-responsive-nav-link>
+            @else 
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Showroom') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Sales') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Spare Parts') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Service') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Subdivision') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('dashboard')">
+                    {{ __('Contact') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('login')" :active="request()->routeIs('dashboard')">
+                    {{ __('Log In') }}
+                </x-responsive-nav-link>
+            @endauth
+        </div>
+
+        <!-- Responsive Settings Options -->
+        <div class="pt-4 pb-1 border-t border-gray-200">
+            <div class="px-4">
+                @auth
+                    <div class="font-medium text-base text-gray-800">{{ Auth::user()->name }}</div>
+                    <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
+                @else 
+                    <a
+                    href="{{ route('login') }}"
+                    class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                >
+                    Log in
+                    </a>
+                @endauth
+            </div>
+
+            <div class="mt-3 space-y-1">
+                @auth
+                    <x-responsive-nav-link :href="route('profile.edit')">
+                        {{ __('Profile') }}
+                    </x-responsive-nav-link>
+
+                    <!-- Authentication -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+
+                        <x-responsive-nav-link :href="route('logout')"
+                                onclick="event.preventDefault();
+                                            this.closest('form').submit();">
+                            {{ __('Log Out') }}
+                        </x-responsive-nav-link>
+                    </form>
+                @else 
+                    <a
+                        href="{{ route('login') }}"
+                        class="rounded-md px-3 py-2 text-black ring-1 ring-transparent transition hover:text-black/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-white dark:hover:text-white/80 dark:focus-visible:ring-white"
+                    >
+                        Log in
+                    </a>
+                @endauth
             </div>
         </div>
     </div>
