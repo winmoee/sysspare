@@ -169,7 +169,7 @@
                                     </div>
                                     
                                     <a href="{{ route('products.show', $product) }}" 
-                                       class="block w-full text-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                                       class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                         View Details
                                     </a>
                                 </div>
@@ -211,7 +211,7 @@
                                     </div>
                                     
                                     <a href="{{ route('products.show', $product) }}" 
-                                       class="block w-full text-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                                       class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                         View Details
                                     </a>
                                 </div>
