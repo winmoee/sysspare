@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\SpareController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WavePaymentController;
 use Illuminate\Support\Facades\Route;
@@ -40,8 +41,20 @@ Route::get('/upload', function () {
     return view('upload');
 })->middleware(['auth', 'verified'])->name('upload');
 
+// PRODUCTS
+Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
+
+Route::resource('products', ProductController::class)
+    ->only(['store', 'edit', 'update', 'destroy'])
+    ->middleware(['auth', 'verified']);
+
+Route::resource('products', ProductController::class)
+->only(['index']);
+
+// UPLOAD
 Route::post('/upload', [SpareController::class, 'upload']);
 
+// SPARES
 Route::resource('spares', SpareController::class)
     ->only(['store', 'edit', 'update', 'destroy'])
     ->middleware(['auth', 'verified']);

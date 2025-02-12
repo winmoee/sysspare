@@ -18,8 +18,11 @@
                         <x-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
                             {{ __('Spare Parts') }}
                         </x-nav-link>
+                        <x-nav-link :href="route('products.index')" :active="request()->routeIs('products.index')">
+                            {{ __('Products') }}
+                        </x-nav-link>
                         <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                            {{ __('ပစ္စည်းအသစ် (Add)') }}
+                            {{ __('Add Spare Parts') }}
                         </x-nav-link>
                         <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
                             {{ __('တင်ရန် (Upload)') }}
@@ -53,9 +56,9 @@
                                 <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
                                 <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">Brand</div>
-                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
-                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
-                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
                             </div>
                         </div>
                     </div>
@@ -276,8 +279,14 @@
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
             @auth
+                <x-responsive-nav-link :href="route('spares.index')" :active="request()->routeIs('spares.index')">
+                    {{ __('Spare Parts') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('products.index')" :active="request()->routeIs('products.index')">
+                    {{ __('Products') }}
+                </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                    {{ __('ပစ္စည်းအသစ် (Add)') }}
+                    {{ __('Add Spare Parts') }}
                 </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
                     {{ __('တင်ရန် (Upload)') }}
@@ -297,9 +306,9 @@
                         <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
                         <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
                     <div class="py-2 text-medium font-medium text-gray-600">Brand</div>
-                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
-                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
-                                <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
+                    <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
                     </div>
                 </div>
 

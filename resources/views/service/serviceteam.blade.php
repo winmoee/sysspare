@@ -58,7 +58,7 @@
             <p class="text-gray-600 mb-4 leading-8">
                 စက်ကြီးများအား မှန်ကန်စွာနှင့်ဘေးကင်းလုံခြုံစွာ အသုံးပြုနိုင်ရန် စက်ကိုင်တွယ်မောင်းနှင်မှုသင်တန်းများကို စက်အသုံးမပြုမီ စရိတ်ငြိမ်းသင်ကြားပေးပါသည်။
             </p>
-            <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_2925,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FrVLgugAghG0Q4VIuyQnT%2Fpub%2F0qncHHDrbYxSjPPWKTrR.jpg" 
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/svc1.webp" 
                  alt="Training" 
                  class="w-full rounded-lg">
         </div>
@@ -71,7 +71,7 @@
             <p class="text-gray-600 mb-4 leading-8">
                 စက်ဝယ်ယူသူများအနေဖြင့် မိမိဝယ်ယူသောစက်အသစ်ကို ချွတ်ယွင်းမှုကင်းစွာဖြင့် စိတ်ချလက်ချထုတ်ယူနိုင်ရန် စနစ်တကျစစ်ဆေးပြီး အပ်နှံပေးပါသည်။
             </p>
-            <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_2925,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FCwnW4K8VTTVcSg3ROdUP.png" 
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/svc2.webp" 
                  alt="Inspection" 
                  class="w-full rounded-lg">
         </div>

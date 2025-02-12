@@ -1,10 +1,18 @@
+<title>Seinn Yaung So</title>
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
+
 <x-app-layout>
 <!-- Hero Section -->
 <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="relative">
                 <!-- Main Hero Image -->
-                <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/272127725_3060596430881381_965171384066464558_n.png?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=5Xdn0GjamIgQ7kNvgGkfESp&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=A7SYESwLuhUArgQhDqPGQzz&oh=00_AYAuT9e4Fxhn28WzJvwW3QMLc5dwRUy0RE5Sgv1koQRwJA&oe=67AB5708" 
+                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png" 
                      alt="စစ်မှန်စျေးချို စိမ်းရောင်စို" 
                      class="w-full h-auto rounded-lg">
                 
