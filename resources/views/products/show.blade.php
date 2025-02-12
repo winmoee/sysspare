@@ -78,9 +78,9 @@
                                     <h2 class="text-2xl font-bold text-gray-900">{{ $product->english_name }}</h2>
                                     <p class="text-lg text-gray-600">{{ $product->myanmar_name }}</p>
                                 </div>
-                                
+
                                 <div>
-                                    <span class="text-sm font-medium text-gray-500">Part Number:</span>
+                                    <span class="text-sm font-medium text-gray-500">Horsepower - မြင်းကောင်ရေ:</span>
                                     <p class="text-gray-900">{{ $product->part_number }}</p>
                                 </div>
 
