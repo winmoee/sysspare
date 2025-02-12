@@ -118,4 +118,108 @@
     @else 
 
     @endauth
-</x-app-layout>
+</div>
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+        <!-- Tab Navigation -->
+        <div class="mb-8 border-b border-gray-200">
+            <div class="flex space-x-8" x-data="{ activeTab: 'type' }">
+                <button 
+                    @click="activeTab = 'type'" 
+                    :class="{ 'border-b-2 border-blue-500': activeTab === 'type' }"
+                    class="py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap">
+                    Group by Type
+                </button>
+                <button 
+                    @click="activeTab = 'category'" 
+                    :class="{ 'border-b-2 border-blue-500': activeTab === 'category' }"
+                    class="py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap">
+                    Group by Category
+                </button>
+            </div>
+        </div>
+
+        <!-- Products Grouped by Type -->
+        <div x-show="activeTab === 'type'">
+            @foreach($productsByType as $type => $products)
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $type }}</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        @foreach($products as $product)
+                            <div class="bg-white shadow-sm rounded-lg p-6">
+                                @if($product->photo)
+                                    <img src="{{ $product->photo }}" class="w-full h-48 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
+                                @else
+                                    <div class="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg>
+                                    </div>
+                                @endif
+                                
+                                <div class="space-y-4">
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
+                                        <p class="text-gray-600">{{ $product->myanmar_name }}</p>
+                                    </div>
+                                    
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-500">Part Number: {{ $product->part_number }}</p>
+                                        <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
+                                    </div>
+                                    
+                                    <a href="{{ route('products.show', $product) }}" 
+                                       class="block w-full text-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                                        View Details
+                                    </a>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        <!-- Products Grouped by Category -->
+        <div x-show="activeTab === 'category'">
+            @foreach($productsByCategory as $category => $products)
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $category }}</h2>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        @foreach($products as $product)
+                            <div class="bg-white shadow-sm rounded-lg p-6">
+                                @if($product->photo)
+                                    <img src="{{ $product->photo }}" class="w-full h-48 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
+                                @else
+                                    <div class="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                        </svg>
+                                    </div>
+                                @endif
+                                
+                                <div class="space-y-4">
+                                    <div>
+                                        <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
+                                        <p class="text-gray-600">{{ $product->myanmar_name }}</p>
+                                    </div>
+                                    
+                                    <div class="space-y-2">
+                                        <p class="text-sm text-gray-500">Part Number: {{ $product->part_number }}</p>
+                                        <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
+                                    </div>
+                                    
+                                    <a href="{{ route('products.show', $product) }}" 
+                                       class="block w-full text-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+                                        View Details
+                                    </a>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</x-app-layout>    

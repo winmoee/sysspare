@@ -27,6 +27,9 @@
                         <x-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
                             {{ __('တင်ရန် (Upload)') }}
                         </x-nav-link>
+                        <x-nav-link :href="route('upprod')" :active="request()->routeIs('upprod')">
+                            {{ __('UpProd') }}
+                        </x-nav-link>
                     @else 
                         <!-- Showroom Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
@@ -290,6 +293,9 @@
                 </x-responsive-nav-link>
                 <x-responsive-nav-link :href="route('upload')" :active="request()->routeIs('upload')">
                     {{ __('တင်ရန် (Upload)') }}
+                </x-responsive-nav-link>
+                <x-responsive-nav-link :href="route('upprod')" :active="request()->routeIs('upprod')">
+                    {{ __('Upprod') }}
                 </x-responsive-nav-link>
             @else 
                 <!-- Mobile Showroom Dropdown -->

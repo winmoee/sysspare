@@ -1,9 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response; 
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\View\View;
 
 class ProductController extends Controller
@@ -53,6 +57,34 @@ class ProductController extends Controller
         $request->user()->products()->create($validated);
  
         return redirect(route('products.index'));
+    }
+
+
+    // upprod
+    public function upprod(Request $request)
+    {
+        $request->validate([
+            'file' => 'required|mimes:csv,txt|max:2048', // Limit file size to 2MB
+        ]);
+
+        // Get the original filename and extension
+        $originalName = pathinfo($request->file('file')->getClientOriginalName(), PATHINFO_FILENAME);
+        $extension = $request->file('file')->getClientOriginalExtension();
+
+        // Append a simple timestamp (current Unix time) to prevent duplicates
+        $timestamp = time(); // Returns current Unix timestamp
+        $newFilename = "{$originalName}_{$timestamp}.{$extension}";
+
+        // Store the file locally or on S3
+        $path = $request->file('file')->storeAs('uploads', $newFilename, 's3'); // Change 'local' to 's3' if using S3
+
+        // Full file path
+        $fullPath = storage_path("app/{$path}");
+
+        // Run the artisan command with the file path
+        Artisan::call("app:import-tractors \"{$path}\"");
+
+        return back()->with('success', "File uploaded as {$newFilename} and import started.");
     }
 
     /**

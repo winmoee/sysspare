@@ -37,10 +37,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 }); 
 
-Route::get('/upload', function () {
-    return view('upload');
-})->middleware(['auth', 'verified'])->name('upload');
-
 // PRODUCTS
 Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
 
@@ -53,6 +49,15 @@ Route::resource('products', ProductController::class)
 
 // UPLOAD
 Route::post('/upload', [SpareController::class, 'upload']);
+Route::get('/upload', function () {
+    return view('upload');
+})->middleware(['auth', 'verified'])->name('upload');
+
+// UPLOADPROD
+Route::post('/upprod', [ProductController::class, 'upprod']);
+Route::get('/upprod', function () {
+    return view('upprod');
+})->middleware(['auth', 'verified'])->name('upprod');
 
 // SPARES
 Route::resource('spares', SpareController::class)
