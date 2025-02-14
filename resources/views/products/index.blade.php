@@ -22,9 +22,9 @@
                 <x-input-error :messages="$errors->get('category')" class="mt-2" />
             </div>
 
-            <!-- Horsepower - မြင်းကောင်ရေ: -->
+            <!-- Horsepower - မြင်းကောင်ရေ -->
             <div>
-                <label for="part_number" class="block text-sm font-medium text-gray-700">Horsepower - မြင်းကောင်ရေ:</label>
+                <label for="part_number" class="block text-sm font-medium text-gray-700">Horsepower - မြင်းကောင်ရေ</label>
                 <input type="text" name="part_number" id="part_number" value="{{ old('part_number') }}"
                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50">
                 <x-input-error :messages="$errors->get('part_number')" class="mt-2" />
@@ -117,38 +117,50 @@
     </div>
     @else 
     @endauth
-    <div class="max-w-7xl mx-auto p-6 lg:p-8">
-        <!-- Tab Navigation -->
-        <div class="mb-8 border-b border-gray-200">
-            <div class="flex space-x-8" x-data="{ activeTab: 'type' }">
-                <button 
-                    @click="activeTab = 'type'" 
-                    :class="{ 'border-b-2 border-blue-500': activeTab === 'type' }"
-                    class="py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap">
-                    Group by Type
-                </button>
-                <button 
-                    @click="activeTab = 'category'" 
-                    :class="{ 'border-b-2 border-blue-500': activeTab === 'category' }"
-                    class="py-4 px-1 text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap">
-                    Group by Category
-                </button>
-            </div>
+    <div class="w-full bg-white shadow-sm top-0 z-10">
+    <div class="max-w-7xl mx-auto px-4 py-2">
+        <div class="flex flex-wrap gap-2 items-center justify-start overflow-x-auto">
+            <a href="#walking-tractor" class="inline-flex flex-col items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">Walking Tractor</span>
+                <span class="text-xs text-gray-500">ထွန်စက်</span>
+            </a>
+            <a href="#harvester" class="inline-flex flex-col items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">Harvester</span>
+                <span class="text-xs text-gray-500">ရိတ်စက်</span>
+            </a>
+            <a href="#combine-harvester" class="inline-flex flex-col items-center px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">Combine Harvester</span>
+                <span class="text-xs text-gray-500">ထွန်ကိုင်း</span>
+            </a>
+            <a href="#yanmar" class="inline-flex flex-col items-center px-4 py-2 bg-red-50 rounded-lg hover:bg-red-100 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">Yanmar</span>
+                <span class="text-xs text-gray-500">ယန်မာ</span>
+            </a>
+            <a href="#ace" class="inline-flex flex-col items-center px-4 py-2 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">ACE</span>
+                <span class="text-xs text-gray-500">အေစီအီး</span>
+            </a>
+            <a href="#sifang" class="inline-flex flex-col items-center px-4 py-2 bg-orange-50 rounded-lg hover:bg-orange-100 transition-colors min-w-fit">
+                <span class="text-sm font-medium text-gray-700">Sifang</span>
+                <span class="text-xs text-gray-500">စီဖန်း</span>
+            </a>
         </div>
-
-        <!-- Products Grouped by Type -->
-        <div x-show="activeTab === 'type'">
-            @foreach($productsByType as $type => $products)
-                <div class="mb-12">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $type }}</h2>
+    </div>
+</div>
+    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+        <!-- Products Grouped by Category -->
+        <div x-show="activeTab === 'category'">
+            @foreach($productsByCategory as $category => $products)
+                <div class="mb-12" id="{{ Str::slug($category) }}">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $category }}</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         @foreach($products as $product)
                             <div class="bg-white shadow-sm rounded-lg p-6">
                                 @if($product->photo)
-                                    <img src="{{ $product->photo }}" class="w-full h-48 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
+                                    <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                 @else
-                                    <div class="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
+                                    <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                         </svg>
@@ -162,7 +174,7 @@
                                     </div>
                                     
                                     <div class="space-y-2">
-                                        <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ:: {{ $product->part_number }}</p>
+                                        <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ {{ $product->part_number }}</p>
                                         <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                     </div>
                                     
@@ -178,19 +190,19 @@
             @endforeach
         </div>
 
-        <!-- Products Grouped by Category -->
-        <div x-show="activeTab === 'category'">
-            @foreach($productsByCategory as $category => $products)
-                <div class="mb-12">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $category }}</h2>
+        <!-- Products Grouped by Type -->
+        <div x-show="activeTab === 'type'">
+            @foreach($productsByType as $type => $products)
+                <div class="mb-12" id="{{ Str::slug($type) }}">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $type }}</h2>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         @foreach($products as $product)
                             <div class="bg-white shadow-sm rounded-lg p-6">
                                 @if($product->photo)
-                                    <img src="{{ $product->photo }}" class="w-full h-48 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
+                                    <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                 @else
-                                    <div class="w-full h-48 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
+                                    <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                         </svg>
