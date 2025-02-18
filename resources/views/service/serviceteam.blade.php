@@ -167,7 +167,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <!-- Contact 1 -->
                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium">မခင်မျိုးသန်း</h5>
+                    <h5 class="font-medium text-gray-600">မခင်မျိုးသန်း</h5>
                     <p class="text-sm text-gray-600">Hotline - 09444742030</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09444742030', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
@@ -182,7 +182,7 @@
                 </div>
 
                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium">မချယ်ရီထား</h5>
+                    <h5 class="font-medium text-gray-600">မချယ်ရီထား</h5>
                     <p class="text-sm text-gray-600">Complaint - 09425833040</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09425833040', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium">ကိုပြည့်ဖြိုးထွန်း</h5>
+                    <h5 class="font-medium text-gray-600">ကိုပြည့်ဖြိုးထွန်း</h5>
                     <p class="text-sm text-gray-600">Supervisor - 09798892685</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09798892685', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">

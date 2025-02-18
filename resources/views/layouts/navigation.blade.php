@@ -55,9 +55,9 @@
                                 style="display: none;">
                                 <div class="py-2">
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">Product</div>
-                                <a href="{{ url('/products#walking-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
-                                <a href="{{ url('/products#4-wheels-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
-                                <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
+                                <a href="{{ url('/products#4-wheels-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
+                                <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
+                                <a href="{{ url('/products#walking-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">Brand</div>
                                 <a href="{{ url('/products#yanmar') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
                                 <a href="{{ url('/products#ace') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
