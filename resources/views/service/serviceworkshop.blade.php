@@ -58,9 +58,28 @@
             <p class="text-gray-600 mb-4 leading-8">
             အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။
         </p>
-            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_1.jpg" 
-                 alt="Training" 
-                 class="w-full rounded-lg">
+        <div class="carousel-container" data-carousel-id="yangon-carousel">
+        <div class="carousel-slides">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_1.jpg" alt="Yangon Workshop 1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_2.jpg" alt="Yangon Workshop 2" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_3.jpg" alt="Yangon Workshop 3" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_4.jpg" alt="Yangon Workshop 4" class="carousel-slide">
+        </div>
+        
+        <button class="carousel-nav carousel-nav-left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+        </button>
+        
+        <button class="carousel-nav carousel-nav-right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        
+        <div class="carousel-indicators"></div>
+    </div>
         </div>
 <!-- Contact Section -->
 <div class="bg-white rounded-lg shadow-lg p-6">
@@ -123,9 +142,29 @@
             <p class="text-gray-600 mb-4 leading-8">
                 DIG စက်မှုဇုံဝင်း၊ ကင်မလင်းကျွန်းရပ်ကွက်၊ ပုသိမ်မြို့။
             </p>
-            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_1.jpg" 
-                 alt="Inspection" 
-                 class="w-full rounded-lg">
+            <div class="carousel-container" data-carousel-id="pathein-carousel">
+        <div class="carousel-slides">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_1.jpg" alt="Pathein Workshop 1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_2.jpg" alt="Pathein Workshop 2" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_3.jpg" alt="Pathein Workshop 3" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_4.jpg" alt="Pathein Workshop 4" class="carousel-slide">
+        </div>
+        
+        <button class="carousel-nav carousel-nav-left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+        </button>
+        
+        <button class="carousel-nav carousel-nav-right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        
+        <div class="carousel-indicators"></div>
+    </div>
+
         </div>
         <!-- Contact Section -->
         <div class="bg-white rounded-lg shadow-lg p-6">
@@ -187,9 +226,29 @@
             <p class="text-gray-600 mb-4 leading-8">
                 စိမ်းရောင်စို၏ စက်ပြင်ဆရာများအကြောင်း
             </p>
-            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/service_team_1.jpg" 
-                 alt="Inspection" 
-                 class="w-full rounded-lg">
+            <div class="carousel-container" data-carousel-id="id-carousel">
+        <div class="carousel-slides">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/1.webp" alt="1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/2.webp" alt="2" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/3.webp" alt="3" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/4.webp" alt="4" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/0.webp" alt="0" class="carousel-slide">
+        </div>
+        
+        <button class="carousel-nav carousel-nav-left">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+        </button>
+        
+        <button class="carousel-nav carousel-nav-right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        
+        <div class="carousel-indicators"></div>
+    </div>
         </div>
     </div>
 </x-app-layout>
