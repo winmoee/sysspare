@@ -15,6 +15,19 @@
         @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/carousel.css', 'resources/js/carousel.js'])
     </head>
     <body class="font-sans antialiased">
+        <!-- LANGUAGE SWITCH FORCER -->
+    @php
+    // Force locale to match session at view rendering time
+    if (session()->has('locale')) {
+        app()->setLocale(session('locale'));
+    }
+@endphp
+
+    <div class="hidden">
+    Current Locale: {{ app()->getLocale() }}
+    Session Locale: {{ session('locale') ?? 'not set' }}
+</div>
+
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 

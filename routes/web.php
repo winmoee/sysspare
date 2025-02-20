@@ -75,4 +75,12 @@ Route::post('/wave/checkout', [WavePaymentController::class, 'checkout'])->name(
 Route::post('/wave/callback', [WavePaymentController::class, 'callback'])->name('wave.callback');
 Route::get('/wave/return', [WavePaymentController::class, 'return'])->name('wave.return');
 
+Route::get('locale/{locale}', function ($locale) {
+    if (in_array($locale, ['en', 'my'])) { // English and Burmese
+        session(['locale' => $locale]);
+        app()->setLocale($locale);
+    }
+    return redirect()->back();
+})->name('locale.switch');
+
 require __DIR__.'/auth.php';
