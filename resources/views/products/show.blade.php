@@ -70,51 +70,51 @@
 
                     <!-- Right Column - Details -->
                     <div class="md:w-2/3">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
                             <!-- Basic Information -->
                             <div class="space-y-4">
                                 <div>
-                                    <h2 class="text-2xl font-bold text-gray-900">{{ $product->english_name }}</h2>
+                                    <h2 class="text-2xl font-bold text-gray-900 mb-2">{{ $product->english_name }}</h2>
                                     <p class="text-lg text-gray-600">{{ $product->myanmar_name }}</p>
                                 </div>
 
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Horsepower - မြင်းကောင်ရေ:</span>
                                     <p class="text-gray-900">{{ $product->part_number }}</p>
-                                </div>
+                                </div> -->
 
                                 <div>
                                     <span class="text-sm font-medium text-gray-500">Category:</span>
                                     <p class="text-gray-900">{{ $product->category }}</p>
                                 </div>
 
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Price:</span>
                                     <p class="text-gray-900">{{ number_format($product->price) }} MMK</p>
-                                </div>
+                                </div> -->
                             </div>
 
                             <!-- Additional Details -->
                             <div class="space-y-4">
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Stock Quantity:</span>
                                     <p class="text-gray-900">{{ $product->stock_quantity }}</p>
-                                </div>
+                                </div> -->
 
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Movement Level:</span>
                                     <p class="text-gray-900">{{ $product->movement_level }}</p>
                                 </div>
-
-                                <div>
-                                    <span class="text-sm font-medium text-gray-500">Category Type:</span>
+ -->
+                                <!-- <div>
+                                    <span class="text-sm font-medium text-gray-500">Brand:</span>
                                     <p class="text-gray-900">{{ $product->category_type }}</p>
-                                </div>
+                                </div> -->
 
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Price Range:</span>
                                     <p class="text-gray-900">{{ $product->price_range }}</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
 
@@ -125,15 +125,15 @@
                                 <p class="mt-2 text-gray-600">{{ $product->message }}</p>
                             </div>
                         @endif
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    @if(view()->exists("products.templates.{$product->slug}"))
+                        @if(view()->exists("products.templates.{$product->slug}"))
         @include("products.templates.{$product->slug}")
     <!-- @else
         @include('products.templates.default') -->
     @endif
+
+                    </div>
+                </div>
+            </div>
+
+
 </x-app-layout>

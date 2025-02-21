@@ -1,104 +1,5 @@
 {{-- resources/views/products/gt-1.blade.php --}}
-
-<!-- Awards -->
-<div class="bg-white rounded-lg shadow-lg p-6">
-        <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        2020 Awards
-        </h6>
-            <!-- Spare Section -->
-        <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                    <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img 
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/excellent_award.jpg" 
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Excellent Award</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img 
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/after_sale_service-award_1st_prize.jpg" 
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">After Sale Service-Award 1st Prize
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img 
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/spare_2nd_prize.jpg" 
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Spare 2nd prize</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img 
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/fy_2020.jpg" 
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">FY 2020</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-<section class="showroom-container mt-2 _ruler">
-    <!-- <div class="breadcrumbs-container mb-4">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a">Home</a></li>
-            <li class="breadcrumb-item"><a">Showroom</a></li>
-            <li class="breadcrumb-item"><a">Yanmar</a></li>
-            <li class="breadcrumb-item active">GT-1 Walking Tractor With TF-120 Engine</li>
-        </ol>
-    </div> -->
-    
-
-    <div class="product-container">
-        <div class="product-name-container mb-5 mt-4 pt-3">
-            <span class="emphasis">Walking Tractor</span>
-            <h1 class="product-name">GT-1 Walking Tractor with TF-120 Engine</h1>
-        </div>
-        
-        <div class="banner-container d-flex flex-column flex-lg-row flex-md-row">
-            <div class="img-container">
-                <img src="{{ asset('vendor/showroom/gt-1-walking-tractor-with-tf-120-engine.png') }}" alt="GT-1 Walking Tractor">
-            </div>
-            <div class="banner-info-container">
-                <div class="intro-container mt-5">
-                    <h4 class="fs-4"></h4>
-                </div>
-                
-                <div class="specification-container">
+<div class="specification-container">
                     <table class="table-striped">
                         <tbody>
                             <tr class="text-grey-color">
@@ -129,177 +30,189 @@
                         </tbody>
                     </table>
                 </div>
-            </div>
-        </div>
-        <br>
+                </div>
+</div>
+</div>
+</div>
+</div>
+<!-- Awards -->
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <h6 class="text-xl font-semibold text-gray-800 mb-4">
+        Main Features
+        </h6>
+            <!-- Spare Section -->
+        <div class="max-w-7xl mx-auto p-6 lg:p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/1.jpg" 
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၁။ စွမ်းဆောင်ရည်မြင့်မားသော TF120 Yanmar အင်ဂျင်
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">GT-! လက်တွန်းထွန်စက်သည် ဒီဇိုင်းအသစ်Yanmar TF120 အင်ဂျင်ဖြင့် တွဲဖက်အသုံးပြုထားပြီး အမြင့်ဆုံးမြင်းကောင်ရေ ၁၅ ကောင်ထိ တွဲဖက်အသုံးပြုနိုင်ပါသည်။ထို့အပြင် သက်တောင့်သက်သာ မောင်းနှင်နိုင်ခြင်း၊ စွမ်းအားပြည့်ထုတ်ပေးနိုင်ခြင်း တို့ကြောင့် ဆီစားနှုန်းသက်သက်သာစွာဖြင့် မောင်းနှင်နှိုင်မှာဖြစ်ပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/2.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ တိုက်ရိုက်ဆီဖြန်းစနစ်
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">Yanmar ၏ တိုက်ရိုက်ဆီဖြန်းသည့်စနှစ်သည် စက်၏ဆီစားမှုနှုန်းကို အထူလျှော့ချပေးသည့်အတွက် ဆီစားနှုန်းသက်သာစွာ ဖြင့်မောင်းနှင်နှိုင်မှာဖြစ် ပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/3.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၃။ တုန်ခါမှု လျှေ့ာချပေးနိုင်ခြင်း
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">Yanmar ၏ ပြိုင်ဘက်ကင်းသော ဟန်ချက်ထိန်းတန်းနှစ်ခုသည် စက်၏ အရှိန် နှင့် အသံများကို လျော့ချခြင်းဖြင့် အသံကျယ်လောင်မှု ကို ဖယ်ရှားပေးနိုင်ပါသည်။ ဟန်ချက်မညီမျှမှုများကိုလည်း အတွင်းပိုင်းတွင် ထိန်းညှိပေးထားသောကြောင့် စက်တုန်ခါမှုကို လျော့နည်းစေပါသည်။ ထိုအပြင် အရွယ်အစားကြီးမားသော အသံထိန်း အိတ်ဇောပါသောကြောင့် အသံ ဆူညံခြင်းအား လျေ့ာကျစေပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/4.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၄။ အလွယ်တကူမြင်နိုင်သော ဆီရေစစ်</h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">ဆီစစ်အောက်ခြေတွင် ရေပါ၀င်လာမှု ပမာဏကို လွယ်ကူစွာ စစ်ဆေးနိုင်ပါသည်။ ဆီစစ်တွင် အလိုလျောက် လေရှူစနစ် ပါရှိ ‌‌သောကြောင့် မည်သည့် ကိရိယာမှ အသုံးမပြုပဲ လွယ်ကူစွာ လုပ်ဆောင်နိုင်ပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/5.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၅။ အင်ဂျင်ဝိုင် အချက်ပြစနစ်                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">အင်ဂျင်ဝိုင်၏ ဖိအား အတိုင်းတာအား အရောင်ကို ကြည့်ခြင်းအားဖြင့် လွယ်ကူစွာ စစ်ဆေးနိုင်ပါသည်။ အပြာရောင် – ပုံမှန်အခြေအနေ / အနီရောင်- ပုံမှန် မဟုတ်သော အခြေအနေ
 
-        <div class="intro-container mt-3">
-            <p class="intro-para paragraph"></p>
+</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/6.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၆။ လွယ်ကူစွာ ကြိုးချိန်ညှိနိုင်ခြင်း
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">မည်သည့်ကိရိယာမှ အသုံးမလိုပဲ ပူလီကြိုးကို လွယ်ကူစွာ ချိန်ညှိနိုင်ပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/7.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၇။ လေစစ် ( အစိုစစ်)
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">မည်မျှသေးငယ်သော ဖုန်မှုန့်များကိုမဆို လွတ်ထွတ်မသွားအောင် ဆီသုံး၍ စစ်ထုတ်နိုင်သောကြောင့် သန့်စင်သောလေကို အင်ဂျင်အတွက် ပေးစွမ်းနိုင်ပါသည်။</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/8.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၈။ ရှေ့မီးခလုတ်                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">ရှေ့မီးကို လက်ကိုင်းတန်းနေရာမှ အဖွင့်ပိတ်လုပ်နိုင်သည်။ မီးကြီး မီးသေး ပြောင်းနိုင်သည်။
+
+</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/9.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၉။ အကူကလပ်
+                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">မလိုလားအပ်ပဲ စက်၏ လက်ကိုင်တန်း မြင့်တက်သွားပါက လက်ကိုင်အောက်မှ ကလပ်ကို ပိတ်နိုင်ပါသည်။
+
+</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a  class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img 
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/10.jpg"  
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                            <h6 class="text-l font-semibold text-gray-800 mb-2">၁၀။ ဂီယာ ဘောက်                            </h6>
+                                <p class="text-sm text-gray-600 mt-2 leading-8">ကလပ်ပြား ၄ပြားအသုံးပြုထားပြီး သက်တန်းကြာရှည်စွာ အသုံးပြုနိုင်သည့် ဘယ်ရင်များကို အသုံးပြုထားသော FCD ဂီယာဘောက်ဖြစ်ပါသည်။ ရေဝင်ခံနိုင်ရန်အတွက်လည်း ဝိုင်းစည်းများကို တပ်ဆင်ထားပါသည်။
+
+</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
-        
-        <hr class="mt-5">
-        
-        <div class="content-container">
-            <div class="text-center mb-4">
-                <h2 class="feature-main-header header-lg underline-header text-uppercase">Main Features</h2>
-            </div>
-            
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/WDG9QBuAW5kftSBQ3sO0.jpg" 
-                            alt="Feature 1" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၁။ စွမ်းဆောင်ရည်မြင့်မားသော TF120 Yanmar အင်ဂျင်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            GT-! လက်တွန်းထွန်စက်သည် ဒီဇိုင်းအသစ်Yanmar TF120 အင်ဂျင်ဖြင့် တွဲဖက်အသုံးပြုထားပြီး အမြင့်ဆုံးမြင်းကောင်ရေ ၁၅ ကောင်ထိ တွဲဖက်အသုံးပြုနိုင်ပါသည်။ထို့အပြင် သက်တောင့်သက်သာ မောင်းနှင်နိုင်ခြင်း၊ စွမ်းအားပြည့်ထုတ်ပေးနိုင်ခြင်း တို့ကြောင့် ဆီစားနှုန်းသက်သက်သာစွာဖြင့် မောင်းနှင်နှိုင်မှာဖြစ်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/4Z1qU4VsKaY0oJvg4kMB.jpg" 
-                            alt="Feature 2" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၂။ တိုက်ရိုက်ဆီဖြန်းစနစ်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            Yanmar ၏ တိုက်ရိုက်ဆီဖြန်းသည့်စနှစ်သည် စက်၏ဆီစားမှုနှုန်းကို အထူလျှော့ချပေးသည့်အတွက် ဆီစားနှုန်းသက်သာစွာ ဖြင့်မောင်းနှင်နှိုင်မှာဖြစ် ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/uSLSJfpV6XeHLX50gMn1.jpg" 
-                            alt="Feature 3" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၃။ တုန်ခါမှု လျှေ့ာချပေးနိုင်ခြင်း
-                        </h3>
-                        <p class="feature-para paragraph">
-                            Yanmar ၏ ပြိုင်ဘက်ကင်းသော ဟန်ချက်ထိန်းတန်းနှစ်ခုသည် စက်၏ အရှိန် နှင့် အသံများကို လျော့ချခြင်းဖြင့် အသံကျယ်လောင်မှု ကို ဖယ်ရှားပေးနိုင်ပါသည်။ ဟန်ချက်မညီမျှမှုများကိုလည်း အတွင်းပိုင်းတွင် ထိန်းညှိပေးထားသောကြောင့် စက်တုန်ခါမှုကို လျော့နည်းစေပါသည်။ ထိုအပြင် အရွယ်အစားကြီးမားသော အသံထိန်း အိတ်ဇောပါသောကြောင့် အသံ ဆူညံခြင်းအား လျေ့ာကျစေပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/Dkqr0iAUwejnOmOq0lvU.jpg" 
-                            alt="Feature 4" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၄။ အလွယ်တကူမြင်နိုင်သော ဆီရေစစ်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            ဆီစစ်အောက်ခြေတွင် ရေပါ၀င်လာမှု ပမာဏကို လွယ်ကူစွာ စစ်ဆေးနိုင်ပါသည်။ ဆီစစ်တွင် အလိုလျောက် လေရှူစနစ် ပါရှိ ‌‌သောကြောင့် မည်သည့် ကိရိယာမှ အသုံးမပြုပဲ လွယ်ကူစွာ လုပ်ဆောင်နိုင်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/w1yrFu7pTnIT3NqbhRSZ.jpg" 
-                            alt="Feature 5" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၅။ အင်ဂျင်ဝိုင် အချက်ပြစနစ်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            အင်ဂျင်ဝိုင်၏ ဖိအား အတိုင်းတာအား အရောင်ကို ကြည့်ခြင်းအားဖြင့် လွယ်ကူစွာ စစ်ဆေးနိုင်ပါသည်။ အပြာရောင် – ပုံမှန်အခြေအနေ / အနီရောင်- ပုံမှန် မဟုတ်သော အခြေအနေ
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/4cdqjGNMrDcKvYU48feU.jpg" 
-                            alt="Feature 6" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၆။ လွယ်ကူစွာ ကြိုးချိန်ညှိနိုင်ခြင်း
-                        </h3>
-                        <p class="feature-para paragraph">
-                            မည်သည့်ကိရိယာမှ အသုံးမလိုပဲ ပူလီကြိုးကို လွယ်ကူစွာ ချိန်ညှိနိုင်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/R0GF3FA6xZpMpNVQB1sI.jpg" 
-                            alt="Feature 7" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၇။ လေစစ် ( အစိုစစ်)
-                        </h3>
-                        <p class="feature-para paragraph">
-                            မည်မျှသေးငယ်သော ဖုန်မှုန့်များကိုမဆို လွတ်ထွတ်မသွားအောင် ဆီသုံး၍ စစ်ထုတ်နိုင်သောကြောင့် သန့်စင်သောလေကို အင်ဂျင်အတွက် ပေးစွမ်းနိုင်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/1hFMD2Zwv93dJJ4sFWHI.jpg" 
-                            alt="Feature 8" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၈။ ရှေ့မီးခလုတ်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            ရှေ့မီးကို လက်ကိုင်းတန်းနေရာမှ အဖွင့်ပိတ်လုပ်နိုင်သည်။ မီးကြီး မီးသေး ပြောင်းနိုင်သည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/sCMmNQel8IH7GhsAb7gj.jpg" 
-                            alt="Feature 9" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၉။ အကူကလပ်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            မလိုလားအပ်ပဲ စက်၏ လက်ကိုင်တန်း မြင့်တက်သွားပါက လက်ကိုင်အောက်မှ ကလပ်ကို ပိတ်နိုင်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="col-12 col-md-4 col-lg-4 col-sm-6 mb-5">
-                    <img src="https://storage.googleapis.com/glide-prod.appspot.com/uploads-v2/rVLgugAghG0Q4VIuyQnT/pub/Tb5RQfLVTMUcxFdLsLZz.jpg" 
-                            alt="Feature 10" 
-                            class="feature-img w-100 img-thumbnail mb-3" 
-                            style="height: 220px; object-fit: cover">
-                    <div class="feature-content-wraper">
-                        <h3 class="feature-header header-md mb-3 fs-5">
-                            ၁၀။ ဂီယာ ဘောက်
-                        </h3>
-                        <p class="feature-para paragraph">
-                            ကလပ်ပြား ၄ပြားအသုံးပြုထားပြီး သက်တန်းကြာရှည်စွာ အသုံးပြုနိုင်သည့် ဘယ်ရင်များကို အသုံးပြုထားသော FCD ဂီယာဘောက်ဖြစ်ပါသည်။ ရေဝင်ခံနိုင်ရန်အတွက်လည်း ဝိုင်းစည်းများကို တပ်ဆင်ထားပါသည်။
-                        </p>
-                    </div>
-                </div>
-            </div>
-            
-            <hr class="seperator">
-            
-            <!-- Video Section -->
-            <div class="video-container mt-5">
+                        <!-- Video Section -->
+                        <div class="video-container mt-5">
                 <div class="practical-video-wraper video-wrapper"> 
                     <div class="video-item">
                         <iframe class="video_styling" 
@@ -310,9 +223,7 @@
                     </div>
                 </div>
             </div>
-            
-            <hr class="seperator">
-            
+</div>            
             <!-- Catalog Section -->
             <div class="catalog-container mt-4 product-detail-list-container">
                 <h2 class="catalog-main-header header-lg fw-bold mb-4">Catalog</h2>
