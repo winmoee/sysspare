@@ -18,5 +18,14 @@ return [
     'price' => 'Price',
     'date_added' => 'Date Added',
     'search' => 'Search',
+    'ttr' => 'Tractor',
+    'hvr' => 'Harvester',
+    'wtr' => 'Walking Tractor',
+    'ymr' => 'Yanmar',
+    'ace' => 'ACE',
+    'sfg' => 'Sifang',
+    'product' => 'Product',
+    'pm' => 'Purchasing Methods',
+    'brand' => 'Brand'
     // Add all your English text strings here
 ];

@@ -3,13 +3,13 @@ return [
     'welcome' => 'ကျွန်ုပ်တို့၏ ဝဘ်ဆိုက်သို့ ကြိုဆိုပါသည်',
     'showroom' => 'ပြခန်း',
     'sales' => 'အရောင်း',
-    'spare_parts' => 'အရန်ပစ္စည်းများ',
+    'spare_parts' => 'စပါယ်ယာပစ္စည်းများ',
     'service' => 'ဝန်ဆောင်မှု',
     'subdivision' => 'ဌာနခွဲ',
     'contact' => 'ဆက်သွယ်ရန်',
     'profile' => 'ပရိုဖိုင်',
     'log_out' => 'ထွက်ရန်',
-    'log_in' => 'ဝင်ရန်',
+    'log_in' => 'Login',
     'search_placeholder' => 'အမည်၊ အပိုပစ္စည်းနံပါတ် သို့မဟုတ် အမျိုးအစားဖြင့် ရှာပါ...',
     'sort_by' => 'အစီအစဉ်:',
     'english_name' => 'အင်္ဂလိပ်အမည်',
@@ -18,5 +18,17 @@ return [
     'price' => 'စျေးနှုန်း',
     'date_added' => 'ထည့်သွင်းသည့်ရက်စွဲ',
     'search' => 'ရှာဖွေရန်',
-    // Add all your Burmese text strings here  
+    // Add all your Burmese text strings here 
+    'ttr' => 'ထွန်စက်',
+    'hvr' => 'ရိတ်စက်',
+    'wtr' => 'ထွန်ကိုင်း',
+    'ymr' => 'ယန်မာ',
+    'ace' => 'အေစီအီး',
+    'sfg' => 'စီဖန်း',
+    'product' => 'ပစ္စည်းအမျိုးစား',
+    'pm' => 'ဝယ်ယူသည့်နည်းစနစ်များ',
+    'brand' => 'တံဆိပ်'
+    // '' => '',
+    // (?<=>)[^<>]+(?=<)
+    // {{ __('messages.showroom') }}
 ];

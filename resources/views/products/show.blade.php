@@ -53,12 +53,11 @@
                         @endif
 
                         <!-- In views/products/show.blade.php -->
-                        <form action="{{ route('wave.checkout') }}" method="POST">
+                        <!-- <form action="{{ route('wave.checkout') }}" method="POST">
                             @csrf
                             <input type="hidden" name="product_name" value="{{ $product->name }}">
                             <input type="hidden" name="product_price" value="{{ $product->price }}">
                             
-                            <!-- Wave Money Payment Button -->
                             <div class="flex justify-center cursor-pointer hover:opacity-90 transition-opacity">
                                 <button type="submit" class="border-0 bg-tranproductnt p-0">
                                     <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg" 
@@ -66,7 +65,7 @@
                                         class="h-auto w-full max-w-[200px]">
                                 </button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
 
                     <!-- Right Column - Details -->

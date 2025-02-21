@@ -75,8 +75,7 @@
                             </div>
                             <div class="p-4">
                                 <p class="text-sm text-gray-600 mt-2">After Sale Service-Award 1st Prize
-
-</p>
+                                </p>
                             </div>
                         </div>
                     </a>
