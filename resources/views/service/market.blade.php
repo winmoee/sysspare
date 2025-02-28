@@ -16,7 +16,9 @@
                 Categories
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
-            ရိတ်သိမ်းခြွေလှေ့စက်များနှင့် လေးဘီးထွန်စက်များ၊ လယ်ယာသုံးစက်ပစ္စည်း good second-hand ရောင်းဝယ်ချင်ကြသူ တောင်သူဦးကြီးများအတွက် အဆင်ပြေစေရန် အကျိုးအမြတ်မယူပဲ သတင်းအချက်အလက် မျှဝေပေးထားခြင်းသာဖြစ်ပါသည်။</p>
+            {{-- ရိတ်သိမ်းခြွေလှေ့စက်များနှင့် လေးဘီးထွန်စက်များ၊ လယ်ယာသုံးစက်ပစ္စည်း good second-hand ရောင်းဝယ်ချင်ကြသူ တောင်သူဦးကြီးများအတွက် အဆင်ပြေစေရန် အကျိုးအမြတ်မယူပဲ သတင်းအချက်အလက် မျှဝေပေးထားခြင်းသာဖြစ်ပါသည်။ --}}
+            This is simply sharing information without any profit for the benefit of farmers who are interested in buying or selling good second-hand harvesters and four-wheel tractors, farm equipment.
+        </p>
         </div>
     </div>
 </x-app-layout>
