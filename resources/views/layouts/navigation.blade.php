@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ url('/') }}">
-                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png" 
+                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png"
                             class="block h-9 w-auto"
                             alt="SYS Logo">
                     </a>
@@ -30,7 +30,7 @@
                         <x-nav-link :href="route('upprod')" :active="request()->routeIs('upprod')">
                             {{ __('UpProd') }}
                         </x-nav-link>
-                    @else 
+                    @else
                         <!-- Showroom Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
@@ -90,13 +90,13 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.pm') }}</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Cash Down</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">MADB</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">MEB</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.cash_down') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.madb') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.meb') }}</a>
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- SPARE PARTS Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
@@ -121,8 +121,8 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <!-- <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div> -->
-                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Catalog (Market)</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">About Spare Parts</a>
+                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -150,13 +150,13 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">ဝန်ဆောင်မှုအသင်း</div>
-                                    <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
-                                    <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
-                                    <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
-                                    <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
-                                    <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
-                                    <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
+                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">   {{ __('messages.service_team') }}</div>
+                                    <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machine_repair_team') }}</a>
+                                    <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
+                                    <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
+                                    <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>
+                                    <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.outside_transportation') }}</a>
+                                    <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.service_award') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -184,15 +184,15 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">Yangon - ရန်ကုန်</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Bayintnaung</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Z5 Showroom</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">MSY</a>
-                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">External - နယ်</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Pathein</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Hinthada</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Shwebo</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Taunggyi</a>
+                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.yangon') }}</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
+                                    <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.external') }}</div>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -220,10 +220,10 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.contact') }}</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Sales</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Spare</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Office</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
+                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -257,10 +257,10 @@
                             style="display: none;">
                             <div class="py-1">
                                 <a href="{{ route('locale.switch', 'en') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'en' ? 'bg-gray-100' : '' }}">
-                                    English
+                                    {{ __('messages.english') }}
                                 </a>
                                 <a href="{{ route('locale.switch', 'my') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'my' ? 'bg-gray-100' : '' }}">
-                                    မြန်မာဘာသာ
+                                    {{ __('messages.myanmar') }}
                                 </a>
                             </div>
                         </div>
@@ -330,7 +330,7 @@
                 <x-responsive-nav-link :href="route('upprod')" :active="request()->routeIs('upprod')">
                     {{ __('Upprod') }}
                 </x-responsive-nav-link>
-            @else 
+            @else
                 <!-- Mobile Showroom Dropdown -->
                 <div x-data="{ showroomOpen: false }" class="space-y-1">
                     <button @click="showroomOpen = !showroomOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
@@ -340,14 +340,14 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                    <div class="py-2 text-medium font-medium text-gray-600">Product</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Tractor - ထွန်စက်</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Harvester - ရိတ်စက်</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Walking Tractor - ထွန်ကိုင်း</a>
-                    <div class="py-2 text-medium font-medium text-gray-600">Brand</div>
-                    <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Yanmar - ယန်မာ</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">ACE - အေစီအီး</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Sifang - စီဖန်း</a>
+                    <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.product') }}</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                    <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.brand') }}</div>
+                    <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}/a>
                     </div>
                 </div>
 
@@ -360,9 +360,9 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.pm') }}</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Cash Down</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">MADB</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">MEB</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.cash_down') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.madb') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.med') }}</a>
                     </div>
                 </div>
 
@@ -374,8 +374,8 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Catalog (Market)</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">About Spare Parts</a>
+                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
                     </div>
                 </div>
 
@@ -387,13 +387,13 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                    <div class="py-2 text-medium font-medium text-gray-600">ဝန်ဆောင်မှုအသင်း</div>
-                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service Team <br> (စက်ပြင်ဝန်ဆောင်မှုအဖွဲ့)</a>
-                        <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service Workshop<br>(စက်ပြင်အလုပ်ရုံ)</a>
-                        <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Second Hand Market<br>(ထွန်စက်၊ရိတ်စက် second ရောင်းဝယ်သူများဆုံစည်းရာ)</a>
-                        <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Service & Product Feedback<br>(သုံးစွဲသူတို့ရဲ့ ရင်တွင်းစကားများ)</a>
-                        <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Outside Transportation<br>(ပြင်ပကားအငှား ဝန်ဆောင်မှု)</a>
-                        <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Service Award<br>(ဆားဗစ် ဆုများ)</a>
+                    <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.service_team') }}</div>
+                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machein_repair_team') }}</a>
+                        <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
+                        <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
+                        <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>
+                        <a href="{{ url('/transport') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.outside_transportation') }}</a>
+                        <a href="{{ url('/serviceaward') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.service_award') }}</a>
                     </div>
                 </div>
 
@@ -405,15 +405,15 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">Yangon - ရန်ကုန်</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Bayintnaung</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">Z5 Showroom</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">MSY</a>
-                        <div class="py-2 text-medium font-medium text-gray-600">External - နယ်</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Pathein</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Hinthada</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Shwebo</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">Taunggyi</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.yangon') }}</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.external') }}</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
                     </div>
                 </div>
 
@@ -425,11 +425,11 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <div class="py-2 text-medium font-medium text-gray-600">ဆက်သွယ်ရန်</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">Sales</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">Service</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Spare</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">Office</a>
+                        <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.contact') }}</div>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.spare') }}</a>
+                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>
                     </div>
                 </div>
 
@@ -443,10 +443,10 @@
         </button>
         <div x-show="langOpen" class="pl-4">
             <a href="{{ route('locale.switch', 'en') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'en' ? 'font-bold' : '' }}">
-                English
+               {{ __('messages.english') }}
             </a>
             <a href="{{ route('locale.switch', 'my') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'my' ? 'font-bold' : '' }}">
-                မြန်မာဘာသာ
+                {{ __('messages.myanmar') }}
             </a>
         </div>
     </div>
@@ -464,7 +464,7 @@
                 @auth
                     <div class="font-medium text-base text-gray-800">{{ Auth::user()->name }}</div>
                     <div class="font-medium text-sm text-gray-500">{{ Auth::user()->email }}</div>
-                @else 
+                @else
 
                 @endauth
             </div>
