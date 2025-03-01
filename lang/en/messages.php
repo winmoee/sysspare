@@ -54,6 +54,47 @@ return [
     'spare'=>'Spare',
     'office'=>'Office',
 
+    //Here is for servicetem.blade.php (English)//
+    'service_team_1'=>'Services provided by Seinn Yaung So (SYS) service team',
+    'service_team_2'=>'1. Pre-Delivery Training (Training provided before using the machine)',
+    'service_team_3'=>'We provide free training on how to operate large machines correctly and safely before they are used.',
+    'service_team_4'=>'2. Pre-Delivery Inspection (PDI) – Inspection before handing over the machine',
+    'service_team_5'=>'We systematically inspect and deliver new machinery to ensure that customers can safely receive their new machinery without any defects.',
+    'service_team_6'=>'3. Periodical Inspection (PI) – Regular inspection, adjustment, and maintenance',
+    'service_team_7'=>'To prevent sudden machine breakdowns, extend the machine\'s lifespan, and ensure optimal performance, it is crucial to conduct regular inspections, oil changes, adjustments, and cleaning in a systematic manner.',
+    'service_team_8'=>'For tractors, five free labor services are provided at 50, 300, 600, 900, and 1200 hours. For harvesters, four free labor services are provided at 50, 250, 500, and 800 hours. On-site free labor service is available for these scheduled maintenance intervals.',
+    'service_team_9'=>'By actively participating, machine users can systematically check and adjust their own machines after the warranty period, and use them for the entire life of the machine at a low cost.',
+    'service_team_10'=>'4. Warranty - Repairs for machine defects during the warranty period according to the warranty policy of the relevant machine',
+    'service_team_11'=>'If the machine is regularly inspected, properly maintained, and used correctly, but a defect occurs due to a manufacturing fault, the Seinn Yaung So (SYS) service team will thoroughly inspect the issue. According to the machine’s warranty policy, defective parts will be either repaired or replaced free of charge.',
+    'service_team_12'=>'In order to receive a full warranty, it is necessary to confirm that the device has not been misused, so it is imperative that the customer strictly cooperates with the company\'s instructions to obtain the necessary information.',
+    'service_team_13'=>'5. Workshop Service – On-site repair services for machines beyond the warranty period and comprehensive repairs at our workshops',
+    'service_team_14'=>'If machines beyond the warranty period require repairs, Seinn Yaung So (SYS) company’s skilled technicians will provide on-site repair services at reasonable rates.',
+    'service_team_15'=>'Additionally, repair workshops in Yangon and Pathein provide affordable and high-quality repair services by experienced technicians. Using only genuine spare parts, these skilled technicians will restore the machines to near-new condition, ensuring optimal performance after the repair.',
+    'service_team_16'=>'6. Service Caravan – Providing machine repair services through the Pre-Season Service Program before the working season begins',
+    'service_team_17'=>'To effectively prevent delays and financial losses due to machine breakdowns during the season when the machine is used continuously, we cooperate with relevant service teams before the work season and provide cost-effective joint repairs at nearby locations.',
+    'service_team_18'=>'7. Insurance Assistance – Handling insurance matters with FNI Insurance Company for damages and losses caused by natural disasters or accidents',
+    'service_team_19'=>'To help cover losses caused by unexpected incidents or accidents, we assist machine owners in coordinating with First National Insurance (FNI) to process insurance claims, whether for partial or full compensation.',
+    'service_team_20'=>'8. Basic Repair Training – Providing fundamental repair training for machine users',
+    'service_team_21'=>'A free Basic Repair Training is provided to machine users, enabling them to systematically perform minor and medium-scale repairs on their own after the warranty period has expired.',
+    'contact_us'=>'Contact',
+    'contact_description_1'=>'Ma Khin Myo Than',
+    'contact_description_2'=>'Ma Cherry Htar',
+    'contact_description_3'=>'Ko Pyae Phyo Htun',
+    //service_team.blade.php end//
+
+    //Here is for serviceworkshop.blade.php (English)//
+    'service_workshop_1'=>'Workshops',
+    'service_workshop_2'=>'Yangon Workshop (Mya Sein Yaung Industrial Zone)',
+    'service_workshop_3'=>'No. (C-9), Mya Tharaphy Street, Mya Seinn Yaung Industrial Zone, Near Dagon Ayeyar Highway Gate, Hlaingthaya Township, Yangon',
+    'service_workshop_4'=>'Contact',
+    'service_workshop_5'=>'Ma Aye Aye Kyu',
+    'service_workshop_6'=>'Pathein Workshop (DIG Industrial Zone)',
+    'service_workshop_7'=>'DIG Industrial Zone Compound, Kinmalin Kyun Ward, Pathein',
+    'service_workshop_8'=>'Ma Nwe Nwe Htun',
+    'service_workshop_9'=>'Experienced Technicians',
+    'service_workshop_10'=>'About SYS Technicians',
+    'service_workshop_11'=>'Copy Number',
+    //serviceworkshop.blade.php end//
 
 
 

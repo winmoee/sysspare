@@ -43,8 +43,9 @@
     <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h3 class="text-2xl font-semibold text-green-600">
+                {{ __('messages.service_workshop_1') }}
                 {{-- စက်ပြင်အလုပ်ရုံများ --}}
-                Workshops
+                {{-- Workshops --}}
             </h3>
         </div>
     </div>
@@ -54,12 +55,14 @@
         <!-- Service 1 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
+                {{ __('messages.service_workshop_2') }}
                 {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
-                Yangon Workshop (Mya Sein Yaung Industrial Zone)
+                {{-- Yangon Workshop (Mya Sein Yaung Industrial Zone) --}}
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
+                {{ __('messages.service_workshop_3') }}
             {{-- အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။ --}}
-            No. (C-9), Mya Tharaphy Street, Mya Seinn Yaung Industrial Zone, Near Dagon Ayeyar Highway Gate, Hlaingthaya Township, Yangon
+            {{-- No. (C-9), Mya Tharaphy Street, Mya Seinn Yaung Industrial Zone, Near Dagon Ayeyar Highway Gate, Hlaingthaya Township, Yangon --}}
         </p>
         <div class="carousel-container" data-carousel-id="yangon-carousel">
         <div class="carousel-slides">
@@ -86,11 +89,17 @@
         </div>
 <!-- Contact Section -->
 <div class="bg-white rounded-lg shadow-lg p-6">
-            <h4 class="text-xl font-semibold text-green-600 mb-4"> Contact </h4>
+            <h4 class="text-xl font-semibold text-green-600 mb-4">
+                {{ __('messages.service_workshop_4') }}
+                {{-- Contact  --}}
+            </h4>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <!-- Contact 1 -->
                                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium text-gray-600">Ma Aye Aye Kyu</h5>
+                    <h5 class="font-medium text-gray-600">
+                        {{ __('messages.service_workshop_5') }}
+                        {{-- Ma Aye Aye Kyu --}}
+                    </h5>
                     <br>
                     <p class="text-sm text-gray-600">Yangon - 09798892680</p>
                     <div class="mt-2">
@@ -99,7 +108,8 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                                 </svg>
-                                Copy Number
+                                {{ __('messages.service_workshop_11') }}
+                                {{-- Copy Number --}}
                             </span>
                         </button>
                     </div>
@@ -141,12 +151,14 @@
         <!-- Service 2 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
+                {{ __('messages.service_workshop_6') }}
             {{-- ပုသိမ်စက်ပြင်အလုပ်ရုံ (DIG စက်မှုဇုံ) --}}
-            Pathein Workshop (DIG Industrial Zone)
+            {{-- Pathein Workshop (DIG Industrial Zone) --}}
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
+                {{ __('messages.service_workshop_7') }}
                 {{-- DIG စက်မှုဇုံဝင်း၊ ကင်မလင်းကျွန်းရပ်ကွက်၊ ပုသိမ်မြို့။ --}}
-            DIG Industrial Zone Compound, Kinmalin Kyun Ward, Pathein
+            {{-- DIG Industrial Zone Compound, Kinmalin Kyun Ward, Pathein --}}
             </p>
             <div class="carousel-container" data-carousel-id="pathein-carousel">
         <div class="carousel-slides">
@@ -174,11 +186,17 @@
         </div>
         <!-- Contact Section -->
         <div class="bg-white rounded-lg shadow-lg p-6">
-            <h4 class="text-xl font-semibold text-green-600 mb-4">Contact</h4>
+            <h4 class="text-xl font-semibold text-green-600 mb-4">
+                {{ __('messages.service_workshop_4') }}
+                {{-- Contact --}}
+            </h4>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <!-- Contact 1 -->
                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium text-gray-600">Ma Nwe Nwe Htun</h5>
+                    <h5 class="font-medium text-gray-600">
+                        {{ __('messages.service_workshop_8') }}
+                        {{-- Ma Nwe Nwe Htun --}}
+                    </h5>
                     <br>
                     <p class="text-sm text-gray-600">Pathein - 09429000422</p>
                     <div class="mt-2">
@@ -187,7 +205,8 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                                 </svg>
-                                Copy Number
+                                {{ __('messages.service_workshop_11') }}
+                                {{-- Copy Number --}}
                             </span>
                         </button>
                     </div>
@@ -228,12 +247,14 @@
         <!-- Service 3 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
+                {{ __('messages.service_workshop_9') }}
                 {{-- ကျွမ်းကျင်စက်ပြင်ဆရာများ --}}
-                Experienced Technicians
+                {{-- Experienced Technicians --}}
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
+                {{ __('messages.service_workshop_10') }}
                 {{-- စိမ်းရောင်စို၏ စက်ပြင်ဆရာများအကြောင်း --}}
-                About SYS Technicians
+                {{-- About SYS Technicians --}}
             </p>
             <div class="carousel-container" data-carousel-id="id-carousel">
         <div class="carousel-slides">
