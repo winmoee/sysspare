@@ -36,7 +36,7 @@ return [
     'catalog' => 'Catalog',
     'about_spare_parts' => 'About Spare Parts',
     'service_team' => 'Service Team',
-    'machine_repair_team' => 'Machine Repair Service Team',
+
     'service_workshop' => 'Service Workshop',
     'second_hand_market' => 'Second Hand Market',
     'service_and_products_fdb' => 'Service and Products Feedback',
