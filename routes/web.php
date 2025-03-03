@@ -31,6 +31,17 @@ Route::get('/feedback', function () {
     return view('service/feedback');
 });
 
+// new pages
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/sales', function () {
+    return view('sales');
+});
+Route::get('/division', function () {
+    return view('division');
+});
+
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');

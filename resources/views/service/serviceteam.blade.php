@@ -1,43 +1,4 @@
 {{-- resources/views/services/team.blade.php --}}
-<script>
-    function copyPhoneNumber(phoneNumber, button) {
-        // Create temporary textarea
-        const textarea = document.createElement('textarea');
-        textarea.value = phoneNumber;
-        document.body.appendChild(textarea);
-        textarea.select();
-
-        try {
-            // Copy the text
-            document.execCommand('copy');
-
-            // Get the span element within this specific button
-            const buttonText = button.querySelector('.copy-button-text');
-
-            // Update button text and icon temporarily
-            buttonText.innerHTML = `
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                </svg>
-                Copied!`;
-
-            // Reset after 2 seconds
-            setTimeout(() => {
-                buttonText.innerHTML = `
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
-                    </svg>
-                    Copy Number`;
-            }, 2000);
-        } catch (err) {
-            console.error('Failed to copy text:', err);
-        }
-
-        // Remove temporary textarea
-        document.body.removeChild(textarea);
-    }
-    </script>
-
 <x-app-layout>
     <!-- Header Section -->
     <div class="bg-white">
