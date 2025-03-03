@@ -6,21 +6,21 @@
         textarea.value = phoneNumber;
         document.body.appendChild(textarea);
         textarea.select();
-        
+
         try {
             // Copy the text
             document.execCommand('copy');
-            
+
             // Get the span element within this specific button
             const buttonText = button.querySelector('.copy-button-text');
-            
+
             // Update button text and icon temporarily
             buttonText.innerHTML = `
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Copied!`;
-                
+
             // Reset after 2 seconds
             setTimeout(() => {
                 buttonText.innerHTML = `
@@ -32,12 +32,12 @@
         } catch (err) {
             console.error('Failed to copy text:', err);
         }
-        
+
         // Remove temporary textarea
         document.body.removeChild(textarea);
     }
     </script>
-    
+
 <x-app-layout>
     <!-- Header Section -->
     <div class="bg-white">
@@ -65,19 +65,19 @@
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_3.jpg" alt="Yangon Workshop 3" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/yangon_workshop_4.jpg" alt="Yangon Workshop 4" class="carousel-slide">
         </div>
-        
+
         <button class="carousel-nav carousel-nav-left">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
         </button>
-        
+
         <button class="carousel-nav carousel-nav-right">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
         </button>
-        
+
         <div class="carousel-indicators"></div>
     </div>
         </div>
@@ -101,7 +101,7 @@
                     </div>
                 </div>
 
-<!-- 
+<!--
                 <div class="p-4 border rounded-lg">
                     <h5 class="font-medium text-gray-600">မချယ်ရီထား</h5>
                     <p class="text-sm text-gray-600">Complaint - 09425833040</p>
@@ -149,19 +149,19 @@
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_3.jpg" alt="Pathein Workshop 3" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/pathein_workshop_4.jpg" alt="Pathein Workshop 4" class="carousel-slide">
         </div>
-        
+
         <button class="carousel-nav carousel-nav-left">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
         </button>
-        
+
         <button class="carousel-nav carousel-nav-right">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
         </button>
-        
+
         <div class="carousel-indicators"></div>
     </div>
 
@@ -185,7 +185,7 @@
                         </button>
                     </div>
                 </div>
-<!-- 
+<!--
                 <div class="p-4 border rounded-lg">
                     <h5 class="font-medium text-gray-600">မချယ်ရီထား</h5>
                     <p class="text-sm text-gray-600">Complaint - 09425833040</p>
@@ -234,19 +234,19 @@
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/4.webp" alt="4" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/0.webp" alt="0" class="carousel-slide">
         </div>
-        
+
         <button class="carousel-nav carousel-nav-left">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
             </svg>
         </button>
-        
+
         <button class="carousel-nav carousel-nav-right">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
             </svg>
         </button>
-        
+
         <div class="carousel-indicators"></div>
     </div>
         </div>

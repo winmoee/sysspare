@@ -3,13 +3,15 @@
     <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h3 class="text-2xl font-semibold text-green-600">
+                {{ __('messages.outdoor_vehicle_service') }}
             {{-- ပြင်ပကားအငှား ဝန်ဆောင်မှု --}}
-            Outdoor Vehicle Rental Service.
+            {{-- Outdoor Vehicle Rental Service. --}}
 
             </h3>
             <p class="text-gray-600 mt-4 mb-4 leading-8">
+                {{ __('messages.outdoor_vehicle_info') }}
             {{-- ရိတ်သိမ်းခြွေလှ့စက်၊ လေးဘီးထွန်စက်များ သယ်ယူပို့ဆောင်ရာတွင် တောင်သူများ အဆင်ပြေစေရန်အတွက် အကျိုးအမြတ်မယူပဲ သတင်းအချက်အလက် မျှဝေထားပေးခြင်းသာဖြစ်ပါသည်။ --}}
-            The sharing of information without any profit is solely for the convenience of farmers in the transportation of harvesters, four-wheel tractors.
+            {{-- The sharing of information without any profit is solely for the convenience of farmers in the transportation of harvesters, four-wheel tractors. --}}
         </p>
         </div>
     </div>

@@ -53,6 +53,26 @@ return [
     'taunggyi' => 'Taunggyi',
     'spare'=>'Spare',
     'office'=>'Office',
+ //service under 4
+ 'second_market'=>'Second-Hand Market',
+ 'second_market_info'=>'This is simply sharing information without any profit for the benefit of farmers who are interested in buying or selling good second-hand harvesters and four-wheel tractors, farm equipment.',
+ 'outdoor_vehicle_service'=>'Outdoor Vehicle Rental Service.',
+ 'outdoor_vehicle_info'=>' The sharing of information without any profit is solely for the convenience of farmers in the transportation of harvesters, four-wheel tractors.',
+ 'Award'=>'Yanmar Service 3 Consecutive Years First Prize.',
+ 'service_zone'=>'Yangon Machinery Repair Workshop (Mya Seinn Yaung Industrial Zone).',
+ 'service_zone_location'=>' No. (C-9), Mya Tharaphi Road, Myin Seinn Yaung Industrial Zone, near Dagon Ayeyar Express Gate, Hlaing Tharyar Township, Yangon City.',
+'2020_award'=>'2020 Awards',
+'exce_award'=>'Excellent Award',
+'sale_award'=>'After Sale Service-Award 1st Prize',
+'spare_award'=>'Spare 2nd prize',
+'fy_award'=>'FY 2020',
+'2021_award'=>' 2021 Awards',
+'gold_award'=>'After Sale Service-Gold Prize',
+'spare_gold_award'=>'Spare Parts-Gold Prize',
+'2022_award'=>'2022 Awards',
+'22exce_award'=>'Excellent Award',
+'22sale_award'=>'After Sale Service-1st Prize',
+'22spare_award'=>'Spare Parts-Winner',
 
 
 

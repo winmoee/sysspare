@@ -54,7 +54,26 @@ return [
     'taunggyi' => 'တောင်ကြီး',
     'spare'=>'အပိုပစ္စည်းများ',
     'office'=>'ရုံး',
-    // '' => '',
-    // (?<=>)[^<>]+(?=<)
+
+    'second_market'=>'Second-Hand Market',
+ 'second_market_info'=>'ရိတ်သိမ်းခြွေလှေ့စက်များနှင့် လေးဘီးထွန်စက်များ၊ လယ်ယာသုံးစက်ပစ္စည်း good second-hand ရောင်းဝယ်ချင်ကြသူ တောင်သူဦးကြီးများအတွက် အဆင်ပြေစေရန် အကျိုးအမြတ်မယူပဲ သတင်းအချက်အလက် မျှဝေပေးထားခြင်းသာဖြစ်ပါသည်။ ',
+ 'outdoor_vehicle_service'=>'ပြင်ပကားအငှား ဝန်ဆောင်မှု။',
+ 'outdoor_vehicle_info'=>' ရိတ်သိမ်းခြွေလှ့စက်၊ လေးဘီးထွန်စက်များ သယ်ယူပို့ဆောင်ရာတွင် တောင်သူများ အဆင်ပြေစေရန်အတွက် အကျိုးအမြတ်မယူပဲ သတင်းအချက်အလက် မျှဝေထားပေးခြင်းသာဖြစ်ပါသည်။ ',
+ 'Award'=>'Yanmar Service ၃ နှစ်ဆက်တိုက် ပထမဆု။',
+ 'service_zone'=>'ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)။',
+ 'service_zone_location'=>' အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။',
+ '2020_award'=>'Internationally recognized awards received by the Green Company in 2022 translate',
+'exce_award'=>'Excellent Award',
+'sale_award'=>'After Sale Service-Award 1st Prize',
+'spare_award'=>'Spare 2nd prize',
+'fy_award'=>'FY 2020',
+'2021_award'=>' 2021 Awards',
+'gold_award'=>'After Sale Service-Gold Prize',
+'spare_gold_award'=>'Spare Parts-Gold Prize',
+'2022_award'=>'2022 Awards',
+'22exce_award'=>'Excellent Award',
+'22sale_award'=>'After Sale Service-1st Prize',
+'22spare_award'=>'Spare Parts-Winner',
+
     // {{ __('messages.showroom') }}
 ];

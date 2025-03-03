@@ -3,8 +3,9 @@
     <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h2 class="text-2xl font-semibold text-green-600">
+                {{ __('messages.Award') }}
             {{-- Yanmar Service ၃ နှစ်ဆက်တိုက် ပထမဆု --}}
-            Yanmar Service 3 Consecutive Years First Prize.
+            {{-- Yanmar Service 3 Consecutive Years First Prize. --}}
             </h2>
         </div>
     </div>
@@ -14,12 +15,14 @@
         <!-- Service 1 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
+                {{ __('messages.service_zone') }}
                 {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
-                Yangon Machinery Repair Workshop (Mya Seinn Yaung Industrial Zone).
+                {{-- Yangon Machinery Repair Workshop (Mya Seinn Yaung Industrial Zone). --}}
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
+                {{ __('messages.service_zone_location') }}
             {{-- အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။ --}}
-            No. (C-9), Mya Tharaphi Road, Myin Seinn Yaung Industrial Zone, near Dagon Ayeyar Express Gate, Hlaing Tharyar Township, Yangon City.
+            {{-- No. (C-9), Mya Tharaphi Road, Myin Seinn Yaung Industrial Zone, near Dagon Ayeyar Express Gate, Hlaing Tharyar Township, Yangon City. --}}
         </p>
         <div class="carousel-container" data-carousel-id="yangon-carousel">
         <div class="carousel-slides">
@@ -47,7 +50,8 @@
     <!-- Awards -->
     <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        2020 Awards
+            {{ __('messages.2020_award') }}
+        {{-- 2020 Awards --}}
         </h6>
             <!-- Spare Section -->
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
@@ -62,8 +66,9 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Excellent Award</p>
+                               <p class="text-sm text-gray-600 mt-2"> {{ __('messages.exce_award') }} {{-- Excellent Award --}}</p>
                             </div>
+
                         </div>
                     </a>
 
@@ -77,7 +82,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">After Sale Service-Award 1st Prize
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.sale_award') }}
                                 </p>
                             </div>
                         </div>
@@ -93,7 +98,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Spare 2nd prize</p>
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.spare_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -108,7 +113,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">FY 2020</p>
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.fy_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -118,7 +123,8 @@
     <!-- Awards -->
     <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        2021 Awards
+            {{ __('messages.2021_award') }}
+
         </h6>
             <!-- Spare Section -->
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
@@ -133,7 +139,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">After Sale Service-Gold Prize</p>
+                                <p class="text-sm text-gray-600 mt-2"> {{ __('messages.gold_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -147,7 +153,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Spare Parts-Gold Prize</p>
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.spare_gold_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -157,7 +163,8 @@
         <!-- Awards -->
     <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        2022 Awards
+            {{ __('messages.2022_award') }}
+
         </h6>
             <!-- Spare Section -->
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
@@ -172,7 +179,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Excellent Award</p>
+                                <p class="text-sm text-gray-600 mt-2"> {{ __('messages.22exce_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -186,7 +193,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">After Sale Service-1st Prize</p>
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.22sale_award') }} </p>
                             </div>
                         </div>
                     </a>
@@ -200,7 +207,7 @@
                                     >
                             </div>
                             <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Spare Parts-Winner</p>
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.22spare_award') }} </p>
                             </div>
                         </div>
                     </a>
