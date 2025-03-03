@@ -43,7 +43,8 @@
     <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h3 class="text-2xl font-semibold text-green-600">
-                စက်ပြင်အလုပ်ရုံများ
+                {{-- စက်ပြင်အလုပ်ရုံများ --}}
+                Workshops
             </h3>
         </div>
     </div>
@@ -53,10 +54,12 @@
         <!-- Service 1 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
-                ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)
+                {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
+                Yangon Workshop (Mya Sein Yaung Industrial Zone)
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
-            အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။
+            {{-- အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။ --}}
+            No. (C-9), Mya Tharaphy Street, Mya Seinn Yaung Industrial Zone, Near Dagon Ayeyar Highway Gate, Hlaingthaya Township, Yangon
         </p>
         <div class="carousel-container" data-carousel-id="yangon-carousel">
         <div class="carousel-slides">
@@ -83,12 +86,13 @@
         </div>
 <!-- Contact Section -->
 <div class="bg-white rounded-lg shadow-lg p-6">
-            <h4 class="text-xl font-semibold text-green-600 mb-4">ဆက်သွယ်ရန်</h4>
+            <h4 class="text-xl font-semibold text-green-600 mb-4"> Contact </h4>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                                 <!-- Contact 1 -->
                                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium text-gray-600">မအေးအေးကြူ</h5>
-                    <p class="text-sm text-gray-600">ရန်ကုန် - 09798892680</p>
+                    <h5 class="font-medium text-gray-600">Ma Aye Aye Kyu</h5>
+                    <br>
+                    <p class="text-sm text-gray-600">Yangon - 09798892680</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09798892680', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
                             <span class="copy-button-text">
@@ -137,10 +141,12 @@
         <!-- Service 2 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
-            ပုသိမ်စက်ပြင်အလုပ်ရုံ (DIG စက်မှုဇုံ)
+            {{-- ပုသိမ်စက်ပြင်အလုပ်ရုံ (DIG စက်မှုဇုံ) --}}
+            Pathein Workshop (DIG Industrial Zone)
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
-                DIG စက်မှုဇုံဝင်း၊ ကင်မလင်းကျွန်းရပ်ကွက်၊ ပုသိမ်မြို့။
+                {{-- DIG စက်မှုဇုံဝင်း၊ ကင်မလင်းကျွန်းရပ်ကွက်၊ ပုသိမ်မြို့။ --}}
+            DIG Industrial Zone Compound, Kinmalin Kyun Ward, Pathein
             </p>
             <div class="carousel-container" data-carousel-id="pathein-carousel">
         <div class="carousel-slides">
@@ -168,12 +174,13 @@
         </div>
         <!-- Contact Section -->
         <div class="bg-white rounded-lg shadow-lg p-6">
-            <h4 class="text-xl font-semibold text-green-600 mb-4">ဆက်သွယ်ရန်</h4>
+            <h4 class="text-xl font-semibold text-green-600 mb-4">Contact</h4>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <!-- Contact 1 -->
                 <div class="p-4 border rounded-lg">
-                    <h5 class="font-medium text-gray-600">မနွယ်နွယ်ထွန်း</h5>
-                    <p class="text-sm text-gray-600">ပုသိမ် - 09429000422</p>
+                    <h5 class="font-medium text-gray-600">Ma Nwe Nwe Htun</h5>
+                    <br>
+                    <p class="text-sm text-gray-600">Pathein - 09429000422</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09429000422', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
                             <span class="copy-button-text">
@@ -221,10 +228,12 @@
         <!-- Service 3 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
-                ကျွမ်းကျင်စက်ပြင်ဆရာများ
+                {{-- ကျွမ်းကျင်စက်ပြင်ဆရာများ --}}
+                Experienced Technicians
             </h6>
             <p class="text-gray-600 mb-4 leading-8">
-                စိမ်းရောင်စို၏ စက်ပြင်ဆရာများအကြောင်း
+                {{-- စိမ်းရောင်စို၏ စက်ပြင်ဆရာများအကြောင်း --}}
+                About SYS Technicians
             </p>
             <div class="carousel-container" data-carousel-id="id-carousel">
         <div class="carousel-slides">
