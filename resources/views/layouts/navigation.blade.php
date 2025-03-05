@@ -90,9 +90,18 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.pm') }}</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.cash_down') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.madb') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.meb') }}</a>
+                                    <a href="{{ url('/sales#cash_down') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">
+                                       {{ __('messages.cash_down') }}
+                                    </a>
+                                    <a href="{{ url('/sales#madb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
+                                       {{ __('messages.madb') }}
+                                    </a>
+                                    <a href="{{ url('/sales#meb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
+                                       {{ __('messages.meb') }}
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -347,7 +356,7 @@
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.brand') }}</div>
                     <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
                                 <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}/a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}</a>
                     </div>
                 </div>
 
@@ -360,9 +369,18 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.pm') }}</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.cash_down') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.madb') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.med') }}</a>
+                        <a href="{{ url('/sales#cash_down') }}"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">
+                           {{ __('messages.cash_down') }}
+                        </a>
+                        <a href="{{ url('/sales#madb') }}"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
+                           {{ __('messages.madb') }}
+                        </a>
+                        <a href="{{ url('/sales#meb') }}"
+                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
+                           {{ __('messages.meb') }}
+                        </a>
                     </div>
                 </div>
 
@@ -388,7 +406,7 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.service_team') }}</div>
-                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machein_repair_team') }}</a>
+                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machine_repair_team') }}</a>
                         <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
                         <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
                         <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>

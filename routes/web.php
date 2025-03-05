@@ -37,7 +37,7 @@ Route::get('/contact', function () {
 });
 Route::get('/sales', function () {
     return view('sales');
-});
+})->name('sales');
 Route::get('/division', function () {
     return view('division');
 });
@@ -46,7 +46,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-}); 
+});
 
 // PRODUCTS
 Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');

@@ -119,4 +119,23 @@ return [
 
 
     // Add all your English text strings here
+
+
+
+//sales
+'sales_info'=>'Payment methods available from "Seinn Yaung So" Company',
+'cash_down_title'=>'Cash Down Payment',
+'cash_down1'=>'Cash Down Payment is a full payment made in one lump sum. In this payment system, there is no need for a loan or installment payments, allowing the full price to be paid at once. With no interest rates or remaining debt, it provides a sense of security and peace of mind for the buyer. Purchasing an item with a Cash Down Payment can lead to discounts, and the buyer can avoid interest rates and long-term installment systems, making it potentially beneficial in the long term.',
+'madb_title'=>'MADB (Minimum Advance Down Balance) Payment',
+'madb1'=>'MADB (Minimum Advance Down Balance) Payment requires a 60% down payment of the item’s value, with the remaining 40% to be paid in installments over 6 months. This system is suitable for those who prefer to pay the remaining balance gradually, even though an initial payment can be made.
+
+If the MADB Payment is made with a loan from Myanmar Citizen Bank, the remaining balance can be paid in installments over 6 months, with an additional 6 months (totaling 12 months). This payment system allows for more manageable monthly payments, and the buyer can purchase without needing to pay the full amount at once, offering peace of mind. However, if the installment payments are not made within the designated time, interest rates may apply, and it is important to carefully follow the payment terms and conditions.',
+'meb_title'=>'MEB (Monthly Equal Balance) Payment',
+'meb1'=>'MEB (Monthly Equal Balance) Payment is a payment system where the full price of the item is divided equally and paid in monthly installments. With this system, payments can be precisely managed according to the interest rate and the set period. By using MEB, the buyer can make payments monthly according to the terms, without the need to pay the full amount at once.
+
+MEB Payment allows for better financial management, as the buyer can make monthly payments with a fixed amount. This makes the purchase process easier. However, if the installment payments are not made within the designated time, interest rates may apply, and it is important to carefully follow the payment terms and conditions. MEB payments are particularly suitable for those who want to manage their monthly income flow.',
+
+
+
+    // Add all your English text strings here
 ];
