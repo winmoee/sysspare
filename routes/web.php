@@ -37,7 +37,7 @@ Route::get('/contact', function () {
 })->name('contact');
 Route::get('/sales', function () {
     return view('sales');
-});
+})->name('sales');
 Route::get('/division', function () {
     return view('division');
 });
