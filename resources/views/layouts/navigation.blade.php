@@ -425,14 +425,14 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.yangon') }}</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
+                        <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
+                        <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
+                        <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.external') }}</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
+                        <a href="{{ url('/division#pathein') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
+                        <a href="{{ url('/division#hinthada') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
+                        <a href="{{ url('/division#shwebo') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
+                        <a href="{{ url('/division#taunggyi') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
                     </div>
                 </div>
 

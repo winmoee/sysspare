@@ -1,6 +1,4 @@
 {{-- resources/views/services/serviceworkshop.blade.php --}}
-<script>
-
 <x-app-layout>
     <!-- Header Section -->
     <div class="bg-white">
