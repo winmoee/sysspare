@@ -2,15 +2,8 @@
     @vite(['resources/css/bootstrap.division.css', 'resources/js/app.js'])
     @vite(['resources/css/app.division.css', 'resources/js/app.js'])
     @vite(['resources/css/semantic.division.css', 'resources/js/app.js'])
+    @vite(['resources/css/index.division.css', 'resources/js/app.js'])
     <!-- Ubuntu -->
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer"> --}}
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/index.css">
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/styles/components/breadcrumb.css"> <!-- Breadcrumb css -->
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/styles/components/animation.css">
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/styles/components/animation.css">
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/styles/components/dropdown.css">
-    <link rel="stylesheet" href="https://seinnyaungso.shop/css/styles/components/header.css">
-
     <style>
         body{
             background-color: rgba(255, 255, 255);
@@ -84,11 +77,12 @@
                             {{ __('messages.Yangon_Region') }}
                             {{-- Yangon Region --}}
                         </h3>
-                        <a href="https://seinnyaungso.shop/subdivision/yangon-region" class="show_all">
+                        <a href="#" class="show_all">
                             {{__('messages.Show_all')}}
                             {{-- Show all --}}
                         </a>
                 </div>
+                <br>
                     <hr class="mt-1 mb-4">
                     <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
                         <div class="col px-3 mb-5">
@@ -128,12 +122,12 @@
                                 {{__('messages.Ayeyarwady_Region')}}
                                 {{-- Ayeyarwady Region --}}
                             </h3>
-                            <a href="https://seinnyaungso.shop/subdivision/ayeyarwady-region" class="show_all">
+                            <a href="#" class="show_all">
                                 {{__('messages.Show_all')}}
                                 {{-- Show all --}}
                             </a>
                         </div>
-
+                        <br>
                         <hr class="mt-1 mb-4">
 
                         <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
@@ -261,11 +255,12 @@
                             {{__('messages.Sagaing_Region')}}
                             {{-- Sagaing Region --}}
                         </h3>
-                        <a href="https://seinnyaungso.shop/subdivision/sagaing-region" class="show_all">
+                        <a href="#" class="show_all">
                             {{__('messages.Show_all')}}
                             {{-- Show all --}}
                         </a>
                     </div>
+                    <br>
                     <hr class="mt-1 mb-4">
                     <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
                         <div id="shwebo" class="col px-3 mb-5">
@@ -305,11 +300,12 @@
                                 {{__('messages.Southern_Shan_State')}}
                                 {{-- Southern Shan State --}}
                             </h3>
-                            <a href="https://seinnyaungso.shop/subdivision/southern-shan-state" class="show_all">
+                            <a href="#" class="show_all">
                                 {{__('messages.Show_all')}}
                                 {{-- Show all --}}
                             </a>
                         </div>
+                        <br>
                         <hr class="mt-1 mb-4">
                         <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
                             <div id="taunggyi" class="col px-3 mb-5">
@@ -356,7 +352,7 @@
         </div>
 
 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
         <script>
             function showToast(toast, color) {
                 Toastify({
@@ -370,24 +366,7 @@
             }
         </script>
 
-        <!-- Slick Carousel JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-        <!-- Fontawesome -->
-        <script src="https://kit.fontawesome.com/9d8e63c428.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
-     * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
-     * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-     * Copyright 2024 Fonticons, Inc.
-     */@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.ttf) format("truetype");unicode-range:u+f003,u+f006,u+f014,u+f016-f017,u+f01a-f01b,u+f01d,u+f022,u+f03e,u+f044,u+f046,u+f05c-f05d,u+f06e,u+f070,u+f087-f088,u+f08a,u+f094,u+f096-f097,u+f09d,u+f0a0,u+f0a2,u+f0a4-f0a7,u+f0c5,u+f0c7,u+f0e5-f0e6,u+f0eb,u+f0f6-f0f8,u+f10c,u+f114-f115,u+f118-f11a,u+f11c-f11d,u+f133,u+f147,u+f14e,u+f150-f152,u+f185-f186,u+f18e,u+f190-f192,u+f196,u+f1c1-f1c9,u+f1d9,u+f1db,u+f1e3,u+f1ea,u+f1f7,u+f1f9,u+f20a,u+f247-f248,u+f24a,u+f24d,u+f255-f25b,u+f25d,u+f271-f274,u+f278,u+f27b,u+f28c,u+f28e,u+f29c,u+f2b5,u+f2b7,u+f2ba,u+f2bc,u+f2be,u+f2c0-f2c1,u+f2c3,u+f2d0,u+f2d2,u+f2d4,u+f2dc}@font-face{font-family:"FontAwesome";font-display:block;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-v4compatibility.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-v4compatibility.ttf) format("truetype");unicode-range:u+f041,u+f047,u+f065-f066,u+f07d-f07e,u+f080,u+f08b,u+f08e,u+f090,u+f09a,u+f0ac,u+f0ae,u+f0b2,u+f0d0,u+f0d6,u+f0e4,u+f0ec,u+f10a-f10b,u+f123,u+f13e,u+f148-f149,u+f14c,u+f156,u+f15e,u+f160-f161,u+f163,u+f175-f178,u+f195,u+f1f8,u+f219,u+f27a}</style><style media="all" id="fa-v5-font-face">/*!
-     * Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com
-     * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-     * Copyright 2024 Fonticons, Inc.
-     */@font-face{font-family:"Font Awesome 5 Brands";font-display:block;font-weight:400;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-brands-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-brands-400.ttf) format("truetype")}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:900;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-solid-900.ttf) format("truetype")}@font-face{font-family:"Font Awesome 5 Free";font-display:block;font-weight:400;src:url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.woff2) format("woff2"),url(https://ka-f.fontawesome.com/releases/v6.7.2/webfonts/free-fa-regular-400.ttf) format("truetype")}</style>
-
-        <script src="https://seinnyaungso.shop/vendor/bootstrap/js/bootstrap.js"></script>
 
 
 
@@ -397,44 +376,11 @@
         </script>
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                // Select all elements with the 'hidden' class
-                var elements = document.querySelectorAll('.offscreen-hidden');
 
-                // Loop through each element
-                elements.forEach(function(element) {
-                    var waypoint = new Waypoint({
-                        element: element,
-                        handler: async function() {
-                            if (element.getAttribute("data-onScreenAnimation") === "fadeIn") {
-                                await element.classList.add('animate__animated', 'animate__fadeIn');
-                            } else if (element.getAttribute("data-onScreenAnimation") ===
-                                "fadeInDown") {
-                                await element.classList.add('fadeInDown_animation');
-                            } else if (element.getAttribute("data-onScreenAnimation") ===
-                                "fadeInUp") {
-                                await element.classList.add('fadeInUp_animation');
-                            }
 
-                            // Change class to make element visible
-                            element.classList.remove('offscreen-hidden');
-                            element.classList.add('onscreen-visible');
 
-                            // Destroy Waypoint to trigger only once
-                            this.destroy();
-                        },
-                        offset: '95%', // Adjust the offset as needed
-                    });
-                });
-            });
-        </script>
 
-        <script>
-            let gbForegnSuppliers = [{"id":1,"title":"Yanmar Myanmar Co., Ltd","name":"Yanmar","slug":"yanmar6698a178ad9ea","image":"yanmar.png","img_url":"\/vendor\/image\/fs-supplier\/logo\/","created_at":"2024-07-17T22:00:40.000000Z","updated_at":"2024-07-17T22:00:40.000000Z"},{"id":2,"title":"Action Construction Equipment Ltd","name":"Ace","slug":"ace6698a178ef758","image":"ace.png","img_url":"\/vendor\/image\/fs-supplier\/logo\/","created_at":"2024-07-17T22:00:40.000000Z","updated_at":"2024-07-17T22:00:40.000000Z"},{"id":3,"title":"Zhejiang Sifang Imp & Exp Co., Ltd","name":"Sifang","slug":"sifang6698a1790d85b","image":"sifang.png","img_url":"\/vendor\/image\/fs-supplier\/logo\/","created_at":"2024-07-17T22:00:41.000000Z","updated_at":"2024-07-17T22:00:41.000000Z"},{"id":4,"title":"Zhejiang Shifeng Machinery Co., Ltd","name":"Shifang","slug":"shifang6698a1792972e","image":"plogo.png","img_url":"\/vendor\/image\/fs-supplier\/logo\/","created_at":"2024-07-17T22:00:41.000000Z","updated_at":"2024-07-17T22:00:41.000000Z"},{"id":5,"title":"Chongqing TT International Co., Ltd","name":"Chongqing","slug":"chongqing6698a17953df2","image":"chongqing.png","img_url":"\/vendor\/image\/fs-supplier\/logo\/","created_at":"2024-07-17T22:00:41.000000Z","updated_at":"2024-07-17T22:00:41.000000Z"}];
-        </script>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
