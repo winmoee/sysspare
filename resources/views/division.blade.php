@@ -84,7 +84,7 @@
                             {{ __('messages.Yangon_Region') }}
                             {{-- Yangon Region --}}
                         </h3>
-                        <a href="https://seinnyaungso.shop/subdivision/yangon-region" class="show_all">
+                        <a href="#" class="show_all">
                             {{__('messages.Show_all')}}
                             {{-- Show all --}}
                         </a>
@@ -128,7 +128,7 @@
                                 {{__('messages.Ayeyarwady_Region')}}
                                 {{-- Ayeyarwady Region --}}
                             </h3>
-                            <a href="https://seinnyaungso.shop/subdivision/ayeyarwady-region" class="show_all">
+                            <a href="#" class="show_all">
                                 {{__('messages.Show_all')}}
                                 {{-- Show all --}}
                             </a>
@@ -261,7 +261,7 @@
                             {{__('messages.Sagaing_Region')}}
                             {{-- Sagaing Region --}}
                         </h3>
-                        <a href="https://seinnyaungso.shop/subdivision/sagaing-region" class="show_all">
+                        <a href="#" class="show_all">
                             {{__('messages.Show_all')}}
                             {{-- Show all --}}
                         </a>
@@ -305,7 +305,7 @@
                                 {{__('messages.Southern_Shan_State')}}
                                 {{-- Southern Shan State --}}
                             </h3>
-                            <a href="https://seinnyaungso.shop/subdivision/southern-shan-state" class="show_all">
+                            <a href="#" class="show_all">
                                 {{__('messages.Show_all')}}
                                 {{-- Show all --}}
                             </a>
