@@ -29,7 +29,15 @@ return [
     'product' => 'Product',
     'pm' => 'Purchasing Methods',
     'brand' => 'Brand',
-
+    'sale_showroom' => 'Showroom and Sales',
+    'seinyaungso' => 'Authentic and Affordable, "Seinn Yaung So"',
+    'kaungpyaesone'=>'Kaung Pyae Sone Tun (Sales)',
+    'eieishwe'=>'Ei Ei Shwe(Sales Supervision)',
+    'nno'=>'Nay Nay Oo (SSA Maintenance)',
+    'seinyaungso_original'=>'Seinn Yaung So',
+    'social_media'=>'Social Media',
+    'seinnyaungso_company'=>'Seinn Yaung So Co.,Ltd (Showroom) zone-5',
+    'address' => 'Sales and Showroom Address - No. (148/149), Anawrahta Road, Hlaing Tharyar Industrial Zone (5) Extension.',
     'cash_down' => 'Cash Down',
     'madb' => 'MADB',
     'meb' => 'MEB',
@@ -162,7 +170,31 @@ If the MADB Payment is made with a loan from Myanmar Citizen Bank, the remaining
 
 MEB Payment allows for better financial management, as the buyer can make monthly payments with a fixed amount. This makes the purchase process easier. However, if the installment payments are not made within the designated time, interest rates may apply, and it is important to carefully follow the payment terms and conditions. MEB payments are particularly suitable for those who want to manage their monthly income flow.',
 
-
+//Here is for division.blade.php//
+'Yangon_Region'=>'Yangon Region',
+'Yangon_workshop'=>'Yangon Workshop (Mya Sein Yaung Industrial Zone)',
+'Yangon'=>'Yangon',
+'Ayeyarwady_Region'=>'Ayeyarwady Region',
+'Show_all'=>'Show All',
+'More_details'=>'More Details',
+'Sys_Pathein_Branch'=>'Seinn Yaung So Co.,Ltd Pathein Branch',
+'Pathein'=>'Pathein',
+'Sys_Pathein_Warehouse'=>'Seinn Yaung So Co.Ltd Pathein Warehouse',
+'Sys_Pathein_Workshop'=>'Seinn Yaung So Co.Ltd Pathein Workshop',
+'Sys_Hinthada_Branch'=>'Seinn Yaung So Co.,Ltd Hinthada Branch',
+'Hinthada'=>'Hinthada',
+'Sagaing_Region'=>'Sagaing Region',
+'Sys_Shwebo_Branch'=>'Seinn Yaung So Co.,Ltd Shwebo Branch',
+'Shwebo'=>'Shwebo',
+'Sys_Taunggyi_Branch'=>'Seinn Yaung So Co.,Ltd Taunggyi Branch',
+'Taunggyi'=>'Taunggyi',
+'Southern_Shan_State'=>'Southern Shan State',
+'Pathein_Branch'=>'No. (B/40), Aung Ayeyar Commodity Center, Near Tharpaung-Ngwesaung Road, No. (2), Pathein.',
+'Dig_industrial'=>'DIG Industrial Zone, Kimmalin Island Quarter, Pathein.',
+'Hinthada_Leltaw'=>'No. D-18 Leltaw Car Park, Hinthada Township.',
+'Shwebo_Township'=>'No. Azaya (4/137), Yay Oo Road, Shwebo.',
+'Taunggyi_Township'=>'No. (6/17), Union Road, Mingalar Shwe Baho Ward, Shwe Nyaung Township (near Tayaw Fried food shop).',
+//End of division.blade.php//
 
     // Add all your English text strings here
 ];

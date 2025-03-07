@@ -194,14 +194,14 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.yangon') }}</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
+                                    <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
+                                    <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
+                                    <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
                                     <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.external') }}</div>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
+                                    <a href="{{ url('/division#pathein') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
+                                    <a href="{{ url('/division#hinthada') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
+                                    <a href="{{ url('/division#shwebo') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
+                                    <a href="{{ url('/division#taunggyi') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -407,11 +407,7 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.service_team') }}</div>
-<<<<<<< HEAD
                         <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_team') }}</a>
-=======
-                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machine_repair_team') }}</a>
->>>>>>> 4da96897f038b818dacf953d863af67a3fd6dc4d
                         <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
                         <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
                         <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>
