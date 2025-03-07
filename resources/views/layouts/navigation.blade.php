@@ -1,3 +1,8 @@
+<div class="bg-yellow-100 p-2">
+    Current Locale: {{ app()->getLocale() }} <br>
+    Session Locale: {{ Session::get('locale') }}
+</div>
+
 <nav x-data="{ open: false, productOpen: false, showroomOpen: false }" class="bg-white border-b border-gray-100 relative z-40">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -160,7 +165,7 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">   {{ __('messages.service_team') }}</div>
-                                    <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_team') }}</a>
+                                    <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machine_repair_team') }}</a>
                                     <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
                                     <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
                                     <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>
@@ -229,8 +234,8 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.contact') }}</div>
-                                    <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100" >{{ __('messages.sales') }}</a>
-                                    <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100" >{{ __('messages.service') }}</a>
+                                    <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
+                                    <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
                                     <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
                                     <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a>
                                 </div>
@@ -248,7 +253,6 @@
                         <button @click="open = !open" @click.away="open = false"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none">
                             {{ app()->getLocale() == 'en' ? 'English' : 'မြန်မာဘာသာ' }}
-
                             <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
                                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
@@ -357,7 +361,7 @@
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.brand') }}</div>
                     <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
                                 <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}</a>
+                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}/a>
                     </div>
                 </div>
 
@@ -407,7 +411,11 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.service_team') }}</div>
+<<<<<<< Updated upstream
                         <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_team') }}</a>
+=======
+                        <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.machein_repair_team') }}</a>
+>>>>>>> Stashed changes
                         <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
                         <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>
                         <a href="{{ url('/feedback') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_and_products_fdb') }}</a>
@@ -445,17 +453,21 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.contact') }}</div>
-                        <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
-                        <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
-                        <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.spare') }}</a>
-                        <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>
+                        <a href="{{ url('/contact') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
+                        <a href="{{ url('/contact') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
+                        <a href="{{ url('/contact') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.spare') }}</a>
+                        <a href="{{ url('/contact') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>
                     </div>
                 </div>
 
                 <div class="pt-2 pb-2 border-t border-gray-200">
     <div x-data="{ langOpen: false }" class="space-y-1">
         <button @click="langOpen = !langOpen" class="w-full flex items-center px-4 py-2 text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-50 focus:outline-none focus:text-gray-800 focus:bg-gray-50 transition duration-150 ease-in-out">
+<<<<<<< Updated upstream
             <span> Language / ဘာသာစကား</span>
+=======
+            <span>{{ __('Language') }} / ဘာသာစကား</span>
+>>>>>>> Stashed changes
             <svg class="ml-auto h-5 w-5" :class="{'transform rotate-180': langOpen}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>

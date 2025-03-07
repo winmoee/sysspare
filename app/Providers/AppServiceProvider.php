@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
         Route::pushMiddlewareToGroup('web', SetLocale::class);
         // Set locale from session (this will still run)
         if (Session::has('locale')) {
-            \Log::info('AppServiceProvider - Setting locale from session: ' . Session::get('locale'));
+            Log::info('AppServiceProvider - Setting locale from session: ' . Session::get('locale'));
             App::setLocale(Session::get('locale'));
         }
     }

@@ -36,7 +36,7 @@ return [
     'catalog' => 'Catalog',
     'about_spare_parts' => 'About Spare Parts',
     'service_team' => 'Service Team',
-
+    'machine_repair_team' => 'Machine Repair Service Team',
     'service_workshop' => 'Service Workshop',
     'second_hand_market' => 'Second Hand Market',
     'service_and_products_fdb' => 'Service and Products Feedback',
@@ -115,35 +115,8 @@ return [
     'service_workshop_10'=>'About SYS Technicians',
     'service_workshop_11'=>'Copy Number',
     //serviceworkshop.blade.php end//
-//sales section//
-'sales_contact_1'=>'Daw Thidar',
-'sales_contact_2'=>'Ma Thaw Zin Htun',
-'sales_contact_3'=>'Ko Nyein Chan Thu',
-'sales_contact_4'=>'Ko Kyaw Soe Thu',
-'sales_contact_5'=>'Ma Zin Mon Soe',
-'thidar'=>'ACE sale - 095067356',
-'thawzin'=>'Yammar sale - 09798892681',
-'nyeinchan'=>'Yammar sale - 09254167332',
-'kyawsoe'=>'ACE sale - 09779565039',
-'zinmon'=>'Sifang sale - 09443121444',
-//service section//
-'service_contact_1'=>'Ma Cherry Htar',
-'service_contact_2'=>'Ma Khin Myo Than',
-'service_contact_3'=>'Ma Thit Thit',
-'cherry'=>'- 09425833040',
-'khinmyo'=>'- 09798892667',
-'thitthit'=>'- 09444742030',
-//spare section//
-'spare_contact_1'=>'Ma Ei Ei Shwe',
-'spare_contact_2'=>'Ma Thin Thin Kyu',
-'spare_contact_3'=>'Ma Yu Yu Maw',
-'spare_contact_4'=>'Ma May Thandar Linn',
-'eiei'=>'Yanmar Spare parts sale - 09798892678',
-'thinthin'=>'Yanmar Spare parts sale - 09798890815',
-'yuyu'=>'Sifang Spare parts sale - 09798890818',
-'maythandar'=>'ACE Spare parts sale - 09795540598',
-'copy_number'=>'Copy Number',
-//office section//
+
+
 
     // Add all your English text strings here
 

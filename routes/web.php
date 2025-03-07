@@ -5,6 +5,8 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WavePaymentController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
 Route::get('/', [SpareController::class, 'homepage']);
 
@@ -86,10 +88,11 @@ Route::post('/wave/checkout', [WavePaymentController::class, 'checkout'])->name(
 Route::post('/wave/callback', [WavePaymentController::class, 'callback'])->name('wave.callback');
 Route::get('/wave/return', [WavePaymentController::class, 'return'])->name('wave.return');
 
-Route::get('locale/{locale}', function ($locale) {
-    if (in_array($locale, ['en', 'my'])) { // English and Burmese
-        session(['locale' => $locale]);
-        app()->setLocale($locale);
+// Add this route for language switching
+Route::get('/language/{locale}', function($locale) {
+    if (in_array($locale, ['en', 'my'])) {
+        App::setLocale($locale);
+        Session::put('locale', $locale);
     }
     return redirect()->back();
 })->name('locale.switch');
