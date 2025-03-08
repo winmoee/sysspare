@@ -45,7 +45,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
-                {{__('messages.seinnyaunso_company')}}
+                {{__('messages.seinnyaungso_company')}}
             </a>
             <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/srsDvBFG6CY05EuX8HCx.webp">
         </div>
@@ -67,14 +67,14 @@
                     >
                 </div>
                 <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200">
-                    Search
+                    {{__('messages.search')}}
                 </button>
             </div>
         </form>
 
         <!-- Sort Controls -->
         <div class="flex flex-wrap gap-2">
-            <span class="text-gray-700">Sort by:</span>
+            <span class="text-gray-700">{{__('messages.sort_by')}}:</span>
             @php
                 $sortOptions = [
                     'english_name' => 'English Name',
@@ -198,7 +198,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                         </svg>
-                        {{__('messages.copy_number')}}
+                        {{ __('messages.copy_number') }}
                     </span>
                 </button>
             </div>

@@ -20,6 +20,7 @@ return [
     'price' => 'စျေးနှုန်း',
     'date_added' => 'ထည့်သွင်းသည့်ရက်စွဲ',
     'search' => 'ရှာဖွေရန်',
+
     // Add all your Burmese text strings here
     'ttr' => 'ထွန်စက်',
     'hvr' => 'ရိတ်စက်',
