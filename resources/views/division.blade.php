@@ -75,7 +75,7 @@
                 <div id="yangon" class="header-container d-flex justify-content-between align-items-center">
                         <h3>
                             {{ __('messages.Yangon_Region') }}
-                            {{-- Yangon Region --}}
+                            {{-- Yangon Regionnn --}}
                         </h3>
                         <a href="#" class="show_all">
                             {{__('messages.Show_all')}}

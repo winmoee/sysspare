@@ -63,6 +63,7 @@ return [
     'nno'=>'နေနွယ်ဦး(SSA ပြုပြင်)',
     'seinyaunso_original'=>'စိမ်းရောင်စို',
     'social_media'=>'လူမှု ကွန်ရက်',
+    'copy_link'=>'လင့်ကူးယူရန်',
         //Here is for servicetem.blade.php (Myanmar)//
     'service_team_1'=>'SYS ဆားဗစ်အဖွဲ့မှ ပံ့ပိုးပေးသောဝန်ဆောင်မှုများ',
     'service_team_2'=>'၁။ စက်အသုံးမပြုမီ သင်တန်းပေးခြင်း။ (Pre-Delivery Training)',

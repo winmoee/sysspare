@@ -284,33 +284,52 @@
         <!-- Contact Card 1 -->
         <div class="bg-white rounded-lg p-4 shadow">
             <h4 class="font-medium">{{__('messages.seinyaungso_original')}}</h4>
-            <p class="text-gray-600">Facebook</p>
+            <p class="text-gray-600">
+                <a href="https://www.facebook.com/seinnyaungso007">Facebook</a>
+                </p>
             <div class="mt-2">
-                <button onclick="copyPhoneNumber('09443209946', this)" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
-                    <span class="copy-button-text">
+                <button onclick="copyLink('https://www.facebook.com/seinnyaungso007',this)" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
+
+                        <span class="copy-button-text">{{ __('messages.copy_link') }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                         </svg>
-                    </span>
+
                 </button>
             </div>
         </div>
 
+
         <!-- Contact Card 2 -->
         <div class="bg-white rounded-lg p-4 shadow">
             <h4 class="font-medium">{{__('messages.seinyaungso_original')}}</h4>
-            <p class="text-gray-600">Youtube</p>
+
+                <a href="http://youtube.com/@seinnyaungso779">YouTube</a>
+
             <div class="mt-2">
-                <button onclick="copyPhoneNumber('09798892678', this)" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
-                    <span class="copy-button-text">
+                <button onclick="copyLink('http://youtube.com/@seinnyaungso779', this)" class="px-4 py-2 bg-red-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
+                    <span class="copy-button-text"> {{ __('messages.copy_link') }}</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                         </svg>
-                    </span>
+
                 </button>
             </div>
         </div>
     </div>
 </div>
+<script>
+    function copyLink(link, button) {
+        navigator.clipboard.writeText(link)
+            .then(() => {
+                const buttonText = button.querySelector(".copy-button-text");
+                buttonText.innerText = "Copied!";
 
+                setTimeout(() => {
+                    buttonText.innerText = "Copy Link";
+                }, 2000);
+            })
+            .catch(err => console.error("Can't copy:", err));
+    }
+</script>
 </x-app-layout>

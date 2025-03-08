@@ -151,6 +151,7 @@ return [
 'yuyu'=>'Sifang Spare parts sale - 09798890818',
 'maythandar'=>'ACE Spare parts sale - 09795540598',
 'copy_number'=>'Copy Number',
+'copy_link'=>'Copy Link',
 //office section//
 
     // Add all your English text strings here
