@@ -350,13 +350,13 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.product') }}</div>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                        <a href="{{ url('/products#4-wheels-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                        <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a>
+                        <a href="{{ url('/products#walking-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.brand') }}</div>
-                    <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
-                                <a href="{{ url('/products') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}/a>
+                        <a href="{{ url('/products#yanmar') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
+                        <a href="{{ url('/products#ace') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
+                        <a href="{{ url('/products#sifang') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}</a>
                     </div>
                 </div>
 
