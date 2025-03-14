@@ -5,13 +5,13 @@
             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">72.0 PS
+                <td class="text-dark fs-6">57.6PS
                 </td>
             </tr>
             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Weight</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">2250 kg
+                <td class="text-dark fs-6">1840 kg
                 </td>
             </tr>
             {{-- <tr class="text-grey-color">
@@ -51,14 +51,17 @@
                         <!-- Image Section -->
                         <div class="relative aspect-[4/3] w-full">
                                 <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084653/img_index_033.jpg"
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/6326d09747/img_index_03.jpg"
                                     class="w-full h-full object-cover rounded-t-lg"
                                 >
                         </div>
                         <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၁။ တိုက်ရိုက်လောင်စာဖြန်းစနစ် အင်ဂျင်
+                        <h6 class="text-l font-semibold text-gray-800 mb-2">၁။ တိုက်ရိုက်ဆီဖျန်းစနစ် ဒီဇယ်အင်ဂျင်
                         </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">အမြင့်မားဆုံး စွမ်းဆောင်ရည်၊ သက်သာသော ဆီစားနှုန်း နှင့် အစွမ်းထက်ဆုံးသော အင်ဂျင် ဖြစ်ပါသည်။ စစ်မှန်သော နည်းပညာဖြင့် တီထွင်ဖန်တီးထားသော လုပ်ငန်းခွင်ပေါင်းများစွာတွင် အသုံးပြုနိုင်သော Yanmar 72 PS အင်ဂျင် ၊အင်ဂျင်လည်ပတ်အရေအတွက်အနှေးဆုံးမှာပင်ရုန်းအား အရမ်းကောင်းမွန်သည်ဟု ထိတွေ့ခံစားရနိုင်မည့် အမြင့်ဆုံးစွမ်းအင်တွေကို ထုတ်လွှတ်နိုင်သော အင်ဂျင် ဖြစ်သည်။
+                            <p class="text-sm text-gray-600 mt-2 leading-8">ကမ္ဘာ့ပထမဦးဆုံး ဒီဇယ်အင်ဂျင်အသေးကို ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခဲ့သည့် ယန်းမာ၏ ကောင်းမွန်သော ဆီပို့မှုစနစ် နှင့် ပေါင်းစပ်ပေါက်ကွဲစေသော နည်းပညာတို့ကြောင့် စွမ်းအားပြည့်ထုတ်လုပ်နိုင်ခြင်းနှင့်အတူ လူသိများလာခဲ့သည်။ ထွန်ထယ်မောင်းနှင်သည့်တိုင် ယန်းမာထွန်စက်၏ ကောင်းမွန်သက်သာသော ဆီစားနှုန်းနှင့် ထူးကဲသောရေရှည်အသုံးခံမှုတို့ကို ရရှိမှာဖြစ်ပါသည် ။ ယန်းမာ၏ အကောင်းဆုံးသောစွမ်းအားနှင့်ရေရှည်အသုံးခံနိုင်သော
+
+                                YM358R ထွန်စက်များတွင် စွမ်းအားပြည့်ဝပြီး ရေရှည်အသုံးပြုနိုင်သည့် စွမ်းအားပြည့် အင်ဂျင် ( ၃.၃ လီတာ)ကို အသုံးပြုထားခြင်း၊
+                                ဆီစားသက်သာပြီး အင်ဂျင်အပတ်ရေ အနိမ့်ဆုံးမှာပင် အမြင့်မားဆုံး စွမ်းဆောင်ရည်ကို ရရှိနိုင်ခြင်း၊
 
                             </p>
                         </div>
@@ -69,14 +72,15 @@
                         <!-- Image Section -->
                         <div class="relative aspect-[4/3] w-full">
                                 <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084740/img_index_042.jpg"
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
                                     class="w-full h-full object-cover rounded-t-lg"
                                 >
                         </div>
                         <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ လွယ်ကူရိုးရှင်းစွာ မောင်းနှင်နိုင်ခြင်း
+                        <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ ထယ်ရေး အနက် ထိန်းညှိစနစ်
                         </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ရှေ့ဘီး ဝင်ရိုးအား ၅၅ ဒီဂရီအထိ တိမ်းစောင်းနိုင်ရေး အထူး ပြုလုပ်ထားသည့်အတွက် အကွေ့အဝိုက်တိုတောင်းစွာဖြင့် မောင်းနှင် နိုင်ပြီး ရွှံ့ဗွက်များပေကျံ ခဲ့လျင်လည်း ဖယ်ရှားရန် မလိုဘဲဆက်ကက်မောင်းနှင် နိုင်သည့်အတွက် အချိန်ကုန်သက်သာစေမှာ ဖြစ်ပါသည်။
+                            <p class="text-sm text-gray-600 mt-2 leading-8">YM358R, L1 မော်ဒယ်တွင်သာ ပါရှိသည်။
+                                ထယ်ရေးအနက် ထိန်းညှိစနစ်သည် ထယ်ရေးအနက်ဆူး လွန်လာသည့် အချိန်များတွင် စက်အား ဝန်ပိုမှုမရှိစေဘဲ အလိုအလျောက် ထိန်းညှိပေးသော စနစ်ဖြစ်ပါသည်။ ဝန်ပိုရုန်းဆွဲ နေရသောကြောင့် ကြန့်ကြာနိုင်သည့်အချိန်များကို လျှော့ချပေးနိုင်သလို ထယ်ရေးအနက် ထိန်းညှိစနစ်ကြောင့် လုပ်ငန်းခွင်ကို လျင်မြန်စွာ ပြီးမြောက်နိုင်ပါသည်။
 
                             </p>
                         </div>
@@ -87,14 +91,14 @@
                         <!-- Image Section -->
                         <div class="relative aspect-[4/3] w-full">
                                 <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084829/img_index_052.jpg"
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/a997291de8/img_index_02.jpg"
                                     class="w-full h-full object-cover rounded-t-lg"
                                 >
                         </div>
                         <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၃။ ပါဝါစတီယာရင်
+                        <h6 class="text-l font-semibold text-gray-800 mb-2">၃။ SMARTASSIST Remote (SA-R) စနှစ်တပ်ဆင်ထားခြင်း
                         </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ဟိုက်ဒရောလစ် သိုလှောင်နိုင်မှု မြင့်မားသော ဆလင်ဒါ တပ်ဆင်ထားသည့်အတွက် ပါဝါစတီယာရင်သည် အချိုးအကွေ့များတွင် ညင်သာစွာချိုးကွေ့နိုင်သည့်အတွက်အလုပ်ပိုမို တွင်ကျယ်စွာ လုပ်နိုင်စွမ်းအားရှိသည်။ စက်မောင်းနေစဉ် အချိန်အတွင်း စက်မောင်းသူကိုင်ထားသော လက်မှ စတီယာရင် တုန်ခါမှုအား လျော့ချ ပေးထားသည့်အတွက်သက်တောင့်သက်သာ ဖြစ်စေသည်။
+                            <p class="text-sm text-gray-600 mt-2 leading-8">GPS စနှစ်ကြောင့် စက်၏တည်နေရာ ဘယ်နေရာမှာရှိတယ် အခြားအာရုံခံစနှစ်တွေ ကြောင့်စက်ဘာဖြစ်နေတယ်ဆိုတာတွေ ဘယ်နေရာမှာ အလုပ်လုပ်နေတယ်ဆိုတာတွေကို အတိကျသိရှိနိုင်ပါသည်။ စက်ပျက်ယွင်းမှုများ နှင့် မလိုလားအပ်သော အမှားယွင်းများကို လျှော့ချပေးနိုင်ခြင်းကြောင့် အပိုငွေကုန်နိုင်မှုများ မရှိနိုင်တော့ပါ။
 
                             </p>
                         </div>
@@ -105,19 +109,19 @@
                         <!-- Image Section -->
                         <div class="relative aspect-[4/3] w-full">
                                 <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084916/img_index_062.jpg"
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/1f86b3510f/img_index_33.jpg"
                                     class="w-full h-full object-cover rounded-t-lg"
                                 >
                         </div>
                         <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၄။ စွမ်းအင်ပြည့် ထရန်စမစ်ရှင်း</h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ဒီဇိုင်း အသစ်ဖြင့် ကြာရှည် အသုံးပြုနိုင် သော ထရန်စမစ်ရှင်းတပ်ဆင်ထားသည်။ ရှေ့ဂီယာ ၈ ချက် နောက်ဂီယာ ၈ ချက် အသုံးပြုနိုင်သော ထရန်စမစ်ရှင်း၏ အသွင်ပြင်နှင့် စွမ်းဆောင်ရည်တို့သည် လယ်ကွင်းနှင့် ကောက်ပဲသီးနှံကွင်းစသည် တို့တွင် Yanmar အင်ဂျင်နှင့်တွဲဖက်ပြီး ကောင်းသည် ထက်ကောင်းအောင် စွမ်းဆောင်နိုင်မည် ဖြစ်သည်။
+                        <h6 class="text-l font-semibold text-gray-800 mb-2">၄။ ကြီးမားသော ဆီသိုလှောင်ကန်</h6>
+                            <p class="text-sm text-gray-600 mt-2 leading-8">ဒီဇယ်ဆီတိုင်ကီသည် ဆီပမာဏ ၅၀ လီတာကို သိုလှောင်နိုင်သောကြောင့် တနေ့တာ အလုပ်လုပ်ဆောင်ချိန်အတွင်း ထပ်မံ ဖြည့်တင်းရန်မလိုပါ။
 
                             </p>
                         </div>
                     </div>
                 </a>
-                <a  class="block">
+                {{-- <a  class="block">
                     <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
                         <!-- Image Section -->
                         <div class="relative aspect-[4/3] w-full">
@@ -134,7 +138,7 @@
                             </p>
                         </div>
                     </div>
-                </a>
+                </a> --}}
                 {{-- <a  class="block">
                     <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
                         <!-- Image Section -->
