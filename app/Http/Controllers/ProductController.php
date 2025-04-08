@@ -15,6 +15,75 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      */
+
+     public function yanmar():View
+{
+    $allProducts = Product::all(); // get all products
+    $yanmarProducts = Product::where('category_type', 'Yanmar')->get(); // get only Yanmar products
+    
+    $allProductsByType = $allProducts->groupBy('category_type');
+    $allProductsByCategory = $allProducts->groupBy('category');
+    
+    $yanmarProductsByType = $yanmarProducts->groupBy('category_type');
+    $yanmarProductsByCategory = $yanmarProducts->groupBy('category');
+
+    return view('products.yanmar', [
+        'allProductsByCategory' => $allProductsByCategory,
+        'allProductsByType' => $allProductsByType,
+        'yanmarProductsByCategory' => $yanmarProductsByCategory,
+        'yanmarProductsByType' => $yanmarProductsByType
+    ]);
+}
+
+public function ace():View
+{
+    $allProducts = Product::all(); // get all products
+    $aceProducts = Product::where('category_type', 'ACE')->get(); // get only ACE products
+    
+    $allProductsByType = $allProducts->groupBy('category_type');
+    $allProductsByCategory = $allProducts->groupBy('category');
+    
+    $aceProductsByType = $aceProducts->groupBy('category_type');
+    $aceProductsByCategory = $aceProducts->groupBy('category');
+
+    return view('products.ace', [
+        'allProductsByCategory' => $allProductsByCategory,
+        'allProductsByType' => $allProductsByType,
+        'aceProductsByCategory' => $aceProductsByCategory,
+        'aceProductsByType' => $aceProductsByType
+    ]);
+}
+
+public function sifang():View
+{
+    $allProducts = Product::all(); // get all products
+    $sifangProducts = Product::where('category_type', 'Sifang')->get(); // get only Sifang products
+    
+    $allProductsByType = $allProducts->groupBy('category_type');
+    $allProductsByCategory = $allProducts->groupBy('category');
+    
+    $sifangProductsByType = $sifangProducts->groupBy('category_type');
+    $sifangProductsByCategory = $sifangProducts->groupBy('category');
+
+    return view('products.sifang', [
+        'allProductsByCategory' => $allProductsByCategory,
+        'allProductsByType' => $allProductsByType,
+        'sifangProductsByCategory' => $sifangProductsByCategory,
+        'sifangProductsByType' => $sifangProductsByType
+    ]);
+}
+    public function tractor():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.tractor', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
+
     public function index(): View
     {
         $products = Product::all();
@@ -90,6 +159,11 @@ class ProductController extends Controller
     /**
      * Display the specified resource.
      */
+    public function showbrands($slug)
+    {
+        $product = Product::where('slug', $slug)->firstOrFail();
+        return view('products.showbrands', compact('product'));
+    }
     public function show($slug)
     {
         $product = Product::where('slug', $slug)->firstOrFail();

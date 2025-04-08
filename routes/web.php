@@ -7,6 +7,7 @@ use App\Http\Controllers\WavePaymentController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use App\Models\Product;
 
 Route::get('/', [SpareController::class, 'homepage']);
 
@@ -43,6 +44,9 @@ Route::get('/sales', function () {
 Route::get('/division', function () {
     return view('division');
 });
+Route::get('/test', function () {
+    return view('test');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -51,6 +55,7 @@ Route::middleware('auth')->group(function () {
 });
 
 // PRODUCTS
+Route::get('/brands/{slug}', [ProductController::class, 'showbrands'])->name('products.showbrands');
 Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
 
 Route::resource('products', ProductController::class)
@@ -59,6 +64,55 @@ Route::resource('products', ProductController::class)
 
 Route::resource('products', ProductController::class)
 ->only(['index']);
+
+Route::get('/tractor', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.tractor', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/tractor', [ProductController::class, 'tractor']);
+
+Route::get('/yanmar', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.yanmar', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/yanmar', [ProductController::class, 'yanmar'])->name('products.yanmar');
+
+Route::get('/ace', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.ace', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/ace', [ProductController::class, 'ace'])->name('products.ace');
+
+Route::get('/sifang', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.sifang', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/sifang', [ProductController::class, 'sifang'])->name('products.sifang');
+
 
 // UPLOAD
 Route::post('/upload', [SpareController::class, 'upload']);

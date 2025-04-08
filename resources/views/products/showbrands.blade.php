@@ -1,14 +1,11 @@
-<!-- resources/views/products/show.blade.php -->
+<!-- resources/views/products/showbrands.blade.php -->
 <x-app-layout>
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="bg-white shadow-sm rounded-lg">
             <div class="p-6">
                 <!-- Back Button and Action Buttons -->
                 <div class="mb-6 flex justify-between items-center">
-                    <a href="{{ route('products.index') }}" class="text-gray-600 hover:text-gray-900">
-                        ← Back to product Parts
-                    </a>
-                    <!-- @if($product->category_type === 'Yanmar')
+                    @if($product->category_type === 'Yanmar')
                         <a href="{{ route('products.yanmar') }}" class="text-gray-600 hover:text-gray-900">
                             ← Back to Yanmar Parts
                         </a>
@@ -20,11 +17,7 @@
                         <a href="{{ route('products.sifang') }}" class="text-gray-600 hover:text-gray-900">
                             ← Back to Sifang Parts
                         </a>
-                    @else
-                        <a href="{{ route('products.index') }}" class="text-gray-600 hover:text-gray-900">
-                            ← Back to product Parts
-                        </a>
-                    @endif -->
+                    @endif
 
                     <!-- Action Buttons -->
                     <div class="flex items-center gap-4">
@@ -56,9 +49,9 @@
                 </div>
 
                 <div class="flex flex-col md:flex-row gap-8">
-                    <!-- Left Column - Image and Buy Now -->
+                    <!-- Left Column - Image -->
                     <div class="md:w-1/3 space-y-4">
-                        <!-- product Part Image -->
+                        <!-- Product Image -->
                         @if($product->photo)
                             <img src="{{ $product->photo }}" class="w-full rounded-lg object-cover" alt="{{ $product->english_name }}">
                         @else
@@ -68,21 +61,6 @@
                                 </svg>
                             </div>
                         @endif
-
-                        <!-- In views/products/show.blade.php -->
-                        <!-- <form action="{{ route('wave.checkout') }}" method="POST">
-                            @csrf
-                            <input type="hidden" name="product_name" value="{{ $product->name }}">
-                            <input type="hidden" name="product_price" value="{{ $product->price }}">
-                            
-                            <div class="flex justify-center cursor-pointer hover:opacity-90 transition-opacity">
-                                <button type="submit" class="border-0 bg-tranproductnt p-0">
-                                    <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg" 
-                                        alt="Pay with Wave Money"
-                                        class="h-auto w-full max-w-[200px]">
-                                </button>
-                            </div>
-                        </form> -->
                     </div>
 
                     <!-- Right Column - Details -->
@@ -95,43 +73,22 @@
                                     <p class="text-lg text-gray-600">{{ $product->myanmar_name }}</p>
                                 </div>
 
-                                <!-- <div>
-                                    <span class="text-sm font-medium text-gray-500">Horsepower - မြင်းကောင်ရေ:</span>
-                                    <p class="text-gray-900">{{ $product->part_number }}</p>
-                                </div> -->
-
                                 <div>
                                     <span class="text-sm font-medium text-gray-500">Category:</span>
                                     <p class="text-gray-900">{{ $product->category }}</p>
                                 </div>
 
-                                <!-- <div>
-                                    <span class="text-sm font-medium text-gray-500">Price:</span>
-                                    <p class="text-gray-900">{{ number_format($product->price) }} MMK</p>
-                                </div> -->
-                            </div>
-
-                            <!-- Additional Details -->
-                            <div class="space-y-4">
-                                <!-- <div>
-                                    <span class="text-sm font-medium text-gray-500">Stock Quantity:</span>
-                                    <p class="text-gray-900">{{ $product->stock_quantity }}</p>
-                                </div> -->
-
-                                <!-- <div>
-                                    <span class="text-sm font-medium text-gray-500">Movement Level:</span>
-                                    <p class="text-gray-900">{{ $product->movement_level }}</p>
-                                </div>
- -->
-                                <!-- <div>
+                                <div>
                                     <span class="text-sm font-medium text-gray-500">Brand:</span>
                                     <p class="text-gray-900">{{ $product->category_type }}</p>
-                                </div> -->
+                                </div>
 
-                                <!-- <div>
-                                    <span class="text-sm font-medium text-gray-500">Price Range:</span>
-                                    <p class="text-gray-900">{{ $product->price_range }}</p>
-                                </div> -->
+                                @if($product->part_number)
+                                <div>
+                                    <span class="text-sm font-medium text-gray-500">Part Number:</span>
+                                    <p class="text-gray-900">{{ $product->part_number }}</p>
+                                </div>
+                                @endif
                             </div>
                         </div>
 
@@ -142,15 +99,13 @@
                                 <p class="mt-2 text-gray-600">{{ $product->message }}</p>
                             </div>
                         @endif
-                        @if(view()->exists("products.templates.{$product->slug}"))
-        @include("products.templates.{$product->slug}")
-    <!-- @else
-        @include('products.templates.default') -->
-    @endif
 
+                        @if(view()->exists("products.templates.{$product->slug}"))
+                            @include("products.templates.{$product->slug}")
+                        @endif
                     </div>
                 </div>
             </div>
-
-
+        </div>
+    </div>
 </x-app-layout>
