@@ -5,7 +5,18 @@
 <link rel="icon" type="image/png" sizes="16x16" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
 <link rel="icon" type="image/png" sizes="192x192" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
-
+<style>
+    @media (max-width: 640px) {
+        .relative{
+            border-radius: 15px;
+            
+        }
+        .relative .mainimg{
+            width: 100%;
+            height: 190px;
+        }
+    }
+</style>
 <x-app-layout>
 <!-- Hero Section -->
 <div class="bg-white">
@@ -14,7 +25,7 @@
                 <!-- Main Hero Image -->
                 <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png"
                      alt="စစ်မှန်စျေးချို စိမ်းရောင်စို"
-                     class="w-full h-auto rounded-lg">
+                     class="w-full h-auto rounded-lg mainimg">
 
                 <!-- Hero Text Overlay -->
                 <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50">

@@ -72,17 +72,26 @@ public function sifang():View
         'sifangProductsByType' => $sifangProductsByType
     ]);
 }
-    public function tractor():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
 
-    return view('products.tractor', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
+public function otherbrands():View
+{
+    $allProducts = Product::all(); // get all products
+    $otherbrandsProducts = Product::where('category_type', 'Other Brands')->get(); // get only Sifang products
+    
+    $allProductsByType = $allProducts->groupBy('category_type');
+    $allProductsByCategory = $allProducts->groupBy('category');
+    
+    $otherbrandsProductsByType = $otherbrandsProducts->groupBy('category_type');
+    $otherbrandsProductsByCategory = $otherbrandsProducts->groupBy('category');
+
+    return view('products.otherbrands', [
+        'allProductsByCategory' => $allProductsByCategory,
+        'allProductsByType' => $allProductsByType,
+        'otherbrandsProductsByCategory' => $otherbrandsProductsByCategory,
+        'otherbrandsProductsByType' => $otherbrandsProductsByType
     ]);
 }
+    
 
     public function index(): View
     {
@@ -94,6 +103,64 @@ public function sifang():View
         return view('products.index', compact('productsByType', 'productsByCategory'));
         }
 
+public function tractor():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.tractor', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
+public function walkingtractor():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.walkingtractor', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
+
+public function combineharvester():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.combineharvester', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
+
+public function dieselengine():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.dieselengine', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
+
+public function implements():View
+{
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.implements', [
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType
+    ]);
+}
     /**
      * Show the form for creating a new resource.
      */
@@ -159,6 +226,11 @@ public function sifang():View
     /**
      * Display the specified resource.
      */
+    public function showproducts($slug)
+    {
+        $product = Product::where('slug', $slug)->firstOrFail();
+        return view('products.showproducts', compact('product'));
+    }
     public function showbrands($slug)
     {
         $product = Product::where('slug', $slug)->firstOrFail();

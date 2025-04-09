@@ -1,7 +1,7 @@
 <x-app-layout>
     <style>
         .mb-12 .brand{
-            width: 250px;
+            width: 300px;
             height: 80px;
             background-color: white;
             border-radius: 15px;
@@ -213,14 +213,13 @@
             </div>
         </div> -->
 
-        <!-- Sifang Products Section -->
+        <!-- Other Brands Products Section -->
         <div class="mb-12">
-            <!-- <div class="brand">{{ __('messages.sfg') }}</div> -->
-            <div class="brand"><img src="https://images.seeklogo.com/logo-png/39/1/sifang-logo-png_seeklogo-390497.png?v=1955057419398287944"> </div>
+            <div class="brand">{{ __('messages.obs') }}</div>
             <br>
             <!-- <h2 class="text-2xl font-bold text-gray-900 mb-6">Yanmar Products</h2> -->
             <div x-show="activeTab === 'type'">
-                @foreach($sifangProductsByType as $type => $products)
+                @foreach($otherbrandsProductsByType as $type => $products)
                     <div class="mb-12" id="{{ Str::slug($type) }}">
                         <!-- <h3 class="text-xl font-bold text-gray-900 mb-6">{{ $type }} Products</h3> -->
                         

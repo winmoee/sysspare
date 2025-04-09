@@ -5,24 +5,27 @@
             <div class="p-6">
                 <!-- Back Button and Action Buttons -->
                 <div class="mb-6 flex justify-between items-center">
-                    @if($product->category_type === 'Yanmar')
-                        <a href="{{ route('products.yanmar') }}" class="text-gray-600 hover:text-gray-900">
-                            ← Back to Yanmar Parts
+                    @if($product->category === '4 Wheels Tractor')
+                        <a href="{{ route('products.tractor') }}" class="text-gray-600 hover:text-gray-900">
+                            ← Back to 4 Wheels Tractors
                         </a>
-                    @elseif($product->category_type === 'ACE')
-                        <a href="{{ route('products.ace') }}" class="text-gray-600 hover:text-gray-900">
-                            ← Back to ACE Parts
+                    @elseif($product->category === 'Walking Tractor')
+                        <a href="{{ route('products.walkingtractor') }}" class="text-gray-600 hover:text-gray-900">
+                            ← Back to Walking Tractors
                         </a>
-                    @elseif($product->category_type === 'Sifang')
-                        <a href="{{ route('products.sifang') }}" class="text-gray-600 hover:text-gray-900">
-                            ← Back to Sifang Parts
+                    @elseif($product->category === 'Combine Harvester')
+                        <a href="{{ route('products.combineharvester') }}" class="text-gray-600 hover:text-gray-900">
+                            ← Back to Combine Harvester
                         </a>
-                    @elseif($product->category_type === 'Other Brands')
-                        <a href="{{ route('products.otherbrands') }}" class="text-gray-600 hover:text-gray-900">
-                            ← Back to Other Brands Parts
+                    @elseif($product->category === 'Diesel Engine')
+                        <a href="{{ route('products.dieselengine') }}" class="text-gray-600 hover:text-gray-900">
+                            ← Back to Diesel Engine
+                        </a>
+                    @elseif($product->category === 'Implements')
+                        <a href="{{ route('products.implements') }}" class="text-gray-600 hover:text-gray-900">
+                            ← Back to Implements
                         </a>
                     @endif
-
 
                     <!-- Action Buttons -->
                     <div class="flex items-center gap-4">

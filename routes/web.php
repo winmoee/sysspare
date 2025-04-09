@@ -57,6 +57,7 @@ Route::middleware('auth')->group(function () {
 // PRODUCTS
 Route::get('/brands/{slug}', [ProductController::class, 'showbrands'])->name('products.showbrands');
 Route::get('/products/{slug}', [ProductController::class, 'show'])->name('products.show');
+Route::get('/prods/{slug}', [ProductController::class, 'showproducts'])->name('products.showproducts');
 
 Route::resource('products', ProductController::class)
     ->only(['store', 'edit', 'update', 'destroy'])
@@ -75,7 +76,55 @@ Route::get('/tractor', function () {
         'productsByCategory' => $productsByCategory
     ]);
 });
-Route::get('/tractor', [ProductController::class, 'tractor']);
+Route::get('/tractor', [ProductController::class, 'tractor'])->name('products.tractor');
+
+Route::get('/walkingtractor', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.walkingtractor', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/walkingtractor', [ProductController::class, 'walkingtractor'])->name('products.walkingtractor');
+
+Route::get('/combineharvester', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.combineharvester', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/combineharvester', [ProductController::class, 'combineharvester'])->name('products.combineharvester');
+
+Route::get('/dieselengine', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.dieselengine', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/dieselengine', [ProductController::class, 'dieselengine'])->name('products.dieselengine');
+
+Route::get('/implements', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.implements', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/implements', [ProductController::class, 'implements'])->name('products.implements');
 
 Route::get('/yanmar', function () {
     $products = Product::all(); // get products from DB
@@ -112,6 +161,18 @@ Route::get('/sifang', function () {
     ]);
 });
 Route::get('/sifang', [ProductController::class, 'sifang'])->name('products.sifang');
+
+Route::get('/otherbrands', function () {
+    $products = Product::all(); // get products from DB
+
+    // Group by category (assuming `category` column exists)
+    $productsByCategory = $products->groupBy('category');
+
+    return view('products.otherbrands', [
+        'productsByCategory' => $productsByCategory
+    ]);
+});
+Route::get('/otherbrands', [ProductController::class, 'otherbrands'])->name('products.otherbrands');
 
 
 // UPLOAD

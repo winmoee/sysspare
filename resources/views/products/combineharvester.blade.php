@@ -208,20 +208,16 @@
     </div>
 
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
-        
-
         <!-- Products Grouped by Category -->
         <div x-show="activeTab === 'category'">
             @foreach($productsByCategory as $category => $products)
-                @if($category === '4 Wheels Tractor')
+                @if($category === 'Combine Harvester')
                     <div class="mb-12" id="{{ Str::slug($category) }}">
-                        <!-- <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $category }}</h2> -->
-                         <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.ttr') }}</h2>
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.chvr') }}</h2>
                         <br>
                         
                         <!-- Yanmar Products -->
                         <div id="yanmar" class="mb-8">
-                            <!-- <h3 class="text-xl font-semibold text-gray-800 mb-4">Yanmar Products</h3> -->
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 @foreach($products as $product)
                                     @if($product->category_type === 'Yanmar')
@@ -260,7 +256,6 @@
 
                         <!-- ACE Products -->
                         <div id="ace" class="mb-8">
-                            <!-- <h3 class="text-xl font-semibold text-gray-800 mb-4">ACE Products</h3> -->
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 @foreach($products as $product)
                                     @if($product->category_type === 'ACE')
@@ -299,7 +294,6 @@
 
                         <!-- Sifang Products -->
                         <div id="sifang" class="mb-8">
-                            <!-- <h3 class="text-xl font-semibold text-gray-800 mb-4">Sifang Products</h3> -->
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 @foreach($products as $product)
                                     @if($product->category_type === 'Sifang')
@@ -338,7 +332,6 @@
 
                         <!-- Other Brands Products -->
                         <div id="other" class="mb-8">
-                            <!-- <h3 class="text-xl font-semibold text-gray-800 mb-4">Other Brands</h3> -->
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 @foreach($products as $product)
                                     @if($product->category_type !== 'Yanmar' && $product->category_type !== 'ACE' && $product->category_type !== 'Sifang')
@@ -378,9 +371,6 @@
                 @endif
             @endforeach
         </div>
-
-        <!-- Products Grouped by Type -->
-        
     </div>
 
     <!-- Alpine.js initialization -->

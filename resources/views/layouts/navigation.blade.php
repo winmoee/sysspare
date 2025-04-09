@@ -55,17 +55,17 @@
                                 style="display: none;">
                                 <div class="py-2">
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.product') }}</div>
-                                    <a href="{{ url('/products#4-wheels-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                                    <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
                                     <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
-                                    <a href="{{ url('/products#walking-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
-                                    <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
-                                    <a href="{{ url('/products#diesel-engine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
-                                    <a href="{{ url('/products#implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
+                                    <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                                    <a href="{{ url('/combineharvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
+                                    <a href="{{ url('/dieselengine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
+                                    <a href="{{ url('/implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.brand') }}</div>
                                     <a href="{{ url('/yanmar') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
                                     <a href="{{ url('/ace') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
                                     <a href="{{ url('/sifang') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}</a>
-                                    <a href="{{ url('/products#sifang') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.obs') }}</a>
+                                    <a href="{{ url('/otherbrands') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.obs') }}</a>
                             </div>
                         </div>
                     </div>
@@ -355,17 +355,17 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.product') }}</div>
-                                <a href="{{ url('/products#4-wheels-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                                <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
                                 <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
-                                <a href="{{ url('/products#walking-tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
-                                <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
-                                <a href="{{ url('/products#diesel-engine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
-                                <a href="{{ url('/products#implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
+                                <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                                <a href="{{ url('/combineharvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
+                                <a href="{{ url('/dieselengine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
+                                <a href="{{ url('/implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.brand') }}</div>
                                 <a href="{{ url('/yanmar') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.ymr') }}</a>
                                 <a href="{{ url('/ace') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.ace') }}</a>
                                 <a href="{{ url('/sifang') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.sfg') }}</a>
-                                <a href="{{ url('/products#sifang') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.obs') }}</a>
+                                <a href="{{ url('/otherbrands') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.obs') }}</a>
                     </div>
                 </div>
 
