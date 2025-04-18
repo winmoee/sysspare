@@ -1,7 +1,7 @@
 {{-- resources/views/products/gt-1.blade.php --}}
 <div class="specification-container">
     <table class="table-striped">
-        <tbody>
+        <!-- <tbody>
             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
@@ -27,7 +27,7 @@
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">1225 (mm)</td>
             </tr>
-        </tbody>
+        </tbody> -->
     </table>
 </div>
 </div>

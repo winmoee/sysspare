@@ -2,7 +2,7 @@
 <div class="specification-container">
     <table class="table-striped">
         <tbody>
-            <tr class="text-grey-color">
+            <!-- <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">70.0 - 84.5 PS</td>
@@ -26,7 +26,7 @@
                 <td class="py-1 fs-6">Height</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">2280 (mm)</td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
 </div>
@@ -176,6 +176,224 @@
             </div>
         </div>
     </div>
+
+    <div class="details">
+        <div class="bg-white rounded-lg shadow-lg p-6 overflow-x-auto">
+            <h6 class="text-xl font-semibold text-gray-800 mb-4">စက်၏အချက်အလက်များ</h6>
+            <table class="w-full border-collapse">
+                <thead>
+                    <tr class="bg-gray-700 text-white">
+                        <th class="border p-2 text-center">အမျိုးအမည်</th>
+                        <th class="border p-2 text-center">အမျိုးအစား / အတိုင်းအတာ</th>
+                        <th class="border p-2 text-center">Unit / ယူနစ်</th>
+                        <th class="border p-2 text-center">YH700GU</th>
+                        <th class="border p-2 text-center">YH850GUW</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border p-2" rowspan="3">ကိုယ်ထည်</td>
+                        <td class="border p-2">အလျား</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">5070</td>
+                        <td class="border p-2 text-center">5070</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အနံ</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">2285</td>
+                        <td class="border p-2 text-center">2285</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အမြင့်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">2280</td>
+                        <td class="border p-2 text-center">2280</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" colspan="2">စက်အလေးချိန်</td>
+                        <td class="border p-2 text-center">kg</td>
+                        <td class="border p-2 text-center">3571</td>
+                        <td class="border p-2 text-center">3591</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="5">အင်ဂျင်</td>
+                        <td class="border p-2">အမျိုးအမည်</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center">4TNV98</td>
+                        <td class="border p-2 text-center">4TNV98T</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အမျိုးအစား</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center">Water-cooled 4-cycle 4-cylinder vertical diesel</td>
+                        <td class="border p-2 text-center">Water-cooled 4-cycle 4-cylinder vertical diesel</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ဆလင်ဒါထုထည်</td>
+                        <td class="border p-2 text-center">cc</td>
+                        <td class="border p-2 text-center">3318</td>
+                        <td class="border p-2 text-center">3318</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အမြားဆုံး ပါဝါအထွက်</td>
+                        <td class="border p-2 text-center">kW(PS)/rpm</td>
+                        <td class="border p-2 text-center">51.5(70.0)/2500</td>
+                        <td class="border p-2 text-center">62.1(84.5)/2500</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">လောင်စာဆီ</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center">ဒီဇယ်</td>
+                        <td class="border p-2 text-center">ဒီဇယ်</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="3">ဆီတိုင်ကီ</td>
+                        <td class="border p-2">လောင်စာဆီသိုလှောင်မှု ပမာဏ</td>
+                        <td class="border p-2 text-center">L</td>
+                        <td class="border p-2 text-center">115</td>
+                        <td class="border p-2 text-center">115</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ဆန်ရိုးထား စွန့်ပစ်စက် အလျား</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">500*1750</td>
+                        <td class="border p-2 text-center">550*1750</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အမြန်နှုန်း ထိန်းချုပ်မှု</td>
+                        <td class="border p-2 text-center">speeds</td>
+                        <td class="border p-2 text-center" colspan="2">HST with hydraulic servo, mechanical FDS</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="3">ရွှေ့လျားမှု</td>
+                        <td class="border p-2">ရွှေ့သိုးအမြန်နှုန်းမြောင်းရမ်း (၃) ဆင့်ပါဝင်သည်</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center" colspan="2">အနှေး/ပုံမှန်/အမြန် နှုန်း (၃) ဆင့်ပါဝင်သည်</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="3">လမ်းလောက်အမြန်နှုန်း</td>
+                        <td class="border p-2 text-center">m/sec</td>
+                        <td class="border p-2">
+                            low speed: 0 to 0.88<br>
+                            Standard: 0 to 1.37<br>
+                            High speed: 0 to 1.85
+                        </td>
+                        <td class="border p-2">
+                            low speed: 0 to 1.00<br>
+                            Standard: 0 to 1.55<br>
+                            High speed: 0 to 2.09
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">အနိမ့်အမြင့်မြှင့်တင်နိုင်မှု</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">330 to 460</td>
+                        <td class="border p-2 text-center">330 to 460</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">စပါးရိတ်အကျယ်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">2060</td>
+                        <td class="border p-2 text-center">2060</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="3">ရိတ်သိမ်းစနစ်အမျိုးအစား</td>
+                        <td class="border p-2">ရိတ်သိမ်းစနစ်</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center" colspan="2">Reel + Platform</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ရိုးဖြတ်အကျယ်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">1975</td>
+                        <td class="border p-2 text-center">1975</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ရိုးဖြတ် အနိမ့်အမြင့်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">(-) 50 to 1,000</td>
+                        <td class="border p-2 text-center">(-) 50 to 1,000</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="2">ဘီးစက်</td>
+                        <td class="border p-2">အချင်း+အကျယ်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">900*1920</td>
+                        <td class="border p-2 text-center">900*1920</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">လည်ပတ်နှုန်း</td>
+                        <td class="border p-2 text-center">rpm</td>
+                        <td class="border p-2 text-center">43(37)</td>
+                        <td class="border p-2 text-center">43(37)</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="5">ခြွေလှေ့ အစိတ်အပိုင်း</td>
+                        <td class="border p-2">ခြွေလှေ့သည့်အချိန်းအစား</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center" colspan="2">ရိုးထို့ မခံပြီး နင်းဖြတ်၍ခြွေလှေ့ခြင်း</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ရေနုတ်တံ (အချင်း+အကျယ်)</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center">400*520</td>
+                        <td class="border p-2 text-center">400*520</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ခြွေလှေ့ဒလိမ့် (အချင်း+အလျား)</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">850*1410</td>
+                        <td class="border p-2 text-center">850*1410</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">ခြွေမွှေဒလိမ့် (အချင်း+အကျယ်)</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center">640*1850</td>
+                        <td class="border p-2 text-center">640*1850</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">စကာဖြင့်လှော် ဧရိယာ</td>
+                        <td class="border p-2 text-center">m²</td>
+                        <td class="border p-2 text-center">1.75</td>
+                        <td class="border p-2 text-center">1.75</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" rowspan="4">စပါးသိုလှောင် ကန်အစိတ်အပိုင်း</td>
+                        <td class="border p-2">အမျိုးအစား</td>
+                        <td class="border p-2 text-center"></td>
+                        <td class="border p-2 text-center" colspan="2">လောက်တင်အမျိုးအစား</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">လောက်တင်နိုင်သည့် ပမာဏ</td>
+                        <td class="border p-2 text-center">L</td>
+                        <td class="border p-2 text-center">1670</td>
+                        <td class="border p-2 text-center">1670</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">စပါးခွဲချအမြင့်</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">1049 to 4272</td>
+                        <td class="border p-2 text-center">1049 to 4272</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2">စပါးခွဲချမှု အကျယ်အဝန်း</td>
+                        <td class="border p-2 text-center">mm</td>
+                        <td class="border p-2 text-center">2880</td>
+                        <td class="border p-2 text-center">2880</td>
+                    </tr>
+                    <tr>
+                        <td class="border p-2" colspan="2">စပါးခွဲချမှု ကြာမြင့်ချိန်</td>
+                        <td class="border p-2 text-center">minutes</td>
+                        <td class="border p-2 text-center">1 minute 50 seconds</td>
+                        <td class="border p-2 text-center">1 minute 50 seconds</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    
     <!-- SECOND SECTION -->
     <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">

@@ -58,7 +58,9 @@
                     <div class="md:w-1/3 space-y-4">
                         <!-- Product Image -->
                         @if($product->photo)
-                            <img src="{{ $product->photo }}" class="w-full rounded-lg object-cover" alt="{{ $product->english_name }}">
+                            <div class="p-4 bg-white rounded-lg shadow-sm">
+                                <img src="{{ $product->photo }}" class="w-full rounded-lg object-cover mx-auto max-w-full h-auto" alt="{{ $product->english_name }}">
+                            </div>
                         @else
                             <div class="w-full aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">

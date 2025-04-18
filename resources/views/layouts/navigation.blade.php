@@ -55,9 +55,10 @@
                                 style="display: none;">
                                 <div class="py-2">
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.product') }}</div>
-                                    <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                                    
                                     <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
                                     <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                                    <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
                                     <a href="{{ url('/combineharvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
                                     <a href="{{ url('/dieselengine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
                                     <a href="{{ url('/implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
@@ -198,7 +199,7 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.yangon') }}</div>
-                                    <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
+                                    <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.bayintnaung') }}</a>
                                     <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.z5_showroom') }}</a>
                                     <a href="{{ url('/division#yangon') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-200">{{ __('messages.msy') }}</a>
                                     <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.external') }}</div>
@@ -271,10 +272,16 @@
                             style="display: none;">
                             <div class="py-1">
                                 <a href="{{ route('locale.switch', 'en') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'en' ? 'bg-gray-100' : '' }}">
-                                    {{ __('messages.english') }}
+                                    <div class="flex items-center space-x-2">
+                                        <span>🇬🇧</span>
+                                        <span>{{ __('messages.english') }}</span>
+                                    </div>
                                 </a>
                                 <a href="{{ route('locale.switch', 'my') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'my' ? 'bg-gray-100' : '' }}">
-                                    {{ __('messages.myanmar') }}
+                                    <div class="flex items-center space-x-2">
+                                        <span>🇲🇲</span>
+                                        <span>{{ __('messages.myanmar') }}</span>
+                                    </div>
                                 </a>
                             </div>
                         </div>
@@ -355,9 +362,10 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.product') }}</div>
-                                <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
+                                
                                 <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
                                 <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
+                                <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
                                 <a href="{{ url('/combineharvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.chvr') }}</a>
                                 <a href="{{ url('/dieselengine') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.de') }}</a>
                                 <a href="{{ url('/implements') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ip') }}</a>
@@ -470,10 +478,16 @@
         </button>
         <div x-show="langOpen" class="pl-4">
             <a href="{{ route('locale.switch', 'en') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'en' ? 'font-bold' : '' }}">
-               {{ __('messages.english') }}
+                <div class="flex items-center space-x-2">
+                    <span>🇬🇧</span>
+                    <span>{{ __('messages.english') }}</span>
+                </div>
             </a>
             <a href="{{ route('locale.switch', 'my') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {{ app()->getLocale() == 'my' ? 'font-bold' : '' }}">
-                {{ __('messages.myanmar') }}
+                <div class="flex items-center space-x-2">
+                    <span>🇲🇲</span>
+                    <span>{{ __('messages.myanmar') }}</span>
+                </div>
             </a>
         </div>
     </div>

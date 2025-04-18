@@ -223,6 +223,9 @@
                                     @if($product->category_type === 'Yanmar')
                                         <div class="bg-white shadow-sm rounded-lg p-6">
                                             @if($product->photo)
+                                            <div class="smallyanmar" style="background-color: #DC1E37; width: 90px; height: 30px; border-radius: 20px;">
+                                                <p class="yanmar" style="color: white; text-align: center; align-items: center; padding-top: 4px; letter-spacing: -1px; font-weight: 600;">YANMAR</p>
+                                            </div>
                                                 <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                             @else
                                                 <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
@@ -261,6 +264,9 @@
                                     @if($product->category_type === 'ACE')
                                         <div class="bg-white shadow-sm rounded-lg p-6">
                                             @if($product->photo)
+                                            <div class="smallace" style="background-color: #f39c12; width: 60px; height: 30px; border-radius: 20px;">
+                                                <p class="ace" style="color: white; text-align: center; align-items: center; padding-top: 3px; letter-spacing: -1px; font-weight: 600;">ACE</p>
+                                            </div>
                                                 <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                             @else
                                                 <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center mb-4">
@@ -299,6 +305,9 @@
                                     @if($product->category_type === 'Sifang')
                                         <div class="bg-white shadow-sm rounded-lg p-6">
                                             @if($product->photo)
+                                            <div class="smallfang" style="background-color: #db150b; width: 90px; height: 30px; border-radius: 20px;">
+                                                <p class="sifang" style="color: white; text-align: center; align-items: center; padding-top: 4px; letter-spacing: -1px; font-weight: 600;">SIFANG</p>
+                                            </div>
                                                 <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                             @else
                                                 <div class="w-full h-64 bg-gray-200 rounded-lg flex items-center justify-center mb-4">

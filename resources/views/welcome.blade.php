@@ -48,6 +48,7 @@
             <p class="text-gray-600 mb-2">
                 {{__('messages.address')}}
             </p>
+            
             <a href="https://maps.app.goo.gl/L2SfCDJeAJBv35Gm8"
                class="inline-flex items-center text-green-600 hover:text-green-700">
                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -57,7 +58,10 @@
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
                 {{__('messages.seinnyaungso_company')}}
+                <br>
             </a>
+            <br>
+            <br>
             <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/srsDvBFG6CY05EuX8HCx.webp">
         </div>
 

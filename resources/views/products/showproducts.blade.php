@@ -56,57 +56,85 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-8">
+                <div class="flex flex-col lg:flex-row max-w-7xl mx-auto">
                     <!-- Left Column - Image -->
-                    <div class="md:w-1/3 space-y-4">
-                        <!-- Product Image -->
+                    <div class="lg:w-1/2 p-6">
                         @if($product->photo)
-                            <img src="{{ $product->photo }}" class="w-full rounded-lg object-cover" alt="{{ $product->english_name }}">
+                            <div class="relative group">
+                                <div class="overflow-hidden rounded-2xl bg-gray-50">
+                                    <img src="{{ $product->photo }}" 
+                                         class="w-full h-full object-contain transform transition-transform duration-500 group-hover:scale-105" 
+                                         alt="{{ $product->english_name }}">
+                                </div>
+                            </div>
                         @else
-                            <div class="w-full aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
+                            <div class="w-full aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl flex items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                 </svg>
                             </div>
                         @endif
                     </div>
 
                     <!-- Right Column - Details -->
-                    <div class="md:w-2/3">
-                        <div class="grid grid-cols-1 md:grid-cols-1 gap-6">
-                            <!-- Basic Information -->
-                            <div class="space-y-4">
-                                <div>
-                                    <h2 class="text-2xl font-bold text-gray-900 mb-2">{{ $product->english_name }}</h2>
-                                    <p class="text-lg text-gray-600">{{ $product->myanmar_name }}</p>
-                                </div>
-
-                                <div>
-                                    <span class="text-sm font-medium text-gray-500">Category:</span>
-                                    <p class="text-gray-900">{{ $product->category }}</p>
-                                </div>
-
-                                <div>
-                                    <span class="text-sm font-medium text-gray-500">Brand:</span>
-                                    <p class="text-gray-900">{{ $product->category_type }}</p>
-                                </div>
-
-                                @if($product->part_number)
-                                <div>
-                                    <span class="text-sm font-medium text-gray-500">Part Number:</span>
-                                    <p class="text-gray-900">{{ $product->part_number }}</p>
-                                </div>
-                                @endif
+                    <div class="lg:w-1/2 p-6 lg:pl-12">
+                        <div class="space-y-8">
+                            <!-- Product Title -->
+                            <div class="space-y-2">
+                                <h1 class="text-4xl font-bold tracking-tight text-gray-900">
+                                    {{ $product->english_name }}
+                                </h1>
+                                <h2 class="text-2xl text-gray-500">
+                                    {{ $product->myanmar_name }}
+                                </h2>
                             </div>
+
+                            <!-- Product Details -->
+                            <div class="space-y-6 border-t border-b border-gray-100 py-8">
+                                <div class="grid grid-cols-2 gap-x-6 gap-y-4">
+                                    <div>
+                                        <dt class="text-sm text-gray-500">Category</dt>
+                                        <dd class="mt-1 text-base font-medium text-gray-900">{{ $product->category }}</dd>
+                                    </div>
+                                    <div>
+                                        <dt class="text-sm text-gray-500">Brand</dt>
+                                        <dd class="mt-1 text-base font-medium text-gray-900">{{ $product->category_type }}</dd>
+                                    </div>
+                                    @if($product->part_number)
+                                    <div class="col-span-2">
+                                        <dt class="text-sm text-gray-500">Part Number</dt>
+                                        <dd class="mt-1 text-base font-medium text-gray-900">{{ $product->part_number }}</dd>
+                                    </div>
+                                    @endif
+                                </div>
+                            </div>
+
+                            <!-- Specifications -->
+                            <div class="grid grid-cols-2 gap-6">
+                                <!-- <div class="flex flex-col">
+                                    <dt class="text-sm text-gray-500">Horse Power</dt>
+                                    <dd class="mt-1">
+                                        <span class="text-3xl font-bold text-gray-900">57.6</span>
+                                        <span class="text-xl text-gray-500 ml-1">PS</span>
+                                    </dd>
+                                </div>
+                                <div class="flex flex-col">
+                                    <dt class="text-sm text-gray-500">Weight</dt>
+                                    <dd class="mt-1">
+                                        <span class="text-3xl font-bold text-gray-900">1850</span>
+                                        <span class="text-xl text-gray-500 ml-1">kg</span>
+                                    </dd>
+                                </div> -->
+                            </div>
+
+                            <!-- Notes Section -->
+                            @if($product->message)
+                                <div class="bg-gray-50 rounded-xl p-6 mt-8">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-3">Notes</h3>
+                                    <p class="text-gray-600 leading-relaxed">{{ $product->message }}</p>
+                                </div>
+                            @endif
                         </div>
-
-                        <!-- Notes Section -->
-                        @if($product->message)
-                            <div class="mt-8">
-                                <h3 class="text-lg font-medium text-gray-900">Notes</h3>
-                                <p class="mt-2 text-gray-600">{{ $product->message }}</p>
-                            </div>
-                        @endif
 
                         @if(view()->exists("products.templates.{$product->slug}"))
                             @include("products.templates.{$product->slug}")

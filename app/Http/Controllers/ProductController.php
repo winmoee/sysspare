@@ -18,18 +18,17 @@ class ProductController extends Controller
 
      public function yanmar():View
 {
-    $allProducts = Product::all(); // get all products
+    $products = Product::all(); // get all products
+    $productsByType = $products->groupBy('category_type');
+    $productsByCategory = $products->groupBy('category');
+
     $yanmarProducts = Product::where('category_type', 'Yanmar')->get(); // get only Yanmar products
-    
-    $allProductsByType = $allProducts->groupBy('category_type');
-    $allProductsByCategory = $allProducts->groupBy('category');
-    
     $yanmarProductsByType = $yanmarProducts->groupBy('category_type');
     $yanmarProductsByCategory = $yanmarProducts->groupBy('category');
 
     return view('products.yanmar', [
-        'allProductsByCategory' => $allProductsByCategory,
-        'allProductsByType' => $allProductsByType,
+        'productsByCategory' => $productsByCategory,
+        'productsByType' => $productsByType,
         'yanmarProductsByCategory' => $yanmarProductsByCategory,
         'yanmarProductsByType' => $yanmarProductsByType
     ]);
@@ -103,6 +102,7 @@ public function otherbrands():View
         return view('products.index', compact('productsByType', 'productsByCategory'));
         }
 
+        
 public function tractor():View
 {
     $products = Product::all(); // get all products
@@ -114,6 +114,8 @@ public function tractor():View
         'productsByType' => $productsByType
     ]);
 }
+
+
 public function walkingtractor():View
 {
     $products = Product::all(); // get all products

@@ -169,7 +169,7 @@
         <!-- <div class="mb-12">
             <h2 class="text-2xl font-bold text-gray-900 mb-6">All Products</h2>
             <div x-show="activeTab === 'type'">
-                @foreach($allProductsByType as $type => $products)
+                @foreach($productsByType as $type => $products)
                     <div class="mb-12" id="{{ Str::slug($type) }}">
                         <h3 class="text-xl font-bold text-gray-900 mb-6">{{ $type }}</h3>
                         
