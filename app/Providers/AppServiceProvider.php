@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Log;
 use App\Http\Middleware\SetLocale;
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\Facades\Route;

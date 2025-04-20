@@ -98,7 +98,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -144,7 +144,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_branch_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -173,7 +173,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_warehouse_1.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.Ltd Pathein Warehouse_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_warehouse_1.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.Ltd Pathein Warehouse_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -202,7 +202,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_workshop_1.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.Ltd Pathein Workshop_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_workshop_1.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.Ltd Pathein Workshop_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -231,7 +231,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/hinthda_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Hinthada Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Hinthada Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -276,7 +276,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/shwe_bo.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Shwebo Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/shwe_bo.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Shwebo Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -321,7 +321,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://seinnyaungso.shop/vendor/image/subdivision/branch/taunggyi.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Taunggyi Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Taunggyi Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -405,14 +405,14 @@
                 "eng_address":"{{__('messages.service_workshop_3')}}",
                 "mm_address":"{{__('messages.service_workshop_3')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/yangon_showroom.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg",
 
                 "division":{"id":1,"state_id":1,
                 "mm_name":"{{__('messages.Yangon')}}",
                 "eng_name":"{{__('messages.Yangon')}}",
                 "slug":"yangon",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/yangon_showroom.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg"},
                 "branch_phone":[
                 {"id":1,"branch_id":1,"phone":"04222503"},
                 {"id":2,"branch_id":1,"phone":"09429000422"},
@@ -431,14 +431,14 @@
                 "eng_address":"{{__('messages.Pathein_Branch')}}",
                 "mm_address":"{{__('messages.Pathein_Branch')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_branch_main.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg",
 
                 "division":{"id":2,"state_id":2,
                 "mm_name":"{{__('messages.Pathein')}}",
                 "eng_name":"{{__('messages.Pathein')}}",
                 "slug":"pathein",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_branch_main.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg"},
                 "branch_phone":[
                 {"id":5,"branch_id":2,"phone":"04222503"},
                 {"id":6,"branch_id":2,"phone":"09429000422"},
@@ -457,14 +457,14 @@
                 "eng_address":"{{__('messages.Dig_industrial')}}",
                 "mm_address":"{{__('messages.Dig_industrial')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_warehouse_1.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_warehouse_1.jpg",
                 "division":{"id":2,
                 "state_id":2,
                 "mm_name":"{{__('messages.Pathein')}}",
                 "eng_name":"{{__('messages.Pathein')}}",
                 "slug":"pathein",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_warehouse_1.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_warehouse_1.jpg"},
                 "branch_phone":[
                 {"id":9,"branch_id":3,"phone":"04222503"},
                 {"id":10,"branch_id":3,"phone":"09429000422"},
@@ -483,14 +483,14 @@
                 "eng_address":"{{__('messages.Dig_industrial')}}",
                 "mm_address":"{{__('messages.Dig_industrial')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_workshop_1.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_workshop_1.jpg",
                 "division":{"id":2,
                 "state_id":2,
                 "mm_name":"{{__('messages.Pathein')}}",
                 "eng_name":"{{__('messages.Pathein')}}",
                 "slug":"pathein",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/pathein_workshop_1.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_workshop_1.jpg"},
                 "branch_phone":[
                 {"id":13,"branch_id":4,"phone":"04222503"},
                 {"id":14,"branch_id":4,"phone":"09429000422"},
@@ -509,14 +509,14 @@
                 "eng_address":"{{__('messages.Hinthada_Leltaw')}}",
                 "mm_address":"{{__('messages.Hinthada_Leltaw')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/hinthda_main.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg",
                 "division":{"id":3,
                 "state_id":2,
                 "mm_name":"{{__('messages.Hinthada')}}",
                 "eng_name":"{{__('messages.Hinthada')}}",
                 "slug":"hinthada",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/hinthda_main.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg"},
                 "branch_phone":[
                 {"id":17,"branch_id":5,"phone":"09455338282"},
                 {"id":18,"branch_id":5,"phone":"09784636426"}]},
@@ -533,14 +533,14 @@
                 "eng_address":"{{__('messages.Shwebo_Township')}}",
                 "mm_address":"{{__('messages.Shwebo_Township')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/shwe_bo.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/shwe_bo.jpg",
                 "division":{"id":4,
                 "state_id":5,
                 "mm_name":"{{__('messages.Shwebo')}}",
                 "eng_name":"{{__('messages.Shwebo')}}",
                 "slug":"shwebo",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/shwe_bo.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/shwe_bo.jpg"},
                 "branch_phone":[
                 {"id":19,"branch_id":6,"phone":"095038903"},
                 {"id":20,"branch_id":6,"phone":"09763856556"}]},
@@ -557,14 +557,14 @@
                 "eng_address":"{{__('messages.Taunggyi_Township')}}",
                 "mm_address":"{{__('messages.Taunggyi_Township')}}",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/taunggyi.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg",
                 "division":{"id":5,
                 "state_id":6,
                 "mm_name":"{{__('messages.Taunggyi')}}",
                 "eng_name":"{{__('messages.Taunggyi')}}",
                 "slug":"taunggyi",
                 "image":"",
-                "img_url":"https://seinnyaungso.shop/vendor/image/subdivision/branch/taunggyi.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg"},
                 "branch_phone":[
                 {"id":21,"branch_id":7,"phone":"09798892668"},
                 {"id":22,"branch_id":7,"phone":"09798892669"}]}];
