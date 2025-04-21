@@ -553,9 +553,9 @@
 
     <!-- SECOND SECTION -->
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
-        <h6 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+        <!-- <h6 class="text-2xl font-bold text-gray-800 mb-8 text-center">
             Main Features
-        </h6>
+        </h6> -->
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Video Section -->
@@ -584,7 +584,7 @@
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">YM358R</h4>
+                                    <h4 class="font-medium text-gray-800">GT-1 Walking Tractor</h4>
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
                                 
@@ -621,7 +621,7 @@
                     <div class="space-y-4">
                         <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
                             <div class="flex items-center">
-                                <img src="{{ asset('vendor/image/sale-expert/zin-mon-soe.jpg') }}"
+                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/zin-mon-soe.jpg"
                                     alt="Zin Mon Soe"
                                     class="w-12 h-12 rounded-full object-cover mr-4">
                                 <div class="flex-1">
@@ -636,7 +636,7 @@
 
                         <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
                             <div class="flex items-center">
-                                <img src="{{ asset('vendor/image/sale-expert/pwint-hsu-wai.jpg') }}"
+                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/pwint-hsu-wai.jpg"
                                     alt="Pwint Hsu Wai"
                                     class="w-12 h-12 rounded-full object-cover mr-4">
                                 <div class="flex-1">

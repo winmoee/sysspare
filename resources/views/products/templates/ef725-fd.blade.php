@@ -37,309 +37,897 @@
 </div>
 </div>
 </div>
-<!-- MAIN FEATURES SECTION -->
+
 <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
     <div class="bg-white rounded-lg shadow-lg p-6">
+        <br>
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        Main Features
+        အဓိကအင်္ဂါရပ်များ
         </h6>
             <!-- Spare Section -->
-        <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084653/img_index_033.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
+        <div class="max-w-7xl mx-auto py-6 lg:py-8">
+            <div class="space-y-4">
+                <!-- Dropdown 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature1')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left" style="font-size: 18px;">တိုက်ရိုက်ဆီဖျန်းစနစ် ဒီဇယ်အင်ဂျင်</span>
                         </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၁။ တိုက်ရိုက်လောင်စာဖြန်းစနစ် အင်ဂျင်
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">အမြင့်မားဆုံး စွမ်းဆောင်ရည်၊ သက်သာသော ဆီစားနှုန်း နှင့် အစွမ်းထက်ဆုံးသော အင်ဂျင် ဖြစ်ပါသည်။ စစ်မှန်သော နည်းပညာဖြင့် တီထွင်ဖန်တီးထားသော လုပ်ငန်းခွင်ပေါင်းများစွာတွင် အသုံးပြုနိုင်သော Yanmar 72 PS အင်ဂျင် ၊အင်ဂျင်လည်ပတ်အရေအတွက်အနှေးဆုံးမှာပင်ရုန်းအား အရမ်းကောင်းမွန်သည်ဟု ထိတွေ့ခံစားရနိုင်မည့် အမြင့်ဆုံးစွမ်းအင်တွေကို ထုတ်လွှတ်နိုင်သော အင်ဂျင် ဖြစ်သည်။
+                        <svg 
+                            id="arrowFeature1" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature1" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="md:flex md:flex-row-reverse md:items-start">
+                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                                <img
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/6326d09747/img_index_03.jpg"
+                                    class="w-full h-full object-cover md:rounded-lg"
+                                >
+                            </div>
+                            <div class="p-4 md:w-2/3 md:pl-8">
+                                <p class="text-sm text-gray-600 mt-2 leading-8">
+                                ကမ္ဘာပထမဦးဆုံး ဒီဇယ်အင်ဂျင်အသေး ကိုဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခဲ့သည့် ယန်းမာ ၏ ကောင်းမွန်သော ဆီပို့မှုစနစ် နှင့် ပေါင်းစပ်ပေါက်ကွဲ စေသောနည်းပညာ တို့ကြောင့်စွမ်းအားပြည့်ထုတ်လုပ်နိုင်ခြင်းနှင့်အတူ လူသိများလာခဲ့သည် ။ ထွန်ထယ် မောင်းနှင်သည့်တိုင် ယန်းမာထွန်စက်၏ကောင်းမွန်သက်သာသောဆီစားနှုန်း နှင့် ထူးကဲသောရေရှည်အသုံးခံ မှုတို့ကို ရရှိမှာဖြစ်ပါသည် ။ ယန်းမာ၏ အကောင်းဆုံးသောစွမ်းအား နှင့်ရေရှည်အသုံးခံနိုင်သော YM357A's ။
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                            </p>
+                <!-- Dropdown 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature2')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">ဘက်စုံ အသုံးပြုနိုင်ခြင်း</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature2" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="md:flex md:flex-row-reverse md:items-start">
+                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                                <img
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/e15ef32bc5/img_index_10.jpg"
+                                    class="w-full h-full object-cover md:rounded-lg"
+                                >
+                            </div>
+                            <div class="p-4 md:w-2/3 md:pl-8">
+                                <p class="text-sm text-gray-600 mt-2 leading-8">
+                                ဆန်းသစ်တီထွင်လိုက်သော ဒီဇိုင်းဆိုသည်မှာ စိုစွတ်သောမြေပြင်တွင် အရှိန်မြှင့်မောင်းနှင်သည့်တိုင် မြေကြီးများ စက်၏အတွင်းသို့ ဝင်ရောက်၍ စက်၏စွမ်းအားဆုံးရှံးမှု မရှိစေဘဲ ရှည်လျားသောနောက်အဖုံးကြောင့် လှပသောမြေပြင်ထယ်ရေးကို ရရှိစေမှာဖြစ်ပါတယ်။
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084740/img_index_042.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ လွယ်ကူရိုးရှင်းစွာ မောင်းနှင်နိုင်ခြင်း
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ရှေ့ဘီး ဝင်ရိုးအား ၅၅ ဒီဂရီအထိ တိမ်းစောင်းနိုင်ရေး အထူး ပြုလုပ်ထားသည့်အတွက် အကွေ့အဝိုက်တိုတောင်းစွာဖြင့် မောင်းနှင် နိုင်ပြီး ရွှံ့ဗွက်များပေကျံ ခဲ့လျင်လည်း ဖယ်ရှားရန် မလိုဘဲဆက်ကက်မောင်းနှင် နိုင်သည့်အတွက် အချိန်ကုန်သက်သာစေမှာ ဖြစ်ပါသည်။
+                </div>
 
-                            </p>
+                <!-- Dropdown 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature3')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">ယာလုပ်ငန်းသုံးအထူးပြု</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature3" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="md:flex md:flex-row-reverse md:items-start">
+                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                                <img
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
+                                    class="w-full h-full object-cover md:rounded-lg"
+                                >
+                            </div>
+                            <div class="p-4 md:w-2/3 md:pl-8">
+                                <p class="text-sm text-gray-600 mt-2 leading-8">
+                                ထယ်ရေးအနက် ထိန်းညှိစနစ်သည် ထယ်ရေးအနက်ဆူး လွန်လာသည့် အချိန်များတွင် စက်အား ဝန်ပိုမှုမရှိစေဘဲ အလိုအလျောက် ထိန်းညှိပေးသော စနစ်ဖြစ်ပါသည်။ ဝန်ပိုရုန်းဆွဲ နေရသောကြောင့် ကြန့်ကြာနိုင်သည့်အချိန်များကို လျှော့ချပေးနိုင်သလို ထယ်ရေးအနက် ထိန်းညှိစနစ်ကြောင့် လုပ်ငန်းခွင်ကို လျင်မြန်စွာ ပြီးမြောက်နိုင်ပါသည်။
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084829/img_index_052.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၃။ ပါဝါစတီယာရင်
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ဟိုက်ဒရောလစ် သိုလှောင်နိုင်မှု မြင့်မားသော ဆလင်ဒါ တပ်ဆင်ထားသည့်အတွက် ပါဝါစတီယာရင်သည် အချိုးအကွေ့များတွင် ညင်သာစွာချိုးကွေ့နိုင်သည့်အတွက်အလုပ်ပိုမို တွင်ကျယ်စွာ လုပ်နိုင်စွမ်းအားရှိသည်။ စက်မောင်းနေစဉ် အချိန်အတွင်း စက်မောင်းသူကိုင်ထားသော လက်မှ စတီယာရင် တုန်ခါမှုအား လျော့ချ ပေးထားသည့်အတွက်သက်တောင့်သက်သာ ဖြစ်စေသည်။
+                </div>
 
-                            </p>
+                <!-- Dropdown 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature4')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">ပိုမိုလျင်မြန်စွာ ဆောင်ရွက်နိုင်ခြင်း</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature4" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="md:flex md:flex-row-reverse md:items-start">
+                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                                <img
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/2606e08334/img_index_20.jpg"
+                                    class="w-full h-full object-cover md:rounded-lg"
+                                >
+                            </div>
+                            <div class="p-4 md:w-2/3 md:pl-8">
+                                <p class="text-sm text-gray-600 mt-2 leading-8">
+                                အပြည့်အ၀ အရှိန်နှုန်းတူညီစွာ လည်ပတ်စေသည့် ဂီယာပြောင်းစနစ်ကြောင့် သင်မောင်းနှင်နေသည့် အချိန်မှာ ဂီယာပြောင်းသည့်တိုင် ဆူညံမှုနှင့် ခက်ခဲမှု မရှိပါ။
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16084916/img_index_062.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၄။ စွမ်းအင်ပြည့် ထရန်စမစ်ရှင်း</h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ဒီဇိုင်း အသစ်ဖြင့် ကြာရှည် အသုံးပြုနိုင် သော ထရန်စမစ်ရှင်းတပ်ဆင်ထားသည်။ ရှေ့ဂီယာ ၈ ချက် နောက်ဂီယာ ၈ ချက် အသုံးပြုနိုင်သော ထရန်စမစ်ရှင်း၏ အသွင်ပြင်နှင့် စွမ်းဆောင်ရည်တို့သည် လယ်ကွင်းနှင့် ကောက်ပဲသီးနှံကွင်းစသည် တို့တွင် Yanmar အင်ဂျင်နှင့်တွဲဖက်ပြီး ကောင်းသည် ထက်ကောင်းအောင် စွမ်းဆောင်နိုင်မည် ဖြစ်သည်။
+                </div>
 
-                            </p>
+                <!-- Dropdown 5 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature5')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">အခြားတပ်ဆင်ထားသော ပစ္စည်းများ</span>
                         </div>
-                    </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://www.yanmar.com/media/news/2020/01/16085004/img_index_073.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၅။ ပြုပြင် ထိန်းသိမ်းရ လွယ်ကူခြင်း                           </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">စက်ဖုံးကလစ်တချက် ဆွဲကာဖွင့်ရုံဖြင့် နေ့စဉ်သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းမှုတို့ကို လွယ်ကူစွာပြုလုပ်နိုင်သည့်အတွက် စက်သက်တမ်းကြာရှည်စွာ အသုံးပြုနိုင်မှာဖြစ်ပါသည်။
+                        <svg 
+                            id="arrowFeature5" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature5" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1: Digital Meter -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/1f86b3510f/img_index_33.jpg" 
+                                         alt="ကြီးမားသော ဒီဂျစ်တယ်ကိန်း" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ကြီးမားသော ဒီဂျစ်တယ်ကိန်း</h3>
+                                    <p class="text-gray-600 leading-relaxed">မီတာပေါ်တွင်ကိန်းဂဏန်းများ အလွယ်တကူ ဖတ်ရှုနိုင်ခြင်းကြောင့် တနေ့တာ အလုပ်လုပ်ဆောင်ချိန်အတွင်း ထပ်မံ ဖြည့်တင်းရန်မလိုပါ။</p>
+                                </div>
 
+                                <!-- Feature 2: Headlights -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/eccd0013c7/img_index_34.jpg" 
+                                         alt="လင်းအားမြင့် ရှေ့မီး" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">လင်းအားမြင့် ရှေ့မီး</h3>
+                                    <p class="text-gray-600 leading-relaxed">နေ့အချိန်သည် အချိန်မရွေး အလုပ်လုပ်ဆောင်နိုင်သောကြောင့် တနေ့တာ အလုပ်လုပ်ဆောင်ချိန်အတွင်း ထပ်မံ ဖြည့်တင်းရန်မလိုပါ။</p>
+                                </div>
 
-                            </p>
+                                <!-- Feature 3: Gear Shift -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/72d2fa7100/img_index_35.jpg" 
+                                         alt="ဂီယာ အားသွင်းခလုတ်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ဂီယာ အားသွင်းခလုတ်</h3>
+                                    <p class="text-gray-600 leading-relaxed">လက်ကိုင်ပင်နှင့် အခြေအရာများကို အလွယ်တကူ ထိန်းချုပ်နိုင်ပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 4: Cup Holder -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/2dd4af1b3e/img_index_37.jpg" 
+                                         alt="အောက်ခံ ပစ္စည်းခွက်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">အောက်ခံ ပစ္စည်းခွက်</h3>
+                                    <p class="text-gray-600 leading-relaxed">အသေးအဖွဲ့ပစ္စည်းများ ထည့်သွင်းထားနိုင်သည့် နေရာများ ထည့်သွင်းပေးထားပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 5: Tool Box -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/b7c5932abe/img_index_38.jpg" 
+                                         alt="ကိရိယာများထည့်ရန် သေတ္တာ" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ကိရိယာများထည့်ရန် သေတ္တာ</h3>
+                                    <p class="text-gray-600 leading-relaxed">ခြေနင်း အနားတွင်တည်ရှိသောကြောင့် အလွယ်တကူ အသုံးပြုနိုင်ပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 6: ROPS -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9cda45f400/img_index_36.jpg" 
+                                         alt="ROPS" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ROPS</h3>
+                                    <p class="text-gray-600 leading-relaxed">ခေါက်သိမ်းနိုင်သည့် အမိုးကို စံချိန်စံညွှန်းနှင့်အညီ ပါရှိပါသည်။</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </a>
-                {{-- <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
+                </div>
+
+                <!-- Dropdown 6 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature6')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">Smart Assist</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature6" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature6" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="md:flex md:flex-row-reverse md:items-start">
+                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
-                                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/6.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
+                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/a997291de8/img_index_02.jpg"
+                                    class="w-full h-full object-cover md:rounded-lg"
                                 >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၆။ လွယ်ကူစွာ ကြိုးချိန်ညှိနိုင်ခြင်း
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">မည်သည့်ကိရိယာမှ အသုံးမလိုပဲ ပူလီကြိုးကို လွယ်ကူစွာ ချိန်ညှိနိုင်ပါသည်။</p>
+                            </div>
+                            <div class="p-4 md:w-2/3 md:pl-8">
+                                <p class="text-sm text-gray-600 mt-2 leading-8">
+                                GPS စနှစ်ကြောင့် စက်၏တည်နေရာ ဘယ်နေရာမှာရှိတယ် အခြားအာရုံခံစနှစ်တွေ ကြောင့်စက်ဘာဖြစ်နေတယ်ဆိုတာတွေ ဘယ်နေရာမှာ အလုပ်လုပ်နေတယ်ဆိုတာတွေကို အတိကျသိရှိနိုင်ပါသည်။ စက်ပျက်ယွင်းမှုများ နှင့် မလိုလားအပ်သော အမှားယွင်းများကို လျှော့ချပေးနိုင်ခြင်းကြောင့် အပိုငွေကုန်နိုင်မှုများ မရှိနိုင်တော့ပါ။
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/7.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
+                </div>
+
+                <!-- Dropdown 7 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature7')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ပြုပြင် ထိန်းသိမ်းနိုင်ခြင်း</span>
                         </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၇။ လေစစ် ( အစိုစစ်)
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">မည်မျှသေးငယ်သော ဖုန်မှုန့်များကိုမဆို လွတ်ထွတ်မသွားအောင် ဆီသုံး၍ စစ်ထုတ်နိုင်သောကြောင့် သန့်စင်သောလေကို အင်ဂျင်အတွက် ပေးစွမ်းနိုင်ပါသည်။</p>
-                        </div>
-                    </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/8.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၈။ ရှေ့မီးခလုတ်                            </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ရှေ့မီးကို လက်ကိုင်းတန်းနေရာမှ အဖွင့်ပိတ်လုပ်နိုင်သည်။ မီးကြီး မီးသေး ပြောင်းနိုင်သည်။
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/9.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၉။ အကူကလပ်
-                        </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">မလိုလားအပ်ပဲ စက်၏ လက်ကိုင်တန်း မြင့်တက်သွားပါက လက်ကိုင်အောက်မှ ကလပ်ကို ပိတ်နိုင်ပါသည်။
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a  class="block">
-                    <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                        <!-- Image Section -->
-                        <div class="relative aspect-[4/3] w-full">
-                                <img
-                                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/features/gt1/10.jpg"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
-                        </div>
-                        <div class="p-4">
-                        <h6 class="text-l font-semibold text-gray-800 mb-2">၁၀။ ဂီယာ ဘောက်                            </h6>
-                            <p class="text-sm text-gray-600 mt-2 leading-8">ကလပ်ပြား ၄ပြားအသုံးပြုထားပြီး သက်တန်းကြာရှည်စွာ အသုံးပြုနိုင်သည့် ဘယ်ရင်များကို အသုံးပြုထားသော FCD ဂီယာဘောက်ဖြစ်ပါသည်။ ရေဝင်ခံနိုင်ရန်အတွက်လည်း ဝိုင်းစည်းများကို တပ်ဆင်ထားပါသည်။
-                            </p>
+                        <svg 
+                            id="arrowFeature7" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature7" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1: Engine Parts -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9688f110e1/img_index_40.jpg" 
+                                         alt="စက်အစိတ်အပိုင်း" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">စက်အဖုံး</h3>
+                                    <p class="text-gray-600 leading-relaxed">အပူဒဏ်ခံ စက်အဖုံးအား ၈၀ ဒီဂရီအထိ လွယ်ကူစွာ ဖွင့်နိုင်ပိတ်နိုင်ပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 2: Oil Filter -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/bbe35fa92a/img_index_41.jpg" 
+                                         alt="ဆီစစ်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">အမဲဆီ ထိုးရန်နေရာ</h3>
+                                    <p class="text-gray-600 leading-relaxed">အမဲဆီ ထိုးရန်နေရာများသည် သင့်တော်လွယ်ကူသည့် နေရာများတွင် တည်ရှိခြင်းကြောင့် လိုအပ်သည့် အချိန်များတွင် လွယ်ကူစွာ ပြုလုပ်နိုင်ပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 3: Engine Oil -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/468f4e87b2/img_index_43.jpg" 
+                                         alt="အင်ဂျင်ဝိုင်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ဆီ ရေစစ်                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">အင်ဂျင်အတွင်းသို့ ရေနှင့် အညစ်အကြေးများဝင်ရောက်ခြင်းမှ ကာကွယ်ပေးနိုင်ပါသည်။</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </a> --}}
+                </div>
+
+                <!-- Dropdown 8 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature8')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">စစ်မှန်သောအပိုပစ္စည်း</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature8" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature8" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1: Engine Parts -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/4499bc0db5/img_index_45.jpg" 
+                                         alt="စက်အစိတ်အပိုင်း" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2"></h3>
+                                    <p class="text-gray-600 leading-relaxed">ယန်းမာ၏ စစ်မှန်သော အပိုပစ္စည်းများသည် သင့်စက်၏သက်တမ်းနှင့် စွမ်းဆောင်ရည်ကို ပိုမိုရှည်ကြာစေမှာဖြစ်ပါတယ်။</p>
+                                </div>
+
+                                <!-- Feature 2: Oil Filter -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/90d2a04b43/img_index_46.jpg" 
+                                         alt="ဆီစစ်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">သာမာန်ထက်ပိုအသုံးခံသော ဂီယာဆီ TF500T                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">နာရီ ၆၀၀ အထိ အသုံးခံသောကြောင့် ဆီလဲလှယ်ရသည့် အချိန် နှင့် ငွေကုန် သက်သာစေပါတယ်။</p>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dropdown 9 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature9')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">အခြားရွေးချယ်နိုင်မှု</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature9" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature9" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1: Engine Parts -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/fad9054417/img_index_47.jpg" 
+                                         alt="စက်အစိတ်အပိုင်း" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ရှေ့ဝိတ်တုံး (1A8253-10300)                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">ရှေ့ဝိတ်ချိတ်ရန်ကြားခံတုံး (1A8253-10200)
+                                    ၃၀ ကီလိုဂရမ်ရှိသော ဝိတ်တုံး ၅ တုံးအထိ ချိတ်ဆက်နိုင်ပါသည်</p>
+                                </div>
+
+                                <!-- Feature 2: Oil Filter -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/4aaa01d381/img_index_50.jpg" 
+                                         alt="ဆီစစ်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">နောက်ထယ်ရေးကြည့်မီး (1A8253-54100)                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">ညဘက်မောင်းနှင်သည့်အချိန်တွင် နောက်တွင်ရှိသော ထယ်ရေးနှင့်အခြားအရာများကို လွယ်ကူစွာကြည့်နိုင်ပါသည်။</p>
+                                </div>
+
+                                <!-- Feature 3: Engine Oil -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/72e68ed50c/img_index_51.jpg" 
+                                         alt="အင်ဂျင်ဝိုင်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ထွန်စက် အမိုးကိုင်းပေါ်တွင် LED မီးသီး (1A8253-54910)                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">ကို တပ်ဆင်ထားသောကြောင့် မိမိလိုချင်တော နေရာသို့ (ရှေ့/နောက်/ဘယ်/ညာ) မီးအလင်းရောင်ဖြင့် ကြည့်နိုင်မှာ ဖြစ်ပါသည်။</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dropdown 10 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button 
+                        onclick="toggleMainFeature('feature10')" 
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">နောက်တွဲထွန်ယက်ရေး ပစ္စည်းများ</span>
+                        </div>
+                        <svg 
+                            id="arrowFeature10" 
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            viewBox="0 0 24 24" 
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature10" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1: Engine Parts -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/c30af4632d/img_index_52.jpg" 
+                                         alt="စက်အစိတ်အပိုင်း" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">မြေမွစက်                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">မြေမွခြင်း၊ မြေချေခြင်း၊ မြေညှိခြင်း၊</p>
+                                </div>
+
+                                <!-- Feature 2: Oil Filter -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/5718f0b102/img_index_53.jpg" 
+                                         alt="ဆီစစ်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ထွန်ခုံ                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">မြေလှန်ခြင်း ၊ မြေမွခြင်း ၊ မြေညှိခြင်း ၊</p>
+                                </div>
+
+                                <!-- Feature 3: Engine Oil -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9cc3f55727/img_index_54.jpg" 
+                                         alt="အင်ဂျင်ဝိုင်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ထယ်ခုံ                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">မြေလှန်ခြင်း</p>
+                                </div>
+
+                                <!-- Feature 4: Engine Oil -->
+                                <div class="flex flex-col">
+                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/568516ba2c/img_index_55.jpg" 
+                                         alt="အင်ဂျင်ဝိုင်" 
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ရှေ့ဂေါ်                                    </h3>
+                                    <p class="text-gray-600 leading-relaxed">မြေယာဖေါ်ခြင်း ၊ မြေတွန်းညှိခြင်း</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+   <div class="main-features">
+    <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
+        <!-- Specification Dropdown Button -->
+        <button 
+            
+            onclick="toggleSpecifications()" 
+            class="w-full flex items-center justify-between text-white px-4 py-3 rounded-lg focus:outline-none transition-colors duration-200"
+        >
+            <span class="text-2xl font-semibold" style="color: #000; font-size: 18px;">အသေးစိတ်အချက်အလက်များ</span>
+            <svg 
+                id="specArrow" 
+                class="w-6 h-6 transform transition-transform duration-200" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24" 
+                xmlns="http://www.w3.org/2000/svg"
+                style="color: #000;"
+            >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+
+        <!-- Specification Content -->
+        <div id="specificationsContent" class="hidden mt-4 transition-all duration-300 ease-in-out">
+            <div class="overflow-x-auto">
+                <table class="min-w-full border-collapse border border-gray-300 text-sm">
+                    <thead>
+                        <tr class="bg-gray-700 text-white">
+                            <th colspan="2" class="border border-gray-300 px-2 py-2 font-semibold">စက်အမျိုးအစား</th>
+                            <th class="border border-gray-300 px-2 py-2 font-semibold">EF725FD</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Engine Section -->
+                        <tr class="bg-gray-100">
+                            <td rowspan="8" class="border border-gray-300 px-2 py-2 font-medium text-center">အင်ဂျင်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">မော်ဒယ်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">4TNV98</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">အမျိုးအစား</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဒလက်တိုက်ရိုက်ဆီဖျန်းစနစ်၊ ရေအေးအင်ဂျင်</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">အထွတ်အားထုတ်နှုန်း</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">72(53.1)/2500</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">PTO တွင်ရရှိသည့်စွမ်းအားထုတ်နှုန်း</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">62.5(46.0)/2500</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">အင်ဂျင်ဝင်ဆံ့</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">3319</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">အင်ဂျင်အချင်းနှင့်အရှည်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">98x110</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဘက်ထရီ</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">12</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဆီလှောင်ကန်ပမာဏ</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">70</td>
+                        </tr>
+
+                        <!-- Dimensions Section -->
+                        <tr class="bg-gray-100">
+                            <td rowspan="10" class="border border-gray-300 px-2 py-2 font-medium text-center">မောင်းနှင်မှုစနစ်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">ထွန်စက်ကိုယ်ထည်အချင်း</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">အပြည့်အဝနေရာချထားနိုင်သောလည်ပတ်မှုစနစ်ပါရှိ</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">တာယာ ရှေ့</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">9.5-24</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">တာယာ နောက်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">16.9-30</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ကလပ်အမျိုးအစား</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">အခြောက်အမျိုးအစား တစ်ထပ်တည်း</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ပင်မဂီယာ</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">constant mesh, main shift-synchro mesh</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">နောက်ဂီယာ</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">Synchro mesh</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဂီယာအရေအတွက်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">ရှေ့ ၈ ချက်၊ နောက် ၈ ချက်</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဆီပန့်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">နှစ်ဆင့်ပြုလုပ်ထားသောဟိုက်ဒရောလစ်</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဘရိတ်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဆီစိမ်ဘရိတ်</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">စတီယာရင်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">Mechanical (စက်မှု)</td>
+                        </tr>
+
+                        <!-- Additional Sections -->
+                        <tr class="bg-gray-100">
+                            <td rowspan="2" class="border border-gray-300 px-2 py-2 font-medium text-center">အမြန်နှုန်း</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">ရှေ့သို့</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">2.9-31.8</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">နောက်သို့</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">3.0-32.4</td>
+                        </tr>
+
+                        <!-- PTO Section -->
+                            <td colspan="2" class="border border-gray-300 px-2 py-2 font-medium text-center">အလေးချိန် [ကီလိုဂရမ်]</td>
+                            
+                            
+                            <td class="border border-gray-300 px-2 py-2 text-center">1850</td>
+                            
+                        </tr>
+
+                        <!-- Tires Section -->
+                         <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="10">မောင်းနှင်််််််််မှုစနစ်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">တာယာ ရှေ့ [inch]</td>
+                             
+                            <td class="border border-gray-300 px-2 py-2 text-center">8-18</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">တာယာ နောက် [inch]</td>
+                            
+                            <td class="border border-gray-300 px-2 py-2 text-center">13.6-28H</td>
+                            
+                        </tr>
+                         <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ကလပ်</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">အခြေခြောက် အမျိုးအစား၊ တစ်ထပ်တည်း</td>
+                        </tr>
+                         <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">ဘရိတ်</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">ဆီစိမ်ဘရိတ်</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                             <td class="border border-gray-300 px-2 py-2 text-center">စတီယာရင်</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">ပါဝါစတီယာရင်</td>
+                        </tr>
+                         <tr class="bg-white">
+                             <td class="border border-gray-300 px-2 py-2 text-center">ပင်မဂီယာ</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">စင်ခရိုမက်ရှ်</td>
+                        </tr>
+                         <tr class="bg-gray-100">
+                             <td class="border border-gray-300 px-2 py-2 text-center">နောက်ဂီယာ</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">စံ</td>
+                        </tr>
+                        <tr class="bg-white">
+                             <td class="border border-gray-300 px-2 py-2 text-center">ဂီယာအရေအတွက်</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">ရှေ့ ၈ ချက်၊ နောက် ၈ ချက်</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                        <td class="border border-gray-300 px-2 py-2 text-center">အမြန်နှုန်း ရှေ့သို့ [km/hr]</td>
+                             
+                             <td class="border border-gray-300 px-2 py-2 text-center">2.7-30.8</td>
+                             
+                        </tr>
+                        <tr class="bg-white">
+                        <td class="border border-gray-300 px-2 py-2 text-center">အမြန်နှုန်း နောက်သို့ [km/hr]</td>
+                             
+                             <td class="border border-gray-300 px-2 py-2 text-center">2.7-30.8</td>
+                             
+                        </tr>
+
+                        <!-- 3-Point Hitch Section -->
+                        
+                       
+                        <tr class="bg-gray-100">
+                            <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="4">ဟိုက်ဒရောလစ်စနစ်</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">လိုက်ပါပစ္စည်း ထိန်းချုပ်မှုစနစ်</td>
+                             <td colspan="3" class="border border-gray-300 px-2 py-2 text-center">ပုံစံစနစ် ထိန်းချုပ်မှုစနစ်</td>
+                        </tr>
+                        <tr class="bg-white">
+                            <td class="border border-gray-300 px-2 py-2 text-center">နေရာချထားမှုနှင့် ဆွဲအားထိန်းချုပ်မှု *<br>အပေါက်အရွယ်အစားအမျိုးအစား</td>
+                            <td class="border border-gray-300 px-2 py-2 text-center">Category 1</td>
+                            
+                        </tr>
+                        <tr class="bg-gray-100">
+                             <td class="border border-gray-300 px-2 py-2 text-center">အနိမ့်ဆုံးချိတ်ဆက်တံ အဆုံး မှ [kN (kgf)]</td>
+                             <td colspan="3" class="border border-gray-300 px-2 py-2 text-center">14.2 (1450)</td>
+                        </tr>
+                        <tr class="bg-white">
+                             <td class="border border-gray-300 px-2 py-2 text-center">နောက် ၂၄ လက်မနေရာတွင်မတင်နိုင်စွမ်း [kN (kgf)]</td>
+                             <td colspan="3" class="border border-gray-300 px-2 py-2 text-center">12.2 (1250)</td>
+                        </tr>
+
+                        <!-- PTO Section -->
+                         <tr class="bg-gray-100">
+                             <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="4">စွမ်းအင်ထုတ်ယူသုံးစွဲခြင်း (PTO)</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">အမျိုးအစား</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">သီးသန့်</td>
+                        </tr>
+                        <tr class="bg-white">
+                             <td class="border border-gray-300 px-2 py-2 text-center">ရှပ် အရွယ်အစား</td>
+                             <td class="border border-gray-300 px-2 py-2 text-center">SAE 1-3/8, 6-Splines</td>
+                        </tr>
+                        <tr class="bg-gray-100">
+                             <td class="border border-gray-300 px-2 py-2 text-center">ဂီယာ ၁ [PTO အမြန်နှုန်း / အင်ဂျင် RPM]</td>
+                             
+                             <td class="border border-gray-300 px-2 py-2 text-center">540/2096</td>
+                        </tr>
+                        <tr class="bg-white">
+                             <td class="border border-gray-300 px-2 py-2 text-center">ဂီယာ ၂ [PTO အမြန်နှုန်း / အင်ဂျင် RPM]</td>
+                             
+                             <td class="border border-gray-300 px-2 py-2 text-center">750/2092</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+   </div>
+
     <!-- SECOND SECTION -->
-    <div class="bg-white rounded-lg shadow-lg p-6">
-        <h6 class="text-xl font-semibold text-gray-800 mb-4">
-        Main Features
-        </h6>
-            <!-- Spare Section -->
-        <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <!-- Video Section -->
-            <div class="video-container mt-5">
-                <div class="practical-video-wraper video-wrapper">
-                    <div class="video-item">
-                        <iframe class="video_styling"
-                                src="https://youtube.com/embed/e_fHlrWZ57g"
-                                frameborder="0"
-                                allowfullscreen>
-                        </iframe>
+    <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
+        <!-- <h6 class="text-2xl font-bold text-gray-800 mb-8 text-center">
+            Main Features
+        </h6> -->
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video Section -->
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                    frameborder="0"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
                 </div>
-                <!-- MAIN CONTENT END -->
-                 <!-- Catalog Section -->
-            <div class="catalog-container mt-4 product-detail-list-container">
-                <h2 class="catalog-main-header header-lg fw-bold mb-4">Catalog</h2>
-                <div class="catalog-list-wraper d-flex flex-wrap">
-                    <div class="catalog-wraper product-detail-list-item">
-                        <div class="catalog-left-container">
-                            <h4 class="catalog-name product-detail-list-item-name">GT-1 Walking Tractor</h4>
-                            <span class="catalog-emphasis product-detail-list-item-emphasis">Download</span>
-                        </div>
+
+                <!-- Catalog Section -->
+                <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-book-open text-green-600 mr-3"></i>
+                        Catalog
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
                         <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
-                            class="catalog-link"
-                            target="_blank">
-                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                                    target="_blank">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">YM358R</h4>
+                                    <span class="text-sm text-green-600">Download</span>
+                                </div>
+                                
+                                    <i class="fas fa-arrow-right"></i>
+                                
+                            </div>
                         </a>
-                    </div>
-
-                    <div class="catalog-wraper product-detail-list-item">
-                        <div class="catalog-left-container">
-                            <h4 class="catalog-name product-detail-list-item-name">TF-120 Engine</h4>
-                            <span class="catalog-emphasis product-detail-list-item-emphasis">Download</span>
                         </div>
+
+                        <!-- <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
                         <a href="https://drive.google.com/file/d/1FJBU8bef87D1q93PdTLZ9du2P2vb-Vo8/view?usp=sharing"
-                            class="catalog-link"
-                            target="_blank">
-                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                                    target="_blank">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">TF-120 Engine</h4>
+                                    <span class="text-sm text-green-600">Download</span>
+                                </div>
+                                
+                                    <i class="fas fa-arrow-right"></i>
+                                
+                            </div>
                         </a>
+                        </div> -->
                     </div>
                 </div>
-                <div class="spacer spacer-md"></div>
-            </div>
 
-            <!-- Service Experts Section -->
-            <div class="sale-expert-container product-detail-list-container">
-                <h2 class="sale-expert-header header-lg fw-bold mb-4">Sale Expert</h2>
-                <div class="sale-expert-wraper d-flex flex-wrap">
-                    <div class="sale-expert product-detail-list-item">
-                        <img src="{{ asset('vendor/image/sale-expert/zin-mon-soe.jpg') }}"
-                                alt="Zin Mon Soe"
-                                class="sale-expert-img">
-                        <div class="sale-expert-info-wraper">
-                            <h4 class="sale-expert-name product-detail-list-item-name">
-                                Zin Mon Soe
-                            </h4>
-                            <span class="sale-expert-phone product-detail-list-item-emphasis">09443121444</span>
-                        </div>
-                        <a href="tel:09443121444" class="sale-expert-phone-call">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                        </a>
-                    </div>
-
-                    <div class="sale-expert product-detail-list-item">
-                        <img src="{{ asset('vendor/image/sale-expert/pwint-hsu-wai.jpg') }}"
-                                alt="Pwint Hsu Wai"
-                                class="sale-expert-img">
-                        <div class="sale-expert-info-wraper">
-                            <h4 class="sale-expert-name product-detail-list-item-name">
-                                Pwint Hsu Wai
-                            </h4>
-                            <span class="sale-expert-phone product-detail-list-item-emphasis">09795540593</span>
-                        </div>
-                        <a href="tel:09795540593" class="sale-expert-phone-call">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="service-container mt-5">
-                <h2 class="service-header header-lg fw-bold mb-4">Our Services</h2>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title text-green-600 mb-3">၁။ စက်အသုံးမပြုမီ သင်တန်းပေးခြင်း။</h5>
-                                <p class="card-text text-gray-600">
-                                    စက်ကြီးများအား မှန်ကန်စွာနှင့်ဘေးကင်းလုံခြုံစွာ အသုံးပြုနိုင်ရန် စက်ကိုင်တွယ်မောင်းနှင်မှုသင်တန်းများကို စက်အသုံးမပြုမီ စရိတ်ငြိမ်းသင်ကြားပေးပါသည်။
-                                </p>
+                <!-- Service Experts Section -->
+                <div class="sale-expert-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-headset text-green-600 mr-3"></i>
+                        Sale Expert
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
+                            <div class="flex items-center">
+                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/zin-mon-soe.jpg"
+                                    alt="Zin Mon Soe"
+                                    class="w-12 h-12 rounded-full object-cover mr-4">
+                                <div class="flex-1">
+                                    <h4 class="font-medium text-gray-800">Zin Mon Soe</h4>
+                                    <span class="text-sm text-gray-600">09443121444</span>
+                                </div>
+                                <a href="tel:09443121444" class="text-green-600 hover:text-green-700 transition-colors duration-200">
+                                    <i class="fas fa-phone"></i>
+                                </a>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title text-green-600 mb-3">၂။ စက်မအပ်မီ စစ်ဆေးပေးခြင်း။</h5>
-                                <p class="card-text text-gray-600">
-                                    စက်ဝယ်ယူသူများအနေဖြင့် မိမိဝယ်ယူသောစက်အသစ်ကို ချွတ်ယွင်းမှုကင်းစွာဖြင့် စိတ်ချလက်ချထုတ်ယူနိုင်ရန် စနစ်တကျစစ်ဆေးပြီး အပ်နှံပေးပါသည်။
-                                </p>
+                        <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
+                            <div class="flex items-center">
+                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/pwint-hsu-wai.jpg"
+                                    alt="Pwint Hsu Wai"
+                                    class="w-12 h-12 rounded-full object-cover mr-4">
+                                <div class="flex-1">
+                                    <h4 class="font-medium text-gray-800">Pwint Hsu Wai</h4>
+                                    <span class="text-sm text-gray-600">09795540593</span>
+                                </div>
+                                <a href="tel:09795540593" class="text-green-600 hover:text-green-700 transition-colors duration-200">
+                                    <i class="fas fa-phone"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Service Section End -->
-            </div>
+
+                <!-- Services Section -->
+                <div class="service-container col-span-1 md:col-span-2 lg:col-span-3 bg-white rounded-xl shadow-lg p-6 mt-8">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-cogs text-green-600 mr-3"></i>
+                        Our Services
+                    </h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gradient-to-br from-green-50 to-white rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                            <div class="flex items-center mb-4">
+                                
+                                <h5 class="text-lg font-semibold text-green-700">၁။ စက်အသုံးမပြုမီ သင်တန်းပေးခြင်း။</h5>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed">
+                                စက်ကြီးများအား မှန်ကန်စွာနှင့်ဘေးကင်းလုံခြုံစွာ အသုံးပြုနိုင်ရန် စက်ကိုင်တွယ်မောင်းနှင်မှုသင်တန်းများကို စက်အသုံးမပြုမီ စရိတ်ငြိမ်းသင်ကြားပေးပါသည်။
+                            </p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-green-50 to-white rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
+                            <div class="flex items-center mb-4">
+                                
+                                <h5 class="text-lg font-semibold text-green-700">၂။ စက်မအပ်မီ စစ်ဆေးပေးခြင်း။</h5>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed">
+                                စက်ဝယ်ယူသူများအနေဖြင့် မိမိဝယ်ယူသောစက်အသစ်ကို ချွတ်ယွင်းမှုကင်းစွာဖြင့် စိတ်ချလက်ချထုတ်ယူနိုင်ရန် စနစ်တကျစစ်ဆေးပြီး အပ်နှံပေးပါသည်။
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 
 
 </section>
+
+<!-- Add JavaScript for toggle functionality -->
+<script>
+    function toggleSpecifications() {
+        const content = document.getElementById('specificationsContent');
+        const arrow = document.getElementById('specArrow');
+        
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            arrow.classList.add('rotate-180');
+        } else {
+            content.classList.add('hidden');
+            arrow.classList.remove('rotate-180');
+        }
+    }
+</script>
+
+<script>
+    function toggleMainFeature(featureId) {
+        const content = document.getElementById(featureId);
+        const arrow = document.getElementById('arrow' + featureId.charAt(0).toUpperCase() + featureId.slice(1));
+        
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            arrow.classList.add('rotate-180');
+        } else {
+            content.classList.add('hidden');
+            arrow.classList.remove('rotate-180');
+        }
+    }
+</script>

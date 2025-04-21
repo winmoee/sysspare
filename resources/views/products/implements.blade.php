@@ -213,7 +213,7 @@
             @foreach($productsByCategory as $category => $products)
                 @if($category === 'Implements')
                     <div class="mb-12" id="{{ Str::slug($category) }}">
-                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.imp') }}</h2>
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.ip') }}</h2>
                         <br>
                         
                         <!-- Yanmar Products -->
