@@ -4,6 +4,7 @@ use App\Http\Controllers\SpareController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WavePaymentController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
@@ -211,5 +212,7 @@ Route::get('/language/{locale}', function($locale) {
     }
     return redirect()->back();
 })->name('locale.switch');
+
+Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 
 require __DIR__.'/auth.php';

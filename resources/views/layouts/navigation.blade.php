@@ -55,7 +55,7 @@
                                 style="display: none;">
                                 <div class="py-2">
                                 <div class="px-4 py-2 text-med text-gray-700 font-medium">{{ __('messages.product') }}</div>
-                                    
+
                                     <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
                                     <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
                                     <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
@@ -210,37 +210,11 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- CONTACT Dropdown -->
-                        <div class="relative group" x-data="{ open: false }">
-                            <!-- Button Trigger -->
-                            <button @click="open = !open" @click.away="open = false"
-                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent group-hover:border-gray-400">
-                                {{ __('messages.contact') }}
-                                <svg class="ml-1 h-4 w-4 transition-transform duration-200" :class="{ 'rotate-180': open }"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
 
-                            <!-- Dropdown Menu -->
-                            <div x-show="open" x-transition:enter="transition ease-out duration-200"
-                                x-transition:enter-start="opacity-0 transform scale-95"
-                                x-transition:enter-end="opacity-100 transform scale-100"
-                                x-transition:leave="transition ease-in duration-75"
-                                x-transition:leave-start="opacity-100 transform scale-100"
-                                x-transition:leave-end="opacity-0 transform scale-95"
-                                class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
-                                style="display: none;">
-                                <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.contact') }}</div>
-                                    <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100" >{{ __('messages.sales') }}</a>
-                                    <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100" >{{ __('messages.service') }}</a>
-                                    <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
-                                    <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Contact Link -->
+                        <a href="{{ url('/contact') }}" class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent hover:border-gray-400">
+                            {{ __('messages.contact') }}
+                        </a>
                     @endauth
                 </div>
             </div>
@@ -362,7 +336,7 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                     <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.product') }}</div>
-                                
+
                                 <!-- <a href="{{ url('/products#combine-harvester') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.hvr') }}</a> -->
                                 <a href="{{ url('/walkingtractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.wtr') }}</a>
                                 <a href="{{ url('/tractor') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{{ __('messages.ttr') }}</a>
@@ -461,10 +435,10 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.contact') }}</div>
-                        <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
+                       <!-- <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
                         <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
                         <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.spare') }}</a>
-                        <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>
+                        <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>-->
                     </div>
                 </div>
 
