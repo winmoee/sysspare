@@ -202,4 +202,31 @@ MEB Payment allows for better financial management, as the buyer can make monthl
 //End of division.blade.php//
 
     // Add all your English text strings here
+'contactus'=>'Contact us',
+'salesphone'=>'Sales Phone Number',
+'servicephone'=>'Service Phone Number',
+'sparephone'=>'Spare Phone Number',
+
+
+'reachus'=>'Reach out to us now!',
+'roname'=>' Name',
+'roemail'=>'Email',
+'rophone'=>'Phone Number',
+'rosub'=>'Subject',
+'romessage'=>'Message',
+'rosend'=>'Send Message',
+
+'location'=>'Our Location',
+'branch'=>'Our Branches',
+'branch1'=>'YANGON',
+'branch1add'=>'No. (C-9), Mya Tharaphy Street, Mya Seinn Yaung Industrial Zone, Near Dagon Ayeyar Highway Gate, Hlaingthaya Township, Yangon',
+'branch2'=>'PATHEIN',
+'branch2add'=>'DIG Industrial Zone, Kimmalin Island Quarter, Pathein.',
+'branch3'=>'HINTHADA',
+'branch3add'=>'No. D-18 Leltaw Car Park, Hinthada Township.',
+'branch4'=>'SHWEBO',
+'branch4add'=>'No. Azaya (4/137), Yay Oo Road, Shwebo.',
+'branch5'=>'TAUNGGYI',
+'branch5add'=>'No. (6/17), Union Road, Mingalar Shwe Baho Ward, Shwe Nyaung Township (near Tayaw Fried food shop).',
+
 ];
