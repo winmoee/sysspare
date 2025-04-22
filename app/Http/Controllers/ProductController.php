@@ -176,7 +176,6 @@ public function implements():View
      */
     public function store(Request $request)
     {
-        //
         $validated = $request->validate([
             'message' => 'nullable|string|max:255',
             'category' => 'nullable|string|max:255',
@@ -191,7 +190,7 @@ public function implements():View
             'price_range' => 'nullable|string|max:255',
             'slug' => 'nullable|string|max:255',
         ]);
- 
+
         $request->user()->products()->create($validated);
  
         return redirect(route('products.index'));
