@@ -10,7 +10,7 @@
                         <div class="flex items-center gap-3 mb-3">
                             <a href="/" class="text-green-400 hover:text-red-500 transition-colors font-semibold text-xl">Home</a>
                             <span class="text-white text-xl">»</span>
-                            <span class="text-white text-xl">Contact Us</span>
+                            <span class="text-white text-xl">{{ __('messages.contactus') }}</span>
                         </div>
                         <h2 class="text-4xl md:text-5xl font-bold text-white">
                {{ __('messages.contact') }}
@@ -38,7 +38,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                                 </svg>
                             </div>
-                            <span id="sales-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.sales') }}</span>
+                            <span id="sales-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.salesphone') }}</span>
                         </div>
                     </button>
                     <div id="sales-content" class="hidden pl-7 pt-4 pb-2">
@@ -149,7 +149,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
                                 </svg>
                             </div>
-                            <span id="service-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.service') }}</span>
+                            <span id="service-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.servicephone') }}</span>
                         </div>
                     </button>
                     <div id="service-content" class="hidden pl-7 pt-4 pb-2">
@@ -223,7 +223,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                                 </svg>
                             </div>
-                            <span id="spare-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.spare') }}</span>
+                            <span id="spare-text" class="text-2xl font-bold group-hover:text-red-600">{{ __('messages.sparephone') }}</span>
             </div>
                     </button>
                     <div id="spare-content" class="hidden pl-7 pt-4 pb-2">
@@ -338,7 +338,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                 </div>
-                                <h2 class="text-3xl font-bold text-black">Reach out to us now!</h2>
+                                <h2 class="text-3xl font-bold text-black">{{ __('messages.reachout') }}</h2>
                             </div>
 
                             <form id="contactForm" onsubmit="sendEmail(event)" class="space-y-6">
@@ -348,7 +348,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                                             </svg>
-                                            Name
+                                            {{ __('messages.roname') }}
                                         </label>
                                         <input type="text" id="name" name="name" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-2 focus:ring-gray-200 transition-all duration-300" placeholder="Your name" required>
                                     </div>
@@ -358,7 +358,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                             </svg>
-                                            Email
+                                            {{ __('messages.roemail') }}
                                         </label>
                                         <input type="email" id="email" name="email" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-2 focus:ring-gray-200 transition-all duration-300" placeholder="your.email@example.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address">
                                     </div>
@@ -369,7 +369,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                         </svg>
-                                        Phone Number
+                                        {{ __('messages.rophone') }}
                                     </label>
                                     <input type="tel" id="phone" name="phone" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-2 focus:ring-gray-200 transition-all duration-300" placeholder="Your phone number" required pattern="[0-9]+" title="Please enter numbers only" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                                 </div>
@@ -379,7 +379,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                                         </svg>
-                                        Subject
+                                        {{ __('messages.rosub') }}
                                     </label>
                                     <input type="text" id="subject" name="subject" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-2 focus:ring-gray-200 transition-all duration-300" placeholder="What's this about?" required>
                                 </div>
@@ -389,14 +389,14 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                                         </svg>
-                                        Message
+                                        {{ __('messages.romessage') }}
                                     </label>
                                     <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-black focus:ring-2 focus:ring-gray-200 transition-all duration-300" placeholder="Type your message here..." required></textarea>
                                 </div>
 
                                 <div class="flex justify-end mt-6">
                                     <button type="submit" class="px-8 py-4 bg-black text-white font-bold rounded-lg hover:bg-gray-800 transform hover:scale-105 hover:shadow-xl transition-all duration-300">
-                                        Send Message
+                                        {{ __('messages.rosend') }}
                                     </button>
                                 </div>
                             </form>
@@ -406,89 +406,72 @@
 
                 <!-- Regions List -->
                 <div class="w-full md:w-1/3 p-8">
-                    <h3 class="text-2xl font-bold text-black mb-6">Our Branches</h3>
+                    <h3 class="text-2xl font-bold text-black mb-6">{{ __('messages.branch') }}</h3>
                     <div class="space-y-4 divide-y divide-gray-200">
                         <!-- YANGON -->
                         <div class="pt-4">
                             <button onclick="toggleBranch('yangon')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
-                                YANGON
+                                {{ __('messages.branch1') }}
                             </button>
                             <div id="yangon" class="hidden mt-2 pl-6">
-                                <p class="text-gray-700 mb-2">No.163, Thirimon 10th Street, Mayangone Township, Yangon, Myanmar</p>
-                                <p class="text-gray-600">Ph: (09) 5322915, (09) 260352136</p>
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch1add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 04222503, (09) 429000422 ,(09) 429717242</p>
                             </div>
                         </div>
 
                         <!-- MANDALAY -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('mandalay')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('pathein')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
-                                MANDALAY
+                                {{ __('messages.branch2') }}
                             </button>
-                            <div id="mandalay" class="hidden mt-2 pl-6">
-                                <p class="text-gray-700 mb-2">Chan Aye Thar Zan Township, Mandalay</p>
-                                <p class="text-gray-600">Ph: (09) 457186675</p>
+                            <div id="pathein" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch2add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 04222503</p>
                             </div>
                         </div>
 
                         <!-- SHAN -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('shan')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('hinthada')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
-                                SHAN
+                                {{ __('messages.branch3') }}
                             </button>
-                            <div id="shan" class="hidden mt-2 pl-6">
-                                <p class="text-gray-700 mb-2">Taunggyi, Shan State</p>
-                                <p class="text-gray-600">Ph: (09) 457186676</p>
+                            <div id="hinthada" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch3add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 455338282</p>
                             </div>
                         </div>
 
                         <!-- NAYPYITAW -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('naypyitaw')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('shwebo')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
-                                NAYPYITAW
+                                {{ __('messages.branch4') }}
                             </button>
-                            <div id="naypyitaw" class="hidden mt-2 pl-6">
-                                <p class="text-gray-700 mb-2">Pyinmana Township, Naypyitaw</p>
-                                <p class="text-gray-600">Ph: (09) 457186677</p>
+                            <div id="shwebo" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch4add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 5038903</p>
                             </div>
                         </div>
 
                         <!-- MON -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('mon')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('taunggyi')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
-                                MON
+                                {{ __('messages.branch5') }}
                             </button>
-                            <div id="mon" class="hidden mt-2 pl-6">
-                                <p class="text-gray-700 mb-2">No(135/B)ZayKyo Santan Qtr, Mawlamyine-KyiteKhaMee Road, Mawlamyine</p>
-                                <p class="text-gray-600">Ph: (09) 5322915, (09) 260352136, (09) 457186675, (09) 457186676, (09) 457186677</p>
+                            <div id="taunggyi" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch5add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 798892668, (09) 798892669,</p>
                             </div>
                         </div>
 
                         <!-- MAGWAY -->
-                        <div class="pt-4">
-                            <button onclick="toggleBranch('magway')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
-                                <span class="mr-2">►</span>
-                                MAGWAY
-                            </button>
-                            <div id="magway" class="hidden mt-2 pl-6">
-                                <p class="text-gray-600">Coming Soon</p>
-                            </div>
-                        </div>
 
                         <!-- TANINTHARYI -->
-                        <div class="pt-4">
-                            <button onclick="toggleBranch('tanintharyi')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
-                                <span class="mr-2">►</span>
-                                TANINTHARYI
-                            </button>
-                            <div id="tanintharyi" class="hidden mt-2 pl-6">
-                                <p class="text-gray-600">Coming Soon</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -498,7 +481,7 @@
         <div class="max-w-7xl mx-auto px-6 lg:px-8 py-12">
             <div class="text-center mb-8">
 
-                <h2 class="text-3xl font-bold text-green-600">Our Location</h2>
+                <h2 class="text-3xl font-bold text-green-600">{{ __('messages.location') }}</h2>
                 <p class="mt-2 text-gray-600">Find us easily with Google Maps</p>
             </div>
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
@@ -607,7 +590,7 @@ ${message}
 
         function toggleBranch(id) {
             const content = document.getElementById(id);
-            const allContents = document.querySelectorAll('[id^="yangon"], [id^="mandalay"], [id^="shan"], [id^="naypyitaw"], [id^="mon"], [id^="magway"], [id^="tanintharyi"]');
+            const allContents = document.querySelectorAll('[id^="yangon"], [id^="pathein"], [id^="hinthada"], [id^="shwebo"], [id^="taunggyi"]');
             const allButtons = document.querySelectorAll('button[onclick^="toggleBranch"]');
 
             // Hide all other contents
