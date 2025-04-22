@@ -247,24 +247,51 @@ public function implements():View
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Product $product)
+    public function edit(Product $product): View
     {
-        //
+        Gate::authorize('update', $product);
+ 
+        return view('products.edit', [
+            'product' => $product,
+        ]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, Product $product): RedirectResponse
     {
-        //
+        Gate::authorize('update', $product);
+ 
+        $validated = $request->validate([
+            'message' => 'nullable|string|max:255',
+            'category' => 'nullable|string|max:255',
+            'part_number' => 'nullable|string|max:255',
+            'english_name' => 'nullable|string|max:255',
+            'myanmar_name' => 'nullable|string|max:255',
+            'price' => 'nullable|integer',
+            'stock_quantity' => 'nullable|integer',
+            'movement_level' => 'nullable|string|max:255',
+            'photo' => 'nullable|string|max:2550',
+            'category_type' => 'nullable|string|max:255',
+            'price_range' => 'nullable|string|max:255',
+            'slug' => 'nullable|string|max:255',
+        ]);
+ 
+        $product->update($validated);
+ 
+        return redirect(route('products.index'));
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Product $product)
+    public function destroy(Product $product): RedirectResponse
     {
-        //
+        Gate::authorize('delete', $product);
+ 
+        $product->delete();
+ 
+        return redirect(route('products.index'));
     }
 }
