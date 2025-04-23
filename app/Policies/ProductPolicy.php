@@ -45,7 +45,7 @@ class ProductPolicy
      */
     public function delete(User $user, Product $product): bool
     {
-        return $user->email === 'kyawwin@seinnyaungso.com';
+        return true;
     }
 
     /**
