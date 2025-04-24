@@ -766,11 +766,8 @@
 
     <!-- SECOND SECTION -->
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
-        <!-- <h6 class="text-2xl font-bold text-gray-800 mb-8 text-center">
-            Main Features
-        </h6> -->
         <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">  <!-- Ensure 50/50 split -->
                 <!-- Video Section -->
                 <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <div class="practical-video-wraper">
@@ -792,106 +789,21 @@
                     </h2>
                     <div class="space-y-4">
                         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing" <!-- Check if link/title needs updating -->
                                     class="text-green-600 hover:text-green-700 transition-colors duration-200"
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">YM358R</h4>
+                                    <h4 class="font-medium text-gray-800">Sifang 354</h4> <!-- Update title? -->
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
-                                
                                     <i class="fas fa-arrow-right"></i>
-                                
                             </div>
                         </a>
                         </div>
-
-                        <!-- <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1FJBU8bef87D1q93PdTLZ9du2P2vb-Vo8/view?usp=sharing"
-                                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
-                                    target="_blank">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <h4 class="font-medium text-gray-800">TF-120 Engine</h4>
-                                    <span class="text-sm text-green-600">Download</span>
-                                </div>
-                                
-                                    <i class="fas fa-arrow-right"></i>
-                                
-                            </div>
-                        </a>
-                        </div> -->
                     </div>
                 </div>
-
-                <!-- Service Experts Section -->
-                <div class="sale-expert-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
-                        <i class="fas fa-headset text-green-600 mr-3"></i>
-                        Sale Expert
-                    </h2>
-                    <div class="space-y-4">
-                        <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                            <div class="flex items-center">
-                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/zin-mon-soe.jpg"
-                                    alt="Zin Mon Soe"
-                                    class="w-12 h-12 rounded-full object-cover mr-4">
-                                <div class="flex-1">
-                                    <h4 class="font-medium text-gray-800">Zin Mon Soe</h4>
-                                    <span class="text-sm text-gray-600">09443121444</span>
-                                </div>
-                                <a href="tel:09443121444" class="text-green-600 hover:text-green-700 transition-colors duration-200">
-                                    <i class="fas fa-phone"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="sale-expert bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                            <div class="flex items-center">
-                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/sale-expert/pwint-hsu-wai.jpg"
-                                    alt="Pwint Hsu Wai"
-                                    class="w-12 h-12 rounded-full object-cover mr-4">
-                                <div class="flex-1">
-                                    <h4 class="font-medium text-gray-800">Pwint Hsu Wai</h4>
-                                    <span class="text-sm text-gray-600">09795540593</span>
-                                </div>
-                                <a href="tel:09795540593" class="text-green-600 hover:text-green-700 transition-colors duration-200">
-                                    <i class="fas fa-phone"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Services Section -->
-                <div class="service-container col-span-1 md:col-span-2 lg:col-span-3 bg-white rounded-xl shadow-lg p-6 mt-8">
-                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
-                        <i class="fas fa-cogs text-green-600 mr-3"></i>
-                        Our Services
-                    </h2>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <div class="bg-gradient-to-br from-green-50 to-white rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
-                            <div class="flex items-center mb-4">
-                                
-                                <h5 class="text-lg font-semibold text-green-700">၁။ စက်အသုံးမပြုမီ သင်တန်းပေးခြင်း။</h5>
-                            </div>
-                            <p class="text-gray-600 leading-relaxed">
-                                စက်ကြီးများအား မှန်ကန်စွာနှင့်ဘေးကင်းလုံခြုံစွာ အသုံးပြုနိုင်ရန် စက်ကိုင်တွယ်မောင်းနှင်မှုသင်တန်းများကို စက်အသုံးမပြုမီ စရိတ်ငြိမ်းသင်ကြားပေးပါသည်။
-                            </p>
-                        </div>
-
-                        <div class="bg-gradient-to-br from-green-50 to-white rounded-xl p-6 hover:shadow-lg transition-shadow duration-300">
-                            <div class="flex items-center mb-4">
-                                
-                                <h5 class="text-lg font-semibold text-green-700">၂။ စက်မအပ်မီ စစ်ဆေးပေးခြင်း။</h5>
-                            </div>
-                            <p class="text-gray-600 leading-relaxed">
-                                စက်ဝယ်ယူသူများအနေဖြင့် မိမိဝယ်ယူသောစက်အသစ်ကို ချွတ်ယွင်းမှုကင်းစွာဖြင့် စိတ်ချလက်ချထုတ်ယူနိုင်ရန် စနစ်တကျစစ်ဆေးပြီး အပ်နှံပေးပါသည်။
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Service Experts and Services sections removed -->
             </div>
         </div>
     </div>

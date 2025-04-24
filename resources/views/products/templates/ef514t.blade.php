@@ -230,7 +230,7 @@
         </h6>
             <!-- Spare Section -->
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <!-- Video Section -->
             <div class="video-container mt-5">
                 <div class="practical-video-wraper video-wrapper">
@@ -274,70 +274,6 @@
                 <div class="spacer spacer-md"></div>
             </div>
 
-            <!-- Service Experts Section -->
-            <div class="sale-expert-container product-detail-list-container">
-                <h2 class="sale-expert-header header-lg fw-bold mb-4">Sale Expert</h2>
-                <div class="sale-expert-wraper d-flex flex-wrap">
-                    <div class="sale-expert product-detail-list-item">
-                        <img src="{{ asset('vendor/image/sale-expert/zin-mon-soe.jpg') }}"
-                                alt="Zin Mon Soe"
-                                class="sale-expert-img">
-                        <div class="sale-expert-info-wraper">
-                            <h4 class="sale-expert-name product-detail-list-item-name">
-                                Zin Mon Soe
-                            </h4>
-                            <span class="sale-expert-phone product-detail-list-item-emphasis">09443121444</span>
-                        </div>
-                        <a href="tel:09443121444" class="sale-expert-phone-call">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                        </a>
-                    </div>
-
-                    <div class="sale-expert product-detail-list-item">
-                        <img src="{{ asset('vendor/image/sale-expert/pwint-hsu-wai.jpg') }}"
-                                alt="Pwint Hsu Wai"
-                                class="sale-expert-img">
-                        <div class="sale-expert-info-wraper">
-                            <h4 class="sale-expert-name product-detail-list-item-name">
-                                Pwint Hsu Wai
-                            </h4>
-                            <span class="sale-expert-phone product-detail-list-item-emphasis">09795540593</span>
-                        </div>
-                        <a href="tel:09795540593" class="sale-expert-phone-call">
-                            <i class="fas fa-phone" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="service-container mt-5">
-                <h2 class="service-header header-lg fw-bold mb-4">Our Services</h2>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title text-green-600 mb-3">၁။ စက်အသုံးမပြုမီ သင်တန်းပေးခြင်း။</h5>
-                                <p class="card-text text-gray-600">
-                                    စက်ကြီးများအား မှန်ကန်စွာနှင့်ဘေးကင်းလုံခြုံစွာ အသုံးပြုနိုင်ရန် စက်ကိုင်တွယ်မောင်းနှင်မှုသင်တန်းများကို စက်အသုံးမပြုမီ စရိတ်ငြိမ်းသင်ကြားပေးပါသည်။
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title text-green-600 mb-3">၂။ စက်မအပ်မီ စစ်ဆေးပေးခြင်း။</h5>
-                                <p class="card-text text-gray-600">
-                                    စက်ဝယ်ယူသူများအနေဖြင့် မိမိဝယ်ယူသောစက်အသစ်ကို ချွတ်ယွင်းမှုကင်းစွာဖြင့် စိတ်ချလက်ချထုတ်ယူနိုင်ရန် စနစ်တကျစစ်ဆေးပြီး အပ်နှံပေးပါသည်။
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Section End -->
             </div>
                 </div>
             </div>

@@ -766,11 +766,8 @@
 
     <!-- SECOND SECTION -->
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
-        <!-- <h6 class="text-2xl font-bold text-gray-800 mb-8 text-center">
-            Main Features
-        </h6> -->
         <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">  <!-- Ensure 50/50 split -->
                 <!-- Video Section -->
                 <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <div class="practical-video-wraper">
@@ -792,7 +789,7 @@
                     </h2>
                     <div class="space-y-4">
                         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing" <!-- Check if link/title needs updating -->
                                     class="text-green-600 hover:text-green-700 transition-colors duration-200"
                                     target="_blank">
                             <div class="flex items-center justify-between">
