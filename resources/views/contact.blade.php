@@ -416,55 +416,99 @@
                             </button>
                             <div id="yangon" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch1add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 04222503, (09) 429000422 ,(09) 429717242</p>
+                                <p class="text-gray-600">Ph: (09) 443209947, (09) 795540591 </p>
                             </div>
                         </div>
 
                         <!-- MANDALAY -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('pathein')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('showroom')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch2') }}
                             </button>
-                            <div id="pathein" class="hidden mt-2 pl-6">
+                            <div id="showroom" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch2add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 04222503</p>
+                                <p class="text-gray-600">Ph: (09) 443121222, (09) 443121333, (09) 443121444</p>
                             </div>
                         </div>
 
                         <!-- SHAN -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('hinthada')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('spare')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch3') }}
                             </button>
-                            <div id="hinthada" class="hidden mt-2 pl-6">
+                            <div id="spare" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch3add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 455338282</p>
+                                <p class="text-gray-600">Ph: (09) 798892678, (09) 798890818, (09) 798890815</p>
                             </div>
                         </div>
 
                         <!-- NAYPYITAW -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('shwebo')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('service')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch4') }}
                             </button>
-                            <div id="shwebo" class="hidden mt-2 pl-6">
+                            <div id="service" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch4add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 5038903</p>
+                                <p class="text-gray-600">Ph: (09) 254334384, (09) 798892680</p>
                             </div>
                         </div>
 
                         <!-- MON -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('taunggyi')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('pathein')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch5') }}
                             </button>
-                            <div id="taunggyi" class="hidden mt-2 pl-6">
+                            <div id="pathein" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch5add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 798892668, (09) 798892669,</p>
+                                <p class="text-gray-600">Ph: (09) 429000422, (09) 798892675, (09) 5199759</p>
+                            </div>
+                        </div>
+
+                        <div class="pt-4">
+                            <button onclick="toggleBranch('patheinservice')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                                <span class="mr-2">►</span>
+                                {{ __('messages.branch6') }}
+                            </button>
+                            <div id="patheinservice" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch6add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 429000422, (09) 798892675, (09) 5199759</p>
+                            </div>
+                        </div>
+
+                        <div class="pt-4">
+                            <button onclick="toggleBranch('hinthada')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                                <span class="mr-2">►</span>
+                                {{ __('messages.branch7') }}
+                            </button>
+                            <div id="hinthada" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch7add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 455338282, (09) 784636426</p>
+                            </div>
+                        </div>
+
+                        <div class="pt-4">
+                            <button onclick="toggleBranch('shwebo')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                                <span class="mr-2">►</span>
+                                {{ __('messages.branch8') }}
+                            </button>
+                            <div id="shwebo" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch8add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 5038903, (09) 763856556</p>
+                            </div>
+                        </div>
+
+                        <div class="pt-4">
+                            <button onclick="toggleBranch('taunggyi')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                                <span class="mr-2">►</span>
+                                {{ __('messages.branch9') }}
+                            </button>
+                            <div id="taunggyi" class="hidden mt-2 pl-6">
+                                <p class="text-gray-700 mb-2">{{ __('messages.branch8add') }}</p>
+                                <p class="text-gray-600">Ph: (09) 798892668, (09) 798892669</p>
                             </div>
                         </div>
 
@@ -590,7 +634,7 @@ ${message}
 
         function toggleBranch(id) {
             const content = document.getElementById(id);
-            const allContents = document.querySelectorAll('[id^="yangon"], [id^="pathein"], [id^="hinthada"], [id^="shwebo"], [id^="taunggyi"]');
+            const allContents = document.querySelectorAll('[id^="yangon"], [id^="showroom"], [id^="spare"], [id^="service"], [id^="pathein"],[id^="patheinservice"], [id^="hinthada"], [id^="shwebo"], [id^="taunggyi"]');
             const allButtons = document.querySelectorAll('button[onclick^="toggleBranch"]');
 
             // Hide all other contents
