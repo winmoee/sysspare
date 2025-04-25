@@ -37,7 +37,10 @@ class ProductPolicy
      */
     public function update(User $user, Product $product): bool
     {
-        return $user->email === 'kyawwin@seinnyaungso.com';
+        return in_array($user->email, [
+            'kyawwin@seinnyaungso.com',
+            'kyisinthein6940@gmail.com'
+        ]);
     }
 
     /**
