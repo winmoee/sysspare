@@ -39,7 +39,9 @@ class ProductPolicy
     {
         return in_array($user->email, [
             'kyawwin@seinnyaungso.com',
-            'kyisinthein6940@gmail.com'
+            'kyisinthein6940@gmail.com',
+            'naychiwin04@gmail.com',
+            'kaungsanthin1111@gmail.com'
         ]);
     }
 
