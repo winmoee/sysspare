@@ -213,7 +213,7 @@
             @foreach($productsByCategory as $category => $products)
                 @if($category === 'Diesel Engine')
                     <div class="mb-12" id="{{ Str::slug($category) }}">
-                        <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.de') }}</h2>
+                        <h2 class="text-2xl font-bold text-gray-900 mb-4">{{ __('messages.de') }}</h2>
                         <br>
                         
                         <!-- Yanmar Products -->
@@ -344,7 +344,17 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 @foreach($products as $product)
                                     @if($product->category_type !== 'Yanmar' && $product->category_type !== 'ACE' && $product->category_type !== 'Sifang')
-                                        <div class="bg-white shadow-sm rounded-lg p-6">
+                                        <div class="bg-white shadow-sm rounded-lg p-6 relative">
+                                            @if(Str::contains($product->english_name, 'Shifeng'))
+                                                <div class="smallfang" style="background-color: #db150b; width: 90px; height: 30px; border-radius: 20px; position: absolute; top: 16px; left: 16px; z-index: 10;">
+                                                    <p class="sifang" style="color: white; text-align: center; align-items: center; padding-top: 4px; letter-spacing: -1px; font-weight: 600;">SHIFENG</p>
+                                                </div>
+                                            @endif
+                                            @if(Str::contains(Str::lower($product->english_name), 'kubota'))
+                                                <div class="smallkubota" style="background-color: #F36F21; width: 90px; height: 30px; border-radius: 20px; position: absolute; top: 16px; left: 16px; z-index: 10;">
+                                                    <p class="kubota" style="color: white; text-align: center; align-items: center; padding-top: 4px; letter-spacing: -1px; font-weight: 600;">KUBOTA</p>
+                                                </div>
+                                            @endif
                                             @if($product->photo)
                                                 <img src="{{ $product->photo }}" class="w-full h-64 object-cover rounded-lg mb-4" alt="{{ $product->english_name }}">
                                             @else
