@@ -23,15 +23,16 @@
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="relative">
                 <!-- Main Hero Image -->
-                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png"
+                <!-- <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png"
                      alt="စစ်မှန်စျေးချို စိမ်းရောင်စို"
-                     class="w-full h-auto rounded-lg mainimg">
+                     class="w-full h-auto rounded-lg mainimg"> -->
+                     <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/background/bbg.png" style="border-radius: 10px;">
 
                 <!-- Hero Text Overlay -->
-                <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50">
+                <!-- <div class="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/50">
                     <h2 class="text-white text-3xl font-bold">{{__('messages.seinyaungso')}}</h2>
                     <p class="text-white mt-2">{{__('messages.seinyaungso')}}</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
