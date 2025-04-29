@@ -400,4 +400,5 @@
             }))
         })
     </script>
+    @include('layouts.footer')
 </x-app-layout>
