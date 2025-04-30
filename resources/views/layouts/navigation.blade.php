@@ -4,11 +4,14 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
-                <div class="shrink-0 flex items-center">
-                    <a href="{{ url('/') }}">
+                <div class="shrink-0 flex items-center gap-2">
+                    <a href="{{ url('/') }}" class="flex items-center gap-2">
                         <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png"
-                            class="block h-9 w-auto"
+                            class="block h-10 w-auto"
                             alt="SYS Logo">
+                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/background/sysletter.png"
+                            class="h-8 w-auto object-contain sm:hidden block"
+                            alt="Seinn Yaung So Manufacturing Company Limited">
                     </a>
                 </div>
 
