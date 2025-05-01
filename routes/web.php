@@ -215,4 +215,54 @@ Route::get('/language/{locale}', function($locale) {
 
 Route::post('/contact/submit', [ContactController::class, 'submit'])->name('contact.submit');
 
+// Temporary route for product export (Remember to remove this after use!)
+Route::get('/export-products', function () {
+    $products = Product::all();
+    
+    $headers = [
+        'Content-Type' => 'text/csv',
+        'Content-Disposition' => 'attachment; filename=products_export.csv',
+    ];
+    
+    $callback = function() use ($products) {
+        $handle = fopen('php://output', 'w');
+        
+        // Add headers
+        fputcsv($handle, [
+            'category',
+            'part_number',
+            'english_name',
+            'myanmar_name',
+            'price',
+            'stock_quantity',
+            'movement_level',
+            'category_type',
+            'price_range',
+            'photo',
+            'slug'
+        ]);
+        
+        // Add data rows
+        foreach ($products as $product) {
+            fputcsv($handle, [
+                $product->category,
+                $product->part_number,
+                $product->english_name,
+                $product->myanmar_name,
+                $product->price,
+                $product->stock_quantity,
+                $product->movement_level,
+                $product->category_type,
+                $product->price_range,
+                $product->photo,
+                $product->slug
+            ]);
+        }
+        
+        fclose($handle);
+    };
+    
+    return response()->stream($callback, 200, $headers);
+})->middleware('auth');
+
 require __DIR__.'/auth.php';
