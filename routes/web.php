@@ -265,4 +265,22 @@ Route::get('/export-products', function () {
     return response()->stream($callback, 200, $headers);
 })->middleware('auth');
 
+// Temporary route to delete problematic product (Remember to remove this route after use!)
+Route::get('/delete-implement-product', function () {
+    try {
+        $product = Product::where('category', 'Implements')
+                         ->where('english_name', 'Plough frame')
+                         ->first();
+        
+        if ($product) {
+            $product->delete();
+            return "Product deleted successfully!";
+        }
+        
+        return "Product not found.";
+    } catch (\Exception $e) {
+        return "Error: " . $e->getMessage();
+    }
+})->middleware(['auth']);
+
 require __DIR__.'/auth.php';
