@@ -199,324 +199,46 @@
                     </div>
                 </div>
 
-                <!-- Dropdown 5 -->
-                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature5')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">အခြားတပ်ဆင်ထားသော ပစ္စည်းများ</span>
-                        </div>
-                        <svg
-                            id="arrowFeature5"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature5" class="hidden border-t border-gray-200 bg-gray-50">
-                        <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1: Digital Meter -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/1f86b3510f/img_index_33.jpg"
-                                         alt="ကြီးမားသော ဒီဂျစ်တယ်ကိန်း"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ကြီးမားသော ဒီဂျစ်တယ်ကိန်း</h3>
-                                    <p class="text-gray-600 leading-relaxed">မီတာပေါ်တွင်ကိန်းဂဏန်းများ အလွယ်တကူ ဖတ်ရှုနိုင်ခြင်းကြောင့် တနေ့တာ အလုပ်လုပ်ဆောင်ချိန်အတွင်း ထပ်မံ ဖြည့်တင်းရန်မလိုပါ။</p>
-                                </div>
-
-                                <!-- Feature 2: Headlights -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/eccd0013c7/img_index_34.jpg"
-                                         alt="လင်းအားမြင့် ရှေ့မီး"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">လင်းအားမြင့် ရှေ့မီး</h3>
-                                    <p class="text-gray-600 leading-relaxed">နေ့အချိန်သည် အချိန်မရွေး အလုပ်လုပ်ဆောင်နိုင်သောကြောင့် တနေ့တာ အလုပ်လုပ်ဆောင်ချိန်အတွင်း ထပ်မံ ဖြည့်တင်းရန်မလိုပါ။</p>
-                                </div>
-
-                                <!-- Feature 3: Gear Shift -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/72d2fa7100/img_index_35.jpg"
-                                         alt="ဂီယာ အားသွင်းခလုတ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ဂီယာ အားသွင်းခလုတ်</h3>
-                                    <p class="text-gray-600 leading-relaxed">လက်ကိုင်ပင်နှင့် အခြေအရာများကို အလွယ်တကူ ထိန်းချုပ်နိုင်ပါသည်။</p>
-                                </div>
-
-                                <!-- Feature 4: Cup Holder -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/2dd4af1b3e/img_index_37.jpg"
-                                         alt="အောက်ခံ ပစ္စည်းခွက်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">အောက်ခံ ပစ္စည်းခွက်</h3>
-                                    <p class="text-gray-600 leading-relaxed">အသေးအဖွဲ့ပစ္စည်းများ ထည့်သွင်းထားနိုင်သည့် နေရာများ ထည့်သွင်းပေးထားပါသည်။</p>
-                                </div>
-
-                                <!-- Feature 5: Tool Box -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/b7c5932abe/img_index_38.jpg"
-                                         alt="ကိရိယာများထည့်ရန် သေတ္တာ"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ကိရိယာများထည့်ရန် သေတ္တာ</h3>
-                                    <p class="text-gray-600 leading-relaxed">ခြေနင်း အနားတွင်တည်ရှိသောကြောင့် အလွယ်တကူ အသုံးပြုနိုင်ပါသည်။</p>
-                                </div>
-
-                                <!-- Feature 6: ROPS -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9cda45f400/img_index_36.jpg"
-                                         alt="ROPS"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ROPS</h3>
-                                    <p class="text-gray-600 leading-relaxed">ခေါက်သိမ်းနိုင်သည့် အမိုးကို စံချိန်စံညွှန်းနှင့်အညီ ပါရှိပါသည်။</p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <button
+                    onclick="toggleMainFeature('feature3')"
+                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                >
+                    <div class="flex items-center">
+                        <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ပြုပြင် ထိန်းသိမ်းနိုင်ခြင်း</span>
                     </div>
-                </div> --}}
-
-                <!-- Dropdown 6 -->
-                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature6')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    <svg
+                        id="arrowFeature3"
+                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
                     >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">Smart Assist</span>
-                        </div>
-                        <svg
-                            id="arrowFeature6"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature6" class="hidden border-t border-gray-200 bg-gray-50">
-                        <div class="md:flex md:flex-row-reverse md:items-start">
-                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
-                                <img
-                                    src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/a997291de8/img_index_02.jpg"
-                                    class="w-full h-full object-cover md:rounded-lg"
-                                >
-                            </div>
-                            <div class="p-4 md:w-2/3 md:pl-8">
-                                <p class="text-sm text-gray-600 mt-2 leading-8">
-                                GPS စနှစ်ကြောင့် စက်၏တည်နေရာ ဘယ်နေရာမှာရှိတယ် အခြားအာရုံခံစနှစ်တွေ ကြောင့်စက်ဘာဖြစ်နေတယ်ဆိုတာတွေ ဘယ်နေရာမှာ အလုပ်လုပ်နေတယ်ဆိုတာတွေကို အတိကျသိရှိနိုင်ပါသည်။ စက်ပျက်ယွင်းမှုများ နှင့် မလိုလားအပ်သော အမှားယွင်းများကို လျှော့ချပေးနိုင်ခြင်းကြောင့် အပိုငွေကုန်နိုင်မှုများ မရှိနိုင်တော့ပါ။
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <!-- Dropdown 7 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature7')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ပြုပြင် ထိန်းသိမ်းနိုင်ခြင်း</span>
-                        </div>
-                        <svg
-                            id="arrowFeature7"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature7" class="hidden border-t border-gray-200 bg-gray-50">
-                        <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <div class="p-4 md:w-2/3 md:pl-8">
-                                    <p class="text-sm text-gray-600 mt-2 leading-8">
-                                        မြန်မာနိုင်ငံမှာ Sifang သုံးတဲ့သူများများရှိလို့ အစိတ်အပိုင်း (spare parts) တွေက လွယ်လွယ်နဲ့ ရနိုင်ပါသည်။
-                                        ရန်ကုန် ၊ မန္တလေး ၊ပုသိမ် စတဲ့မြို့တွေမှာ Tractor parts shop များမှာ ရနိုင်ပါတယ်။
-                                        တရုတ်ထုတ် Sifang 554 ဟာ စက်ပစ္စည်း များအများကြီး မပါတာကြောင့်, ရိုးရှင်းစွာနဲ့ ပြုပြင်လွယ်ပါတယ်။
-                                    </p>
-                                </div>
-
-                            </div>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div class="md:flex md:flex-row-reverse md:items-start">
+                        {{-- <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                            <img
+                                src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
+                                class="w-full h-full object-cover md:rounded-lg"
+                            >
+                        </div> --}}
+                        <div class="p-4 md:w-2/3 md:pl-8">
+                            <p class="text-sm text-gray-600 mt-2 leading-8">
+                                မြန်မာနိုင်ငံမှာ Sifang သုံးတဲ့သူများများရှိလို့ အစိတ်အပိုင်း (spare parts) တွေက လွယ်လွယ်နဲ့ ရနိုင်ပါသည်။
+                                ရန်ကုန် ၊ မန္တလေး ၊ပုသိမ် စတဲ့မြို့တွေမှာ Tractor parts shop များမှာ ရနိုင်ပါတယ်။
+                                တရုတ်ထုတ် Sifang 554 ဟာ စက်ပစ္စည်း များအများကြီး မပါတာကြောင့်, ရိုးရှင်းစွာနဲ့ ပြုပြင်လွယ်ပါတယ်။
+                            </p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Dropdown 8 -->
-                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature8')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">စစ်မှန်သောအပိုပစ္စည်း</span>
-                        </div>
-                        <svg
-                            id="arrowFeature8"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature8" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1: Engine Parts -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/4499bc0db5/img_index_45.jpg"
-                                         alt="စက်အစိတ်အပိုင်း"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2"></h3>
-                                    <p class="text-gray-600 leading-relaxed">ယန်းမာ၏ စစ်မှန်သော အပိုပစ္စည်းများသည် သင့်စက်၏သက်တမ်းနှင့် စွမ်းဆောင်ရည်ကို ပိုမိုရှည်ကြာစေမှာဖြစ်ပါတယ်။</p>
-                                </div>
-
-                                <!-- Feature 2: Oil Filter -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/90d2a04b43/img_index_46.jpg"
-                                         alt="ဆီစစ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">သာမာန်ထက်ပိုအသုံးခံသော ဂီယာဆီ TF500T                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">နာရီ ၆၀၀ အထိ အသုံးခံသောကြောင့် ဆီလဲလှယ်ရသည့် အချိန် နှင့် ငွေကုန် သက်သာစေပါတယ်။</p>
-                                </div>
+            </div>
 
 
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
 
-                <!-- Dropdown 9 -->
-                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature9')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">အခြားရွေးချယ်နိုင်မှု</span>
-                        </div>
-                        <svg
-                            id="arrowFeature9"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature9" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1: Engine Parts -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/fad9054417/img_index_47.jpg"
-                                         alt="စက်အစိတ်အပိုင်း"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ရှေ့ဝိတ်တုံး (1A8253-10300)                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">ရှေ့ဝိတ်ချိတ်ရန်ကြားခံတုံး (1A8253-10200)
-                                    ၃၀ ကီလိုဂရမ်ရှိသော ဝိတ်တုံး ၅ တုံးအထိ ချိတ်ဆက်နိုင်ပါသည်</p>
-                                </div>
-
-                                <!-- Feature 2: Oil Filter -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/4aaa01d381/img_index_50.jpg"
-                                         alt="ဆီစစ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">နောက်ထယ်ရေးကြည့်မီး (1A8253-54100)                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">ညဘက်မောင်းနှင်သည့်အချိန်တွင် နောက်တွင်ရှိသော ထယ်ရေးနှင့်အခြားအရာများကို လွယ်ကူစွာကြည့်နိုင်ပါသည်။</p>
-                                </div>
-
-                                <!-- Feature 3: Engine Oil -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/72e68ed50c/img_index_51.jpg"
-                                         alt="အင်ဂျင်ဝိုင်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ထွန်စက် အမိုးကိုင်းပေါ်တွင် LED မီးသီး (1A8253-54910)                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">ကို တပ်ဆင်ထားသောကြောင့် မိမိလိုချင်တော နေရာသို့ (ရှေ့/နောက်/ဘယ်/ညာ) မီးအလင်းရောင်ဖြင့် ကြည့်နိုင်မှာ ဖြစ်ပါသည်။</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-
-                <!-- Dropdown 10 -->
-                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature10')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">နောက်တွဲထွန်ယက်ရေး ပစ္စည်းများ</span>
-                        </div>
-                        <svg
-                            id="arrowFeature10"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature10" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1: Engine Parts -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/c30af4632d/img_index_52.jpg"
-                                         alt="စက်အစိတ်အပိုင်း"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">မြေမွစက်                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">မြေမွခြင်း၊ မြေချေခြင်း၊ မြေညှိခြင်း၊</p>
-                                </div>
-
-                                <!-- Feature 2: Oil Filter -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/5718f0b102/img_index_53.jpg"
-                                         alt="ဆီစစ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ထွန်ခုံ                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">မြေလှန်ခြင်း ၊ မြေမွခြင်း ၊ မြေညှိခြင်း ၊</p>
-                                </div>
-
-                                <!-- Feature 3: Engine Oil -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9cc3f55727/img_index_54.jpg"
-                                         alt="အင်ဂျင်ဝိုင်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ထယ်ခုံ                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">မြေလှန်ခြင်း</p>
-                                </div>
-
-                                <!-- Feature 4: Engine Oil -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/568516ba2c/img_index_55.jpg"
-                                         alt="အင်ဂျင်ဝိုင်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ရှေ့ဂေါ်                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">မြေယာဖေါ်ခြင်း ၊ မြေတွန်းညှိခြင်း</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
                         </div>
         </div>
     </div>

@@ -120,40 +120,44 @@
                     </div>
                 </div>
 
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('feature7')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                            <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <button
+                    onclick="toggleMainFeature('feature3')"
+                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                >
+                    <div class="flex items-center">
+                        <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ပြုပြင် ထိန်းသိမ်းနိုင်ခြင်း</span>
+                    </div>
+                    <svg
+                        id="arrowFeature3"
+                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
                     >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ပြုပြင် ထိန်းသိမ်းနိုင်ခြင်း</span>
-                        </div>
-                        <svg
-                            id="arrowFeature7"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="feature7" class="hidden border-t border-gray-200 bg-gray-50">
-                        <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <div class="p-4 md:w-2/3 md:pl-8">
-                                    <p class="text-sm text-gray-600 mt-2 leading-8">
-                                        မြန်မာနိုင်ငံမှာ Sifang သုံးတဲ့သူများများရှိလို့ အစိတ်အပိုင်း (spare parts) တွေက လွယ်လွယ်နဲ့ ရနိုင်ပါသည်။
-                                        ရန်ကုန် ၊ မန္တလေး ၊ပုသိမ် စတဲ့မြို့တွေမှာ Tractor parts shop များမှာ ရနိုင်ပါတယ်။
-                                        တရုတ်ထုတ် Sifang 554 ဟာ စက်ပစ္စည်း များအများကြီး မပါတာကြောင့်, ရိုးရှင်းစွာနဲ့ ပြုပြင်လွယ်ပါတယ်။
-                                    </p>
-                                </div>
-
-                            </div>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div class="md:flex md:flex-row-reverse md:items-start">
+                        {{-- <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                            <img
+                                src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
+                                class="w-full h-full object-cover md:rounded-lg"
+                            >
+                        </div> --}}
+                        <div class="p-4 md:w-2/3 md:pl-8">
+                            <p class="text-sm text-gray-600 mt-2 leading-8">
+                                မြန်မာနိုင်ငံမှာ Sifang သုံးတဲ့သူများများရှိလို့ အစိတ်အပိုင်း (spare parts) တွေက လွယ်လွယ်နဲ့ ရနိုင်ပါသည်။
+                                ရန်ကုန် ၊ မန္တလေး ၊ပုသိမ် စတဲ့မြို့တွေမှာ Tractor parts shop များမှာ ရနိုင်ပါတယ်။
+                                တရုတ်ထုတ် Sifang 554 ဟာ စက်ပစ္စည်း များအများကြီး မပါတာကြောင့်, ရိုးရှင်းစွာနဲ့ ပြုပြင်လွယ်ပါတယ်။
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
+
                 <!-- Dropdown 4 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
