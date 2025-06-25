@@ -51,7 +51,7 @@
         <div class="max-w-7xl mx-auto py-6 lg:py-8">
             <div class="space-y-4">
                 <!-- Dropdown 1 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature1')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -85,10 +85,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 2 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature2')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 3 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
@@ -131,7 +131,7 @@
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">ယာလုပ်ငန်းသုံးအထူးပြု</span>
+                            <span class="text-lg font-medium text-gray-700 text-left">ယာမြေထွန်ခြင်း / စိုက်ခြင်းအတွက် သင့်တော်</span>
                         </div>
                         <svg
                             id="arrowFeature3"
@@ -146,15 +146,16 @@
                     </button>
                     <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
-                            <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
+                            {{-- <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
                                     src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
                                     class="w-full h-full object-cover md:rounded-lg"
                                 >
-                            </div>
+                            </div> --}}
                             <div class="p-4 md:w-2/3 md:pl-8">
                                 <p class="text-sm text-gray-600 mt-2 leading-8">
-                                ထယ်ရေးအနက် ထိန်းညှိစနစ်သည် ထယ်ရေးအနက်ဆူး လွန်လာသည့် အချိန်များတွင် စက်အား ဝန်ပိုမှုမရှိစေဘဲ အလိုအလျောက် ထိန်းညှိပေးသော စနစ်ဖြစ်ပါသည်။ ဝန်ပိုရုန်းဆွဲ နေရသောကြောင့် ကြန့်ကြာနိုင်သည့်အချိန်များကို လျှော့ချပေးနိုင်သလို ထယ်ရေးအနက် ထိန်းညှိစနစ်ကြောင့် လုပ်ငန်းခွင်ကို လျင်မြန်စွာ ပြီးမြောက်နိုင်ပါသည်။
+                                    မြေကြမ်း၊ မြေပြန့်၊ လယ်မြေကြီးတွေအတွက် အသုံးပြုနိုင်တဲ့အင်အားရှိပါတယ်။
+                                    စိုသဲမြေများ၊ ကြမ်းတမ်းသောတောင်တန်းမြေများမှာ မပြတ်မခတ်ဆွဲနိုင်တယ်။
                                 </p>
                             </div>
                         </div>
@@ -191,7 +192,7 @@
                             </div>
                             <div class="p-4 md:w-2/3 md:pl-8">
                                 <p class="text-sm text-gray-600 mt-2 leading-8">
-                                အပြည့်အ၀ အရှိန်နှုန်းတူညီစွာ လည်ပတ်စေသည့် ဂီယာပြောင်းစနစ်ကြောင့် သင်မောင်းနှင်နေသည့် အချိန်မှာ ဂီယာပြောင်းသည့်တိုင် ဆူညံမှုနှင့် ခက်ခဲမှု မရှိပါ။
+                                    ပုံမှန် လယ်ထွန်ခြင်း၊ မြေဆီလွှာခြင်းများကို အလုံလောက်လျင်မြန်စွာ ဆောင်ရွက်နိုင်သည်။ လယ်ထဲကွေ့ဝင်ကွေ့ထွက် လွယ်ကူနိုင်ပါသည်။စိုစွတ်တဲ့မြေ၊ ပေခက်တဲ့မြေများမှာ သွားလာခြင်း အတွက်လည်း အဆင်ပြေပါသည်။ အလုပ်အမျိုးအစားပေါ်မူတည်ပြီး အရှိန်မြန်နှုန်း ချိန်ညှိနိုင် ပါသည်။
                                 </p>
                             </div>
                         </div>
@@ -199,7 +200,7 @@
                 </div>
 
                 <!-- Dropdown 5 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature5')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -277,10 +278,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 6 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature6')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -314,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 7 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
@@ -339,39 +340,21 @@
                     <div id="feature7" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="p-6">
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1: Engine Parts -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/9688f110e1/img_index_40.jpg"
-                                         alt="စက်အစိတ်အပိုင်း"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">စက်အဖုံး</h3>
-                                    <p class="text-gray-600 leading-relaxed">အပူဒဏ်ခံ စက်အဖုံးအား ၈၀ ဒီဂရီအထိ လွယ်ကူစွာ ဖွင့်နိုင်ပိတ်နိုင်ပါသည်။</p>
+                                <div class="p-4 md:w-2/3 md:pl-8">
+                                    <p class="text-sm text-gray-600 mt-2 leading-8">
+                                        မြန်မာနိုင်ငံမှာ Sifang သုံးတဲ့သူများများရှိလို့ အစိတ်အပိုင်း (spare parts) တွေက လွယ်လွယ်နဲ့ ရနိုင်ပါသည်။
+                                        ရန်ကုန် ၊ မန္တလေး ၊ပုသိမ် စတဲ့မြို့တွေမှာ Tractor parts shop များမှာ ရနိုင်ပါတယ်။
+                                        တရုတ်ထုတ် Sifang 554 ဟာ စက်ပစ္စည်း များအများကြီး မပါတာကြောင့်, ရိုးရှင်းစွာနဲ့ ပြုပြင်လွယ်ပါတယ်။
+                                    </p>
                                 </div>
 
-                                <!-- Feature 2: Oil Filter -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/bbe35fa92a/img_index_41.jpg"
-                                         alt="ဆီစစ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">အမဲဆီ ထိုးရန်နေရာ</h3>
-                                    <p class="text-gray-600 leading-relaxed">အမဲဆီ ထိုးရန်နေရာများသည် သင့်တော်လွယ်ကူသည့် နေရာများတွင် တည်ရှိခြင်းကြောင့် လိုအပ်သည့် အချိန်များတွင် လွယ်ကူစွာ ပြုလုပ်နိုင်ပါသည်။</p>
-                                </div>
-
-                                <!-- Feature 3: Engine Oil -->
-                                <div class="flex flex-col">
-                                    <img src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/468f4e87b2/img_index_43.jpg"
-                                         alt="အင်ဂျင်ဝိုင်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ဆီ ရေစစ်                                    </h3>
-                                    <p class="text-gray-600 leading-relaxed">အင်ဂျင်အတွင်းသို့ ရေနှင့် အညစ်အကြေးများဝင်ရောက်ခြင်းမှ ကာကွယ်ပေးနိုင်ပါသည်။</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Dropdown 8 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature8')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -415,10 +398,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 9 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature9')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -470,10 +453,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 <!-- Dropdown 10 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                {{-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
                         onclick="toggleMainFeature('feature10')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -533,8 +516,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> --}}
+                        </div>
         </div>
     </div>
 
