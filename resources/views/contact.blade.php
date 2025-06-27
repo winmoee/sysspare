@@ -531,8 +531,8 @@
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.4461886431786!2d96.09952839791292!3d16.857271589904684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195052ae63fed%3A0xeca6a1097d32723b!2sThiri%20Mon%2010th%20St%2C%20Yangon%2C%20Myanmar%20(Burma)!5e1!3m2!1sen!2ssg!4v1751008247967!5m2!1sen!2ssg"
-                    width="600"
-                    height="450"
+                    width="1200"
+                    height="550"
                     style="border:0;"
                     allowfullscreen=""
                     loading="lazy"

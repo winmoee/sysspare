@@ -10,8 +10,13 @@
       </div>
       <div class="flex items-center mb-3">
         <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
-        <span class="text-gray-800 text-base">+95 9 443 121 222</span>
+        <span class="text-gray-800 text-base">+95 9 443 121 222</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
+      <div class="flex items-center mb-3">
+        <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
+        <span class="text-gray-800 text-base">+95 9 443 121 333</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+
       <div class="flex items-center">
         <svg width="28" height="28" fill="none" stroke="#17633a" stroke-width="2" class="mr-4" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#17633a" stroke-width="2" fill="none"/><path d="M3 7l9 6 9-6" stroke="#17633a" stroke-width="2" fill="none"/></svg>
         <span class="text-gray-800 text-base">seinnyaungso@gmail.com</span>
@@ -37,15 +42,14 @@
       <h2 class="text-2xl font-bold text-green-800 mb-2 text-center">Our Location</h2>
       <br>
       <div class="bg-white rounded-2xl shadow-xl overflow-hidden w-full max-w-xs">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.7221999999997!2d96.1344!3d16.8056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1eb0a00000000%3A0x0!2zMTbCsDQ4JzIwLjIiTiA5NsKwMDgnMDMuOSJF!5e0!3m2!1sen!2smm!4v1234567890!5m2!1sen!2smm&markers=icon:https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png|16.8056,96.1344&markers=icon:https://maps.google.com/mapfiles/ms/icons/red-dot.png|16.8056,96.1344&q=No.163,+Thirimon+10th+Street,+Mayangone+Township,+Yangon,+Myanmar"
-          width="100%"
-          height="220"
-          class="border-0 block w-full"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.4461886431786!2d96.09952839791292!3d16.857271589904684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c195052ae63fed%3A0xeca6a1097d32723b!2sThiri%20Mon%2010th%20St%2C%20Yangon%2C%20Myanmar%20(Burma)!5e1!3m2!1sen!2ssg!4v1751008247967!5m2!1sen!2ssg"
+        width="100%"
+        height="220"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
       </div>
     </div>
   </div>
