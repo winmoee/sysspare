@@ -283,4 +283,21 @@ Route::get('/delete-implement-product', function () {
     }
 })->middleware(['auth']);
 
+// Temporary route to delete ALL products (Remember to remove this route after use!)
+Route::get('/delete-all-products', function () {
+    try {
+        $productCount = Product::count();
+        
+        if ($productCount === 0) {
+            return "No products found to delete.";
+        }
+        
+        Product::truncate();
+        
+        return "Successfully deleted {$productCount} products! Database has been reset.";
+    } catch (\Exception $e) {
+        return "Error deleting products: " . $e->getMessage();
+    }
+})->middleware(['auth']);
+
 require __DIR__.'/auth.php';
