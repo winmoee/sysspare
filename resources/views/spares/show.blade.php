@@ -79,10 +79,10 @@
                                     <p class="text-lg text-gray-600">{{ $spare->myanmar_name }}</p>
                                 </div>
                                 
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Part Number:</span>
                                     <p class="text-gray-900">{{ $spare->part_number }}</p>
-                                </div>
+                                </div> -->
 
                                 <div>
                                     <span class="text-sm font-medium text-gray-500">Category:</span>

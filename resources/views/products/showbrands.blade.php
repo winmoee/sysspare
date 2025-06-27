@@ -91,10 +91,10 @@
                                 </div>
 
                                 @if($product->part_number)
-                                <div>
+                                <!-- <div>
                                     <span class="text-sm font-medium text-gray-500">Part Number:</span>
                                     <p class="text-gray-900">{{ $product->part_number }}</p>
-                                </div>
+                                </div> -->
                                 @endif
                             </div>
                         </div>

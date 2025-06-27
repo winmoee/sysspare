@@ -41,10 +41,10 @@
                             <p class="mt-1 text-lg text-gray-900">Yanmar</p>
                         </div>
 
-                        <div>
+                        <!-- <div>
                             <h3 class="text-sm font-medium text-gray-500">Part Number:</h3>
                             <p class="mt-1 text-lg text-gray-900">57.6 HP</p>
-                        </div>
+                        </div> -->
 
                         <!-- Specifications Grid -->
                         <div class="grid grid-cols-2 gap-4 mt-6">

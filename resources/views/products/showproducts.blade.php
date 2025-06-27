@@ -101,10 +101,10 @@
                                         <dd class="mt-1 text-base font-medium text-gray-900">{{ $product->category_type }}</dd>
                                     </div>
                                     @if($product->part_number)
-                                    <div class="col-span-2">
+                                    <!-- <div class="col-span-2">
                                         <dt class="text-sm text-gray-500">Part Number</dt>
                                         <dd class="mt-1 text-base font-medium text-gray-900">{{ $product->part_number }}</dd>
-                                    </div>
+                                    </div> -->
                                     @endif
                                 </div>
                             </div>
