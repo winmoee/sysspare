@@ -755,11 +755,7 @@
                 <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <div class="practical-video-wraper">
                         <div class="video-item">
-                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
-                                    frameborder="0"
-                                    allowfullscreen>
-                            </iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ohc5mKKjDE?si=2tjuGOmvWiPRvCpW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

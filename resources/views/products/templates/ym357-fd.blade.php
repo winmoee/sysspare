@@ -5,15 +5,15 @@
             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">57.6PS
+                <td class="text-dark fs-6">57.0PS
                 </td>
             </tr>
-            <tr class="text-grey-color">
+            <!-- <tr class="text-grey-color">
                 <td class="py-1 fs-6">Weight</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">1850 kg
                 </td>
-            </tr>
+            </tr> -->
             {{-- <tr class="text-grey-color">
                 <td class="py-1 fs-6">Wheel</td>
                 <td class="ps-4 pe-2">-</td>

@@ -35,15 +35,15 @@
 
 
 
-<div class="bg-white rounded-lg shadow-lg p-6">
+<!-- <div class="bg-white rounded-lg shadow-lg p-6">
     <br>
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
     </h6>
-        <!-- Spare Section -->
+        
     <div class="max-w-7xl mx-auto py-6 lg:py-8">
         <div class="space-y-4">
-            <!-- Dropdown 1 -->
+         
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature1')"
@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown 2 -->
+            
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature2')"
@@ -112,7 +112,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown 3 -->
+           
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature3')"
@@ -141,7 +141,7 @@
                 </div>
             </div>
 
-            <!-- Dropdown 4 -->
+           
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature4')"
@@ -177,7 +177,7 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
 
