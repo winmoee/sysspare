@@ -3,7 +3,7 @@
     <div class="bg-white">
         <div class="max-w-full mx-auto">
             <div class="relative h-72 md:h-96 lg:h-[500px] overflow-hidden">
-                <img src="{{ asset('https://png.pngtree.com/thumb_back/fh260/background/20230216/pngtree-portrait-of-multi-cultural-office-staff-standing-in-lobby-image_1562888.jpg') }}" alt="Team Group Photo" class="w-full h-full object-cover object-center">
+                <img src="{{ asset('https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/sys_family.jpeg">
                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/60 to-transparent">
                     <div class="max-w-7xl mx-auto">
