@@ -172,6 +172,9 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'cash_down3'=>'➡ During the purchase process, you can pay directly in cash. No bank account is required.',
 'hp_title'=>'Available for Hire Purchase!',
 'hp1'=>'You can now purchase our products without having to make a full payment upfront — thanks to the Hire Purchase (HP) system supported by Seinn Yaung So Company.',
+'hp2'=>'What is the Hire Purchase (HP) system?',
+'hp3'=>'When purchasing a product, a portion of the payment is made upfront, and the remaining balance is paid in installments over a specified period.
+        This system allows you to purchase a product without having to pay the full amount at once, instead making monthly or scheduled installment payments over the agreed period.',
 'madb_title'=>'MEB (Myanmar Agricultural Development Bank)  Payment',
 'madb1'=>'Madb (Myanmar Agricultural Development Bank) is officially partnered with us, allowing you to purchase agricultural-related products with low-interest loan support.',
 'madb2'=>'The installment payment period is generally up to five years, enabling you to buy with confidence through monthly payments.',
