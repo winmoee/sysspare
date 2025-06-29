@@ -110,7 +110,12 @@
                 </h6>
                 <p class="text-gray-600 mb-4 leading-8">
                     {{ __('messages.hp1') }}
+
+                </p>
+                <p class="text-gray-600 mb-4 leading-8">
                     {{ __('messages.hp2') }}
+                </p>
+                <p class="text-gray-600 mb-4 leading-8">
                     {{ __('messages.hp3') }}
 
                 </p>
