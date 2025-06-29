@@ -2,7 +2,7 @@
 <div class="specification-container">
     <table class="table-striped">
         <tbody>
-            <tr class="text-grey-color">
+            <!--tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">72.0 PS
@@ -13,7 +13,7 @@
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">2250 kg
                 </td>
-            </tr>
+            </tr>-->
             {{-- <tr class="text-grey-color">
                 <td class="py-1 fs-6">Wheel</td>
                 <td class="ps-4 pe-2">-</td>
