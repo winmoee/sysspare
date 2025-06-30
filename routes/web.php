@@ -5,6 +5,7 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WavePaymentController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MarketController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
@@ -31,6 +32,10 @@ Route::get('/serviceaward', function () {
 Route::get('/market', function () {
     return view('service/market');
 });
+
+// Market category route
+Route::get('/market/category/{category}', [MarketController::class, 'category'])->name('market.category');
+
 Route::get('/feedback', function () {
     return view('service/feedback');
 });
