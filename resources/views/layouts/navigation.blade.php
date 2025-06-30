@@ -101,11 +101,11 @@
                                     </a>
                                     <a href="{{ url('/sales#madb') }}"
                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
-                                       {{ __('messages.madb') }}
+                                       {{ __('messages.hp') }}
                                     </a>
                                     <a href="{{ url('/sales#meb') }}"
                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
-                                       {{ __('messages.meb') }}
+                                       {{ __('messages.madb') }}
                                     </a>
                                 </div>
                             </div>
@@ -164,7 +164,7 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">   {{ __('messages.service_team') }}</div>
+                                    {{-- <div class="px-4 py-2 text-sm text-gray-700 font-medium">   {{ __('messages.service_team') }}</div> --}}
                                     <a href="{{ url('/serviceteam') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.service_team') }}</a>
                                     <a href="{{ url('/serviceworkshop') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service_workshop') }}</a>
                                     <a href="{{ url('/market') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.second_hand_market') }}</a>

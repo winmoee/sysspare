@@ -16,8 +16,99 @@
         </div>
     </div>
 
+    <!-- Transport Service Buttons -->
+    <div class="bg-gradient-to-br from-gray-50 to-gray-100 py-12">
+        <div class="max-w-7xl mx-auto p-6 lg:p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Button 1: ကုန်တင် -->
+                <a href="#" class="block group transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center border-l-4 border-blue-500 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-blue-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        <div class="flex justify-center mb-6">
+                            <div class="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center shadow-inner">
+                                <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FuqBASiafntLxxzNmnv5U.jpg" alt="ကုန်တင်" class="w-16 h-16 object-cover rounded-lg">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">ကုန်တင်</h4>
+                        <h5 class="text-lg font-semibold text-blue-600 mb-2">ကိုဇော်</h5>
+                        <p class="text-sm text-gray-500 mb-4">ရန်ကုန် (အထိုင်)</p>
+                        <div class="flex items-center justify-center text-blue-500 group-hover:text-blue-700 font-medium">
+                            <span class="mr-2">ကြည့်ရှုရန်</span>
+                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Button 2: ကုန်သင် -->
+                <a href="#" class="block group transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center border-l-4 border-green-500 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-green-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        <div class="flex justify-center mb-6">
+                            <div class="w-24 h-24 bg-green-50 rounded-full flex items-center justify-center shadow-inner">
+                                <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_1275,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2Ff9BnHZRwyCIr2Yd9xVs7.jpg" alt="ကုန်သင်" class="w-16 h-16 object-cover rounded-lg">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">ကုန်တင်</h4>
+                        <h5 class="text-lg font-semibold text-green-600 mb-2">ကိုဇော်လင်း</h5>
+                        <p class="text-sm text-gray-500 mb-4">ရန်ကုန် (အထိုင်)</p>
+                        <div class="flex items-center justify-center text-green-500 group-hover:text-green-700 font-medium">
+                            <span class="mr-2">ကြည့်ရှုရန်</span>
+                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Button 3: ကုန်စုစု -->
+                <a href="#" class="block group transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center border-l-4 border-orange-500 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-orange-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        <div class="flex justify-center mb-6">
+                            <div class="w-24 h-24 bg-orange-50 rounded-full flex items-center justify-center shadow-inner">
+                                <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FuqBASiafntLxxzNmnv5U.jpg" alt="ကုန်စုစု" class="w-16 h-16 object-cover rounded-lg">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">ကုန်တင်</h4>
+                        <h5 class="text-lg font-semibold text-orange-600 mb-2">ကိုစောဂေးဒို</h5>
+                        <p class="text-sm text-gray-500 mb-4">ကန်ကြီးထောင့်မြို့နယ် / ရန်ကုန် (အထိုင်)</p>
+                        <div class="flex items-center justify-center text-orange-500 group-hover:text-orange-700 font-medium">
+                            <span class="mr-2">ကြည့်ရှုရန်</span>
+                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Button 4: ကုန်ပိုင်းကုန် -->
+                <a href="#" class="block group transform hover:scale-105 transition-all duration-300">
+                    <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 text-center border-l-4 border-purple-500 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-20 h-20 bg-purple-50 rounded-full -mr-10 -mt-10 opacity-50"></div>
+                        <div class="flex justify-center mb-6">
+                            <div class="w-24 h-24 bg-purple-50 rounded-full flex items-center justify-center shadow-inner">
+                                <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FBIbQUPgbKyWxKSAptq5Z.jpg" alt="ကုန်ပိုင်းကုန်" class="w-16 h-16 object-cover rounded-lg">
+                            </div>
+                        </div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">ကုန်တင်</h4>
+                        <h5 class="text-lg font-semibold text-purple-600 mb-2">ကိုမြင့်ဇော်</h5>
+                        <p class="text-sm text-gray-500 mb-4">ကန်ကြီးထောင့်မြို့နယ် (အထိုင်)</p>
+                        <div class="flex items-center justify-center text-purple-500 group-hover:text-purple-700 font-medium">
+                            <span class="mr-2">ကြည့်ရှုရန်</span>
+                            <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
+{{--
     <!-- Awards -->
     <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
@@ -89,48 +180,15 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> --}}
     <!-- Awards -->
-    <div class="bg-white rounded-lg shadow-lg p-6">
+    {{-- <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
         2021 Awards
-        </h6>
-            <!-- Spare Section -->
-        <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-            <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/after_sale_service-gold_prize.jpg"
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">After Sale Service-Gold Prize</p>
-                            </div>
-                        </div>
-                    </a>
-                    <a  class="block">
-                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
-                            <!-- Image Section -->
-                            <div class="relative aspect-[4/3] w-full">
-                                    <img
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/spare_parts-gold_prize.jpg"
-                                        class="w-full h-full object-cover rounded-t-lg"
-                                    >
-                            </div>
-                            <div class="p-4">
-                                <p class="text-sm text-gray-600 mt-2">Spare Parts-Gold Prize</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+        </h6> --}}
+       ?
         <!-- Awards -->
-    <div class="bg-white rounded-lg shadow-lg p-6">
+    {{-- <div class="bg-white rounded-lg shadow-lg p-6">
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
         2022 Awards
         </h6>
@@ -181,10 +239,10 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
-</div>
+{{-- </div> --}}
 
 
 </x-app-layout>

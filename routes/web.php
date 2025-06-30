@@ -218,15 +218,15 @@ Route::post('/contact/submit', [ContactController::class, 'submit'])->name('cont
 // Temporary route for product export (Remember to remove this after use!)
 Route::get('/export-products', function () {
     $products = Product::all();
-    
+
     $headers = [
         'Content-Type' => 'text/csv',
         'Content-Disposition' => 'attachment; filename=products_export.csv',
     ];
-    
+
     $callback = function() use ($products) {
         $handle = fopen('php://output', 'w');
-        
+
         // Add headers
         fputcsv($handle, [
             'category',
@@ -241,7 +241,7 @@ Route::get('/export-products', function () {
             'photo',
             'slug'
         ]);
-        
+
         // Add data rows
         foreach ($products as $product) {
             fputcsv($handle, [
@@ -258,10 +258,10 @@ Route::get('/export-products', function () {
                 $product->slug
             ]);
         }
-        
+
         fclose($handle);
     };
-    
+
     return response()->stream($callback, 200, $headers);
 })->middleware('auth');
 
@@ -271,12 +271,12 @@ Route::get('/delete-implement-product', function () {
         $product = Product::where('category', 'Implements')
                          ->where('english_name', 'Plough frame')
                          ->first();
-        
+
         if ($product) {
             $product->delete();
             return "Product deleted successfully!";
         }
-        
+
         return "Product not found.";
     } catch (\Exception $e) {
         return "Error: " . $e->getMessage();
@@ -287,13 +287,13 @@ Route::get('/delete-implement-product', function () {
 Route::get('/delete-all-products', function () {
     try {
         $productCount = Product::count();
-        
+
         if ($productCount === 0) {
             return "No products found to delete.";
         }
-        
+
         Product::truncate();
-        
+
         return "Successfully deleted {$productCount} products! Database has been reset.";
     } catch (\Exception $e) {
         return "Error deleting products: " . $e->getMessage();
