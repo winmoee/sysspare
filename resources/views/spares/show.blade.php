@@ -61,7 +61,7 @@
                             <!-- Wave Money Payment Button -->
                             <div class="flex justify-center cursor-pointer hover:opacity-90 transition-opacity">
                                 <button type="submit" class="border-0 bg-transparent p-0">
-                                    <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg" 
+                                    <!-- <img src="https://partners.wavemoney.com.mm/images/paywithwave.svg"  -->
                                         alt="Pay with Wave Money"
                                         class="h-auto w-full max-w-[200px]">
                                 </button>
