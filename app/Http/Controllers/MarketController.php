@@ -72,54 +72,54 @@ class MarketController extends Controller
                 'description' => 'Find quality combine harvesters for your farming needs.',
                 'myanmar_description' => 'သင့်လယ်ယာလုပ်ငန်းအတွက် အရည်အသွေးကောင်းသော ရိတ်သိမ်းခြွေလှေ့စက်များကို ရှာဖွေပါ။',
                 'items' => [
-                    [
-                        'id' => 4,
-                        'name' => 'Yanmar YH 700',
-                        'engine_hours' => '၁၇၉၀နာရီ',
-                        'notes' => 'လက်ရှိအသုံးပြုဆဲ',
-                        'township' => 'ရန်ကုန်',
-                        'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
-                        'contact_person' => 'မအေးအေးကြူ',
-                        'contact' => '09798892680',
-                        'image' => 'https://lh3.googleusercontent.com/d/1--xIjPzRfifI_vtCT3_EXIfOkdXFpKY_=w320?authuser=0',
-                        // Keep existing fields as fallback
-                        'price' => '25,000,000 MMK',
-                        'location' => 'Yangon',
-                        'year' => '2018',
-                        'condition' => 'Good'
-                    ],
-                    [
-                        'id' => 5,
-                        'name' => 'Sifang ရိတ်ခြွေ-လှောင်ကန်',
-                        'engine_hours' => '',
-                        'notes' => '4C-1 (Model- 4LZ-4.0Z)လှောင်ကန်ပါ',
-                        'township' => 'ရန်ကုန်',
-                        'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
-                        'contact_person' => 'မအေးအေးကြူ',
-                        'contact' => '09798892681',
-                        'image' => 'https://lh3.googleusercontent.com/d/1cPXizGjL-unnI1Z16f66rLuTKXUv16dn=w320?authuser=0',
-                        // Keep existing fields as fallback
-                        'price' => '25,000,000 MMK',
-                        'location' => 'Yangon',
-                        'year' => '2018',
-                        'condition' => 'Good'
-                    ],
-                    [
-                        'id' => 6,
-                        'name' => 'Sifang ရိတ်ခြွေ-အိတ်စွပ်',
-                        'engine_hours' => '',
-                        'notes' => '4B-4 (Model (4LZ-2.1Z)အိတ်စွပ်',
-                        'township' => 'ရန်ကုန်',
-                        'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
-                        'contact_person' => 'မအေးအေးကြူ',
-                        'contact' => '09798892682',
-                        'image' => 'https://lh3.googleusercontent.com/d/1Od82fZUNZfnl7sezUrgFAKPN5zlQeYp5=w320?authuser=0',
-                        // Keep existing fields as fallback
-                        'price' => '25,000,000 MMK',
-                        'location' => 'Yangon',
-                        'year' => '2018',
-                        'condition' => 'Good'
-                    ],
+                    // [
+                    //     'id' => 4,
+                    //     'name' => 'Yanmar YH 700',
+                    //     'engine_hours' => '၁၇၉၀နာရီ',
+                    //     'notes' => 'လက်ရှိအသုံးပြုဆဲ',
+                    //     'township' => 'ရန်ကုန်',
+                    //     'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
+                    //     'contact_person' => 'မအေးအေးကြူ',
+                    //     'contact' => '09798892680',
+                    //     'image' => 'https://lh3.googleusercontent.com/d/1--xIjPzRfifI_vtCT3_EXIfOkdXFpKY_=w320?authuser=0',
+                    //     // Keep existing fields as fallback
+                    //     'price' => '25,000,000 MMK',
+                    //     'location' => 'Yangon',
+                    //     'year' => '2018',
+                    //     'condition' => 'Good'
+                    // ],
+                    // [
+                    //     'id' => 5,
+                    //     'name' => 'Sifang ရိတ်ခြွေ-လှောင်ကန်',
+                    //     'engine_hours' => '',
+                    //     'notes' => '4C-1 (Model- 4LZ-4.0Z)လှောင်ကန်ပါ',
+                    //     'township' => 'ရန်ကုန်',
+                    //     'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
+                    //     'contact_person' => 'မအေးအေးကြူ',
+                    //     'contact' => '09798892681',
+                    //     'image' => 'https://lh3.googleusercontent.com/d/1cPXizGjL-unnI1Z16f66rLuTKXUv16dn=w320?authuser=0',
+                    //     // Keep existing fields as fallback
+                    //     'price' => '25,000,000 MMK',
+                    //     'location' => 'Yangon',
+                    //     'year' => '2018',
+                    //     'condition' => 'Good'
+                    // ],
+                    // [
+                    //     'id' => 6,
+                    //     'name' => 'Sifang ရိတ်ခြွေ-အိတ်စွပ်',
+                    //     'engine_hours' => '',
+                    //     'notes' => '4B-4 (Model (4LZ-2.1Z)အိတ်စွပ်',
+                    //     'township' => 'ရန်ကုန်',
+                    //     'address' => 'အမှတ်(C-9)၊ မြသရဖီလမ်း ၊ မြစိမ်းရောင်စက်မှု့ဇုန် ၊ လှိုင်သာယာ',
+                    //     'contact_person' => 'မအေးအေးကြူ',
+                    //     'contact' => '09798892682',
+                    //     'image' => 'https://lh3.googleusercontent.com/d/1Od82fZUNZfnl7sezUrgFAKPN5zlQeYp5=w320?authuser=0',
+                    //     // Keep existing fields as fallback
+                    //     'price' => '25,000,000 MMK',
+                    //     'location' => 'Yangon',
+                    //     'year' => '2018',
+                    //     'condition' => 'Good'
+                    // ],
                 ]
             ]
         ];

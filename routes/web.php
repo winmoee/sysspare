@@ -19,7 +19,7 @@ Route::get('/dashboard', function () {
 
 Route::get('/transport', function () {
     return view('service/transport');
-});
+})->name('transport');
 Route::get('/serviceteam', function () {
     return view('service/serviceteam');
 });
@@ -306,3 +306,53 @@ Route::get('/delete-all-products', function () {
 })->middleware(['auth']);
 
 require __DIR__.'/auth.php';
+
+// Add these routes after the existing transport route
+// Update the transport.driver route (around line 309-326)
+Route::get('/transport/driver/{id}', function($id) {
+    $transports = [
+        1 => [
+            'name' => 'ကိုဇော်',
+            'location' => 'ရန်ကုန် (အထိုင်)',
+            'service' => 'ကုန်တင်',
+            'phone' => '09755197771',
+            'image' => 'https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FuqBASiafntLxxzNmnv5U.jpg',
+            'vehicles' => '၆ ဘီးကားနှစ်စီး',
+            'description' => 'ယုံကြည်စိတ်ချရသော ကုန်တင်ယာဉ် ဝန်ဆောင်မှု'
+        ],
+        2 => [
+            'name' => 'ကိုဇော်လင်း',
+            'location' => 'ရန်ကုန် (အထိုင်)',
+            'service' => 'ကုန်တင်',
+            'phone' => '09420024220',
+            'image' => 'https://res.cloudinary.com/glide/image/fetch/f_auto,w_1275,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2Ff9BnHZRwyCIr2Yd9xVs7.jpg',
+            'vehicles' => '၆ ဘီးကား ၁၉ ပေ (၁) စီး / ၆ဘီးကား ၁၄ ပေ (၁) စီး',
+            'description' => 'ယုံကြည်စိတ်ချရသော ကုန်တင်ယာဉ် ဝန်ဆောင်မှု'
+        ],
+        3 => [
+            'name' => 'ကိုစောဂေးဒို',
+            'location' => 'ကန်ကြီးထောင့်မြို့နယ် / ရန်ကုန် (အထိုင်)',
+            'service' => 'ကုန်တင်',
+            'phone' => '095201489',
+            'image' => 'https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FuqBASiafntLxxzNmnv5U.jpg',
+            'vehicles' => '၁၂ ဘီးကား (၃) စီး',
+            'description' => 'ယုံကြည်စိတ်ချရသော ကုန်တင်ယာဉ် ဝန်ဆောင်မှု'
+        ],
+        4 => [
+            'name' => 'ကိုမြင့်ဇော်',
+            'location' => 'ကန်ကြီးထောင့်မြို့နယ် (အထိုင်)',
+            'service' => 'ကုန်တင်',
+            'phone' => '09250819910',
+            'image' => 'https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2FZ0OQglYOi4ngIdfrgs41%2Fpub%2FBIbQUPgbKyWxKSAptq5Z.jpg',
+            'vehicles' => '၁၈ပေ (၂) စီး၊ ၁၆ပေ (၁) စီး',
+            'description' => 'ယုံကြည်စိတ်ချရသော ကုန်တင်ယာဉ် ဝန်ဆောင်မှု'
+        ]
+    ];
+
+    $transport = $transports[$id] ?? null;
+    if (!$transport) {
+        abort(404);
+    }
+
+    return view('service.transport-detail', compact('transport'));
+})->name('transport.driver');

@@ -9,7 +9,7 @@
     @media (max-width: 640px) {
         .relative{
             border-radius: 15px;
-            
+
         }
         .relative .mainimg{
             width: 100%;
@@ -50,7 +50,7 @@
             <p class="text-gray-600 mb-2">
                 {{__('messages.address')}}
             </p>
-            
+
             <a href="https://maps.app.goo.gl/L2SfCDJeAJBv35Gm8"
                class="inline-flex items-center text-green-600 hover:text-green-700">
                 <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -187,58 +187,7 @@
                      class="w-full h-auto rounded-lg">
             </div>
     </div>
-    <!-- Contact Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-        <!-- Contact Card 1 -->
-        <div class="bg-white rounded-lg p-4 shadow">
-            <h4 class="font-medium"> {{__('messages.kaungpyaesone')}}</h4>
-            <p class="text-gray-600">09443209946</p>
-            <div class="mt-2">
-                <button onclick="copyPhoneNumber('09443209946', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
-                    <span class="copy-button-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
-                        </svg>
-                        {{__('messages.copy_number')}}
-                    </span>
-                </button>
-            </div>
-        </div>
 
-        <!-- Contact Card 2 -->
-        <div class="bg-white rounded-lg p-4 shadow">
-            <h4 class="font-medium"> {{__('messages.eieishwe')}}</h4>
-            <p class="text-gray-600">09798892678</p>
-            <div class="mt-2">
-                <button onclick="copyPhoneNumber('09798892678', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
-                    <span class="copy-button-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
-                        </svg>
-                        {{ __('messages.copy_number') }}
-                    </span>
-                </button>
-            </div>
-        </div>
-
-        <!-- Contact Card 3 -->
-        <div class="bg-white rounded-lg p-4 shadow">
-            <h4 class="font-medium">{{__('messages.nno')}}</h4>
-            <p class="text-gray-600">09798890819</p>
-            <div class="mt-2">
-                <button onclick="copyPhoneNumber('09798890819', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
-                    <span class="copy-button-text">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
-                        </svg>
-                        {{__('messages.copy_number')}}
-                    </span>
-                </button>
-            </div>
-        </div>
-    </div>
-
-</div>
 
 
 <!-- Service Section -->
@@ -292,7 +241,7 @@
     </a>
 </div>
 
-    
+
 </div>
 <script>
     function copyLink(link, button) {

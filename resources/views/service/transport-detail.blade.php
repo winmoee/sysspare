@@ -34,15 +34,17 @@
                             <span class="text-gray-600">{{ $transport['phone'] }}</span>
                         </div>
 
+                        @if(isset($transport['vehicles']))
                         <div class="flex items-center">
-                            <span class="font-semibold text-gray-700 w-24">အင်အား:</span>
-                            <span class="text-gray-600">{{ $transport['capacity'] }}</span>
+                            <span class="font-semibold text-gray-700 w-24">ယာဉ်အမျိုးအစား:</span>
+                            <span class="text-gray-600">{{ $transport['vehicles'] }}</span>
                         </div>
+                        @endif
 
-                        <div class="flex items-center">
-                            <span class="font-semibold text-gray-700 w-24">စျေးနှုန်း:</span>
-                            <span class="text-green-600 font-semibold">{{ $transport['price'] }}</span>
-                        </div>
+                        {{-- <div class="flex items-center">
+                            <span class="font-semibold text-gray-700 w-24"></span>
+                            <span class="text-gray-600">၆ဘီးကား ၁၄ ပေ (၁) စီး</span>
+                        </div> --}}
                     </div>
 
                     <div>

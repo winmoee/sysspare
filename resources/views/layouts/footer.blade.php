@@ -42,14 +42,13 @@
       <h2 class="text-2xl font-bold text-green-800 mb-2 text-center">Our Location</h2>
       <br>
       <div class="bg-white rounded-2xl shadow-xl overflow-hidden w-full max-w-xs">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1557.4121746810974!2d96.04369871062102!3d16.895467557607247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sseinn%20yaung%20so%20!5e1!3m2!1sen!2ssg!4v1751220441755!5m2!1sen!2ssg"
-                    width="100%"
-                     height="250"
-                      style="border:0;"
-                      allowfullscreen=""
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d745.5470876383853!2d96.0437983818161!3d16.896399346572156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sseinn%20yaung%20so!5e1!3m2!1sen!2ssg!4v1751301051869!5m2!1sen!2ssg"
+        width="100%
+         height="450
+         style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
     </iframe>
       </div>
     </div>
