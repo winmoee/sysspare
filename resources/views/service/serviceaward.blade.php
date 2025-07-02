@@ -216,6 +216,48 @@
         </div>
 
 
+
+    <!-- Awards -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <h6 class="text-xl font-semibold text-gray-800 mb-4">
+            {{ __('messages.2024_award') }}
+        </h6>
+            <!-- Spare Section -->
+        <div class="max-w-7xl mx-auto p-6 lg:p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                    <a class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/fy2024_service_award_ceremony.jpg"
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.24service_award') }}</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="block">
+                        <div class="bg-white rounded-lg shadow hover:shadow-lg transition-shadow duration-200">
+                            <!-- Image Section -->
+                            <div class="relative aspect-[4/3] w-full">
+                                    <img
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/fy2024_group_photo.jpg"
+                                        class="w-full h-full object-cover rounded-t-lg"
+                                    >
+                            </div>
+                            <div class="p-4">
+                                <p class="text-sm text-gray-600 mt-2">{{ __('messages.24group_award') }}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 

@@ -530,14 +530,14 @@
             </div>
             <div class="bg-white rounded-xl shadow-lg overflow-hidden">
                 <div class="aspect-w-16 aspect-h-9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d745.5470876383853!2d96.0437983818161!3d16.896399346572156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sseinn%20yaung%20so!5e1!3m2!1sen!2ssg!4v1751301051869!5m2!1sen!2ssg"
-                     width="1200"
-                     height="550"
-                     style="border:0;"
-                      allowfullscreen=""
-                       loading="lazy"
-                       referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1382.619221703863!2d96.0429924590459!3d16.895823714531762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1be6af85c0623%3A0x766e83a1d48bfb50!2sSeinn%20Yaung%20So%20Co.%2CLtd%20(Showroom)%20zone-5!5e1!3m2!1sen!2ssg!4v1751380554479!5m2!1sen!2ssg"
+                    width="1200"
+                    height="550"
+                    style="border:0;"
+                     allowfullscreen=""
+                      loading="lazy"
+                       referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
             </div>
         </div>
     </div>

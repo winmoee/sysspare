@@ -1,73 +1,37 @@
 {{-- resources/views/products/gt-1.blade.php --}}
-<div class="p-6 bg-white rounded-lg shadow-md mb-6">
-    <h2 class="text-2xl font-bold mb-4 text-gray-800">Product Images</h2>
-    <div class="flex flex-wrap justify-center -mx-4">
-        <div class="px-4 w-full sm:w-1/2">
-            <img src="{{ asset('img/products/ace-di-6500-spec.jpg') }}" alt="ACE DI-6500 Specification Image 1" class="w-full h-auto rounded-lg shadow-lg mb-4 sm:mb-0">
-        </div>
-        <div class="px-4 w-full sm:w-1/2">
-            <img src="{{ asset('img/products/ace-di-6500-spec.jpg') }}" alt="ACE DI-6500 Specification Image 2" class="w-full h-auto rounded-lg shadow-lg">
-        </div>
-    </div>
+<div class="specification-container">
+    <table class="table-striped">
+        <tbody>
+            <!-- <tr class="text-grey-color">
+                <td class="py-1 fs-6">Horse Power</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">57.6PS
+                </td>
+            </tr>
+            <tr class="text-grey-color">
+                <td class="py-1 fs-6">Weight</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">1850 kg
+                </td>
+            </tr> -->
+            {{-- <tr class="text-grey-color">
+                <td class="py-1 fs-6">Wheel</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">800 x 275 (mm)</td>
+            </tr>
+            <tr class="text-grey-color">
+                <td class="py-1 fs-6">Width</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">1055 - 1205 (mm)</td>
+            </tr>
+            <tr class="text-grey-color">
+                <td class="py-1 fs-6">Height</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">1225 (mm)</td>
+            </tr> --}}
+        </tbody>
+    </table>
 </div>
-
-<div class="specification-container p-6 bg-white rounded-lg shadow-md">
-    <h2 class="text-2xl font-bold mb-4 text-gray-800">Specification</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Engine-model</span>
-            <span class="text-gray-800">A.65 (cold start kit optional)</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Horse Power</span>
-            <span class="text-gray-800">(61.2) HP</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Fuel Tank</span>
-            <span class="text-gray-800">65 Liters</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Weight</span>
-            <span class="text-gray-800">2850 kg</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Front-wheel-size</span>
-            <span class="text-gray-800">9.5 - 24</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Back-wheel-size</span>
-            <span class="text-gray-800">16.9 - 28</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Gearbox</span>
-            <span class="text-gray-800">ရှေ့ 12 ချက်/နောက် 12 ချက်</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Lifting-capacity</span>
-            <span class="text-gray-800">2200 kg</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Club</span>
-            <span class="text-gray-800">အခြောက်သုံးဒစ်ပြား (နှစ်ပြား)</span>
-        </div>
-        <div class="flex justify-between border-b py-2">
-            <span class="font-semibold text-gray-600">Brake</span>
-            <span class="text-gray-800">ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်</span>
-        </div>
-    </div>
-</div>
-<div class="p-6 bg-white rounded-lg shadow-md mb-6">
-    <h2 class="text-2xl font-bold mb-4 text-gray-800">Product Images</h2>
-    <div class="flex flex-wrap justify-center -mx-4">
-        <div class="px-4 w-full sm:w-1/2">
-            <img src="{{ asset('https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png') }}" alt="ACE DI-6500 Specification Image 1" class="w-full h-auto rounded-lg shadow-lg mb-4 sm:mb-0">
-        </div>
-        <div class="px-4 w-full sm:w-1/2">
-            <img src="{{ asset('https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png') }}" alt="ACE DI-6500 Specification Image 2" class="w-full h-auto rounded-lg shadow-lg">
-        </div>
-    </div>
-</div>
-
 
 
 
