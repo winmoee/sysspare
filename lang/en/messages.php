@@ -85,6 +85,9 @@ return [
 '22exce_award'=>'Excellent Award',
 '22sale_award'=>'After Sale Service-1st Prize',
 '22spare_award'=>'Spare Parts-Winner',
+'2024_award' => '2024 Awards',
+'24service_award' => 'FY2024 Service Award Ceremony',
+'24group_award' => 'FY2024 Dealer Group Photo',
 
     //Here is for servicetem.blade.php (English)//
     'service_team_1'=>'Services provided by Seinn Yaung So (SYS) service team',
@@ -126,6 +129,12 @@ return [
     'service_workshop_9'=>'Experienced Technicians',
     'service_workshop_10'=>'About SYS Technicians',
     'service_workshop_11'=>'Copy Number',
+    'Seinn_Yaung_So_Manufacturing_Bayintnaung' => 'Seinn Yaung So Manufacturing Co., Ltd. (Bayintnaung)',
+'Bayintnaung' => 'Bayintnaung',
+'Bayintnaung_Address' => 'Your Bayintnaung branch address in English',
+'Seinn_Yaung_So_Zone_5_Showroom' => 'Seinn Yaung So Zone 5 Showroom',
+'Zone_5' => 'Zone 5',
+
     //serviceworkshop.blade.php end//
 //sales section//
 'sales_contact_1'=>'Daw Thidar',
@@ -246,5 +255,24 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'branch9'=>'Taunggyi Branch',
 'branch9add'=>'No. (6/17), Zone (2), Union Road, Mingalar Shwe Baho Ward, Shwe Nyaung City.',
 
-
+'about_us' => 'About Us',
+'company_profile' => 'Company Profile',
+'company_name' => 'Seinn Yaung So Manufacturing Co., Ltd.',
+'company_description' => 'Seinn Yaung So Manufacturing Co., Ltd. was established as an expansion of 007 Zero Zero Seven Trading Co., Ltd., which has been operating in Myanmar since 1989. With over three decades of experience, we have grown to become one of the leading suppliers of agricultural machinery in the Myanmar market. Our operations span distribution, wholesale, aftersales service, and spare parts support nationwide.',
+'our_mission' => 'Our Mission',
+'mission_description' => 'To provide Myanmar farmers with genuine, high-quality agricultural machinery, bundled with comprehensive aftersales service and spare parts support—all at reasonable prices—while contributing to the modernization and development of the agricultural sector.',
+'what_we_offer' => 'What We Offer',
+'offer_description' => 'We specialize in the distribution of a broad range of agricultural equipment, including:',
+'tractors' => 'Tractors',
+'walking_tractors' => 'Walking Tractors',
+'combine_harvesters' => 'Combine Harvesters',
+'implements' => 'Implements',
+'distributor_info' => 'We proudly serve as the sole distributor of Zhejiang Sifang and Action Construction Equipment Ltd. (ACE) in Myanmar, and we are also a major dealer of Yanmar tractors and combine harvesters.',
+'our_commitment' => 'Our Commitment',
+'commitment_sales' => 'Sales solutions tailored to farmers\' operational needs',
+'commitment_financing' => 'Flexible financing options to ensure affordability',
+'commitment_service' => 'Reliable aftersales service to maximize equipment lifespan and performance',
+'commitment_description' => 'We are committed to offering customers the best value, expert advice, and ongoing support to ensure they get the most out of their investment.',
+'continuous_improvement' => 'Continuous Improvement',
+'improvement_description' => 'At Seinn Yaung So, we continually seek new ways to enhance our products, services, and support systems to better serve Myanmar\'s farming communities. Our goal is to build lasting relationships based on trust, performance, and shared success.'
 ];

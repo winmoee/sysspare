@@ -91,6 +91,65 @@
                                             <div class="ui dimmer transition hidden">
                                                 <div class="content">
                                                     <div class="center">
+                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-branch6698a17cd1e01" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-branch6698a17cd1e01')">
+                                                            {{__('messages.More_details')}}
+                                                            {{-- More Details --}}
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
+                                        </div>
+                                        <div class="content py-3">
+                                            <h4 class="header">
+                                                {{__('messages.Seinn_Yaung_So_Manufacturing_Bayintnaung')}}
+                                                {{-- Seinn Yaung So Manufacturing Co., Ltd. (Bayintnaung) --}}
+                                            </h4>
+                                            <div class="meta">
+                                                <span class="date mt-2 text-muted fs-6">
+                                                    {{__('messages.Yangon')}}
+                                                    {{-- Bayintnaung --}}
+
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col px-3 mb-5">
+                                    <div class="card w-100 border-0">
+                                        <div class="blurring dimmable image">
+                                            <div class="ui dimmer transition hidden">
+                                                <div class="content">
+                                                    <div class="center">
+                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef')">
+                                                            {{__('messages.More_details')}}
+                                                            {{-- More Details --}}
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
+                                        </div>
+                                        <div class="content py-3">
+                                            <h4 class="header">
+                                                {{__('messages.Seinn_Yaung_So_Zone_5_Showroom')}}
+                                                {{-- Seinn Yaung So Zone 5 Showroom --}}
+                                            </h4>
+                                            <div class="meta">
+                                                <span class="date mt-2 text-muted fs-6">
+                                                    {{__('messages.Yangon')}}
+                                                    {{-- Yangon--}}
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col px-3 mb-5">
+                                    <div class="card w-100 border-0">
+                                        <div class="blurring dimmable image">
+                                            <div class="ui dimmer transition hidden">
+                                                <div class="content">
+                                                    <div class="center">
                                                         <button class="ui inverted button" data-slug="yaankonsetpyinalokyaon-myseinyaawinsetmhuzon6698a17c74153" onclick="showSubdivisionModal('yaankonsetpyinalokyaon-myseinyaawinsetmhuzon6698a17c74153')">
                                                             {{__('messages.More_details')}}
                                                             {{-- More Details --}}
@@ -144,7 +203,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg" class="img-fluid same-height-img w-100" alt="{{__('messages.Seinn_Yaung_So_Manufacturing_Bayintnaung')}}_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -374,6 +433,7 @@
         <script>
             var lang = "en";
         </script>
+
 
 
 

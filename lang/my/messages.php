@@ -132,6 +132,9 @@ return [
 '22exce_award'=>'Excellent Award',
 '22sale_award'=>'After Sale Service-1st Prize',
 '22spare_award'=>'Spare Parts-Winner',
+'2024_award' => '၂၀၂၄ ဆုများ',
+'24service_award' => 'FY2024 ဝန်ဆောင်မှုဆု ပွဲတော်',
+'24group_award' => 'FY2024 ကုန်သည်များ အုပ်စုဓာတ်ပုံ',
 
 
 'sales_contact_1'=>'ဒေါ် သီတာ',
@@ -238,7 +241,11 @@ MEB Payment သည် ငွေကြေးစီမံခန့်ခွဲမ�
 'branch8add'=>'အဇယ(၄/၁၃၇)၊ ရေဦးလမ်းထွက်၊ ရွှေဘိုမြို့',
 'branch9'=>'တောင်ကြီးဆိုင်ခွဲ',
 'branch9add'=>'အမှတ်(၆/၁၇)၊ နယ်မြေ(၂) ပြည်ထောင်စုလမ်း၊ မင်္ဂလာရွှေဗဟိုရပ်ကွက်၊ ရွှေညောင်မြို့',
-
+'Seinn_Yaung_So_Manufacturing_Bayintnaung' => 'စိမ်းရောင်စို ကုမ္ပဏီလီမိတက် (ဘုရင့်နောင်)',
+'Bayintnaung' => 'ဘုရင့်နောင်',
+'Bayintnaung_Address' => 'Your Bayintnaung branch address in Myanmar',
+'Seinn_Yaung_So_Zone_5_Showroom' => 'စိမ်းးရောင်စို ဇုံ ၅ ရှိုးရုံ', // Myanmar translation
+'Zone_5' => 'ဇုံ ၅', // Myanmar translation
 
 
 'sales_info'=>'"Seinn Yaung So" Company မှာ အသုံးများသော ငွေပေးချေမှု နည်းလမ်းများ',

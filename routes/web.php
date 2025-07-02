@@ -29,6 +29,12 @@ Route::get('/serviceworkshop', function () {
 Route::get('/serviceaward', function () {
     return view('service/serviceaward');
 });
+
+// About Us page
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 Route::get('/market', function () {
     return view('service/market');
 });
