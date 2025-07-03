@@ -31,7 +31,15 @@
             </tr> --}}
         </tbody>
     </table>
+    </div>
 </div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
 <div class="bg-white rounded-lg shadow-lg p-6">
     <br>
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
@@ -121,22 +129,13 @@
                                                                    </h3>
                                     <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
                                 </div>
+                            </div>
+                         </div>
                     </div>
-                </div>
+                 </div>
             </div>
-
-            
-         
-
-            
-            
-
-
-
-
-        </div>
-    </div>
-</div> 
+        </div> 
+     </div>
 
 
 
