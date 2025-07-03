@@ -31,6 +31,11 @@
             </tr> --}}
         </tbody>
     </table>
+    </div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 
@@ -178,7 +183,8 @@
         </div>
     </div>
 </div> -->
-    <div class="bg-white rounded-lg shadow-lg p-6">
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+<div class="bg-white rounded-lg shadow-lg p-6">
         <br>
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
         အဓိကအင်္ဂါရပ်များ
@@ -413,15 +419,14 @@
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png" 
                                          alt="ဆီစစ်" 
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    
-                                </div>
-
-                            </div>
+                                         </div>
                         </div>
                     </div>
                 </div>
-    </div>
-   </div>
+            </div>
+        </div> 
+     </div>
+
 
     <!-- SECOND SECTION -->
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
