@@ -32,7 +32,7 @@
         </tbody>
     </table>
 </div>
-<!-- <div class="bg-white rounded-lg shadow-lg p-6">
+<div class="bg-white rounded-lg shadow-lg p-6">
     <br>
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
@@ -82,7 +82,7 @@
                     class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                 >
                     <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">ထူးခြားချက်</span>
+                        <span class="text-lg font-medium text-gray-700 text-left">Specification</span>
                     </div>
                     <svg
                         id="arrowFeature2"
@@ -97,84 +97,46 @@
                 </button>
                 <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
                     <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
-                            အလုပ်ကြမ်းအလုပ်များအတွက် တော်တော်လေး သင့်တော်သော Engine ပါဝါ ပါဝင်ပါသည်။
-                            •	Four Wheel Drive ဖြစ်သောကြောင့်
-                        ခက်ခဲသောမြေမျက်နှာပြင်များ၊ ရေစိုနေရာများတွင် လွယ်ကူစွာ မောင်းနှင်နိုင်သည်။
-                        ချောမွေ့စွာ ရပ်တန့်နိုင်ပြီး ဘရိတ်ဖိအားကောင်းမွန်မှု ရှိသည်။
-                        မြန်မြန်ဆန်ဆန် ထွန်ယက်နိုင်ပြီး ကြီးမားသော စိုက်ပျိုးရေးစက်ကိရိယာများ ဆွဲတင်နိုင်စွမ်းရှိပါသည်။
-                        မောင်းနှင်ရ လွယ်ကူပြီး သက်တောင့်သက်သာ ဖြစ်စေသည်။
-                        </p>
+                    <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Engine-model
+                                                                   </h3>
+                                    <p class="text-gray-600 leading-relaxed"> A.65 (cold start kit optional)   </p>
+                                </div>
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား </h3>
+                                    <p class="text-gray-600 leading-relaxed">   65 Liters</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Club
+                                     </h3>
+                                    <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Brake
+                                   
+                                                                   </h3>
+                                    <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
+                                </div>
                     </div>
                 </div>
             </div>
 
             
-            <div class="border border-gray-200 rounded-lg overflow-hidden">
-                <button
-                    onclick="toggleMainFeature('feature3')"
-                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                >
-                    <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">Spare Parts ရရှိမှု လွယ်ကူခြင်း</span>
-                    </div>
-                    <svg
-                        id="arrowFeature3"
-                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
-                            အရည်အသွေးမြင့် စက်ပစ္စည်းများ အသုံးပြုထား၍ ကြာရှည်ခံနိုင်ပါသည်။စျေးနှုန်း သင့်တင့်ပြီး အရည်အသွေးကောင်းသော Tractor ဖြစ်ပါသည်။ACE Tractor များအတွက် အပိုပစ္စည်းများကို တပ်ဆင်ခြင်းနှင့် ပြုပြင်ခြင်း လွယ်ကူစွာ ပြုလုပ်နိုင်ပါ သည်။
-                        </p>
-                    </div>
-                </div>
-            </div>
+         
 
             
-            <div class="border border-gray-200 rounded-lg overflow-hidden">
-                <button
-                    onclick="toggleMainFeature('feature4')"
-                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                >
-                    <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">လယ်ယာအထူးပြု</span>
-                    </div>
-                    <svg
-                        id="arrowFeature4"
-                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
-                            ကြီးမားသော လယ်ယာများအတွက်
-                            လည်း အသုံးပြုနိုင်ပါသည်။ မည်သည့် မြေအမျိုးအစားတွင်မဆို မောင်းနှင်နိုင်ပါသည်။ ခက်ခဲသော မြေမျက်နှာပြင်များတွင် အသုံးပြုလိုသူများအတွက်လည်း အဆင်ပြေ စေ နိုင်ပါသည်။
-                            တာရှည်ခံပြီး စွမ်းဆောင်ရည်မြင့် Tractor ကို ရှာဖွေနေသူများအတွက်အထူး သင့်လျော်ပါသည်။
-                        </p>
-                    </div>
-                </div>
-            </div>
+            
 
 
 
 
         </div>
     </div>
-</div> -->
+</div> 
 
 
 
