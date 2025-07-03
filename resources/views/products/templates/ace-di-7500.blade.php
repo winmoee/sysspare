@@ -104,35 +104,27 @@
                     </svg>
                 </button>
                 <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                    <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">Engine-model
-                                                                   </h3>
-                                    <p class="text-gray-600 leading-relaxed"> A.65 (cold start kit optional)   </p>
-                                </div>
-                                <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား </h3>
-                                    <p class="text-gray-600 leading-relaxed">   65 Liters</p>
-                                </div>
-                                <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">Club
-                                     </h3>
-                                    <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
-                                </div>
-                                <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">Brake
-                                   
-                                                                   </h3>
-                                    <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
-                                </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 text-center">
+                            <div class="flex flex-col">
+                                <h3 class="text-lg font-semibold mb-2">Engine-model</h3>
+                                <p class="text-gray-600 leading-relaxed">A.65 (cold start kit optional)</p>
                             </div>
-                         </div>
+                            <div class="flex flex-col">
+                                <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား</h3>
+                                <p class="text-gray-600 leading-relaxed">65 Liters</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <h3 class="text-lg font-semibold mb-2">Club</h3>
+                                <p class="text-gray-600 leading-relaxed">အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <h3 class="text-lg font-semibold mb-2">Brake</h3>
+                                <p class="text-gray-600 leading-relaxed">ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်</p>
+                            </div>
+                        </div>
                     </div>
-                 </div>
+                </div>
             </div>
         </div> 
      </div>
