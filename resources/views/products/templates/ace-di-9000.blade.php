@@ -31,12 +31,11 @@
             </tr> --}}
         </tbody>
     </table>
-    </div>
 </div>
 </div>
 </div>
 </div>
-</div
+
 
 
 
@@ -167,9 +166,7 @@
                                 <div class="flex flex-col">
                                     
                                     <h3 class="text-lg font-semibold mb-2">အသားတင်မြင်းကောင်ရေအား</h3>
-                                    <p class="text-gray-600 leading-relaxed"> (88.2) HP
-
-</p>
+                                    <p class="text-gray-600 leading-relaxed"> (88.2) HP</p>
                                 </div>
 
                                 <div class="flex flex-col">
@@ -237,7 +234,7 @@
             </div>
         </div>
     </div>
-            </div>
+ </div>
             </div>
 
 
