@@ -103,7 +103,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
-             <div id="feature9" class="hidden border-t border-gray-200 bg-gray-50">
+             <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
                 <div class="p-6">
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div class="flex flex-col">
@@ -141,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            
+
     <div class="border border-gray-200 rounded-lg overflow-hidden">
         <button
             onclick="toggleMainFeature('feature3')"
