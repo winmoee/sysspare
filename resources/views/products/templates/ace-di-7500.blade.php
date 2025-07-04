@@ -210,7 +210,7 @@
         </button>
         <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
             <div class="p-6 flex items-center justify-center min-h-[80px]">
-                <img src="{{ asset('images/ace-di-7500/ace-di-7500-specs.png') }}" alt="ACE DI 7500 Specs" class="w-full h-auto">
+                <img src="{{ asset('https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png') }}" alt="ACE DI 7500 Specs" class="w-full h-auto">
             </div>
         </div>
     </div>
