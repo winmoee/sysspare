@@ -189,6 +189,31 @@
         </div> 
      </div>
 
+    <div class="border border-gray-200 rounded-lg overflow-hidden">
+        <button
+            onclick="toggleMainFeature('feature3')"
+            class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+        >
+            <div class="flex items-center">
+                <span class="text-lg font-medium text-gray-700 text-left">နောက်ထပ်ထူးခြားချက်များ</span>
+            </div>
+            <svg
+                id="arrowFeature3"
+                class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+        <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+            <div class="p-6 flex items-center justify-center min-h-[80px]">
+                <img src="{{ asset('images/ace-di-7500/ace-di-7500-specs.png') }}" alt="ACE DI 7500 Specs" class="w-full h-auto">
+            </div>
+        </div>
+    </div>
 
 
 
