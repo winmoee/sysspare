@@ -141,9 +141,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
-     </div>
-
+            
     <div class="border border-gray-200 rounded-lg overflow-hidden">
         <button
             onclick="toggleMainFeature('feature3')"
@@ -169,7 +167,8 @@
             </div>
         </div>
     </div>
-
+            </div>
+            </div>
 
 
 
