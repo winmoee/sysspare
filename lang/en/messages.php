@@ -178,7 +178,7 @@ return [
 'cash_down1'=>'We are now offering special prices for cash payment purchases.
 Customers who choose to pay in cash can enjoy special discounted prices and more convenient services. Take advantage of this opportunity now!',
 'cash_down2'=>'How does the cash payment system work?',
-'cash_down3'=>'➡ During the purchase process, you can pay directly in cash. No bank account is required.',
+'cash_down3'=>'➡ During the purchase process, you can pay directly in cash.',
 'hp_title'=>'Available for Hire Purchase!',
 'hp1'=>'You can now purchase our products without having to make a full payment upfront — thanks to the Hire Purchase (HP) system supported by Seinn Yaung So Company.',
 'hp2'=>'What is the Hire Purchase (HP) system?',
@@ -216,7 +216,8 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'Dig_industrial'=>'DIG Industrial Zone, Kimmalin Island Quarter, Pathein.',
 'Hinthada_Leltaw'=>'No. D-18 Leltaw Car Park, Hinthada Township.',
 'Shwebo_Township'=>'No. Azaya (4/137), Yay Oo Road, Shwebo.',
-'Taunggyi_Township'=>'No. (6/17), Union Road, Mingalar Shwe Baho Ward, Shwe Nyaung Township (near Tayaw Fried food shop).',
+'Bayintnaung_Address' => 'Your actual Bayintnaung address here',
+'Zone_5_Address' => 'Your actual Zone 5 address here',
 //End of division.blade.php//
 
     // Add all your English text strings here

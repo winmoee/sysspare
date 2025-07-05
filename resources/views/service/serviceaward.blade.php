@@ -230,7 +230,7 @@
                             <!-- Image Section -->
                             <div class="relative aspect-[4/3] w-full">
                                     <img
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/fy2024_service_award_ceremony.jpg"
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg1.jpeg"
                                         class="w-full h-full object-cover rounded-t-lg"
                                     >
                             </div>
@@ -244,7 +244,7 @@
                             <!-- Image Section -->
                             <div class="relative aspect-[4/3] w-full">
                                     <img
-                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/fy2024_group_photo.jpg"
+                                        src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg.jpeg"
                                         class="w-full h-full object-cover rounded-t-lg"
                                     >
                             </div>

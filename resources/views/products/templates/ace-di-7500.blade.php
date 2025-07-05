@@ -45,10 +45,10 @@
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
     </h6>
-        
+
     <div class="max-w-7xl mx-auto py-6 lg:py-8">
         <div class="space-y-4">
-           
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature1')"
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature2')"
@@ -107,44 +107,44 @@
                     <div class="p-6">
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Engine-model
                                                                    </h3>
                                     <p class="text-gray-600 leading-relaxed"> A.65 (cold start kit optional)   </p>
                                 </div>
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား </h3>
                                     <p class="text-gray-600 leading-relaxed">   65 Liters</p>
                                 </div>
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Club
                                      </h3>
                                     <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
                                 </div>
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Brake
-                                   
+
                                                                    </h3>
                                     <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Gearbox
                                      </h3>
                                     <p class="text-gray-600 leading-relaxed">   ရှေ့ 12ချက်/နောက် 12ချက်</p>
                                 </div>
-                              
+
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
+                    {{-- <button
                         onclick="toggleMainFeature('feature10')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
@@ -161,7 +161,7 @@
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
-                    </button>
+                    </button> --}}
                     <div id="feature10" class="hidden border-t border-gray-200 bg-gray-50">
                     <div class="p-6">
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -170,23 +170,23 @@
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png"
                                          alt="စက်အစိတ်အပိုင်း"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                   
+
                                 </div>
 
                                 <!-- Feature 2: Oil Filter -->
                                 <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FSToHZm23g9tg8zd2Hokm.png"
                                          alt="ဆီစစ်"
-                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">                                   
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
                                 </div>
 
-                              
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
      </div>
 
     <div class="border border-gray-200 rounded-lg overflow-hidden">

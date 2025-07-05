@@ -38,11 +38,11 @@
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
                         <div class="bg-blue-50 p-4 rounded-lg text-center">
                             <div class="text-2xl mb-2">🚜</div>
-                            <h5 class="font-semibold">{{ __('messages.tractors') }}</h5>
+                            <h5 class="font-semibold">{{ __('messages.walking_tractors') }}</h5>
                         </div>
                         <div class="bg-blue-50 p-4 rounded-lg text-center">
                             <div class="text-2xl mb-2">🚜</div>
-                            <h5 class="font-semibold">{{ __('messages.walking_tractors') }}</h5>
+                            <h5 class="font-semibold">{{ __('messages.tractors') }}</h5>
                         </div>
                         <div class="bg-blue-50 p-4 rounded-lg text-center">
                             <div class="text-2xl mb-2">🌾</div>
