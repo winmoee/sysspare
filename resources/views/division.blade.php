@@ -91,14 +91,16 @@
                                             <div class="ui dimmer transition hidden">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-branch6698a17cd1e01" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-branch6698a17cd1e01')">
+                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-manufacturing-bayintnaung" onclick="showSubdivisionModal('seinn-yaung-so-manufacturing-bayintnaung')">
                                                             {{__('messages.More_details')}}
-                                                            {{-- More Details --}}
-                                                        </button>
+                                                            </button>
+
+
+
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/byn.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -121,10 +123,11 @@
                                             <div class="ui dimmer transition hidden">
                                                 <div class="content">
                                                     <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef')">
+                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-zone-5-showroom" onclick="showSubdivisionModal('seinn-yaung-so-zone-5-showroom')">
                                                             {{__('messages.More_details')}}
-                                                            {{-- More Details --}}
-                                                        </button>
+                                                            </button>
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -157,7 +160,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/msy.jpeg" class="img-fluid same-height-img w-100" alt="ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -290,7 +293,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Hinthada Branch_image">
+                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/htt.jpeg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Hinthada Branch_image">
                                         </div>
                                         <div class="content py-3">
                                             <h4 class="header">
@@ -353,51 +356,7 @@
                                 </div>
                             </div>
                 </div>
-                    <div class="divisions-container my-5">
-                        <div class="header-container d-flex justify-content-between align-items-center">
-                            <h3>
-                                {{__('messages.Southern_Shan_State')}}
-                                {{-- Southern Shan State --}}
-                            </h3>
-                            <a href="#" class="show_all">
-                                {{__('messages.Show_all')}}
-                                {{-- Show all --}}
-                            </a>
-                        </div>
-                        <br>
-                        <hr class="mt-1 mb-4">
-                        <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
-                            <div id="taunggyi" class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-taunggyi-branch6698a17f02040" onclick="showSubdivisionModal('seinn-yaung-so-coltd-taunggyi-branch6698a17f02040')">
-                                                            {{__('messages.More_details')}}
-                                                            {{-- More Details --}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Taunggyi Branch_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Taunggyi_Branch')}}
-                                                {{-- Seinn Yaung So Co.,Ltd Taunggyi Branch --}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                {{__('messages.Taunggyi')}}
-                                                    {{-- Taunggyi --}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
+
                 </div>
         </section>
         <div class="modal-backdrop" id="modalBackdrop" onclick="closeModal()" style="display: none;"></div>
@@ -439,10 +398,6 @@
 
 
 
-
-
-
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
         integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -453,7 +408,8 @@
                 on: 'hover'
             });
 
-            var branchesArr = [{"id":1,
+            var branchesArr = [
+                {"id":1,
                 "division_id":1,
                 "eng_name":"{{__('messages.Yangon_workshop')}}",
                 "mm_name":"{{__('messages.Yangon_workshop')}}",
@@ -465,19 +421,18 @@
                 "eng_address":"{{__('messages.service_workshop_3')}}",
                 "mm_address":"{{__('messages.service_workshop_3')}}",
                 "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/msy.jpeg",
 
                 "division":{"id":1,"state_id":1,
                 "mm_name":"{{__('messages.Yangon')}}",
                 "eng_name":"{{__('messages.Yangon')}}",
                 "slug":"yangon",
                 "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/msy.jpeg"},
                 "branch_phone":[
-                {"id":1,"branch_id":1,"phone":"04222503"},
-                {"id":2,"branch_id":1,"phone":"09429000422"},
-                {"id":3,"branch_id":1,"phone":"09429717242"},
-                {"id":4,"branch_id":1,"phone":"095199759"}]},
+                {"id":1,"branch_id":1,"phone":"09798892680"},
+                {"id":2,"branch_id":1,"phone":"09254334384"},
+               ]},
 
                 {"id":2,
                 "division_id":2,
@@ -565,18 +520,17 @@
                 "type":"showroom",
                 "branch_type":"subdivision",
                 "head_office":"false",
-                "google_address":null,
+                "google_address":"https://maps.app.goo.gl/w8DReL9TBe92SLp89",
                 "eng_address":"{{__('messages.Hinthada_Leltaw')}}",
                 "mm_address":"{{__('messages.Hinthada_Leltaw')}}",
                 "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg",
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/htt.jpeg",
                 "division":{"id":3,
                 "state_id":2,
                 "mm_name":"{{__('messages.Hinthada')}}",
                 "eng_name":"{{__('messages.Hinthada')}}",
                 "slug":"hinthada",
-                "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/hinthda_main.jpg"},
+                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/shwe_bo.jpg"},
                 "branch_phone":[
                 {"id":17,"branch_id":5,"phone":"09455338282"},
                 {"id":18,"branch_id":5,"phone":"09784636426"}]},
@@ -589,7 +543,7 @@
                 "type":"showroom",
                 "branch_type":"subdivision",
                 "head_office":"false",
-                "google_address":null,
+                "google_address":"https://maps.app.goo.gl/E45uh6XbwfubDxLe6?g_st=com.google.maps.preview.copy",
                 "eng_address":"{{__('messages.Shwebo_Township')}}",
                 "mm_address":"{{__('messages.Shwebo_Township')}}",
                 "image":"",
@@ -605,29 +559,57 @@
                 {"id":19,"branch_id":6,"phone":"095038903"},
                 {"id":20,"branch_id":6,"phone":"09763856556"}]},
 
-                {"id":7,
-                "division_id":5,
-                "eng_name":"{{__('messages.Sys_Taunggyi_Branch')}}",
-                "mm_name":"{{__('messages.Sys_Taunggyi_Branch')}}",
-                "slug":"seinn-yaung-so-coltd-taunggyi-branch6698a17f02040",
-                "type":"showroom",
-                "branch_type":"subdivision",
-                "head_office":"false",
-                "google_address":null,
-                "eng_address":"{{__('messages.Taunggyi_Township')}}",
-                "mm_address":"{{__('messages.Taunggyi_Township')}}",
-                "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg",
-                "division":{"id":5,
-                "state_id":6,
-                "mm_name":"{{__('messages.Taunggyi')}}",
-                "eng_name":"{{__('messages.Taunggyi')}}",
-                "slug":"taunggyi",
-                "image":"",
-                "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/taunggyi.jpg"},
-                "branch_phone":[
-                {"id":21,"branch_id":7,"phone":"09798892668"},
-                {"id":22,"branch_id":7,"phone":"09798892669"}]}];
+                {"id":8,
+    "division_id":1,
+    "eng_name":"{{__('messages.Seinn_Yaung_So_Manufacturing_Bayintnaung')}}",
+    "mm_name":"{{__('messages.Seinn_Yaung_So_Manufacturing_Bayintnaung')}}",
+    "slug":"seinn-yaung-so-manufacturing-bayintnaung",
+    "type":"Office",
+    "branch_type":"subdivision",
+    "head_office":"false",
+    "google_address":"https://maps.app.goo.gl/Uu7JVNEjnfUCjjaq7",
+    "eng_address":"{{__('messages.Bayintnaung_Address')}}",
+    "mm_address":"{{__('messages.Bayintnaung_Address')}}",
+    "image":"",
+    "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/byn.jpg",
+    "division":{"id":1,"state_id":1,
+    "mm_name":"{{__('messages.Yangon')}}",
+    "eng_name":"{{__('messages.Yangon')}}",
+    "slug":"yangon",
+    "image":"",
+    "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/byn.jpg"},
+    "branch_phone":[
+    {"id":21,"branch_id":8,"phone":"09443209947"},
+    {"id":22,"branch_id":8,"phone":"09795540591"}]},
+
+    {"id":9,
+    "division_id":1,
+    "eng_name":"{{__('messages.Seinn_Yaung_So_Zone_5_Showroom')}}",
+    "mm_name":"{{__('messages.Seinn_Yaung_So_Zone_5_Showroom')}}",
+    "slug":"seinn-yaung-so-zone-5-showroom",
+    "type":"showroom",
+    "branch_type":"subdivision",
+    "head_office":"false",
+    "google_address":"https://maps.app.goo.gl/ATnJsah1qyn2vJ1v6",
+    "eng_address":"{{__('messages.Zone_5_Address')}}",
+    "mm_address":"{{__('messages.Zone_5_Address')}}",
+    "image":"",
+    "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg",
+    "division":{"id":1,"state_id":1,
+    "mm_name":"{{__('messages.Yangon')}}",
+    "eng_name":"{{__('messages.Yangon')}}",
+    "slug":"yangon",
+    "image":"",
+    "img_url":"https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg"},
+    "branch_phone":[
+    {"id":23,"branch_id":9,"phone":"09-443121333"},
+    {"id":24,"branch_id":9,"phone":"09-443121444 "},
+    ]}
+
+    // ... existing code ...
+];
+
+
             console.log(branchesArr);
 
             // Function
@@ -679,6 +661,13 @@
                         document.getElementById("phone_wrapper").innerHTML += `
                             <a href="tel:${phone.phone}" class="ui branch_phone me-1 text-primary">${phone.phone}</a>, `;
                     });
+
+                    // Add hotline number below the contact numbers only for Zone 5 Showroom
+                    if (branch.slug === 'seinn-yaung-so-zone-5-showroom') {
+                        document.getElementById("phone_wrapper").innerHTML += `
+                            <br><span class="text-muted"><b>Hotline number: </b></span>
+                            <a href="tel:09-443121222" class="ui branch_phone text-primary">09-443121222</a>`;
+                    }
                 } else {
                     document.getElementById('modal_body_container').innerHTML = "Sorry, no branch available.";
                 }

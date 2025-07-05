@@ -214,10 +214,10 @@
                         <div class="relative">
                             <a href="{{ url('/about') }}"
                                class="inline-flex items-center px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent hover:border-gray-400">
-                                {{ __('messages.about_us') }}
+                                {{ __('messages.about_us1') }}
                             </a>
                         </div>
-                        
+
                         <!-- CONTACT Dropdown -->
                         <div class="relative group" x-data="{ open: false }">
                             <!-- Button Trigger -->
@@ -528,7 +528,7 @@
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')" class="px-4 py-5 text-sm font-medium text-gray-500 transition hover:text-gray-700 focus:outline-none border-b-2 border-transparent hover:border-gray-400">
                         {{ __('messages.about_us') }}
                     </x-nav-link>
-                    
+
                     <!-- Authentication -->
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf
