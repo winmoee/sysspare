@@ -1,35 +1,27 @@
 {{-- resources/views/products/gt-1.blade.php --}}
 <div class="specification-container">
     <table class="table-striped">
-        <tbody>
-            <!--tr class="text-grey-color">
-                <td class="py-1 fs-6">Horse Power</td>
+    <tbody>
+            <tr class="text-grey-color">
+                <td class="py-1 fs-6">Engine-model</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">57.6PS
+                <td class="text-dark fs-6">25.8 kw
                 </td>
             </tr>
             <tr class="text-grey-color">
-                <td class="py-1 fs-6">Weight</td>
+                <td class="py-1 fs-6">Brake</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1850 kg
+                <td class="text-dark fs-6">Dry type-two disc
                 </td>
-            </tr>-->
-            {{-- <tr class="text-grey-color">
-                <td class="py-1 fs-6">Wheel</td>
+            </tr> 
+             <tr class="text-grey-color">
+                <td class="py-1 fs-6">PTO</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">800 x 275 (mm)</td>
+                <td class="text-dark fs-6">720</td>
             </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Width</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1055 - 1205 (mm)</td>
-            </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Height</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1225 (mm)</td>
-            </tr> --}}
-                </tbody>
+          
+          
+        </tbody>
             </table>
 </div>
 </div>
