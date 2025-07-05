@@ -1,10 +1,11 @@
 {{-- resources/views/products/gt-1.blade.php --}}
 
 <div class="specification-container">
+    <br>
     <table class="table-striped">
     <tbody>
             <tr class="text-grey-color">
-            <td class="py-1 fs-6"></td>
+            
                 <td class="py-1 fs-6">Engine-model</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">25.8 kw
