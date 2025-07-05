@@ -31,10 +31,18 @@
             </tr> --}}
         </tbody>
     </table>
+    </div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 
-<!-- <div class="bg-white rounded-lg shadow-lg p-6">
+
+
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+<div class="bg-white rounded-lg shadow-lg p-6">
     <br>
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
@@ -65,42 +73,68 @@
                 <div id="feature1" class="hidden border-t border-gray-200 bg-gray-50">
                     <div class="p-6 flex items-center justify-center min-h-[80px]">
                         <p class="text-base text-gray-700 leading-8 text-center">
-                            ACE Company ရဲ့ မြင့်မားတဲ့စွမ်းအား၊ ကြီးမားတဲ့အလုပ်များအတွက် အထူးဒီဇိုင်းထုတ်ထားတဲ့ Tractor တစ်စင်းဖြစ်ပါတယ်။ ACE DI 9000 ဟာ 4wheel tractor ပါဝင်ပြီး စိုက်ပျိုးရေး လုပ်ငန်းကြီးများ၊ မြေတူးဖော်မှုများအတွက် သင့်လျော်တဲ့ စက်ယာဉ်တစ်စင်းဖြစ်ပါတယ်။
+
+                        အရည်အသွေး ကောင်းကောင်း လိုချင်ရင် တန်ဖိုးကြီးကြီးပေး ရမယ်ဆိုတဲ့ အစဉ်အလာကို Ace လေးဘီးထွန်စက်က ချိုးဖျက်လိုက်ပါပီ ။
+
+                        တန်ဖိုးအသက်သာဆုံးနှင့် အရည်အသွေးအကောင်းဆုံး Ace အိန္ဒိယလေးဘီးထွန်စက်က  တောင်သူဦးကြီးများ လယ်ယာလုပ်ငန်းခွင်အတွက် အသုံး ပြုဖို့အတွက် အကောင်းဆုံး ဖစ်ပါသည်။
+
+                        အရည်အသွေးမြင့်မားသည့်  အီတလီ နိုင်ငံထုတ် Carraro ဂီယာဘောက် ဖြစ်ပါသည်။
+                        လေးဘီးထွန်စက်များကို ချစ်မြတ်နိုးသည့် အိန္ဒိယစက်ရုံ Aceကုမ္ပဏီ ဥက္ကဌကြီး၏ စေတနာတို့ကြောင့်  တန်ဖိုးအသက်သာဆုံးနှင့် စွမ်းအားအမြင့်ဆုံး Ace အိန္ဒိယ လေးဘီးထွန်စက်များကို ဝယ်ယူသုံးစွဲကြပါစို့။
                         </p>
                     </div>
                 </div>
             </div>
-
-            
+<!--dropdown2-->
             <div class="border border-gray-200 rounded-lg overflow-hidden">
-                <button
-                    onclick="toggleMainFeature('feature2')"
-                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                >
-                    <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">စျေးနှုန်းနှင့် အရည်အသွေး ကောင်းမွန်ခြင်း</span>
-                    </div>
-                    <svg
-                        id="arrowFeature2"
-                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
+                    <button
+                        onclick="toggleMainFeature('feature2')"
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">တွဲဖက်ပစ္စည်းများ</span>
+                        </div>
+                        <svg
+                            id="arrowFeature2"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1:  -->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FmMOVR1c7EowQooY38IJ9.jpg"
+                                         alt="ရိုတာ‌ဗေတာ"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">ရိုတာ‌ဗေတာ</h3>
+                                </div>
 
-စျေးနှုန်းသင့်တင့်ပြီး လယ်ထွန်အတွက် အသုံးချမှုမှာ ယုံကြည်စိတ်ချရသည်။ထုတ်လုပ်မှုခိုင်မာပြီး ကြာရှည်ခံစွာအသုံးခံ နိုင်ပါသည်။ သစွမ်းအားအပြည့် လယ်ယာစက်တစ်စင်းဖြစ်ပြီး နေ့စဉ် လယ်ထွန်လုပ်ငန်းများအတွက် ယုံကြည်စိတ်ချစွာ အသုံးပြုနိုင်ပါသည်။
-                        </p>
+                                <!-- Feature 2:-->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FWRE17oLWPa7Wjs2E5nZf.png"
+                                         alt="၇ ဗန်းလင်ဗန်းထယ်"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">၇ ဗန်းလင်ဗန်းထယ်</h3>
+                                </div>
+
+                                <!-- Feature 3: Gear Shift -->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2Ff68k1cbu5AEMf5zMfvS4.jpg"
+                                         alt="၂၀  ဗန်းလင်ဗန်းထယ်"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">၂၀ ဗန်းလင်ဗန်းထယ်</h3>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
             
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
@@ -108,7 +142,7 @@
                     class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                 >
                     <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">လယ်ယာ အထူး အသုံးပြုနိုင်ခြင်း</span>
+                        <span class="text-lg font-medium text-gray-700 text-left">အချက်အလက်များ</span>
                     </div>
                     <svg
                         id="arrowFeature3"
@@ -121,58 +155,92 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                     </svg>
                 </button>
-                <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
+             <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
+                        <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Engine-model</h3>
+                                    <p class="text-gray-600 leading-relaxed">A.90 TC (cold start kit optional) </p>
+                                </div>
 
-	ကြီးမားသော လယ်ယာများ၊ မြေတူးဖော်မှုများနှင့် အလုပ်ပြင်းများတွင် ထိရောက်စွာ အသုံးပြုနိုင်သည်။စိုက်ပျိုးရေး လုပ်ငန်းကြီးများတွင် အသုံးပြုရာတွင် အထူးထိရောက်သည်။ခက်ခဲသောမြေမျက်နှာပြင်များ၊ အနွမ်းမြေများတွင် စွမ်းအားတက်စေပြီး မောင်းနှင်ရ လွယ်ကူစေပါသည်။
-                        </p>
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">အသားတင်မြင်းကောင်ရေအား</h3>
+                                    <p class="text-gray-600 leading-relaxed"> (88.2) HP</p>
+                                </div>
+
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား </h3>
+                                    <p class="text-gray-600 leading-relaxed">   65 Liters</p>
+                                </div>
+
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Weight </h3>
+                                    <p class="text-gray-600 leading-relaxed">3240 kg</p>
+                                </div>
+
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Club</h3>
+                                    <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Lifting-capacity</h3>
+                                    <p class="text-gray-600 leading-relaxed">2500 kg</p>
+                                </div>
+
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Brake</h3>
+                                    <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
+                                </div>
+
+                                <div class="flex flex-col">
+                                    
+                                    <h3 class="text-lg font-semibold mb-2">Gearbox</h3>
+                                    <p class="text-gray-600 leading-relaxed">   ရှေ့ 12ချက်/နောက် 12ချက်</p>
+                                </div>      
+                        </div>
                     </div>
                 </div>
             </div>
 
-            
-            <div class="border border-gray-200 rounded-lg overflow-hidden">
-                <button
-                    onclick="toggleMainFeature('feature4')"
-                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                >
-                    <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">အသုံးပြုရ လွယ်ကူခြင်း</span>
-                    </div>
-                    <svg
-                        id="arrowFeature4"
-                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-                <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
-                    <div class="p-6 flex items-center justify-center min-h-[80px]">
-                        <p class="text-base text-gray-700 leading-8 text-center">
-
-                            Power Steering နှင့် Dual Clutch ကြောင့် မောင်းနှင်ရ လွယ်ကူသည်။Synchromesh Gearbox ကြောင့် Gear ပြောင်းရာတွင် အသံနည်းပြီး အဆင်ပြေချောမွေ့စေပါသည်။လောင်စာ သုံးနှုန်း သက်သာပြီး အချိန်တိုအတွင်း ပိုမိုအလုပ်လုပ်နိုင်ပါသည်။
-                        </p>
-                    </div>
-                </div>
+    <div class="border border-gray-200 rounded-lg overflow-hidden">
+        <button
+            onclick="toggleMainFeature('feature4')"
+            class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+        >
+            <div class="flex items-center">
+                <span class="text-lg font-medium text-gray-700 text-left">နောက်ထပ်အသေးစိတ်အချက်အလက်များ</span>
             </div>
-
-
-
-
+            <svg
+                id="arrowFeature4"
+                class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </button>
+        <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
+            <div class="p-6 flex items-center justify-center min-h-[80px]">
+                <img src="{{ asset('https://res.cloudinary.com/glide/image/fetch/f_auto,w_1875,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2F561eS5uuPEKUNlrLoxlz.png') }}"
+                 alt="ACE DI 9000 Specs" class="w-full h-auto">
+            </div>
         </div>
     </div>
-</div> -->
+ </div>
+            </div>
 
 
 
-    <!-- SECOND SECTION -->
-    <!-- Section removed as per user request -->
 
     <!-- Add JavaScript for toggle functionality -->
     <script>
