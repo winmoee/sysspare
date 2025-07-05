@@ -19,16 +19,8 @@
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">540</td>
             </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Width</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1055 - 1205 (mm)</td>
-            </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Height</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1225 (mm)</td>
-            </tr> 
+          
+          
         </tbody>
     </table>
 </div>
