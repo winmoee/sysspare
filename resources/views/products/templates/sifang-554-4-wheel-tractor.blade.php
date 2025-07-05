@@ -2,7 +2,7 @@
 <div class="specification-container">
     <table class="table-striped">
         <tbody>
-            <!-- <tr class="text-grey-color">
+            <<tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">57.6PS
@@ -13,8 +13,8 @@
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">1850 kg
                 </td>
-            </tr> -->
-            {{-- <tr class="text-grey-color">
+            </tr> 
+             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Wheel</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">800 x 275 (mm)</td>
@@ -28,7 +28,7 @@
                 <td class="py-1 fs-6">Height</td>
                 <td class="ps-4 pe-2">-</td>
                 <td class="text-dark fs-6">1225 (mm)</td>
-            </tr> --}}
+            </tr> 
         </tbody>
     </table>
 </div>
@@ -134,53 +134,3 @@
         }
     }
 </script>
-
-<!-- Add the အချက်အလက်များ (Details) section here -->
-<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
-    <div class="bg-white rounded-lg shadow-lg p-6">
-        <div class="max-w-7xl mx-auto py-6 lg:py-8">
-            <div class="space-y-4">
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button
-                        onclick="toggleMainFeature('specifications')"
-                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                    >
-                        <div class="flex items-center">
-                            <span class="text-lg font-medium text-gray-700 text-left">အချက်အလက်များ</span>
-                        </div>
-                        <svg
-                            id="arrowSpecifications"
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                        </svg>
-                    </button>
-                    <div id="specifications" class="hidden border-t border-gray-200 bg-gray-50">
-                        <div class="p-6">
-                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <div class="flex flex-col">
-                                    <h3 class="text-lg font-semibold mb-2">Engine-model</h3>
-                                    <p class="text-gray-600 leading-relaxed">55 HP</p>
-                                </div>
-                                <div class="flex flex-col">
-                                    <h3 class="text-lg font-semibold mb-2">Brake</h3>
-                                    <p class="text-gray-600 leading-relaxed">အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
-                                </div>
-                                <div class="flex flex-col">
-                                    <h3 class="text-lg font-semibold mb-2">PTO</h3>
-                                    <p class="text-gray-600 leading-relaxed">540/720</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Original features section starts here -->
