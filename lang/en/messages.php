@@ -256,6 +256,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'branch9'=>'Taunggyi Branch',
 'branch9add'=>'No. (6/17), Zone (2), Union Road, Mingalar Shwe Baho Ward, Shwe Nyaung City.',
 
+'about_us1' => 'About Us',
 'about_us' => 'About Us',
 'company_profile' => 'Company Profile',
 'company_name' => 'Seinn Yaung So Manufacturing Co., Ltd.',

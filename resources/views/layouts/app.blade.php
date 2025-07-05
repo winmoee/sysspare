@@ -7,7 +7,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
 <link rel="apple-touch-icon" sizes="180x180" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
-<link rel="icon" type="image/png" sizes="192x192" href="https://sys-shop.s3.ap-southeast-1.amazonaws.com/websiteFiles/SYS+LOGO.png">
+
+
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,21 +64,21 @@
     </head>
     <body class="font-sans antialiased">
         <!-- LANGUAGE SWITCH FORCER -->
-    @php
-    // Force locale to match session at view rendering time
-    if (session()->has('locale')) {
-        app()->setLocale(session('locale'));
-    }
-@endphp
-
-    <div class="hidden">
-    Current Locale: {{ app()->getLocale() }}
-    Session Locale: {{ session('locale') ?? 'not set' }}
-</div>
-
+        @php
+        // Force locale to match session at view rendering time
+        if (session()->has('locale')) {
+            app()->setLocale(session('locale'));
+        }
+        @endphp
+    
+        <div class="hidden">
+        Current Locale: {{ app()->getLocale() }}
+        Session Locale: {{ session('locale') ?? 'not set' }}
+        </div>
+    
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
-
+    
             <!-- Page Heading -->
             @isset($header)
                 <header class="bg-white shadow">
@@ -86,11 +87,14 @@
                     </div>
                 </header>
             @endisset
-
+    
             <!-- Page Content -->
             <main>
                 {{ $slot }}
             </main>
         </div>
+        
+        <!-- Footer -->
+        @include('layouts.footer')
     </body>
 </html>

@@ -19,11 +19,7 @@
                 {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
                 {{-- Yangon Machinery Repair Workshop (Mya Seinn Yaung Industrial Zone). --}}
             </h6>
-            <p class="text-gray-600 mb-4 leading-8">
-                {{ __('messages.service_zone_location') }}
-            {{-- အမှတ်(C-9)၊မြသရဖီလမ်း၊မြစိမ်းရောင်စက်မှုဇုံ၊ဒဂုံဧရာအဝေး‌ပြေးဂိတ်အနီး၊လှိုင်သာယာမြို့နယ်၊ရန်ကုန်မြို့။ --}}
-            {{-- No. (C-9), Mya Tharaphi Road, Myin Seinn Yaung Industrial Zone, near Dagon Ayeyar Express Gate, Hlaing Tharyar Township, Yangon City. --}}
-        </p>
+
         <div class="carousel-container" data-carousel-id="yangon-carousel">
         <div class="carousel-slides">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/award/3_years_award_1.jpg" alt="1" class="carousel-slide">

@@ -1,14 +1,17 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SpareController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WavePaymentController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\MarketController;
+use App\Http\Controllers\FeedbackController;
+use App\Http\Controllers\MarketController; // Add this line
+use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Session;
+use Inertia\Inertia;
 use App\Models\Product;
 
 Route::get('/', [SpareController::class, 'homepage']);
@@ -362,3 +365,14 @@ Route::get('/transport/driver/{id}', function($id) {
 
     return view('service.transport-detail', compact('transport'));
 })->name('transport.driver');
+
+// Add this line with your other routes
+Route::post('/feedback/submit', [FeedbackController::class, 'submit'])->name('feedback.submit');
+
+// Don't forget to add the import at the top of the file
+// Remove this line (around line 370):
+// use App\Http\Controllers\FeedbackController;
+
+Route::get('/feedback', function () {
+    return view('service.feedback');
+})->name('feedback');

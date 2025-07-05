@@ -59,9 +59,9 @@
                                 <div class="p-4 border rounded-lg">
                     <!-- <h5 class="font-medium text-gray-600">
                         {{ __('messages.service_workshop_5') }}
-                        
+
                     </h5> -->
-                    
+
                     <p class="text-sm text-gray-600">Yangon - 09798892680</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09798892680', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
@@ -156,9 +156,9 @@
                 <div class="p-4 border rounded-lg">
                     <!-- <h5 class="font-medium text-gray-600">
                         {{ __('messages.service_workshop_8') }}
-                        
+
                     </h5> -->
-                    
+
                     <p class="text-sm text-gray-600">Pathein - 09429000422</p>
                     <div class="mt-2">
                         <button onclick="copyPhoneNumber('09429000422', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
@@ -223,6 +223,8 @@
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/2.webp" alt="2" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/3.webp" alt="3" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/4.webp" alt="4" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg1.jpeg" alt="gg1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg1.jpeg" alt="gg1" class="carousel-slide">
             <!-- <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/0.webp" alt="0" class="carousel-slide"> -->
         </div>
 
