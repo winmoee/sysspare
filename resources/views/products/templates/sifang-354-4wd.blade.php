@@ -82,12 +82,13 @@
                                 <div class="flex flex-col">
                                     
                                     <h3 class="text-lg font-semibold mb-2">PTO</h3>
-                                    <p class="text-gray-600 leading-relaxed">   720</p>
+                                    <p class="text-gray-600 leading-relaxed">720</p>
                                 </div>      
                         </div>
                     </div>
                 </div>
             </div>
+        
 
    
     <!-- SECOND SECTION -->
