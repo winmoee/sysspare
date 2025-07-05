@@ -219,10 +219,7 @@
     </div> -->
     <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
 <div class="bg-white rounded-lg shadow-lg p-6">
-    <br>
-    <h6 class="text-xl font-semibold text-gray-800 mb-4">
-    အဓိကအင်္ဂါရပ်များ
-    </h6>
+   
         
     <div class="max-w-7xl mx-auto py-6 lg:py-8">
         <div class="space-y-4">
