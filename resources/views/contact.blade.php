@@ -4,15 +4,15 @@
         <div class="max-w-full mx-auto">
             <div class="relative h-72 md:h-96 lg:h-[500px] overflow-hidden">
                 <img src="{{ asset('https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/sys_family.jpeg') }}" alt="Team Group Photo" class="w-full h-full object-cover object-center">
-                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/60 to-transparent">
+                <!-- Removed: <div class="absolute inset-0 bg-black bg-opacity-40"></div> -->
+                <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/30 to-transparent">
                     <div class="max-w-7xl mx-auto">
                         <div class="flex items-center gap-3 mb-3">
-                            <a href="/" class="text-green-400 hover:text-red-500 transition-colors font-semibold text-xl">Home</a>
-                            <span class="text-white text-xl">»</span>
-                            <span class="text-white text-xl">{{ __('messages.contactus') }}</span>
+                            <a href="/" class="text-white hover:text-green-400 transition-colors font-semibold text-xl drop-shadow-lg">Home</a>
+                            <span class="text-white text-xl drop-shadow-lg">»</span>
+                            <span class="text-white text-xl drop-shadow-lg">{{ __('messages.contactus') }}</span>
                         </div>
-                        <h2 class="text-4xl md:text-5xl font-bold text-white">
+                        <h2 class="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
                {{ __('messages.contact') }}
             </h2>
                     </div>
@@ -338,7 +338,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                     </svg>
                                 </div>
-                                <h2 class="text-3xl font-bold text-black">{{ __('messages.reachout') }}</h2>
+                                <h2 class="text-3xl font-bold text-black">{{ __('messages.reachus') }}</h2>
                             </div>
 
                             <form id="contactForm" onsubmit="sendEmail(event)" class="space-y-6">
