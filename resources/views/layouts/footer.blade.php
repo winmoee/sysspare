@@ -10,18 +10,18 @@
       </div>
       <div class="flex items-center mb-3">
         <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
-        <span class="text-gray-800 text-base">+95 9 443 121 222</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="text-gray-800 text-base">+95 9 443 121 222</span>
       </div>
       <div class="flex items-center mb-3">
         <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
-        <span class="text-gray-800 text-base">+95 9 443 121 333</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="text-gray-800 text-base">+95 9 443 121 333</span>
       </div>
-
       <div class="flex items-center">
         <svg width="28" height="28" fill="none" stroke="#17633a" stroke-width="2" class="mr-4" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#17633a" stroke-width="2" fill="none"/><path d="M3 7l9 6 9-6" stroke="#17633a" stroke-width="2" fill="none"/></svg>
         <span class="text-gray-800 text-base">seinnyaungso@gmail.com</span>
       </div>
     </div>
+    
     <!-- Social Media -->
     <div class="flex flex-col items-start text-left">
       <h3 class="text-2xl font-bold mb-4 text-green-800">Social Media</h3>
@@ -37,37 +37,38 @@
         </a>
       </div>
     </div>
-    <!-- Map -->
+    
+    <!-- Our Location -->
     <div class="flex flex-col items-center w-full">
       <h2 class="text-2xl font-bold text-green-800 mb-2 text-center">Our Location</h2>
       <br>
       <div class="bg-white rounded-2xl shadow-xl overflow-hidden w-full max-w-xs">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1382.619221703863!2d96.0429924590459!3d16.895823714531762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1be6af85c0623%3A0x766e83a1d48bfb50!2sSeinn%20Yaung%20So%20Co.%2CLtd%20(Showroom)%20zone-5!5e1!3m2!1sen!2ssg!4v1751380554479!5m2!1sen!2ssg"
-                    width="100%"
-                    height="330"
-                    style="border:0;"
-                     allowfullscreen=""
-                      loading="lazy"
-                       referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-    </iframe>
+                width="100%"
+                height="330"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </div>
+  
   <div class="max-w-7xl mx-auto">
     <div class="h-px bg-gradient-to-r from-transparent via-white to-transparent my-4"></div>
   </div>
 </footer>
 <footer class="bg-green-900 text-white py-4 mt-4">
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
-      <div class="text-center">
-          <p class="text-lg font-semibold animate-pulse">
-             © Copyright 2025 by Seinn Yaung So Manufacturing Co.,Ltd.
-          </p>
-          <div class="mt-2">
-              <div class="h-0.5 bg-gradient-to-r from-transparent via-white to-transparent animate-[runline_3s_linear_infinite]"></div>
-          </div>
+    <div class="text-center">
+      <p class="text-lg font-semibold animate-pulse">
+        © Copyright 2025 by Seinn Yaung So Manufacturing Co.,Ltd.
+      </p>
+      <div class="mt-2">
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-white to-transparent animate-[runline_3s_linear_infinite]"></div>
       </div>
+    </div>
   </div>
 </footer>
 </footer>
