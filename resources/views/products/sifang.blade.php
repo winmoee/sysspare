@@ -11,7 +11,7 @@
             margin: 0 auto;
             font-size: 25px;
             font-weight: 600;
-            
+
         }
         .mb-12 .brand img{
             width: 200px;
@@ -32,12 +32,12 @@
 
     <div class="max-w-2xl mx-auto p-4 sm:p-6 lg:p-8">
         <form method="POST" action="{{ route('products.store') }}" enctype="multipart/form-data">
-        
+
         <div class="space-y-4">
             <!-- Category -->
             <div>
                 <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
-                <input type="text" name="category" id="category" value="{{ old('category') }}" 
+                <input type="text" name="category" id="category" value="{{ old('category') }}"
                     class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50">
                 <x-input-error :messages="$errors->get('category')" class="mt-2" />
             </div>
@@ -135,7 +135,7 @@
         <x-primary-button class="mt-4">{{ __('Create Product') }}</x-primary-button>
         </form>
     </div>
-    @else 
+    @else
     @endauth
     <!-- <div class="w-full bg-white shadow-sm top-0 z-10">
     <div class="max-w-7xl mx-auto px-4 py-2">
@@ -175,7 +175,7 @@
                 @foreach($allProductsByType as $type => $products)
                     <div class="mb-12" id="{{ Str::slug($type) }}">
                         <h3 class="text-xl font-bold text-gray-900 mb-6">{{ $type }}</h3>
-                        
+
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             @foreach($products as $product)
                                 <div class="bg-white shadow-sm rounded-lg p-6">
@@ -188,19 +188,19 @@
                                             </svg>
                                         </div>
                                     @endif
-                                    
+
                                     <div class="space-y-4">
                                         <div>
                                             <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                             <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                         </div>
-                                        
+
                                         <div class="space-y-2">
                                             <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ: {{ $product->part_number }}</p>
                                             <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                         </div>
-                                        
-                                        <a href="{{ route('products.show', $product) }}" 
+
+                                        <a href="{{ route('products.show', $product) }}"
                                            class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                             View Details
                                         </a>
@@ -223,7 +223,7 @@
                 @foreach($sifangProductsByType as $type => $products)
                     <div class="mb-12" id="{{ Str::slug($type) }}">
                         <!-- <h3 class="text-xl font-bold text-gray-900 mb-6">{{ $type }} Products</h3> -->
-                        
+
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                             @foreach($products as $product)
                                 <div class="bg-white shadow-sm rounded-lg p-6">
@@ -236,19 +236,19 @@
                                             </svg>
                                         </div>
                                     @endif
-                                    
+
                                     <div class="space-y-4">
                                         <div>
                                             <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                             <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                         </div>
-                                        
+
                                         <div class="space-y-2">
                                             <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ: {{ $product->part_number }}</p>
                                             <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                         </div>
-                                        
-                                        <a href="{{ route('products.showbrands', $product->slug) }}" 
+
+                                        <a href="{{ route('products.showbrands', $product->slug) }}"
                                            class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                             View Details
                                         </a>
@@ -261,4 +261,5 @@
             </div>
         </div>
     </div>
-</x-app-layout>    
+</x-app-layout>
+@include('layouts.footer')

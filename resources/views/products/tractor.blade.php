@@ -42,7 +42,7 @@
                 gap: 0.5rem;
                 padding: 0.5rem;
             }
-            
+
             .flex.flex-wrap a {
                 min-width: 100%;
                 width: 100%;
@@ -52,7 +52,7 @@
                 justify-content: center;
                 align-items: center;
             }
-            
+
             .brand {
                 width: 100%;
                 display: flex;
@@ -87,7 +87,7 @@
                     <!-- Category -->
                     <div>
                         <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
-                        <input type="text" name="category" id="category" value="{{ old('category') }}" 
+                        <input type="text" name="category" id="category" value="{{ old('category') }}"
                             class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-300 focus:ring focus:ring-green-200 focus:ring-opacity-50">
                         <x-input-error :messages="$errors->get('category')" class="mt-2" />
                     </div>
@@ -208,7 +208,7 @@
     </div>
 
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
-        
+
 
         <!-- Products Grouped by Category -->
         <div x-show="activeTab === 'category'">
@@ -218,7 +218,7 @@
                         <!-- <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ $category }}</h2> -->
                          <h2 class="text-2xl font-bold text-gray-900 mb-6">{{ __('messages.ttr') }}</h2>
                         <br>
-                        
+
                         <!-- Yanmar Products -->
                         <div id="yanmar" class="mb-8">
                             <!-- <h3 class="text-xl font-semibold text-gray-800 mb-4">Yanmar Products</h3> -->
@@ -238,19 +238,19 @@
                                                     </svg>
                                                 </div>
                                             @endif
-                                            
+
                                             <div class="space-y-4">
                                                 <div>
                                                     <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                                     <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                                 </div>
-                                                
+
                                                 <div class="space-y-2">
                                                     <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ {{ $product->part_number }}</p>
                                                     <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                                 </div>
-                                                
-                                                <a href="{{ route('products.showproducts', $product) }}" 
+
+                                                <a href="{{ route('products.showproducts', $product) }}"
                                                    class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                                     View Details
                                                 </a>
@@ -280,19 +280,19 @@
                                                     </svg>
                                                 </div>
                                             @endif
-                                            
+
                                             <div class="space-y-4">
                                                 <div>
                                                     <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                                     <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                                 </div>
-                                                
+
                                                 <div class="space-y-2">
                                                     <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ {{ $product->part_number }}</p>
                                                     <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                                 </div>
-                                                
-                                                <a href="{{ route('products.showproducts', $product) }}" 
+
+                                                <a href="{{ route('products.showproducts', $product) }}"
                                                    class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                                     View Details
                                                 </a>
@@ -322,19 +322,19 @@
                                                     </svg>
                                                 </div>
                                             @endif
-                                            
+
                                             <div class="space-y-4">
                                                 <div>
                                                     <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                                     <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                                 </div>
-                                                
+
                                                 <div class="space-y-2">
                                                     <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ {{ $product->part_number }}</p>
                                                     <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                                 </div>
-                                                
-                                                <a href="{{ route('products.showproducts', $product) }}" 
+
+                                                <a href="{{ route('products.showproducts', $product) }}"
                                                    class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                                     View Details
                                                 </a>
@@ -361,19 +361,19 @@
                                                     </svg>
                                                 </div>
                                             @endif
-                                            
+
                                             <div class="space-y-4">
                                                 <div>
                                                     <h3 class="text-lg font-semibold text-gray-900">{{ $product->english_name }}</h3>
                                                     <p class="text-gray-600">{{ $product->myanmar_name }}</p>
                                                 </div>
-                                                
+
                                                 <div class="space-y-2">
                                                     <p class="text-sm text-gray-500">Horsepower - မြင်းကောင်ရေ {{ $product->part_number }}</p>
                                                     <p class="text-lg font-bold text-gray-900">{{ number_format($product->price) }} MMK</p>
                                                 </div>
-                                                
-                                                <a href="{{ route('products.showproducts', $product) }}" 
+
+                                                <a href="{{ route('products.showproducts', $product) }}"
                                                    class="block w-full text-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors">
                                                     View Details
                                                 </a>
@@ -389,7 +389,7 @@
         </div>
 
         <!-- Products Grouped by Type -->
-        
+
     </div>
 
     <!-- Alpine.js initialization -->
@@ -400,5 +400,6 @@
             }))
         })
     </script>
-    @include('layouts.footer')
 </x-app-layout>
+
+@include('layouts.footer')

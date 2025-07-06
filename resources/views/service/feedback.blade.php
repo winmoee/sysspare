@@ -158,6 +158,60 @@
                     </div>
                     <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #7</h5>
                 </div>
+
+                <!-- Video 8 -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-video">
+                            <iframe
+                                class="w-full h-full"
+                                src="https://www.youtube.com/embed/bvEWBqJD7Oc?si=iMDJF6aF1_b9V6uN"
+                                title="Customer Testimonial 8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #8</h5>
+                </div>
+
+                <!-- Video 9 - NEW VIDEO -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-video">
+                            <iframe
+                                class="w-full h-full"
+                                src="https://www.youtube.com/embed/tL-H2jKo6xU?si=jX8W7ndbh4utloSr"
+                                title="Customer Testimonial 9"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #9</h5>
+                </div>
+
+                <!-- Video 10 - NEW VIDEO -->
+                <div class="group">
+                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="aspect-video">
+                            <iframe
+                                class="w-full h-full"
+                                src="https://www.youtube.com/embed/4R8CgzT9v2M?si=nbeex4NDWRO0Y857"
+                                title="Customer Testimonial 10"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #10</h5>
+                </div>
             </div>
         </div>
 
@@ -207,3 +261,4 @@
         </div>
     </div>
 </x-app-layout>
+@include('layouts.footer')

@@ -261,4 +261,5 @@
         </div>
     </div>
 </x-app-layout>
-@include('layouts.footer')    
+
+@include('layouts.footer')

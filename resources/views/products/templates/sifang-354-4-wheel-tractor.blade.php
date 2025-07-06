@@ -33,9 +33,25 @@
 </div>
 </div>
 
-
-
-
+<!-- Video Section -->
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Sifang Four Wheels Tractor Video</h2>
+        <div class="flex justify-center">
+            <div class="w-full max-w-4xl">
+                <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                    <iframe 
+                        src="https://www.youtube.com/embed/yBUSSs_DMfM" 
+                        class="w-full h-full" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
 <div class="bg-white rounded-lg shadow-lg p-6">
@@ -125,3 +141,4 @@
         }
     }
 </script>
+ 

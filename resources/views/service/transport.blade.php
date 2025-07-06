@@ -106,7 +106,7 @@
             </div>
         </div>
     </div>
-
+    @include('layouts.footer')
 </x-app-layout>
 
 <!-- Add this JavaScript at the bottom of your file -->

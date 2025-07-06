@@ -173,4 +173,4 @@
 
     </style>
 </x-app-layout>
-1
+@include('layouts.footer')
