@@ -3,9 +3,9 @@
     <div class="bg-gradient-to-r from-green-600 to-green-700">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h3 class="text-3xl font-bold text-white text-center">
-                Customer Feedback & Testimonials
+                {{__('messages.feedback_title')}}
             </h3>
-            <p class="text-green-100 text-center mt-2">See what our customers say about our products and services</p>
+            <p class="text-green-100 text-center mt-2">{{__('messages.feedback_subtitle')}}</p>
         </div>
     </div>
 
@@ -27,8 +27,8 @@
         <!-- Video Testimonials Section -->
         <div class="bg-white rounded-xl shadow-xl p-8">
             <div class="text-center mb-8">
-                <h4 class="text-3xl font-bold text-gray-800 mb-4">Customer Testimonials</h4>
-                <p class="text-gray-600 max-w-2xl mx-auto">Watch real customers share their experiences with our agricultural machinery and services</p>
+                <h4 class="text-3xl font-bold text-gray-800 mb-4">{{__('messages.customer_testimonials')}}</h4>
+                <p class="text-gray-600 max-w-2xl mx-auto">{{__('messages.testimonials_description')}}</p>
             </div>
 
             <!-- Video Grid -->
@@ -48,7 +48,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #1</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #1</h5>
                 </div>
 
                 <!-- Video 2 -->
@@ -66,7 +66,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #2</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #2</h5>
                 </div>
 
                 <!-- Video 3 -->
@@ -84,7 +84,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #3</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #3</h5>
                 </div>
 
                 <!-- Video 4 -->
@@ -102,7 +102,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #4</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #4</h5>
                 </div>
 
                 <!-- Video 5 -->
@@ -120,7 +120,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #5</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #5</h5>
                 </div>
 
                 <!-- Video 6 -->
@@ -138,7 +138,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #6</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #6</h5>
                 </div>
 
                 <!-- Video 7 -->
@@ -156,7 +156,7 @@
                         </div>
                         <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">Customer Experience #7</h5>
+                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #7</h5>
                 </div>
             </div>
         </div>
@@ -165,15 +165,15 @@
         <div class="bg-gradient-to-br from-green-50 to-blue-50 rounded-xl shadow-xl p-8">
             <div class="max-w-2xl mx-auto">
                 <div class="text-center mb-8">
-                    <h4 class="text-3xl font-bold text-gray-800 mb-4">Share Your Experience</h4>
-                    <p class="text-gray-600">We'd love to hear about your experience with our products and services</p>
+                    <h4 class="text-3xl font-bold text-gray-800 mb-4">{{__('messages.share_experience')}}</h4>
+                    <p class="text-gray-600">{{__('messages.share_experience_description')}}</p>
                 </div>
 
                 <form action="{{ route('feedback.submit') }}" method="POST" class="space-y-6">
                     @csrf
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
-                            <label class="block text-sm font-semibold text-gray-700 mb-2">Your Name *</label>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">{{__('messages.your_name')}} {{__('messages.required_field')}}</label>
                             <input type="text" name="name" value="{{ old('name') }}" required
                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 @error('name') border-red-500 @enderror">
                             @error('name')
@@ -181,7 +181,7 @@
                             @enderror
                         </div>
                         <div>
-                            <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">{{__('messages.email_address')}} {{__('messages.required_field')}}</label>
                             <input type="email" name="email" value="{{ old('email') }}" required
                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 @error('email') border-red-500 @enderror">
                             @error('email')
@@ -190,8 +190,8 @@
                         </div>
                     </div>
                     <div>
-                        <label class="block text-sm font-semibold text-gray-700 mb-2">Your Feedback *</label>
-                        <textarea rows="5" name="feedback" required placeholder="Tell us about your experience with our products or services..."
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">{{__('messages.your_feedback')}} {{__('messages.required_field')}}</label>
+                        <textarea rows="5" name="feedback" required placeholder="{{__('messages.feedback_placeholder')}}"
                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all duration-200 resize-none @error('feedback') border-red-500 @enderror">{{ old('feedback') }}</textarea>
                         @error('feedback')
                             <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="text-center">
                         <button type="submit" class="px-8 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-lg hover:from-green-700 hover:to-green-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
-                            Submit Feedback
+                            {{__('messages.submit_feedback')}}
                         </button>
                     </div>
                 </form>

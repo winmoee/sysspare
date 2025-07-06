@@ -223,8 +223,8 @@
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/2.webp" alt="2" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/3.webp" alt="3" class="carousel-slide">
             <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/4.webp" alt="4" class="carousel-slide">
-            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg1.jpeg" alt="gg1" class="carousel-slide">
-            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/gg1.jpeg" alt="gg1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/Thanmyint.png" alt="gg1" class="carousel-slide">
+            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/nyanlin.png" alt="gg1" class="carousel-slide">
             <!-- <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/service/0.webp" alt="0" class="carousel-slide"> -->
         </div>
 

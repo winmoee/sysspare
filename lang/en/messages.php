@@ -276,5 +276,20 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'commitment_service' => 'Reliable aftersales service to maximize equipment lifespan and performance',
 'commitment_description' => 'We are committed to offering customers the best value, expert advice, and ongoing support to ensure they get the most out of their investment.',
 'continuous_improvement' => 'Continuous Improvement',
-'improvement_description' => 'At Seinn Yaung So, we continually seek new ways to enhance our products, services, and support systems to better serve Myanmar\'s farming communities. Our goal is to build lasting relationships based on trust, performance, and shared success.'
+'improvement_description' => 'At Seinn Yaung So, we continually seek new ways to enhance our products, services, and support systems to better serve Myanmar\'s farming communities. Our goal is to build lasting relationships based on trust, performance, and shared success.',
+
+// Feedback page translations
+'feedback_title' => 'Customer Feedback & Testimonials',
+'feedback_subtitle' => 'See what our customers say about our products and services',
+'customer_testimonials' => 'Customer Testimonials',
+'testimonials_description' => 'Watch real customers share their experiences with our agricultural machinery and services',
+'customer_experience' => 'Customer Experience',
+'share_experience' => 'Share Your Experience',
+'share_experience_description' => 'We\'d love to hear about your experience with our products and services',
+'your_name' => 'Your Name',
+'email_address' => 'Email Address',
+'your_feedback' => 'Your Feedback',
+'feedback_placeholder' => 'Tell us about your experience with our products or services...',
+'submit_feedback' => 'Submit Feedback',
+'required_field' => '*',
 ];
