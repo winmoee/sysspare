@@ -237,6 +237,7 @@
 </div>
  </div>
 
+ 
  <!-- Add JavaScript for toggle functionality -->
     <script>
         function toggleSpecifications() {
