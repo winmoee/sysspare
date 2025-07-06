@@ -1,5 +1,6 @@
 {{-- resources/views/products/gt-1.blade.php --}}
 <div class="specification-container">
+    <br>
     <table class="table-striped">
         <tbody>
             <tr class="text-grey-color">

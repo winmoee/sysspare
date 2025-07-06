@@ -58,7 +58,7 @@
     <div class="h-px bg-gradient-to-r from-transparent via-white to-transparent my-4"></div>
   </div>
 </footer>
-<footer class="bg-green-900 text-white py-4 mt-0">
+<footer class="bg-green-900 text-white py-4 mt-4">
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <div class="text-center">
           <p class="text-lg font-semibold animate-pulse">
@@ -69,4 +69,5 @@
           </div>
       </div>
   </div>
+</footer>
 </footer>
