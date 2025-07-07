@@ -18,33 +18,29 @@
 <div class="specification-container">
     <table class="table-striped">
         <tbody>
-            <!-- <tr class="text-grey-color">
+        <tr class="text-grey-color">
+                <td class="py-1 fs-6">Model</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">ZS-1110
+                </td>
+            </tr> 
+             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">57.6PS
+                <td class="text-dark fs-6">22Hp
                 </td>
             </tr>
             <tr class="text-grey-color">
-                <td class="py-1 fs-6">Weight</td>
+                <td class="py-1 fs-6">Special feature</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1850 kg
+                <td class="text-dark fs-6">water and fuel tank big
                 </td>
-            </tr> -->
-            {{-- <tr class="text-grey-color">
-                <td class="py-1 fs-6">Wheel</td>
+            </tr> 
+             <tr class="text-grey-color">
+                <td class="py-1 fs-6">RPM</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">800 x 275 (mm)</td>
+                <td class="text-dark fs-6">2200</td>
             </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Width</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1055 - 1205 (mm)</td>
-            </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Height</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1225 (mm)</td>
-            </tr> --}}
         </tbody>
     </table>
 </div>
