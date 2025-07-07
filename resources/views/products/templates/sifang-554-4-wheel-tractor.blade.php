@@ -61,27 +61,28 @@
                     <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="p-6">
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                            <div class="flex flex-col">
+                                <!-- Feature 1:  -->
+                                <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FmMOVR1c7EowQooY38IJ9.jpg"
-                                         alt="1GQN - 150 ထွန်ခုံ (34)သွား"
+                                         alt="ရိုတာ‌ဗေတာ"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">1GQN - 150 ထွန်ခုံ (34)သွား</h3>
+                                    <h3 class="text-lg font-semibold mb-2">ရိုတာ‌ဗေတာ</h3>
                                 </div>
 
                                 <!-- Feature 2:-->
                                 <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FslyCZgySjh4lRSiMSWcn.png"
-                                         alt="1GQN - 180 ထွန်ခုံ (42)သွား"
+                                         alt="၆  ဗန်းလင်ဗန်းထယ်"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">1GQN - 180 ထွန်ခုံ (42)သွား</h3>
+                                    <h3 class="text-lg font-semibold mb-2">၆  ဗန်းလင်ဗန်းထယ်</h3>
                                 </div>
 
                                 <!-- Feature 3: Gear Shift -->
                                 <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2F1DFuMiWFCbod88eT447L.jpg"
-                                         alt="1LY - 320 သုံးသွားလင်ဗန်း"
+                                         alt="၁၆  ဗန်းလင်ဗန်းထယ်"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">1LY - 320 သုံးသွားလင်ဗန်း</h3>
+                                    <h3 class="text-lg font-semibold mb-2">၁၆ ဗန်းလင်ဗန်းထယ်</h3>
                                 </div>
 
                             </div>
