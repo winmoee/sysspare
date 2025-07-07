@@ -20,12 +20,12 @@
              <tr class="text-grey-color">
                 <td class="py-1 fs-6">PTO</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">720</td>
+                <td class="text-dark fs-6">720/540</td>
             </tr>
           
           
         </tbody>
-            </table>
+    </table>
 </div>
 </div>
 </div>
@@ -33,16 +33,86 @@
 </div>
 </div>
 
+
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+<div class="bg-white rounded-lg shadow-lg p-6">
+   
+        
+    <div class="max-w-7xl mx-auto py-6 lg:py-8">
+        <div class="space-y-4">
+        <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        onclick="toggleMainFeature('feature2')"
+                        class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
+                    >
+                        <div class="flex items-center">
+                            <span class="text-lg font-medium text-gray-700 text-left">တွဲဖက်ပစ္စည်းများ</span>
+                        </div>
+                        <svg
+                            id="arrowFeature2"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
+                        <div class="p-6">
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                                <!-- Feature 1:  -->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FmMOVR1c7EowQooY38IJ9.jpg"
+                                         alt="1GQN - 150 ထွန်ခုံ (34)သွား"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">1GQN - 150 ထွန်ခုံ (34)သွား</h3>
+                                </div>
+
+                                <!-- Feature 2:-->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FslyCZgySjh4lRSiMSWcn.png"
+                                         alt="1GQN - 180 ထွန်ခုံ (42)သွား"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">1GQN - 180 ထွန်ခုံ (42)သွား</h3>
+                                </div>
+
+                                <!-- Feature 3: Gear Shift -->
+                                <div class="flex flex-col">
+                                    <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2F1DFuMiWFCbod88eT447L.jpg"
+                                         alt="1LY - 320 သုံးသွားလင်ဗန်း"
+                                         class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
+                                    <h3 class="text-lg font-semibold mb-2">1LY - 320 သုံးသွားလင်ဗန်း</h3>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+      </div>
+    </div>
+ </div>
+        
+
 <!-- Video Section -->
 <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
-    <div class="bg-white rounded-lg shadow-lg p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Sifang Four Wheels Tractor Video</h2>
+    <div class="bg-white rounded-lg shadow-lg p-6 transform transition duration-500 hover:shadow-xl">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center relative pb-3">
+            <span class="relative inline-block">
+                Sifang Four Wheels Tractor Video
+                <div class="absolute bottom-0 left-0 w-full h-1 bg-blue-500 rounded"></div>
+            </span>
+        </h2>
         <div class="flex justify-center">
             <div class="w-full max-w-4xl">
-                <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
                     <iframe 
                         src="https://www.youtube.com/embed/yBUSSs_DMfM" 
                         class="w-full h-full" 
+                        title="Sifang Four Wheels Tractor Video"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
@@ -53,61 +123,7 @@
     </div>
 </div>
 
-<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
-<div class="bg-white rounded-lg shadow-lg p-6">
-   
-        
-    <div class="max-w-7xl mx-auto py-6 lg:py-8">
-        <div class="space-y-4">
-    <div class="border border-gray-200 rounded-lg overflow-hidden">
-                <button
-                    onclick="toggleMainFeature('feature3')"
-                    class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
-                >
-                    <div class="flex items-center">
-                        <span class="text-lg font-medium text-gray-700 text-left">အချက်အလက်များ</span>
-                    </div>
-                    <svg
-                        id="arrowFeature3"
-                        class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                    </svg>
-                </button>
-             <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
-                <div class="p-6">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-                    <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">Engine-model</h3>
-                                    <p class="text-gray-600 leading-relaxed">25.8 kw </p>
-                                </div>
-
-                                 <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">Brake</h3>
-                                    <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
-                                </div>
-                               
-                                <div class="flex flex-col">
-                                    
-                                    <h3 class="text-lg font-semibold mb-2">PTO</h3>
-                                    <p class="text-gray-600 leading-relaxed">720</p>
-                                </div>         
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
- </div>
-        
 
 
 

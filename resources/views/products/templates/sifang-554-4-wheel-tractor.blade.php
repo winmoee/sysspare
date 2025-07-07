@@ -33,9 +33,7 @@
 
 
 
-
-  
-    <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
 <div class="bg-white rounded-lg shadow-lg p-6">
    
         
@@ -63,28 +61,27 @@
                     <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="p-6">
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                <!-- Feature 1:  -->
-                                <div class="flex flex-col">
+                            <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FmMOVR1c7EowQooY38IJ9.jpg"
-                                         alt="ရိုတာ‌ဗေတာ"
+                                         alt="1GQN - 150 ထွန်ခုံ (34)သွား"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">ရိုတာ‌ဗေတာ</h3>
+                                    <h3 class="text-lg font-semibold mb-2">1GQN - 150 ထွန်ခုံ (34)သွား</h3>
                                 </div>
 
                                 <!-- Feature 2:-->
                                 <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2FslyCZgySjh4lRSiMSWcn.png"
-                                         alt="၆  ဗန်းလင်ဗန်းထယ်"
+                                         alt="1GQN - 180 ထွန်ခုံ (42)သွား"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">၆  ဗန်းလင်ဗန်းထယ်</h3>
+                                    <h3 class="text-lg font-semibold mb-2">1GQN - 180 ထွန်ခုံ (42)သွား</h3>
                                 </div>
 
                                 <!-- Feature 3: Gear Shift -->
                                 <div class="flex flex-col">
                                     <img src="https://res.cloudinary.com/glide/image/fetch/f_auto,w_500,c_limit/https%3A%2F%2Fstorage.googleapis.com%2Fglide-prod.appspot.com%2Fuploads-v2%2Ff8wTuPOrzw3498DFwFH6%2Fpub%2F1DFuMiWFCbod88eT447L.jpg"
-                                         alt="၁၆  ဗန်းလင်ဗန်းထယ်"
+                                         alt="1LY - 320 သုံးသွားလင်ဗန်း"
                                          class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                    <h3 class="text-lg font-semibold mb-2">၁၆ ဗန်းလင်ဗန်းထယ်</h3>
+                                    <h3 class="text-lg font-semibold mb-2">1LY - 320 သုံးသွားလင်ဗန်း</h3>
                                 </div>
 
                             </div>
@@ -98,6 +95,25 @@
  </div>
         
 
+<!-- Video Section -->
+<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+    <div class="bg-white rounded-lg shadow-lg p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Sifang Four Wheels Tractor Video</h2>
+        <div class="flex justify-center">
+            <div class="w-full max-w-4xl">
+                <div class="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                    <iframe 
+                        src="https://www.youtube.com/embed/yBUSSs_DMfM" 
+                        class="w-full h-full" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
