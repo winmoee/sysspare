@@ -129,7 +129,7 @@
         </div>
 
 
-    <!-- Search and Sort Section -->
+    {{-- <!-- Search and Sort Section -->
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
     <div class="space-y-4">
         <!-- Search Form -->
@@ -182,10 +182,10 @@
             @endforeach
         </div>
     </div>
-</div>
+</div> --}}
 
 <!-- Spare Section -->
-<div class="max-w-7xl mx-auto p-6 lg:p-8">
+{{-- <div class="max-w-7xl mx-auto p-6 lg:p-8">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         @foreach ($spares as $spare)
             <a href="{{ route('spares.show', $spare) }}" class="block">
@@ -238,16 +238,16 @@
             {{ $spares->links() }}
         </div>
     @endif
-</div>
+</div> --}}
 
- <!-- NEW IMAGE -->
- <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <div class="relative">
+ {{-- <!-- NEW IMAGE -->
+ <div class="max-w-7xl mx-auto p-6 lg:p-8"> --}}
+            {{-- <div class="relative">
                 <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/SLaxu5MEktimsQJmwNUF.webp"
                      alt="SYS"
                      class="w-full h-auto rounded-lg">
-            </div>
-    </div>
+            </div> --}}
+    {{-- </div> --}}
 
 
 

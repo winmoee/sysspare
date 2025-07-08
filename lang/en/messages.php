@@ -41,6 +41,7 @@ return [
     'seinyaungso_original'=>'Seinn Yaung So',
     'social_media'=>'Social Media',
     'seinnyaungso_company'=>'Seinn Yaung So Co.,Ltd (Showroom) zone-5',
+    'seinnyaungso_spareshop'=>'Seinn Yaung So Co.,Ltd (Spare parts Shop) zone-5',
     'address' => 'Sales and Showroom Address - No. (148/149), Anawrahta Road, Hlaing Tharyar Industrial Zone (5) Extension.',
     'cash_down' => 'Cash Down',
     'hp' => 'Hire Purchase',
@@ -220,8 +221,13 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'Zone_5_Address' => 'Your actual Zone 5 address here',
 //End of division.blade.php//
 
+// ... existing code ...
+'spare_shop' => 'Spare Parts',
+'spare_shop_title' => 'Our Spare Parts Shop',
+'spare_shop_description' => 'Find genuine spare parts for all your agricultural machinery needs.',
+// ... existing code ...
     // Add all your English text strings here
-'contactus'=>'Contact us',
+// 'contactus'=>'Contact us',
 'salesphone'=>'Sales Phone Number',
 'servicephone'=>'Service Phone Number',
 'sparephone'=>'Spare Phone Number',

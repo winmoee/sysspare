@@ -135,8 +135,9 @@
                                 style="display: none;">
                                 <div class="py-2">
                                     <!-- <div class="px-4 py-2 text-sm text-gray-700 font-medium">Product</div> -->
-                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
-                                    <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
+                                    <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.spare_shop') }}</a>
+                                    <a href="{{ url('/aboutspare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
+                                    <a href="{{ url('/catalog') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.catalog') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -206,7 +207,7 @@
                                     <a href="{{ url('/division#pathein') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
                                     <a href="{{ url('/division#hinthada') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
                                     <a href="{{ url('/division#shwebo') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
-                                    <a href="{{ url('/division#taunggyi') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
+
                                 </div>
                             </div>
                         </div>
@@ -241,7 +242,7 @@
                                 class="absolute left-0 top-full mt-1 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
                                 style="display: none;">
                                 <div class="py-2">
-                                    <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.contactus') }}</div>
+                                    {{-- <div class="px-4 py-2 text-sm text-gray-700 font-medium">{{ __('messages.contactus') }}</div> --}}
                                     <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100" >{{ __('messages.sales') }}</a>
                                     <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100" >{{ __('messages.service') }}</a>
                                     <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
@@ -418,7 +419,12 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
-                        <a href="{{ url('/') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
+                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
+                        // Change from:
+                        <a href="{{ url('/aboutspare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
+
+                        // To (redirect to spares catalog):
+                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
                     </div>
                 </div>
 
@@ -456,7 +462,7 @@
                         <a href="{{ url('/division#pathein') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.pathein') }}</a>
                         <a href="{{ url('/division#hinthada') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.hinthada') }}</a>
                         <a href="{{ url('/division#shwebo') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.shwebo') }}</a>
-                        <a href="{{ url('/division#taunggyi') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a>
+                        {{-- <a href="{{ url('/division#taunggyi') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">{{ __('messages.taunggyi') }}</a> --}}
                     </div>
                 </div>
 
@@ -471,8 +477,8 @@
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.contact') }}</div>
                         <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.sales') }}</a>
                         <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.service') }}</a>
-                        <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.spare') }}</a>
-                        <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.office') }}</a>
+                        <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
+                        <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a>
                     </div>
                 </div>
 
