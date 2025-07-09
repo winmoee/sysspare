@@ -45,10 +45,10 @@
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
     </h6>
-        
+
     <div class="max-w-7xl mx-auto py-6 lg:py-8">
         <div class="space-y-4">
-         
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature1')"
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature2')"
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-           
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature3')"
@@ -146,7 +146,7 @@
                 </div>
             </div>
 
-           
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature4')"
@@ -189,10 +189,10 @@
     <h6 class="text-xl font-semibold text-gray-800 mb-4">
     အဓိကအင်္ဂါရပ်များ
     </h6>
-        
+
     <div class="max-w-7xl mx-auto py-6 lg:py-8">
         <div class="space-y-4">
-           
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature1')"
@@ -218,7 +218,7 @@
 
                         အရည်အသွေး ကောင်းကောင်း လိုချင်ရင် တန်ဖိုးကြီးကြီးပေး ရမယ်ဆိုတဲ့ အစဉ်အလာကို Ace လေးဘီးထွန်စက်က ချိုးဖျက်လိုက်ပါပီ ။
 
-                        တန်ဖိုးအသက်သာဆုံးနှင့် အရည်အသွေးအကောင်းဆုံး Ace အိန္ဒိယလေးဘီးထွန်စက်က  တောင်သူဦးကြီးများ လယ်ယာလုပ်ငန်းခွင်အတွက် အသုံး ပြုဖို့အတွက် အကောင်းဆုံး ဖစ်ပါသည်။
+                        တန်ဖိုးအသက်သာဆုံးနှင့် အရည်အသွေးအကောင်းဆုံး Ace အိန္ဒိယလေးဘီးထွန်စက်က  တောင်သူဦးကြီးများ လယ်ယာလုပ်ငန်းခွင်အတွက် အသုံး ပြုဖို့အတွက် အကောင်းဆုံး ဖြစ်ပါသည်။
 
                         အရည်အသွေးမြင့်မားသည့်  အီတလီ နိုင်ငံထုတ် Carraro ဂီယာဘောက် ဖြစ်ပါသည်။
                         လေးဘီးထွန်စက်များကို ချစ်မြတ်နိုးသည့် အိန္ဒိယစက်ရုံ Aceကုမ္ပဏီ ဥက္ကဌကြီး၏ စေတနာတို့ကြောင့်  တန်ဖိုးအသက်သာဆုံးနှင့် စွမ်းအားအမြင့်ဆုံး Ace အိန္ဒိယ လေးဘီးထွန်စက်များကို ဝယ်ယူသုံးစွဲကြပါစို့။
@@ -277,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-            
+
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                 <button
                     onclick="toggleMainFeature('feature3')"
@@ -302,51 +302,51 @@
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
                         <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Engine-model</h3>
                                     <p class="text-gray-600 leading-relaxed">A.65 (cold start kit optional) </p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">အသားတင်မြင်းကောင်ရေအား</h3>
                                     <p class="text-gray-600 leading-relaxed"> (61.2) HP </p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">ဆီတိုင်ကီအရွယ်အစား </h3>
                                     <p class="text-gray-600 leading-relaxed">   65 Liters</p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Weight </h3>
                                     <p class="text-gray-600 leading-relaxed">2850 kg</p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Club</h3>
                                     <p class="text-gray-600 leading-relaxed">  အခြောက်အမျိုးအစား (နှစ်ပြား)</p>
                                 </div>
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Lifting-capacity</h3>
                                     <p class="text-gray-600 leading-relaxed">2200 kg</p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Brake</h3>
                                     <p class="text-gray-600 leading-relaxed"> ဆီတွင်စိမ်ထားသော ဘရိတ်ပြားစနစ်  </p>
                                 </div>
 
                                 <div class="flex flex-col">
-                                    
+
                                     <h3 class="text-lg font-semibold mb-2">Gearbox</h3>
                                     <p class="text-gray-600 leading-relaxed">   ရှေ့ 12ချက်/နောက် 12ချက်</p>
-                                </div>      
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -378,6 +378,47 @@
             </div>
         </div>
     </div>
+    {{-- <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Video Section -->
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://youtube.com/embed/e_fHlrWZ57g"
+                                    frameborder="0"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catalog Section -->
+                <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+                        <i class="fas fa-book-open text-green-600 mr-3"></i>
+                        Catalog
+                    </h2>
+                    <div class="space-y-4">
+                        <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
+                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                                    target="_blank">
+                            <div class="flex items-center justify-between">
+                                <div>
+                                    <h4 class="font-medium text-gray-800">GT-1 Walking Tractor</h4>
+                                    <span class="text-sm text-green-600">Download</span>
+                                </div>
+                                    <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
             </div>
             </div>
 

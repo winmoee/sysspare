@@ -8,7 +8,7 @@ return [
     'spare_parts' => 'Spare Parts',
     'service' => 'Service',
     'subdivision' => 'Subdivision',
-    'contact' => 'Contact',
+    'contact' => 'Contact Us',
     'profile' => 'Profile',
     'log_out' => 'Log Out',
     'log_in' => 'Log In',
@@ -65,7 +65,7 @@ return [
     'shwebo' => 'Shwebo',
     'taunggyi' => 'Taunggyi',
     'spare'=>'Spare',
-    'office'=>'Office',
+    'office'=>'Head Office',
  //service under 4
  'second_market'=>'Second-Hand Market',
  'second_market_info'=>'This is simply sharing information without any profit for the benefit of farmers who are interested in buying or selling good second-hand harvesters and four-wheel tractors, farm equipment.',
@@ -132,7 +132,7 @@ return [
     'service_workshop_11'=>'Copy Number',
     'Seinn_Yaung_So_Manufacturing_Bayintnaung' => 'Seinn Yaung So Manufacturing Co., Ltd. (Bayintnaung)',
 'Bayintnaung' => 'Bayintnaung',
-'Bayintnaung_Address' => 'Your Bayintnaung branch address in English',
+'Bayintnaung_Address' => 'No. (163), Thiri Myaing (10) Street, Thiri Myaing Housing, Mayangone Township, Yangon.',
 'Seinn_Yaung_So_Zone_5_Showroom' => 'Seinn Yaung So Zone 5 Showroom',
 'Zone_5' => 'Zone 5',
 
@@ -217,15 +217,14 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'Dig_industrial'=>'DIG Industrial Zone, Kimmalin Island Quarter, Pathein.',
 'Hinthada_Leltaw'=>'No. D-18 Leltaw Car Park, Hinthada Township.',
 'Shwebo_Township'=>'No. Azaya (4/137), Yay Oo Road, Shwebo.',
-'Bayintnaung_Address' => 'Your actual Bayintnaung address here',
-'Zone_5_Address' => 'Your actual Zone 5 address here',
+'Bayintnaung_Address' => 'No. (163), Thiri Myaing (10) Street, Thiri Myaing Housing, Mayangone Township, Yangon.',
+'Zone_5_Address' => 'No. (148/149), Anawrahta Main Road, Industrial Zone (5) Extension, Near Gate (86), Hlaing Thar Yar.',
 //End of division.blade.php//
 
 // ... existing code ...
 'spare_shop' => 'Spare Parts',
 'spare_shop_title' => 'Our Spare Parts Shop',
 'spare_shop_description' => 'Find genuine spare parts for all your agricultural machinery needs.',
-// ... existing code ...
     // Add all your English text strings here
 // 'contactus'=>'Contact us',
 'salesphone'=>'Sales Phone Number',

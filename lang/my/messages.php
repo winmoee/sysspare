@@ -243,10 +243,10 @@ MEB Payment သည် ငွေကြေးစီမံခန့်ခွဲမ�
 'branch9add'=>'အမှတ်(၆/၁၇)၊ နယ်မြေ(၂) ပြည်ထောင်စုလမ်း၊ မင်္ဂလာရွှေဗဟိုရပ်ကွက်၊ ရွှေညောင်မြို့',
 'Seinn_Yaung_So_Manufacturing_Bayintnaung' => 'စိမ်းရောင်စို ကုမ္ပဏီလီမိတက် (ဘုရင့်နောင်)',
 'Bayintnaung' => 'ဘုရင့်နောင်',
-'Bayintnaung_Address' => 'Your Bayintnaung branch address in Myanmar',
+'Bayintnaung_Address' => 'အမှတ် (၁၆၃)، သီရိမြိုင် (၁၀) လမ်း၊ သီရိမြိုင် အိမ်ရာ၊ မရမ်းကုန်းမြို့နယ်၊ ရန်ကုန်။',
 'Seinn_Yaung_So_Zone_5_Showroom' => 'စိမ်းးရောင်စို ဇုံ ၅ ရှိုးရုံ', // Myanmar translation
 'Zone_5' => 'ဇုံ ၅', // Myanmar translation
-
+'Zone_5_Address' => 'အမှတ် (၁၄၈/၁၄၉)، အနော်ရထာမိန်းလမ်းမကြီး၊ စက်မှုဇုံ (၅) တိုးချဲ့၊ ဂိတ် (၈၆) အနီး၊ လှိုင်သာယာမြို့နယ်။',
 
 'sales_info'=>'"Seinn Yaung So" Company မှာ အသုံးများသော ငွေပေးချေမှု နည်းလမ်းများ',
 'cash_down_title'=>'ငွေသား ကြိုတင်ပေးချေမှု',

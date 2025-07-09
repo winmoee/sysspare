@@ -24,35 +24,24 @@
         <div class="carousel-container" id="showroom-carousel" data-carousel-id="showroom-carousel">
             <div class="carousel-slides">
                 <div class="carousel-slide active">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/srsDvBFG6CY05EuX8HCx.webp" alt="Showroom Image 1">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store4.jpg">
                 </div>
                 <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom1.jpg" alt="Showroom Image 2">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store5.jpg" alt="Showroom Image 2">
                 </div>
                 <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom2.jpg" alt="Showroom Image 3">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store3.jpg" alt="Showroom Image 3">
                 </div>
                 <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom5.jpg" alt="Showroom Image 4">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store2.jpg" alt="Showroom Image 4">
                 </div>
                 <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom6.jpg" alt="Showroom Image 5">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store.jpg" alt="Showroom Image 5">
                 </div>
                 <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom8.jpg" alt="Showroom Image 6">
+                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store1.jpg" alt="Showroom Image 6">
                 </div>
-                <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom10.jpg" alt="Showroom Image 7">
-                </div>
-                <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom11.jpg" alt="Showroom Image 8">
-                </div>
-                <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom13.jpg" alt="Showroom Image 9">
-                </div>
-                <div class="carousel-slide">
-                    <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/showroom/showroom14.jpg" alt="Showroom Image 10">
-                </div>
+
             </div>
 
             <!-- Navigation Buttons -->
