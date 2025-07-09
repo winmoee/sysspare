@@ -21,7 +21,7 @@
              <tr class="text-grey-color">
                 <td class="py-1 fs-6">Model</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">ZN-1100
+                <td class="text-dark fs-6">ZS-1100
                 </td>
             </tr> 
              <tr class="text-grey-color">
@@ -54,17 +54,17 @@
 
 
 
-    <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
+    <!--<div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
     <div class="bg-white rounded-lg shadow-lg p-6">
         <br>
         <h6 class="text-xl font-semibold text-gray-800 mb-4">
         အဓိကအင်္ဂါရပ်များ
         </h6>
             <!-- Spare Section -->
-        <div class="max-w-7xl mx-auto py-6 lg:py-8">
+       <!-- <div class="max-w-7xl mx-auto py-6 lg:py-8">
             <div class="space-y-4">
                 <!-- Dropdown 1 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <!--<<div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature1')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -93,7 +93,7 @@
                 </div>
 
                 <!-- Dropdown 2 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+               <!-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature2')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -122,7 +122,7 @@
                 </div>
 
                 <!-- Dropdown 3 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <!--<div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature3')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -151,7 +151,7 @@
                 </div>
 
                 <!-- Dropdown 4 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+               <!-- <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature4')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -180,7 +180,7 @@
                 </div>
 
                 <!-- Dropdown 5 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <!--<div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature5')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -209,7 +209,7 @@
                 </div>
 
                 <!-- Dropdown 6 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <!--<div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature6')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -238,7 +238,7 @@
                 </div>
 
                 <!-- Dropdown 7 -->
-                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                <!--<div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button 
                         onclick="toggleMainFeature('feature7')" 
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
@@ -274,7 +274,7 @@
    <div class="main-features">
     <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
         <!-- Specification Dropdown Button -->
-        <button 
+      <!--  <button 
             
             onclick="toggleSpecifications()" 
             class="w-full flex items-center justify-between text-white px-4 py-3 rounded-lg focus:outline-none transition-colors duration-200"
@@ -294,7 +294,7 @@
         </button>
 
         <!-- Specification Content -->
-        <div id="specificationsContent" class="hidden mt-4 transition-all duration-300 ease-in-out">
+       <!-- <div id="specificationsContent" class="hidden mt-4 transition-all duration-300 ease-in-out">
             <div class="overflow-x-auto">
                 <table class="min-w-full border-collapse border border-gray-300 text-sm">
                     <thead>
@@ -307,7 +307,7 @@
                     </thead>
                     <tbody>
                         <!-- Engine Section -->
-                        <tr class="bg-gray-100">
+                      <!--  <tr class="bg-gray-100">
                             <td rowspan="8" class="border border-gray-300 px-2 py-2 font-medium text-center">အင်ဂျင်</td>
                             <td class="border border-gray-300 px-2 py-2 text-center">အမှတ်အသား</td>
                             <td class="border border-gray-300 px-2 py-2 text-center">YANMAR</td>
@@ -348,7 +348,7 @@
                         </tr>
 
                         <!-- Dimensions Section -->
-                        <tr class="bg-gray-100">
+                       <!-- <tr class="bg-gray-100">
                             <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="7">အတိုင်းအတာများ ( အလျား x အနံ x အမြင့် )</td>
                             <td class="border border-gray-300 px-2 py-2 text-center">Overall Length [mm]</td>
                             
@@ -390,7 +390,7 @@
                         </tr>
 
                         <!-- Weight Section -->
-                        <tr class="bg-white">
+                      <!--  <tr class="bg-white">
                             <td colspan="2" class="border border-gray-300 px-2 py-2 font-medium text-center">အလေးချိန် [ကီလိုဂရမ်]</td>
                             
                             
@@ -399,7 +399,7 @@
                         </tr>
 
                         <!-- Tires Section -->
-                         <tr class="bg-gray-100">
+                        <!-- <tr class="bg-gray-100">
                             <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="10">မောင်းနှင်််််််််မှုစနစ်</td>
                             <td class="border border-gray-300 px-2 py-2 text-center">တာယာ ရှေ့ [inch]</td>
                              
@@ -451,7 +451,7 @@
                         <!-- 3-Point Hitch Section -->
                         
                        
-                        <tr class="bg-gray-100">
+                       <!-- <tr class="bg-gray-100">
                             <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="4">ဟိုက်ဒရောလစ်စနစ်</td>
                              <td class="border border-gray-300 px-2 py-2 text-center">လိုက်ပါပစ္စည်း ထိန်းချုပ်မှုစနစ်</td>
                              <td colspan="3" class="border border-gray-300 px-2 py-2 text-center">ပုံစံစနစ် ထိန်းချုပ်မှုစနစ်</td>
@@ -471,7 +471,7 @@
                         </tr>
 
                         <!-- PTO Section -->
-                         <tr class="bg-gray-100">
+                        <!-- <tr class="bg-gray-100">
                              <td class="border border-gray-300 px-2 py-2 font-medium text-center" rowspan="4">စွမ်းအင်ထုတ်ယူသုံးစွဲခြင်း (PTO)</td>
                              <td class="border border-gray-300 px-2 py-2 text-center">အမျိုးအစား</td>
                              <td class="border border-gray-300 px-2 py-2 text-center">သီးသန့်</td>
