@@ -84,7 +84,7 @@
 
                                     <!-- Feature 3: Gear Shift -->
                                     <div class="flex flex-col">
-                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/set1.jpg"
+                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/set2.jpg"
 
                                              class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
                                         <h3 class="text-lg font-semibold mb-2">1LY - 320 သုံးသွားလင်ဗန်း</h3>
