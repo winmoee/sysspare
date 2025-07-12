@@ -387,7 +387,7 @@
                     <div class="practical-video-wraper">
                         <div class="video-item">
                             <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                    src="https://youtu.be/rGBrUHlSTts"
                                     frameborder="0"
                                     allowfullscreen>
                             </iframe>
@@ -403,12 +403,12 @@
                     </h2>
                     <div class="space-y-4">
                         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                        <a href="https://drive.google.com/uc?export=download&id=14d7A86U1zMdMh4HyiTS3Q5J0xeQtLmei"
                                     class="text-green-600 hover:text-green-700 transition-colors duration-200"
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">YM357 FD</h4> <!-- Keep specific title -->
+                                    <h4 class="font-medium text-gray-800">ACE</h4> <!-- Keep specific title -->
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
                                     <i class="fas fa-arrow-right"></i>
