@@ -10,13 +10,17 @@
                     </div>
 
                     <!-- Brand Catalog Content -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                         <!-- Yanmar Brand -->
-                        <div class="bg-gradient-to-br from-red-50 to-red-100 p-8 rounded-lg border-2 border-red-200 hover:shadow-lg transition-shadow">
+                        <div class="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-lg border-2 border-red-200 hover:shadow-lg transition-shadow">
                             <div class="text-center">
+                                <!-- Add brand logo/image -->
+                                <div class="mb-4">
+                                    <img src="{{ asset('images/brands/yanmar-logo.png') }}" alt="Yanmar Logo" class="mx-auto h-16 w-auto object-contain" onerror="this.style.display='none'">
+                                </div>
                                 <h3 class="text-2xl font-bold mb-4 text-red-700">{{ __('messages.ymr') }}</h3>
-                                <p class="text-gray-700 mb-6">Premium Japanese agricultural machinery and engines. Known for reliability, efficiency, and innovative technology.</p>
-                                <div class="space-y-2 text-sm text-gray-600 mb-6">
+                                <p class="text-gray-700 mb-4">Premium Japanese agricultural machinery and engines. Known for reliability, efficiency, and innovative technology.</p>
+                                <div class="space-y-1 text-sm text-gray-600 mb-4">
                                     <p>• Tractors & Walking Tractors</p>
                                     <p>• Diesel Engines</p>
                                     <p>• Combine Harvesters</p>
@@ -27,11 +31,15 @@
                         </div>
 
                         <!-- ACE Brand -->
-                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-lg border-2 border-blue-200 hover:shadow-lg transition-shadow">
+                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg border-2 border-blue-200 hover:shadow-lg transition-shadow">
                             <div class="text-center">
+                                <!-- Add brand logo/image -->
+                                <div class="mb-4">
+                                    <img src="{{ asset('images/brands/ace-logo.png') }}" alt="ACE Logo" class="mx-auto h-16 w-auto object-contain" onerror="this.style.display='none'">
+                                </div>
                                 <h3 class="text-2xl font-bold mb-4 text-blue-700">{{ __('messages.ace') }}</h3>
-                                <p class="text-gray-700 mb-6">Quality agricultural implements and machinery. Trusted for durability and performance in farming operations.</p>
-                                <div class="space-y-2 text-sm text-gray-600 mb-6">
+                                <p class="text-gray-700 mb-4">Quality agricultural implements and machinery. Trusted for durability and performance in farming operations.</p>
+                                <div class="space-y-1 text-sm text-gray-600 mb-4">
                                     <p>• Agricultural Implements</p>
                                     <p>• Farm Equipment</p>
                                     <p>• Attachments</p>
@@ -73,7 +81,7 @@
                     </div>
 
                     <!-- Contact Information -->
-                    <div class="mt-12 text-center bg-gray-50 p-8 rounded-lg">
+                    <div class="mt-8 text-center bg-gray-50 p-6 rounded-lg">
                         <h2 class="text-2xl font-bold mb-4">{{ __('messages.contact') }}</h2>
                         <p class="text-gray-600 mb-4">{{ __('messages.seinnyaungso_spareshop') }}</p>
                         <p class="text-sm text-gray-500">Need help choosing the right brand? Contact us for expert advice and recommendations.</p>
