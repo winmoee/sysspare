@@ -41,7 +41,7 @@
                             </div>
                         </div>
 
-                        <!-- Sifang Brand -->
+                        {{-- <!-- Sifang Brand -->
                         <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-lg border-2 border-orange-200 hover:shadow-lg transition-shadow">
                             <div class="text-center">
                                 <h3 class="text-2xl font-bold mb-4 text-orange-700">{{ __('messages.sfg') }}</h3>
@@ -54,10 +54,10 @@
                                 </div>
                                 <a href="{{ route('catalog.sifang') }}" class="inline-block bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors font-semibold">View Sifang Catalog</a>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!-- Other Brands -->
-                        <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-lg border-2 border-green-200 hover:shadow-lg transition-shadow">
+                        {{-- <div class="bg-gradient-to-br from-green-50 to-green-100 p-8 rounded-lg border-2 border-green-200 hover:shadow-lg transition-shadow">
                             <div class="text-center">
                                 <h3 class="text-2xl font-bold mb-4 text-green-700">Other Brands</h3>
                                 <p class="text-gray-700 mb-6">Explore our collection of other quality agricultural machinery brands and specialized equipment.</p>
@@ -69,7 +69,7 @@
                                 </div>
                                 <a href="{{ route('catalog.otherbrands') }}" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors font-semibold">View Other Brands</a>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
 
                     <!-- Contact Information -->
