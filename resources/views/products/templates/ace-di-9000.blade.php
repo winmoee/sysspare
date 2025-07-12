@@ -239,18 +239,18 @@
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">  <!-- Ensure 50/50 split -->
-                <!-- Video Section -->
-                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                    <div class="practical-video-wraper">
-                        <div class="video-item">
-                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://youtu.be/rGBrUHlSTts"
-                                    frameborder="0"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
+               <!-- Video Section -->
+               <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="practical-video-wraper">
+                    <div class="video-item">
+                        <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                frameborder="0"
+                                allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
+            </div>
 
                 <!-- Catalog Section -->
                 <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
