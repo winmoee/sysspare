@@ -170,7 +170,7 @@ return [
 
     // Add all your English text strings here
 
-
+'careers' => 'Careers',
 
 //sales
 'sales_info'=>'Payment methods available from "Seinn Yaung So" Company',
