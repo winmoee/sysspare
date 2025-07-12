@@ -239,18 +239,18 @@
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">  <!-- Ensure 50/50 split -->
-                <!-- Video Section -->
-                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                    <div class="practical-video-wraper">
-                        <div class="video-item">
-                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
-                                    frameborder="0"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
+               <!-- Video Section -->
+               <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="practical-video-wraper">
+                    <div class="video-item">
+                        <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                frameborder="0"
+                                allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
+            </div>
 
                 <!-- Catalog Section -->
                 <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
@@ -260,12 +260,12 @@
                     </h2>
                     <div class="space-y-4">
                         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                        <a href="https://drive.google.com/uc?export=download&id=14d7A86U1zMdMh4HyiTS3Q5J0xeQtLmei"
                                     class="text-green-600 hover:text-green-700 transition-colors duration-200"
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">YM357 FD</h4> <!-- Keep specific title -->
+                                    <h4 class="font-medium text-gray-800">ACE</h4> <!-- Keep specific title -->
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
                                     <i class="fas fa-arrow-right"></i>

@@ -47,19 +47,19 @@
             <div class="space-y-4">
                 <!-- Dropdown 1 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature1')" 
+                    <button
+                        onclick="toggleMainFeature('feature1')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left" style="font-size: 18px;">စွမ်းဆောင်ရည်မြင့်မားသော TF120 Yanmar အင်ဂျင်</span>
                         </div>
-                        <svg 
-                            id="arrowFeature1" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature1"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -84,19 +84,19 @@
 
                 <!-- Dropdown 2 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature2')" 
+                    <button
+                        onclick="toggleMainFeature('feature2')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">တိုက်ရိုက်ဆီဖြန်းစနစ်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature2" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature2"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -121,19 +121,19 @@
 
                 <!-- Dropdown 3 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature3')" 
+                    <button
+                        onclick="toggleMainFeature('feature3')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">တုန်ခါမှု လျှေ့ာချပေးနိုင်ခြင်း                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature3" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature3"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -158,19 +158,19 @@
 
                 <!-- Dropdown 4 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature4')" 
+                    <button
+                        onclick="toggleMainFeature('feature4')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">အလွယ်တကူမြင်နိုင်သော ဆီရေစစ်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature4" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature4"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -195,19 +195,19 @@
 
                 <!-- Dropdown 5 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature5')" 
+                    <button
+                        onclick="toggleMainFeature('feature5')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">အင်ဂျင်ဝိုင် အချက်ပြစနစ်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature5" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature5"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -232,19 +232,19 @@
 
                 <!-- Dropdown 6 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature6')" 
+                    <button
+                        onclick="toggleMainFeature('feature6')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူစွာ ကြိုးချိန်ညှိနိုင်ခြင်း                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature6" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature6"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -269,19 +269,19 @@
 
                 <!-- Dropdown 7 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature7')" 
+                    <button
+                        onclick="toggleMainFeature('feature7')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">လေစစ် ( အစိုစစ်)                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature7" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature7"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -306,19 +306,19 @@
 
                 <!-- Dropdown 8 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature8')" 
+                    <button
+                        onclick="toggleMainFeature('feature8')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">ရှေ့မီးခလုတ်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature8" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature8"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -343,19 +343,19 @@
 
                 <!-- Dropdown 9 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature9')" 
+                    <button
+                        onclick="toggleMainFeature('feature9')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">အကူကလပ်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature9" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature9"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -380,19 +380,19 @@
 
                 <!-- Dropdown 10 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
-                    <button 
-                        onclick="toggleMainFeature('feature10')" 
+                    <button
+                        onclick="toggleMainFeature('feature10')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">ဂီယာ ဘောက်                            </span>
                         </div>
-                        <svg 
-                            id="arrowFeature10" 
-                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4" 
-                            fill="none" 
-                            stroke="currentColor" 
-                            viewBox="0 0 24 24" 
+                        <svg
+                            id="arrowFeature10"
+                            class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -421,18 +421,18 @@
    <div class="main-features">
     <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
         <!-- Specification Dropdown Button -->
-        <button 
-            
-            onclick="toggleSpecifications()" 
+        <button
+
+            onclick="toggleSpecifications()"
             class="w-full flex items-center justify-between text-white px-4 py-3 rounded-lg focus:outline-none transition-colors duration-200"
         >
             <span class="text-2xl font-semibold" style="color: #000; font-size: 18px;">အသေးစိတ်အချက်အလက်များ</span>
-            <svg 
-                id="specArrow" 
-                class="w-6 h-6 transform transition-transform duration-200" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24" 
+            <svg
+                id="specArrow"
+                class="w-6 h-6 transform transition-transform duration-200"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 style="color: #000;"
             >
@@ -555,18 +555,18 @@
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Video Section -->
-                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                    <div class="practical-video-wraper">
-                        <div class="video-item">
-                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://youtube.com/embed/e_fHlrWZ57g"
-                                    frameborder="0"
-                                    allowfullscreen>
-                            </iframe>
-                        </div>
+               <!-- Video Section -->
+               <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="practical-video-wraper">
+                    <div class="video-item">
+                        <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                frameborder="0"
+                                allowfullscreen>
+                        </iframe>
                     </div>
                 </div>
+            </div>
 
                 <!-- Catalog Section -->
                 <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
@@ -604,7 +604,7 @@
     function toggleSpecifications() {
         const content = document.getElementById('specificationsContent');
         const arrow = document.getElementById('specArrow');
-        
+
         if (content.classList.contains('hidden')) {
             content.classList.remove('hidden');
             arrow.classList.add('rotate-180');
@@ -619,7 +619,7 @@
     function toggleMainFeature(featureId) {
         const content = document.getElementById(featureId);
         const arrow = document.getElementById('arrow' + featureId.charAt(0).toUpperCase() + featureId.slice(1));
-        
+
         if (content.classList.contains('hidden')) {
             content.classList.remove('hidden');
             arrow.classList.add('rotate-180');
