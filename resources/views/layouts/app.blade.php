@@ -61,6 +61,9 @@
     </script>
 
         @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/css/carousel.css', 'resources/js/carousel.js'])
+
+<meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://*.youtube.com https://*.youtube-nocookie.com https://*.google.com;">
+
     </head>
     <body class="font-sans antialiased">
         <!-- LANGUAGE SWITCH FORCER -->
@@ -70,15 +73,15 @@
             app()->setLocale(session('locale'));
         }
         @endphp
-    
+
         <div class="hidden">
         Current Locale: {{ app()->getLocale() }}
         Session Locale: {{ session('locale') ?? 'not set' }}
         </div>
-    
+
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
-    
+
             <!-- Page Heading -->
             @isset($header)
                 <header class="bg-white shadow">
@@ -87,13 +90,16 @@
                     </div>
                 </header>
             @endisset
-    
+
             <!-- Page Content -->
             <main>
                 {{ $slot }}
             </main>
         </div>
-        
+
         <!-- Footer -->
     </body>
 </html>
+## 🔧 Solution: Update Your CSP Policy
+
+Your current CSP in <mcfile name="app.blade.php" path="c:\Users\Lenovo\Desktop\sysspare\resources\views\layouts\app.blade.php"></mcfile> needs to include Google domains:

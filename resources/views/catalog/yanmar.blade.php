@@ -15,7 +15,7 @@
 
                     <!-- PDF Upload/Management Section -->
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <!-- Example PDF Cards - You can add your Google Drive links here -->
+                        <!-- Example PDF Cards - Updated with direct download links -->
                         <!--1-->
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
                             <div class="text-center">
@@ -25,8 +25,7 @@
                                     </svg>
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M02451EN</h3>
-                                {{-- <p class="text-sm text-gray-600 mb-4">Complete range of Yanmar tractors and specifications</p> --}}
-                                <a href="https://drive.google.com/file/d/1Ncc12woNi6z7XoxounnxG8-5z7VE0nvG/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1Ncc12woNi6z7XoxounnxG8-5z7VE0nvG" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                       <!--2-->
@@ -38,8 +37,7 @@
                                     </svg>
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP5-M47402EN</h3>
-                               {{--  <p class="text-sm text-gray-600 mb-4">Diesel engines and power solutions</p> --}}
-                                <a href="https://drive.google.com/file/d/1M4DwXPg2hAq9ZKROS5FfXdHIkmUB_hkQ/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1M4DwXPg2hAq9ZKROS5FfXdHIkmUB_hkQ" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                           <!--3-->
@@ -51,8 +49,7 @@
                                     </svg>
                                 </div>
                                <h3 class="text-lg font-semibold mb-2">0CNP6-M08411EN</h3>
-                                 {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/164dhcD8PnXx1cOq3zJDJhGFGdbyiuA_K/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=164dhcD8PnXx1cOq3zJDJhGFGdbyiuA_K" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                           <!--4-->
@@ -65,7 +62,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M06050EN</h3>
                                 {{-- <p class="text-sm text-gray-600 mb-4">Complete range of Yanmar tractors and specifications</p> --}}
-                                <a href="https://drive.google.com/file/d/1ePM8EbGL0HAU6khU7l-2l7zR4C4D8lbi/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1ePM8EbGL0HAU6khU7l-2l7zR4C4D8lbi" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <!--5-->
@@ -79,7 +76,7 @@
                                 </div>
                                <h3 class="text-lg font-semibold mb-2">0CC50-M01250EN</h3>
                                 {{--  <p class="text-sm text-gray-600 mb-4">Diesel engines and power solutions</p> --}}
-                                <a href="https://drive.google.com/file/d/1s6AEKBDYZVM-9DKVhnEzmcya_yYtfmCn/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1s6AEKBDYZVM-9DKVhnEzmcya_yYtfmCn" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                             <!--6-->
@@ -92,7 +89,7 @@
                                     </div>
                                     <h3 class="text-lg font-semibold mb-2">Y1800FBS,H</h3>
                                     {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                    <a href="https://drive.google.com/file/d/1jqsf6vuQV_w5TgLqlXO3DgGbLG3cure9/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                    <a href="https://drive.google.com/uc?export=download&id=1jqsf6vuQV_w5TgLqlXO3DgGbLG3cure9" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                                 </div>
                             </div>
                             <!--7-->
@@ -105,7 +102,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP7-M00730EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1OW7vJUOrXg5C2GoVPxO9fSkyyI6OPKbu/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1OW7vJUOrXg5C2GoVPxO9fSkyyI6OPKbu" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                           <!--8-->
@@ -118,7 +115,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP5-M69001EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1dzevMjzsWvQ4qAgIFIG2RZyLRgRC6Xwe/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1dzevMjzsWvQ4qAgIFIG2RZyLRgRC6Xwe" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <!--9-->
@@ -131,7 +128,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M06140EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1Pnk1MIkc5KktQoXXoMG4iUbyOmmFRLO2/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1Pnk1MIkc5KktQoXXoMG4iUbyOmmFRLO2" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
 
@@ -144,7 +141,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M08380EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1Z8RXKKQHtxBda4j3bvBSErvHE44xMrZ5/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1Z8RXKKQHtxBda4j3bvBSErvHE44xMrZ5" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -156,7 +153,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M06961EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1JoCI1ciD4fcCes9218km3sZuvOywZBcg/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1JoCI1ciD4fcCes9218km3sZuvOywZBcg" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -168,7 +165,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M08410EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1KJ41idEDVYRLjHf0OxERH7SlYHt-Vhzt/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1KJ41idEDVYRLjHf0OxERH7SlYHt-Vhzt" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -180,7 +177,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP5-M81300EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1eB01r0fbFkJJvUQcvZrUAkH8FzjJl2HW/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1eB01r0fbFkJJvUQcvZrUAkH8FzjJl2HW" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -192,7 +189,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M07941EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1SV4Y-5g0fU7XvXKptPafoIwPTfwDh0cl/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1SV4Y-5g0fU7XvXKptPafoIwPTfwDh0cl" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -204,7 +201,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M01690EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1cxmtCZFFvmdhmH9mCFO8IMuyOd7kZFM5/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1cxmtCZFFvmdhmH9mCFO8IMuyOd7kZFM5" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -216,7 +213,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M06220EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1YU3JscL3fGIhTxO0RHtmaKqUVPkN-QpO/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1YU3JscL3fGIhTxO0RHtmaKqUVPkN-QpO" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -228,7 +225,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">Y2460PDK</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1rgifeDtVk6Cg8-JsGClKBggxi_lVDcQm/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1rgifeDtVk6Cg8-JsGClKBggxi_lVDcQm" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -240,7 +237,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">Y2200RHS</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1kjvdOUrE0goJe4fOSw61nM_I8ebtdPOb/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1kjvdOUrE0goJe4fOSw61nM_I8ebtdPOb" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -252,7 +249,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">Y2460PDL</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1BZDaOGqdeBH4cDRG67hDJGo5ENYSS8rY/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1BZDaOGqdeBH4cDRG67hDJGo5ENYSS8rY" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -264,7 +261,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M00700EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1q6JNhW6Vtm8gV-QF7pjDFImO70ort6DN/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1q6JNhW6Vtm8gV-QF7pjDFImO70ort6DN" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -276,7 +273,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP7-M00750EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1wvSTaYa_1JEs2H4HsAu9ziHGseRDaQFP/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1wvSTaYa_1JEs2H4HsAu9ziHGseRDaQFP" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -288,7 +285,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">Y2100FBS</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1gW8LJzS1x1JzIPldN0xt1c4PwCmIxyD8/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1gW8LJzS1x1JzIPldN0xt1c4PwCmIxyD8" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -300,7 +297,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M08430EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1NC2Ev5b6XJn_FA172uNHVP0oQ6VcGRVd/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1NC2Ev5b6XJn_FA172uNHVP0oQ6VcGRVd" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -312,7 +309,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M06230EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1LAD8EmlE5Z0dI9-Su1Iy8QfBXSxpkxqa/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1LAD8EmlE5Z0dI9-Su1Iy8QfBXSxpkxqa" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -324,7 +321,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M02440EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/11MsbChgrylELc19rjXmcN2dulJtToTmY/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=11MsbChgrylELc19rjXmcN2dulJtToTmY" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -336,7 +333,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">0CNP6-M07960EN</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/17UIW5meFM_bE9vpFSnMnrdZreVlRtmB7/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=17UIW5meFM_bE9vpFSnMnrdZreVlRtmB7" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
                         <div class="bg-red-50 p-6 rounded-lg border border-red-200">
@@ -348,7 +345,7 @@
                                 </div>
                                 <h3 class="text-lg font-semibold mb-2">Y1810FBG Y1820FBG YM 357A</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
-                                <a href="https://drive.google.com/file/d/1G1hdxKz9LwzC9Maxedibsa9xtL-a49q1/view?usp=drive_link" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
+                                <a href="https://drive.google.com/uc?export=download&id=1G1hdxKz9LwzC9Maxedibsa9xtL-a49q1" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
 

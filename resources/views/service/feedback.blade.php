@@ -1,4 +1,7 @@
 <x-app-layout>
+    <!-- Remove this line -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;"> -->
+
     <!-- Header Section -->
     <div class="bg-gradient-to-r from-green-600 to-green-700">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
@@ -34,183 +37,159 @@
             <!-- Video Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Video 1 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/yBUSSs_DMfM"
-                                title="Customer Testimonial 1"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/yBUSSs_DMfM"
+                                    title="Customer Testimonial 1"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #1</h5>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Video Title 1</h5>
+                    </div>
                 </div>
 
                 <!-- Video 2 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/VRNsjaVnyOE"
-                                title="Customer Testimonial 2"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/VRNsjaVnyOE"
+                                    title="Customer Testimonial 2"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #2</h5>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Video Title 2</h5>
+                    </div>
                 </div>
 
                 <!-- Video 3 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/rM9zjop9170"
-                                title="Customer Testimonial 3"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/rM9zjop9170"
+                                    title="Customer Testimonial 3"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #3</h5>
                 </div>
 
                 <!-- Video 4 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/WL_U5-O6sK0"
-                                title="Customer Testimonial 4"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/WL_U5-O6sK0"
+                                    title="Customer Testimonial 4"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #4</h5>
                 </div>
 
                 <!-- Video 5 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/nq3EfkunWwA"
-                                title="Customer Testimonial 5"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/nq3EfkunWwA"
+                                    title="Customer Testimonial 5"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #5</h5>
                 </div>
 
                 <!-- Video 6 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/5K8jMeZb1rU"
-                                title="Customer Testimonial 6"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/5K8jMeZb1rU"
+                                    title="Customer Testimonial 6"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #6</h5>
                 </div>
 
                 <!-- Video 7 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/RzT0R9qLT3A"
-                                title="Customer Testimonial 7"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/RzT0R9qLT3A"
+                                    title="Customer Testimonial 7"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #7</h5>
                 </div>
 
                 <!-- Video 8 -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/bvEWBqJD7Oc?si=iMDJF6aF1_b9V6uN"
-                                title="Customer Testimonial 8"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/bvEWBqJD7Oc"
+                                    title="Customer Testimonial 8"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #8</h5>
                 </div>
 
-                <!-- Video 9 - NEW VIDEO -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/tL-H2jKo6xU?si=jX8W7ndbh4utloSr"
-                                title="Customer Testimonial 9"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <!-- Video 9 -->
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/tL-H2jKo6xU"
+                                    title="Customer Testimonial 9"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #9</h5>
                 </div>
 
-                <!-- Video 10 - NEW VIDEO -->
-                <div class="group">
-                    <div class="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                        <div class="aspect-video">
-                            <iframe
-                                class="w-full h-full"
-                                src="https://www.youtube.com/embed/4R8CgzT9v2M?si=nbeex4NDWRO0Y857"
-                                title="Customer Testimonial 10"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
+                <!-- Video 10 -->
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                    <div class="practical-video-wraper">
+                        <div class="video-item">
+                            <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
+                                    src="https://www.youtube-nocookie.com/embed/4R8CgzT9v2M"
+                                    title="Customer Testimonial 10"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                     </div>
-                    <h5 class="text-sm font-semibold text-gray-700 mt-3 text-center">{{__('messages.customer_experience')}} #10</h5>
                 </div>
             </div>
         </div>
@@ -262,3 +241,7 @@
     </div>
 </x-app-layout>
 @include('layouts.footer')
+
+<!-- Continue this pattern for all 10 videos... -->
+
+
