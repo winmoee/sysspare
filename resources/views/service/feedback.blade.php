@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <h5 class="text-lg font-semibold text-gray-800 text-center">Video Title 1</h5>
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Sifang Four Wheels Tractor </h5>
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <h5 class="text-lg font-semibold text-gray-800 text-center">Video Title 2</h5>
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Combine Harvester</h5>
                     </div>
                 </div>
 
@@ -85,6 +85,9 @@
                             </iframe>
                         </div>
                     </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Sifang Four Wheels Tractor</h5>
+                    </div>
                 </div>
 
                 <!-- Video 4 -->
@@ -99,6 +102,9 @@
                                     allowfullscreen>
                             </iframe>
                         </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Sifang 554 Tractor</h5>
                     </div>
                 </div>
 
@@ -115,6 +121,9 @@
                             </iframe>
                         </div>
                     </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Combine Harvester</h5>
+                    </div>
                 </div>
 
                 <!-- Video 6 -->
@@ -129,6 +138,9 @@
                                     allowfullscreen>
                             </iframe>
                         </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Combine Harvester</h5>
                     </div>
                 </div>
 
@@ -145,6 +157,9 @@
                             </iframe>
                         </div>
                     </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Combine Harvester</h5>
+                    </div>
                 </div>
 
                 <!-- Video 8 -->
@@ -159,6 +174,9 @@
                                     allowfullscreen>
                             </iframe>
                         </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Four Wheel Tractor</h5>
                     </div>
                 </div>
 
@@ -175,6 +193,9 @@
                             </iframe>
                         </div>
                     </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Four Wheel Tractor</h5>
+                    </div>
                 </div>
 
                 <!-- Video 10 -->
@@ -189,6 +210,9 @@
                                     allowfullscreen>
                             </iframe>
                         </div>
+                    </div>
+                    <div class="p-4">
+                        <h5 class="text-lg font-semibold text-gray-800 text-center">Yanmar Combine Harvester</h5>
                     </div>
                 </div>
             </div>
