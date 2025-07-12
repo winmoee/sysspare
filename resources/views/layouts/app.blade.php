@@ -100,6 +100,3 @@
         <!-- Footer -->
     </body>
 </html>
-## 🔧 Solution: Update Your CSP Policy
-
-Your current CSP in <mcfile name="app.blade.php" path="c:\Users\Lenovo\Desktop\sysspare\resources\views\layouts\app.blade.php"></mcfile> needs to include Google domains:
