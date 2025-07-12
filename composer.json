@@ -7,7 +7,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "league/csv": "^9.21",
         "league/flysystem-aws-s3-v3": "^3.0"
