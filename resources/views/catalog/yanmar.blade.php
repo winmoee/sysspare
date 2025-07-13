@@ -24,7 +24,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M02451EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">EF 725 Tractor</h3>
                                 <a href="https://drive.google.com/uc?export=download&id=1Ncc12woNi6z7XoxounnxG8-5z7VE0nvG" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP5-M47402EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">EF 514 T</h3>
                                 <a href="https://drive.google.com/uc?export=download&id=1M4DwXPg2hAq9ZKROS5FfXdHIkmUB_hkQ" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                               <h3 class="text-lg font-semibold mb-2">0CNP6-M08411EN</h3>
+                               <h3 class="text-lg font-semibold mb-2">YH 850 DG( 23 ) WU F-MM Combine Harvester</h3>
                                 <a href="https://drive.google.com/uc?export=download&id=164dhcD8PnXx1cOq3zJDJhGFGdbyiuA_K" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M06050EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YH 700 GU-MM & YH 850 GUW- MM Combine Harvester</h3>
                                 {{-- <p class="text-sm text-gray-600 mb-4">Complete range of Yanmar tractors and specifications</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1ePM8EbGL0HAU6khU7l-2l7zR4C4D8lbi" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -87,7 +87,7 @@
                                             <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                         </svg>
                                     </div>
-                                    <h3 class="text-lg font-semibold mb-2">Y1800FBS,H</h3>
+                                    <h3 class="text-lg font-semibold mb-2">EF 514 T ( Front Blde Dozer )</h3>
                                     {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                     <a href="https://drive.google.com/uc?export=download&id=1jqsf6vuQV_w5TgLqlXO3DgGbLG3cure9" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                                 </div>
@@ -100,7 +100,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP7-M00730EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YM 351 R ,YM 358 R, YM 358 R L-1  ( Tractor )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1OW7vJUOrXg5C2GoVPxO9fSkyyI6OPKbu" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -113,7 +113,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP5-M69001EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">ST-A1 walking Tractor</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1dzevMjzsWvQ4qAgIFIG2RZyLRgRC6Xwe" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -126,7 +126,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M06140EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">AW 70 V RS, AW 70 GV RSX  , AW 82 GV RSX ( MM )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1Pnk1MIkc5KktQoXXoMG4iUbyOmmFRLO2" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -139,7 +139,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M08380EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YH 700 DGU- MM Combine Harvester</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1Z8RXKKQHtxBda4j3bvBSErvHE44xMrZ5" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -151,7 +151,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M06961EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">GT-1 walking Tractor</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1JoCI1ciD4fcCes9218km3sZuvOywZBcg" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -163,7 +163,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M08410EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YH 850 DGWU - MM Combine Harvester</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1KJ41idEDVYRLjHf0OxERH7SlYHt-Vhzt" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -175,7 +175,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP5-M81300EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">R 190 Rotary</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1eB01r0fbFkJJvUQcvZrUAkH8FzjJl2HW" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -187,7 +187,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M07941EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YM 351 A  , YM 357 A ,YM 357 A L  ( Tractor )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1SV4Y-5g0fU7XvXKptPafoIwPTfwDh0cl" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -199,7 +199,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M01690EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">AW 82 GV  Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1cxmtCZFFvmdhmH9mCFO8IMuyOd7kZFM5" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -211,7 +211,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M06220EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YH 850 Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1YU3JscL3fGIhTxO0RHtmaKqUVPkN-QpO" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -223,7 +223,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">Y2460PDK</h3>
+                                <h3 class="text-lg font-semibold mb-2">Y 2460  PDK ( 6 Discs - Poly Disc Plough )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1rgifeDtVk6Cg8-JsGClKBggxi_lVDcQm" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -235,7 +235,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">Y2200RHS</h3>
+                                <h3 class="text-lg font-semibold mb-2">Y 2200 Rotary</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1kjvdOUrE0goJe4fOSw61nM_I8ebtdPOb" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -247,7 +247,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">Y2460PDL</h3>
+                                <h3 class="text-lg font-semibold mb-2">Y 2460 PDL ( 7 Discs -  Poly Disc Plough )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1BZDaOGqdeBH4cDRG67hDJGo5ENYSS8rY" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -259,7 +259,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M00700EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">EF 514 Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1q6JNhW6Vtm8gV-QF7pjDFImO70ort6DN" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -271,7 +271,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP7-M00750EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YM 351 R, YM 358 R, YM 358 R -L1 ( Engine )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1wvSTaYa_1JEs2H4HsAu9ziHGseRDaQFP" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -307,7 +307,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M06230EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YH 700 Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1LAD8EmlE5Z0dI9-Su1Iy8QfBXSxpkxqa" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -319,7 +319,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M02440EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">EF 725 Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=11MsbChgrylELc19rjXmcN2dulJtToTmY" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -331,7 +331,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">0CNP6-M07960EN</h3>
+                                <h3 class="text-lg font-semibold mb-2">YM 357 Engine</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=17UIW5meFM_bE9vpFSnMnrdZreVlRtmB7" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
@@ -343,7 +343,7 @@
                                         <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <h3 class="text-lg font-semibold mb-2">Y1810FBG Y1820FBG YM 357A</h3>
+                                <h3 class="text-lg font-semibold mb-2">YM 351 A , YM 357 A ( Front Blade Dozer )</h3>
                                {{-- <p class="text-sm text-gray-600 mb-4">Genuine Yanmar spare parts and accessories</p> --}}
                                 <a href="https://drive.google.com/uc?export=download&id=1G1hdxKz9LwzC9Maxedibsa9xtL-a49q1" class="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">Download PDF</a>
                             </div>
