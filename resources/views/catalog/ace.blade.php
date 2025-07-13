@@ -60,7 +60,7 @@
                                 </p>
 
                                 <!-- Enhanced Download Button -->
-                                <a href="https://drive.google.com/uc?export=download&id=14d7A86U1zMdMh4HyiTS3Q5J0xeQtLmei"
+                                <a href="https://drive.google.com/file/d/1j9SLug1hSKY5kfgSzJi_-ouGg0zMHVDH/view?usp=sharing"
                                    class="inline-flex items-center bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-300 font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
