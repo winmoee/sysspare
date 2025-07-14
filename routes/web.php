@@ -335,6 +335,23 @@ Route::get('/delete-all-products', function () {
     }
 })->middleware(['auth']);
 
+// Temporary route to delete Yanmar EF514T product (Remember to remove this route after use!)
+Route::get('/delete-yanmar-ef514t', function () {
+    try {
+        $product = Product::where('english_name', 'Yanmar EF514T Four Wheels Tractor')
+                         ->first();
+
+        if ($product) {
+            $product->delete();
+            return "Yanmar EF514T Four Wheels Tractor deleted successfully!";
+        }
+
+        return "Yanmar EF514T Four Wheels Tractor not found.";
+    } catch (\Exception $e) {
+        return "Error: " . $e->getMessage();
+    }
+})->middleware(['auth']);
+
 require __DIR__.'/auth.php';
 
 // Add these routes after the existing transport route

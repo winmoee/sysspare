@@ -244,7 +244,7 @@
                 <div class="practical-video-wraper">
                     <div class="video-item">
                         <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                src="https://www.youtube.com/embed/flIwxmhFQ9Y?si=BeA-DDnJIyFkzh6y"
                                 frameborder="0"
                                 allowfullscreen>
                         </iframe>
@@ -265,7 +265,7 @@
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">ACE</h4> <!-- Keep specific title -->
+                                    <h4 class="font-medium text-gray-800">ACE-DI 9000 - Four Wheels Tractor</h4> <!-- Keep specific title -->
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
                                     <i class="fas fa-arrow-right"></i>
