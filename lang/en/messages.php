@@ -221,7 +221,6 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'Zone_5_Address' => 'No. (148/149), Anawrahta Main Road, Industrial Zone (5) Extension, Near Gate (86), Hlaing Thar Yar.',
 //End of division.blade.php//
 
-// ... existing code ...
 'spare_shop' => 'Spare Parts',
 'spare_shop_title' => 'Our Spare Parts Shop',
 'spare_shop_description' => 'Find genuine spare parts for all your agricultural machinery needs.',
@@ -240,7 +239,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'romessage'=>'Message',
 'rosend'=>'Send Message',
 
-'location'=>'Our Location',
+'location'=>'Seinn Yaung So (Zone 5 Showroom) Hlaing Tharyar Township Yangon',
 'branch'=>'Our Branches',
 'branch1'=>'Yangon Head Office',
 'branch1add'=>'No. (163), Thiri Myaing (10) Street, Thiri Myaing Housing, Mayangone Township, Yangon.',

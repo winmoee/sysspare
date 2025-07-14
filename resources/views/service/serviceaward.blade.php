@@ -15,7 +15,7 @@
         <!-- Service 1 -->
         <div class="bg-white rounded-lg shadow-lg p-6">
             <h6 class="text-xl font-semibold text-gray-800 mb-4">
-                {{ __('messages.service_zone') }}
+                <!-- {{ __('messages.service_zone') }} -->
                 {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
                 {{-- Yangon Machinery Repair Workshop (Mya Seinn Yaung Industrial Zone). --}}
             </h6>
