@@ -29,6 +29,12 @@
             </tr> -->
         </tbody>
     </table>
+     <!-- Catalog Section -->
+ <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+        <i class="fas fa-book-open text-green-600 mr-3"></i>
+        Catalog
+    </h2>
     <div class="space-y-4">
         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
         <a href="https://drive.google.com/uc?export=download&id=1A9huezjXu5VNSojTGz22YqApEPULKjSK"
@@ -44,4 +50,7 @@
         </a>
         </div>
     </div>
+</div>
+
+
 </div>

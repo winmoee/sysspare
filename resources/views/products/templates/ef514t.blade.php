@@ -74,8 +74,7 @@
                         <div class="relative aspect-[4/3] w-full">
                                 <img
                                     src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
+                                    class="w-full h-full object-cover rounded-t-lg">
                         </div>
                         <div class="p-4">
                         <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ ထယ်ရေး အနက် ထိန်းညှိစနစ်
