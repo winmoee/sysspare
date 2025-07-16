@@ -1,34 +1,46 @@
 {{-- resources/views/products/gt-1.blade.php --}}
+<style>
+    /* For dropdown content */
+#feature1 .p-6 {
+    background: #f9fafb;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    margin: 0;
+}
+@media (min-width: 768px) {
+    #feature1 .p-6 {
+        min-height: 100px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+</style>
 <div class="specification-container">
     <table class="table-striped">
         <tbody>
-            <!-- <tr class="text-grey-color">
+        <tr class="text-grey-color">
+                <td class="py-1 fs-6">Model</td>
+                <td class="ps-4 pe-2">-</td>
+                <td class="text-dark fs-6">ZN-1100
+                </td>
+            </tr> 
+             <tr class="text-grey-color">
                 <td class="py-1 fs-6">Horse Power</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">57.6PS
+                <td class="text-dark fs-6">18Hp
                 </td>
             </tr>
             <tr class="text-grey-color">
-                <td class="py-1 fs-6">Weight</td>
+                <td class="py-1 fs-6">Special feature</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1850 kg
+                <td class="text-dark fs-6">water and fuel tank big
                 </td>
-            </tr> -->
-            {{-- <tr class="text-grey-color">
-                <td class="py-1 fs-6">Wheel</td>
+            </tr> 
+             <tr class="text-grey-color">
+                <td class="py-1 fs-6">RPM</td>
                 <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">800 x 275 (mm)</td>
+                <td class="text-dark fs-6">2200</td>
             </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Width</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1055 - 1205 (mm)</td>
-            </tr>
-            <tr class="text-grey-color">
-                <td class="py-1 fs-6">Height</td>
-                <td class="ps-4 pe-2">-</td>
-                <td class="text-dark fs-6">1225 (mm)</td>
-            </tr> --}}
         </tbody>
     </table>
 </div>
@@ -37,7 +49,6 @@
 </div>
 </div>
 </div>
-
 
 
 
