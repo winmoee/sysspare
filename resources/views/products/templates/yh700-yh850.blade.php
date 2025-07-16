@@ -180,18 +180,18 @@
     <div class="main-features">
     <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
         <!-- Specification Dropdown Button -->
-        <button 
-            
-            onclick="toggleSpecifications()" 
+        <button
+
+            onclick="toggleSpecifications()"
             class="w-full flex items-center justify-between text-white px-4 py-3 rounded-lg focus:outline-none transition-colors duration-200"
         >
             <span class="text-2xl font-semibold" style="color: #000; font-size: 18px;">အသေးစိတ်အချက်အလက်များ</span>
-            <svg 
-                id="specArrow" 
-                class="w-6 h-6 transform transition-transform duration-200" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24" 
+            <svg
+                id="specArrow"
+                class="w-6 h-6 transform transition-transform duration-200"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
                 style="color: #000;"
             >
@@ -418,8 +418,8 @@
         </div>
     </div>
    </div>
-    
-    
+
+
     <!-- SECOND SECTION -->
     <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
         <div class="max-w-7xl mx-auto">
@@ -445,7 +445,7 @@
                     </h2>
                     <div class="space-y-4">
                         <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/file/d/1OuhVrkvUT3BPEzmK9lHUMSFqPO-BI2IF/view?usp=sharing"
+                        <a href="https://drive.google.com/uc?export=download&id=1KJ41idEDVYRLjHf0OxERH7SlYHt-Vhzt"
                                     class="text-green-600 hover:text-green-700 transition-colors duration-200"
                                     target="_blank">
                             <div class="flex items-center justify-between">
@@ -473,7 +473,7 @@
     function toggleSpecifications() {
         const content = document.getElementById('specificationsContent');
         const arrow = document.getElementById('specArrow');
-        
+
         if (content.classList.contains('hidden')) {
             content.classList.remove('hidden');
             arrow.classList.add('rotate-180');
@@ -488,7 +488,7 @@
     function toggleMainFeature(featureId) {
         const content = document.getElementById(featureId);
         const arrow = document.getElementById('arrow' + featureId.charAt(0).toUpperCase() + featureId.slice(1));
-        
+
         if (content.classList.contains('hidden')) {
             content.classList.remove('hidden');
             arrow.classList.add('rotate-180');

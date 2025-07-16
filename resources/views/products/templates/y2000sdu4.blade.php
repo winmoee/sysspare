@@ -28,5 +28,20 @@
                 <td class="text-dark fs-6">2280 (mm)</td>
             </tr> -->
         </tbody>
+        <div class="space-y-4">
+            <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
+            <a href="https://drive.google.com/uc?export=download&id=1NC2Ev5b6XJn_FA172uNHVP0oQ6VcGRVd"
+                        class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                        target="_blank">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h4 class="font-medium text-gray-800">Y2000SDU-4</h4>
+                        <span class="text-sm text-green-600">Download</span>
+                    </div>
+                        <i class="fas fa-arrow-right"></i>
+                </div>
+            </a>
+            </div>
+        </div>
     </table>
 </div>
