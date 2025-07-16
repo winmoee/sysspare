@@ -29,8 +29,12 @@
             </tr> -->
         </tbody>
     </table>
-     <!-- Catalog Section -->
- <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+
+
+
+</div>
+   <!-- Catalog Section -->
+   <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
     <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
         <i class="fas fa-book-open text-green-600 mr-3"></i>
         Catalog
@@ -50,7 +54,4 @@
         </a>
         </div>
     </div>
-</div>
-
-
 </div>
