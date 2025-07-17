@@ -51,14 +51,14 @@
 
             <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                        onclick="toggleMainFeature('feature0')"
+                        onclick="toggleMainFeature('feature1')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left" style="font-size: 18px;">အရည်အသွေးမြင့်မားပြီး ဘက်စုံအသုံးပြုနိုင်သော စွမ်းဆောင်ရည်ပြည့် Yanmar EF725T ထွန်စက်</span>
                         </div>
                         <svg
-                            id="arrowFeature0"
+                            id="arrowFeature1"
                             class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
                             fill="none"
                             stroke="currentColor"
@@ -68,7 +68,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div id="feature0" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div id="feature1" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
                             <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
@@ -87,14 +87,14 @@
                 <!-- Dropdown 1 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                        onclick="toggleMainFeature('feature1')"
+                        onclick="toggleMainFeature('feature2')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left" style="font-size: 18px;">တိုက်ရိုက်ဆီဖျန်းစနစ် ဒီဇယ်အင်ဂျင်</span>
                         </div>
                         <svg
-                            id="arrowFeature1"
+                            id="arrowFeature2"
                             class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
                             fill="none"
                             stroke="currentColor"
@@ -104,7 +104,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div id="feature1" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
                             <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
@@ -124,14 +124,14 @@
                 <!-- Dropdown 2 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                        onclick="toggleMainFeature('feature2')"
+                        onclick="toggleMainFeature('feature3')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">လွယ်ကူရိုး ရှင်းစွာ မောင်းနှင် နိုင် ခြင်း</span>
                         </div>
                         <svg
-                            id="arrowFeature2"
+                            id="arrowFeature3"
                             class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
                             fill="none"
                             stroke="currentColor"
@@ -141,7 +141,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div id="feature2" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
                             <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
@@ -160,14 +160,14 @@
                 <!-- Dropdown 3 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                        onclick="toggleMainFeature('feature3')"
+                        onclick="toggleMainFeature('feature4')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left">ပါဝါစတီယာရင်</span>
                         </div>
                         <svg
-                            id="arrowFeature3"
+                            id="arrowFeature4"
                             class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
                             fill="none"
                             stroke="currentColor"
@@ -177,7 +177,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div id="feature3" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
                             <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
@@ -196,14 +196,14 @@
                 <!-- Dropdown 4 -->
                 <div class="border border-gray-200 rounded-lg overflow-hidden">
                     <button
-                        onclick="toggleMainFeature('feature4')"
+                        onclick="toggleMainFeature('feature5')"
                         class="w-full flex items-center justify-between px-6 py-4 bg-white hover:bg-gray-50 focus:outline-none transition-colors duration-150"
                     >
                         <div class="flex items-center">
                             <span class="text-lg font-medium text-gray-700 text-left"> စွမ်းအင်ပြည့် ထရန်စမစ်ရှင်း</span>
                         </div>
                         <svg
-                            id="arrowFeature4"
+                            id="arrowFeature5"
                             class="w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ml-4"
                             fill="none"
                             stroke="currentColor"
@@ -213,7 +213,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </button>
-                    <div id="feature4" class="hidden border-t border-gray-200 bg-gray-50">
+                    <div id="feature5" class="hidden border-t border-gray-200 bg-gray-50">
                         <div class="md:flex md:flex-row-reverse md:items-start">
                             <div class="relative aspect-[4/3] w-full md:w-1/3 md:p-4">
                                 <img
