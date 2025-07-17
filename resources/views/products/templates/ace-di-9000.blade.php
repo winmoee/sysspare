@@ -74,11 +74,7 @@
                     <div class="p-6 flex items-center justify-center min-h-[80px]">
                         <p class="text-base text-gray-700 leading-8 text-center">
 
-                        အရည်အသွေး ကောင်းကောင်း လိုချင်ရင် တန်ဖိုးကြီးကြီးပေး ရမယ်ဆိုတဲ့ အစဉ်အလာကို Ace လေးဘီးထွန်စက်က ချိုးဖျက်လိုက်ပါပီ ။
-
-                        တန်ဖိုးအသက်သာဆုံးနှင့် အရည်အသွေးအကောင်းဆုံး Ace အိန္ဒိယလေးဘီးထွန်စက်က  တောင်သူဦးကြီးများ လယ်ယာလုပ်ငန်းခွင်အတွက် အသုံး ပြုဖို့အတွက် အကောင်းဆုံး ဖစ်ပါသည်။
-
-                        အရည်အသွေးမြင့်မားသည့်  အီတလီ နိုင်ငံထုတ် Carraro ဂီယာဘောက် ဖြစ်ပါသည်။
+   အီတလီ နိုင်ငံထုတ် Carraro ဂီယာဘောက် ဖြစ်ပါသည်။
                         လေးဘီးထွန်စက်များကို ချစ်မြတ်နိုးသည့် အိန္ဒိယစက်ရုံ Aceကုမ္ပဏီ ဥက္ကဌကြီး၏ စေတနာတို့ကြောင့်  တန်ဖိုးအသက်သာဆုံးနှင့် စွမ်းအားအမြင့်ဆုံး Ace အိန္ဒိယ လေးဘီးထွန်စက်များကို ဝယ်ယူသုံးစွဲကြပါစို့။
                         </p>
                     </div>
@@ -244,7 +240,7 @@
                 <div class="practical-video-wraper">
                     <div class="video-item">
                         <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                src="https://www.youtube.com/embed/flIwxmhFQ9Y?si=BeA-DDnJIyFkzh6y"
+                                src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
                                 frameborder="0"
                                 allowfullscreen>
                         </iframe>
@@ -265,7 +261,7 @@
                                     target="_blank">
                             <div class="flex items-center justify-between">
                                 <div>
-                                    <h4 class="font-medium text-gray-800">ACE-DI 9000 - Four Wheels Tractor</h4> <!-- Keep specific title -->
+                                    <h4 class="font-medium text-gray-800">ACE</h4> <!-- Keep specific title -->
                                     <span class="text-sm text-green-600">Download</span>
                                 </div>
                                     <i class="fas fa-arrow-right"></i>

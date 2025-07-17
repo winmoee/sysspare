@@ -37,6 +37,7 @@
 </div>
 </div>
 </div>
+</div>
 <!-- MAIN FEATURES SECTION -->
 <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
     <div class="bg-white rounded-lg shadow-lg p-6">
@@ -73,8 +74,7 @@
                         <div class="relative aspect-[4/3] w-full">
                                 <img
                                     src="https://www.yanmar.com/ltc/mm/agri/products/tractor/ym351r_ym358r_ym358r-l1/img/3d254eee7f/img_index_56.png"
-                                    class="w-full h-full object-cover rounded-t-lg"
-                                >
+                                    class="w-full h-full object-cover rounded-t-lg">
                         </div>
                         <div class="p-4">
                         <h6 class="text-l font-semibold text-gray-800 mb-2">၂။ ထယ်ရေး အနက် ထိန်းညှိစနစ်
@@ -133,6 +133,7 @@
                         <div class="p-4">
                         <h6 class="text-l font-semibold text-gray-800 mb-2">၅။ ပြုပြင် ထိန်းသိမ်းရ လွယ်ကူခြင်း                           </h6>
                             <p class="text-sm text-gray-600 mt-2 leading-8">စက်ဖုံးကလစ်တချက် ဆွဲကာဖွင့်ရုံဖြင့် နေ့စဉ်သန့်ရှင်းရေးနှင့် ပြုပြင်ထိန်းသိမ်းမှုတို့ကို လွယ်ကူစွာပြုလုပ်နိုင်သည့်အတွက် စက်သက်တမ်းကြာရှည်စွာ အသုံးပြုနိုင်မှာဖြစ်ပါသည်။
+
 
 
                             </p>
