@@ -48,11 +48,7 @@
         </tbody>
     </table>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 
 <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">
     <div class="bg-white rounded-lg shadow-lg p-6">
@@ -332,29 +328,30 @@
 
 
     </div>
-      <!-- SECOND SECTION -->
- <!-- Catalog Section -->
- <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
-        <i class="fas fa-book-open text-green-600 mr-3"></i>
-        Catalog
-    </h2>
-    <div class="space-y-4">
-        <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-        <a href="https://drive.google.com/uc?export=download&id=1s6AEKBDYZVM-9DKVhnEzmcya_yYtfmCn"
-                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
-                    target="_blank">
-            <div class="flex items-center justify-between">
-                <div>
-                    <h4 class="font-medium text-gray-800">Yanmar TF 120</h4>
-                    <span class="text-sm text-green-600">Download</span>
+
+    <!-- Catalog Section -->
+    <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
+        <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
+            <i class="fas fa-book-open text-green-600 mr-3"></i>
+            Catalog
+        </h2>
+        <div class="space-y-4">
+            <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
+            <a href="https://drive.google.com/uc?export=download&id=1s6AEKBDYZVM-9DKVhnEzmcya_yYtfmCn"
+                        class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                        target="_blank">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h4 class="font-medium text-gray-800">Yanmar TF 120</h4>
+                        <span class="text-sm text-green-600">Download</span>
+                    </div>
+                        <i class="fas fa-arrow-right"></i>
                 </div>
-                    <i class="fas fa-arrow-right"></i>
+            </a>
             </div>
-        </a>
         </div>
     </div>
-</div>
+
 
 
     <!-- <div class="max-w-7xl mx-auto p-6 lg:p-8 space-y-8">

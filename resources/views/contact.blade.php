@@ -27,7 +27,7 @@
             <!-- Buttons Section -->
             <div class="divide-y divide-gray-200 mb-12">
                 <!-- Sales Section -->
-                <div class="py-4">
+                <div class="py-4" id="sales">
                     <button onclick="toggleSection('sales')" class="w-full py-4 px-6 flex items-center text-left text-green-600 hover:text-red-600 transition-all duration-300 group bg-white hover:bg-gray-50 rounded-lg shadow-sm hover:shadow-md">
                         <svg id="sales-arrow" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-300 group-hover:translate-x-2 group-hover:stroke-red-600 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -138,7 +138,7 @@
         </div>
 
                 <!-- Service Section -->
-                <div class="py-4">
+                <div class="py-4" id="service">
                     <button onclick="toggleSection('service')" class="w-full py-4 px-6 flex items-center text-left text-green-600 hover:text-red-600 transition-all duration-300 group bg-white hover:bg-gray-50 rounded-lg shadow-sm hover:shadow-md">
                         <svg id="service-arrow" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-300 group-hover:translate-x-2 group-hover:stroke-red-600 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -212,7 +212,7 @@
                 </div>
 
                 <!-- Spare Parts Section -->
-                <div class="py-4">
+                <div class="py-4" id="spare">
                     <button onclick="toggleSection('spare')" class="w-full py-4 px-6 flex items-center text-left text-green-600 hover:text-red-600 transition-all duration-300 group bg-white hover:bg-gray-50 rounded-lg shadow-sm hover:shadow-md">
                         <svg id="spare-arrow" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 transform transition-transform duration-300 group-hover:translate-x-2 group-hover:stroke-red-600 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -406,7 +406,7 @@
 
                 <!-- Regions List -->
                 <div class="w-full md:w-1/3 p-8">
-                    <h3 class="text-2xl font-bold text-black mb-6">{{ __('messages.branch') }}</h3>
+                    <h3 class="text-2xl font-bold text-black mb-6">{{ __('messages.branch') }}</span></h3>
                     <div class="space-y-4 divide-y divide-gray-200">
                         <!-- YANGON -->
                         <div class="pt-4">

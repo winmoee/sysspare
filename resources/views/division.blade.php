@@ -56,446 +56,7 @@
             display: none;
             /* Initially hidden */
         }
-
-        /* Navigation styles */
-        .nav-header {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--primary-dark);
-            margin-bottom: 1rem;
-            cursor: default;
-        }
-
-        .nav-item {
-            padding: 0.5rem 1rem;
-            margin: 0.25rem 0;
-            background-color: #f8f9fa;
-            border: 1px solid #dee2e6;
-            border-radius: 0.375rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .nav-item:hover {
-            background-color: var(--primary-dark-pale);
-            color: white;
-        }
-
-        .nav-item.active {
-            background-color: var(--primary-dark);
-            color: white;
-        }
-
-        /* Dropdown styles */
-        .dropdown-toggle {
-            position: relative;
-        }
-
-        .dropdown-arrow {
-            float: right;
-            transition: transform 0.3s ease;
-        }
-
-        .dropdown-toggle.active .dropdown-arrow {
-            transform: rotate(180deg);
-        }
-
-        .dropdown-content {
-            display: none;
-            margin-left: 1rem;
-            margin-top: 0.5rem;
-        }
-
-        .dropdown-content.show {
-            display: block;
-        }
-
-        .nav-sub-item {
-            padding: 0.4rem 0.8rem;
-            margin: 0.2rem 0;
-            background-color: #e9ecef;
-            border: 1px solid #ced4da;
-            border-radius: 0.25rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-        }
-
-        .nav-sub-item:hover {
-            background-color: var(--primary-dark-pale);
-            color: white;
-        }
-
-        .nav-sub-item.active {
-            background-color: var(--primary-dark);
-            color: white;
-        }
-
-        .branch-card {
-            display: none;
-        }
-
-        .branch-card.active {
-            display: block;
-        }
     </style>
-
-    <div class="">
-        <section class="subdivision-container">
-            <div class="ui longer modal mx-auto w-md-75 h-75 mt-5 position-fixed overflow-hidden animate__animated animate__fadeIn"
-            style="transform: translateX(-50%); left: 50%; display: none;" data-bs-backdrop="static" id="modal_body_container"></div>
-
-            <div class="_ruler my-5">
-                <div class="container">
-                    <div class="row">
-                        <!-- Navigation Column -->
-                        <div class="col-md-3">
-                            <div class="nav-header">Yangon</div>
-                            <div class="nav-item" onclick="showBranch('bayintnaung')">Bayintnaung</div>
-                            <div class="nav-item" onclick="showBranch('z5-showroom')">Z5 Showroom</div>
-                            <div class="nav-item" onclick="showBranch('msy')">MSY</div>
-
-                            <div class="nav-header mt-4">External</div>
-                            <div class="nav-item dropdown-toggle" onclick="toggleDropdown('pathein-dropdown')">
-                                Pathein <span class="dropdown-arrow">▼</span>
-                            </div>
-                            <div id="pathein-dropdown" class="dropdown-content">
-                                <div class="nav-sub-item" onclick="showBranch('pathein-branch')">Pathein Branch</div>
-                                <div class="nav-sub-item" onclick="showBranch('pathein-warehouse')">Pathein Warehouse</div>
-                                <div class="nav-sub-item" onclick="showBranch('pathein-workshop')">Pathein Workshop</div>
-                            </div>
-                            <div class="nav-item" onclick="showBranch('hinthada')">Hinthada</div>
-                            <div class="nav-item" onclick="showBranch('shwebo')">Shwebo</div>
-                        </div>
-
-                        <!-- Content Column -->
-                        <div class="col-md-9">
-                            <!-- Bayintnaung Branch Card -->
-                            <div id="bayintnaung" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-manufacturing-bayintnaung" onclick="showSubdivisionModal('seinn-yaung-so-manufacturing-bayintnaung')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/byn.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Seinn_Yaung_So_Manufacturing_Bayintnaung')}}
-                                                {{-- Seinn Yaung So Manufacturing Co., Ltd. (Bayintnaung) --}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Yangon')}}
-                                                    {{-- Bayintnaung --}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Z5 Showroom Branch Card -->
-                            <div id="z5-showroom" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-zone-5-showroom" onclick="showSubdivisionModal('seinn-yaung-so-zone-5-showroom')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/yangon_showroom.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Pathein Branch_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Seinn_Yaung_So_Zone_5_Showroom')}}
-                                                {{-- Seinn Yaung So Zone 5 Showroom --}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Yangon')}}
-                                                    {{-- Yangon--}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- MSY Branch Card -->
-                            <div id="msy" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="yaankonsetpyinalokyaon-myseinyaawinsetmhuzon6698a17c74153" onclick="showSubdivisionModal('yaankonsetpyinalokyaon-myseinyaawinsetmhuzon6698a17c74153')">
-                                                            {{__('messages.More_details')}}
-                                                            {{-- More Details --}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/msy.jpeg" class="img-fluid same-height-img w-100" alt="ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ)_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{ __('messages.Yangon_workshop') }}
-                                                {{-- ရန်ကုန်စက်ပြင်အလုပ်ရုံ (မြစိမ်းရောင်စက်မှုဇုံ) --}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Yangon')}}
-                                                    {{-- Yangon --}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Pathein Branch Card -->
-                            <div id="pathein-branch" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-branch6698a17cd1e01" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-branch6698a17cd1e01')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_branch_main.jpg" class="img-fluid same-height-img w-100" alt="Pathein Branch">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Pathein_Branch')}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Pathein')}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Pathein Warehouse Card -->
-                            <div id="pathein-warehouse" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-warehouse6698a17d974ef')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_warehouse_1.jpg" class="img-fluid same-height-img w-100" alt="Pathein Warehouse">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Pathein_Warehouse')}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Pathein')}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Pathein Workshop Card -->
-                            <div id="pathein-workshop" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-pathein-workshop6698a17ddc114" onclick="showSubdivisionModal('seinn-yaung-so-coltd-pathein-workshop6698a17ddc114')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/pathein_workshop_1.jpg" class="img-fluid same-height-img w-100" alt="Pathein Workshop">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Pathein_Workshop')}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Pathein')}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Hinthada Branch Card -->
-                            <div id="hinthada" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-hinthada-branch6698a17e39c56" onclick="showSubdivisionModal('seinn-yaung-so-coltd-hinthada-branch6698a17e39c56')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/other+products/htt.jpeg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Hinthada Branch_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Hinthada_Branch')}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Hinthada')}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Shwebo Branch Card -->
-                            <div id="shwebo" class="branch-card">
-                                <div class="col px-3 mb-5">
-                                    <div class="card w-100 border-0">
-                                        <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
-                                                <div class="content">
-                                                    <div class="center">
-                                                        <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-shwebo-branch6698a17ec6571" onclick="showSubdivisionModal('seinn-yaung-so-coltd-shwebo-branch6698a17ec6571')">
-                                                            {{__('messages.More_details')}}
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/vendor/image/subdivision/branch/shwe_bo.jpg" class="img-fluid same-height-img w-100" alt="Seinn Yaung So Co.,Ltd Shwebo Branch_image">
-                                        </div>
-                                        <div class="content py-3">
-                                            <h4 class="header">
-                                                {{__('messages.Sys_Shwebo_Branch')}}
-                                            </h4>
-                                            <div class="meta">
-                                                <span class="date mt-2 text-muted fs-6">
-                                                    {{__('messages.Shwebo')}}
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Default message when no branch is selected -->
-                            <div id="default-message" class="text-center py-5">
-                                <h5 class="text-muted">Select a branch from the left to view details</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <script>
-        function toggleDropdown(dropdownId) {
-            const dropdown = document.getElementById(dropdownId);
-            const toggle = event.target;
-
-            // Close all other dropdowns
-            document.querySelectorAll('.dropdown-content').forEach(content => {
-                if (content.id !== dropdownId) {
-                    content.classList.remove('show');
-                }
-            });
-
-            document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
-                if (toggle.onclick.toString().indexOf(dropdownId) === -1) {
-                    toggle.classList.remove('active');
-                }
-            });
-
-            // Toggle current dropdown
-            dropdown.classList.toggle('show');
-            toggle.classList.toggle('active');
-        }
-
-        function showBranch(branchId) {
-            // Hide all branch cards
-            document.querySelectorAll('.branch-card').forEach(card => {
-                card.classList.remove('active');
-            });
-
-            // Hide default message
-            document.getElementById('default-message').style.display = 'none';
-
-            // Remove active class from all nav items and sub items
-            document.querySelectorAll('.nav-item, .nav-sub-item').forEach(item => {
-                item.classList.remove('active');
-            });
-
-            // Show selected branch card
-            const selectedCard = document.getElementById(branchId);
-            if (selectedCard) {
-                selectedCard.classList.add('active');
-            }
-
-            // Add active class to clicked nav item
-            if (event.target.classList.contains('nav-sub-item')) {
-                event.target.classList.add('active');
-            } else if (event.target.classList.contains('nav-item')) {
-                event.target.classList.add('active');
-            }
-        }
-
-        // Show default message on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            document.getElementById('default-message').style.display = 'block';
-        });
-
-        // Close dropdowns when clicking outside
-        document.addEventListener('click', function(event) {
-            if (!event.target.closest('.dropdown-toggle') && !event.target.closest('.dropdown-content')) {
-                document.querySelectorAll('.dropdown-content').forEach(content => {
-                    content.classList.remove('show');
-                });
-                document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
-                    toggle.classList.remove('active');
-                });
-            }
-        });
-    </script>
 
     <!-- jQuery -->
 
@@ -532,7 +93,10 @@
                                                     <div class="center">
                                                         <button class="ui inverted button" data-slug="seinn-yaung-so-manufacturing-bayintnaung" onclick="showSubdivisionModal('seinn-yaung-so-manufacturing-bayintnaung')">
                                                             {{__('messages.More_details')}}
-                                                        </button>
+                                                            </button>
+
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -547,6 +111,7 @@
                                                 <span class="date mt-2 text-muted fs-6">
                                                     {{__('messages.Yangon')}}
                                                     {{-- Bayintnaung --}}
+
                                                 </span>
                                             </div>
                                         </div>
@@ -560,7 +125,9 @@
                                                     <div class="center">
                                                         <button class="ui inverted button" data-slug="seinn-yaung-so-zone-5-showroom" onclick="showSubdivisionModal('seinn-yaung-so-zone-5-showroom')">
                                                             {{__('messages.More_details')}}
-                                                        </button>
+                                                            </button>
+
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -743,27 +310,25 @@
                                     </div>
                                 </div>
                             </div>
-
-            </div>
-            <div class="divisions-container my-5">
-                        <div id="hinthada" class="header-container d-flex justify-content-between align-items-center">
-                            <h3>
-                                {{__('messages.Sagaing_Region')}}
-                                {{-- Sagaing Region --}}
-                            </h3>
-                            <a href="#" class="show_all">
-                                {{__('messages.Show_all')}}
-                                {{-- Show all --}}
-                            </a>
-                        </div>
-                        <br>
-                        <hr class="mt-1 mb-4">
-
-                        <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
-                            <div class="col px-3 mb-5">
+                </div>
+                    <div class="divisions-container my-5">
+                    <div class="header-container d-flex justify-content-between align-items-center">
+                        <h3>
+                            {{__('messages.Sagaing_Region')}}
+                            {{-- Sagaing Region --}}
+                        </h3>
+                        <a href="#" class="show_all">
+                            {{__('messages.Show_all')}}
+                            {{-- Show all --}}
+                        </a>
+                    </div>
+                    <br>
+                    <hr class="mt-1 mb-4">
+                    <div class="subdivision-wrapper row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 ui special cards">
+                        <div id="shwebo" class="col px-3 mb-5">
                                     <div class="card w-100 border-0">
                                         <div class="blurring dimmable image">
-                                            <div class="ui dimmer transition hidden">
+                                            <div class="ui dimmer">
                                                 <div class="content">
                                                     <div class="center">
                                                         <button class="ui inverted button" data-slug="seinn-yaung-so-coltd-shwebo-branch6698a17ec6571" onclick="showSubdivisionModal('seinn-yaung-so-coltd-shwebo-branch6698a17ec6571')">
@@ -791,7 +356,6 @@
                                 </div>
                             </div>
                 </div>
-
 
                 </div>
         </section>
@@ -840,10 +404,8 @@
 
 
         <script>
-            $(document).ready(function() {
-                $('.blurring.dimmable.image').dimmer({
-                    on: 'hover'
-                });
+            $('.special.cards .image').dimmer({
+                on: 'hover'
             });
 
             var branchesArr = [
@@ -1044,79 +606,83 @@
     {"id":24,"branch_id":9,"phone":"09-443121444 "},
     ]}
 
-    console.log(branchesArr);
+    // ... existing code ...
+];
 
-    // Function
-    function showSubdivisionModal(slug) {
-        document.getElementById('modal_body_container').innerHTML = ``;
-        document.getElementById('modalBackdrop').style.display = 'block';
 
-        var branch = branchesArr.find(arr => {
-            return arr.slug === slug;
-        });
+            console.log(branchesArr);
 
-        if (branch) {
-            document.getElementById('modal_body_container').innerHTML = `
-                <div class="header">
-                    <button class="ms-auto d-block cursor-pointer btn text-center" onclick="closeModal()">
-                        <i class="close icon w-100"></i>
-                    </button>
-                </div>
-                <div class="scrolling image content">
-                    <div class="ui medium image">
-                        <img src="${branch.img_url}${branch.image}" class="img-fluid same-height-img w-100"
-                            alt="${branch.eng_name + '_image'}">
-                    </div>
-                    <div class="description">
-                        <h4 class="ui header fs-4 mb-4">${branch.eng_name}</h4>
-                        <div class="type-container mb-2 d-flex gap-2 fs-6">
-                            <span class="text-capitalize text-primary">${branch.type}</span>
-                            .
-                            <span class="text-capitalize text-primary">${branch.division.eng_name}</span>
+            // Function
+            function showSubdivisionModal(slug) {
+                document.getElementById('modal_body_container').innerHTML = ``;
+                document.getElementById('modalBackdrop').style.display = 'block';
+
+                var branch = branchesArr.find(arr => {
+                    return arr.slug === slug;
+                });
+
+                if (branch) {
+                    document.getElementById('modal_body_container').innerHTML = `
+                        <div class="header">
+                            <button class="ms-auto d-block cursor-pointer btn text-center" onclick="closeModal()">
+                                <i class="close icon w-100"></i>
+                            </button>
                         </div>
-                        <div class="ui box-container d-flex">
-                            <p>${branch.eng_address}</p>
-                            <div class="ui branch-phone-container"></div>
+                        <div class="scrolling image content">
+                            <div class="ui medium image">
+                                <img src="${branch.img_url}${branch.image}" class="img-fluid same-height-img w-100"
+                                    alt="${branch.eng_name + '_image'}">
+                            </div>
+                            <div class="description">
+                                <h4 class="ui header fs-4 mb-4">${branch.eng_name}</h4>
+                                <div class="type-container mb-2 d-flex gap-2 fs-6">
+                                    <span class="text-capitalize text-primary">${branch.type}</span>
+                                    .
+                                    <span class="text-capitalize text-primary">${branch.division.eng_name}</span>
+                                </div>
+                                <div class="ui box-container d-flex">
+                                    <p>${branch.eng_address}</p>
+                                    <div class="ui branch-phone-container"></div>
+                                </div>
+                                <a href="${branch.google_address}" class="text-primary mt-1 text-decoration-underline">
+                                    <i class="fas fa-location-dot"></i>
+                                    ${branch.eng_name}
+                                </a>
+                                <div class="ui my-3 d-flex">
+                                    <span>${lang === 'en' ? 'Contact : ' : 'ဆက်သွယ်ရန် : '}</span>
+                                    <div class="phone-wrapper" id="phone_wrapper"></div>
+                                </div>
+                            </div>
                         </div>
-                        <a href="${branch.google_address}" class="text-primary mt-1 text-decoration-underline">
-                            <i class="fas fa-location-dot"></i>
-                            ${branch.eng_name}
-                        </a>
-                        <div class="ui my-3 d-flex">
-                            <span>${lang === 'en' ? 'Contact : ' : 'ဆက်သွယ်ရန် : '}</span>
-                            <div class="phone-wrapper" id="phone_wrapper"></div>
-                        </div>
-                    </div>
-                </div>
-            `;
+                    `;
 
-            document.getElementById("phone_wrapper").innerHTML = '';
-            branch.branch_phone.forEach(phone => {
-                document.getElementById("phone_wrapper").innerHTML += `
-                    <a href="tel:${phone.phone}" class="ui branch_phone me-1 text-primary">${phone.phone}</a>, `;
-            });
+                    document.getElementById("phone_wrapper").innerHTML = '';
+                    branch.branch_phone.forEach(phone => {
+                        document.getElementById("phone_wrapper").innerHTML += `
+                            <a href="tel:${phone.phone}" class="ui branch_phone me-1 text-primary">${phone.phone}</a>, `;
+                    });
 
-            // Add hotline number below the contact numbers only for Zone 5 Showroom
-            if (branch.slug === 'seinn-yaung-so-zone-5-showroom') {
-                document.getElementById("phone_wrapper").innerHTML += `
-                    <br><span class="text-muted"><b>Hotline number: </b></span>
-                    <a href="tel:09-443121222" class="ui branch_phone text-primary">09-443121222</a>`;
+                    // Add hotline number below the contact numbers only for Zone 5 Showroom
+                    if (branch.slug === 'seinn-yaung-so-zone-5-showroom') {
+                        document.getElementById("phone_wrapper").innerHTML += `
+                            <br><span class="text-muted"><b>Hotline number: </b></span>
+                            <a href="tel:09-443121222" class="ui branch_phone text-primary">09-443121222</a>`;
+                    }
+                } else {
+                    document.getElementById('modal_body_container').innerHTML = "Sorry, no branch available.";
+                }
+
+                document.querySelector('.ui.longer.modal').style.display = "block";
+                document.body.style.overflow = 'hidden';
             }
-        } else {
-            document.getElementById('modal_body_container').innerHTML = "Sorry, no branch available.";
-        }
 
-        document.querySelector('.ui.longer.modal').style.display = "block";
-        document.body.style.overflow = 'hidden';
-    }
-
-    function closeModal() {
-        document.querySelector('.ui.longer.modal').style.display = "none";
-        document.getElementById('modalBackdrop').style.display = 'none';
-        document.getElementById('modal_body_container').innerHTML = ``;
-        document.body.style.overflow = '';
-    }
-</script>
+            function closeModal() {
+                document.querySelector('.ui.longer.modal').style.display = "none";
+                document.getElementById('modalBackdrop').style.display = 'none';
+                document.getElementById('modal_body_container').innerHTML = ``;
+                document.body.style.overflow = '';
+            }
+        </script>
 
 @include('layouts.footer')
 

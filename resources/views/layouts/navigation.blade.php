@@ -253,7 +253,7 @@
                                     <a href="{{ url('/contact#sales') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100" >{{ __('messages.sales') }}</a>
                                     <a href="{{ url('/contact#service') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100" >{{ __('messages.service') }}</a>
                                     <a href="{{ url('/contact#spare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.spare') }}</a>
-                                    <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a>
+                                    {{-- <a href="{{ url('/contact#office') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100"> {{ __('messages.office') }}</a> --}}
                                 </div>
                             </div>
                         </div>

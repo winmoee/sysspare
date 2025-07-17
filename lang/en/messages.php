@@ -225,7 +225,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'spare_shop_title' => 'Our Spare Parts Shop',
 'spare_shop_description' => 'Find genuine spare parts for all your agricultural machinery needs.',
     // Add all your English text strings here
-// 'contactus'=>'Contact us',
+'contactus'=>'Contact Us',
 'salesphone'=>'Sales Phone Number',
 'servicephone'=>'Service Phone Number',
 'sparephone'=>'Spare Phone Number',
