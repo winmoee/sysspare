@@ -32,17 +32,13 @@
 
     </table>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 
 <!-- SECOND SECTION -->
 <div class="bg-gradient-to-br from-gray-50 to-white rounded-2xl shadow-xl p-8 mb-12">
     <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">  <!-- Ensure 50/50 split -->
-            
+
             <!-- Catalog Section -->
             <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
                 <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
@@ -69,6 +65,5 @@
         </div>
     </div>
 </div>
-</div>
-</div>
+
 
