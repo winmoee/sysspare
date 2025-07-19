@@ -231,7 +231,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'sparephone'=>'Spare Phone Number',
 
 
-'reachus'=>'Reach out to us now!',
+'reachus'=>'Contact us now!',
 'roname'=>' Name',
 'roemail'=>'Email',
 'rophone'=>'Phone Number',
