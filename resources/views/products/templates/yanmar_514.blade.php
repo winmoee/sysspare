@@ -581,26 +581,29 @@
                         Catalog
                     </h2>
                     <div class="space-y-4">
-                        <!-- Catalog Image -->
-                        <div class="catalog-image mb-4 flex justify-center">
-                            <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/yanmar/book514.avif" 
-                                 alt="Yanmar EF514T Catalog" 
-                                 class="w-80 h-auto rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
-                        </div>
-                        
-                        <!-- Download Link -->
-                        <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200">
-                        <a href="https://drive.google.com/uc?export=download&id=1YIXReEkXXhyfMA5pq2kescxgv0DsLuf2"
-                                    class="text-green-600 hover:text-green-700 transition-colors duration-200"
-                                    target="_blank">
-                            <div class="flex items-center justify-between">
-                                <div>
-                                    <h4 class="font-medium text-gray-800">EF514T</h4> <!-- Keep specific title -->
-                                    <span class="text-sm text-green-600">Download</span>
-                                </div>
-                                    <i class="fas fa-arrow-right"></i>
+                        <!-- Catalog Section - Side by Side Layout -->
+                        <div class="flex items-start gap-6">
+                            <!-- Catalog Image - Left Side -->
+                            <div class="catalog-image flex-shrink-0">
+                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/yanmar/book514.avif" 
+                                     alt="Yanmar EF514T Catalog" 
+                                     class="w-15 h-20 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
                             </div>
-                        </a>
+                            
+                            <!-- Download Link - Right Side -->
+                            <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200 flex-1">
+                            <a href="https://drive.google.com/uc?export=download&id=1YIXReEkXXhyfMA5pq2kescxgv0DsLuf2"
+                                        class="text-green-600 hover:text-green-700 transition-colors duration-200"
+                                        target="_blank">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <h4 class="font-medium text-gray-800">EF514T</h4> <!-- Keep specific title -->
+                                        <span class="text-sm text-green-600">Download</span>
+                                    </div>
+                                        <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>

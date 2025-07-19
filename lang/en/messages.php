@@ -185,7 +185,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'hp2'=>'What is the Hire Purchase (HP) system?',
 'hp3'=>'When purchasing a product, a portion of the payment is made upfront, and the remaining balance is paid in installments over a specified period.
         This system allows you to purchase a product without having to pay the full amount at once, instead making monthly or scheduled installment payments over the agreed period.',
-'madb_title'=>'MEB (Myanmar Agricultural Development Bank)  Payment',
+'madb_title'=>'MADB (Myanmar Agricultural Development Bank)  Payment',
 'madb1'=>'Madb (Myanmar Agricultural Development Bank) is officially partnered with us, allowing you to purchase agricultural-related products with low-interest loan support.',
 'madb2'=>'The installment payment period is generally up to five years, enabling you to buy with confidence through monthly payments.',
 'madb3'=>'Loan support is provided by Madb.',

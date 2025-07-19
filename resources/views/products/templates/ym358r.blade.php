@@ -770,17 +770,17 @@
         <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Video Section -->
-                <!-- <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
                     <div class="practical-video-wraper">
                         <div class="video-item">
                             <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://www.youtube.com/embed/XK65OwNYP_4?si=sKGDPtgqpY9BLcUk"
+                                    src="https://www.youtube.com/embed/-MVhAeg-cNk?si=hg_z0k3VpnN8e-6w"
                                     frameborder="0"
                                     allowfullscreen>
                             </iframe>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- Catalog Section -->
                 <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
