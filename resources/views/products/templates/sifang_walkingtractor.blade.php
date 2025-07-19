@@ -68,26 +68,26 @@
                                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                                     <!-- Feature 1:  -->
                                     <div class="flex flex-col">
-                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/set.jpg"
+                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/implements/cultivaror-1.png"
 
                                              class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                        <h3 class="text-lg font-semibold mb-2">1GQN - 150ထွန်ခုံ (34) သွား</h3>
+                                        <h3 class="text-lg font-semibold mb-2">18-Blade Cultivator</h3>
                                     </div>
 
                                     <!-- Feature 2:-->
                                     <div class="flex flex-col">
-                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/set1.jpg"
+                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/implements/cultivaror-2.png"
 
                                              class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                        <h3 class="text-lg font-semibold mb-2">1GQN - 180ထွန်ခုံ (34) သွား</h3>
+                                        <h3 class="text-lg font-semibold mb-2">Cultivator 24 Blade</h3>
                                     </div>
 
                                     <!-- Feature 3: Gear Shift -->
                                     <div class="flex flex-col">
-                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/set2.jpg"
+                                        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/yanmar/28.png"
 
                                              class="w-full aspect-[4/3] object-cover rounded-lg mb-4">
-                                        <h3 class="text-lg font-semibold mb-2">1LY - 320 သုံးသွားလင်ဗန်း</h3>
+                                        <h3 class="text-lg font-semibold mb-2">Cultivator 28 Blade</h3>
                                     </div>
 
                                 </div>
