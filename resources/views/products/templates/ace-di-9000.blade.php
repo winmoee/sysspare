@@ -240,7 +240,7 @@
                 <div class="practical-video-wraper">
                     <div class="video-item">
                         <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                src="https://youtu.be/rGBrUHlSTts?si=JEZlDdha1oHpnlpt"
+                                src="https://www.youtube.com/embed/rGBrUHlSTts"
                                 frameborder="0"
                                 allowfullscreen>
                         </iframe>
