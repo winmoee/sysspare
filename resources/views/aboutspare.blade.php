@@ -5,7 +5,7 @@
 
         <div class="bg-white rounded-lg p-4 shadow mb-4">
             <p class="text-gray-600 mb-2">
-                Spare parts Shop No. (148/149), Anawrahta Main Road, Industrial Zone (5) Extension, Near Gate (86), Hlaing Thar Yar.
+                Spare parts Shop No. (148/149), Anawrahta Main Road, Industrial Zone (5) Extension, Near Gate (86), Hlaing Tharyar Township Yangon.
             </p>
 
             <a href="https://maps.app.goo.gl/L2SfCDJeAJBv35Gm8"
