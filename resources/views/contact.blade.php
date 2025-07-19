@@ -54,7 +54,7 @@
                         <button onclick="copyPhoneNumber('095067356', this)" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 flex items-center gap-2">
                             <span class="copy-button-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002 2v-12a2 2 0 00-2-2h-2M8 5a2 2 0 002 2h4a2 2 0 002-2M8 5a2 2 0 012-2h4a2 2 0 012 2" />
                                 </svg>
                                 {{ __('messages.copy_number') }}
                             </span>
@@ -501,7 +501,7 @@
                             </div>
                         </div>
 
-                        <div class="pt-4">
+                        <!-- <div class="pt-4">
                             <button onclick="toggleBranch('taunggyi')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch9') }}
@@ -510,7 +510,7 @@
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch8add') }}</p>
                                 <p class="text-gray-600">Ph: (09) 798892668, (09) 798892669</p>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- MAGWAY -->
 
@@ -626,7 +626,14 @@ Message:
 ${message}
             `;
 
-            window.location.href = `mailto:kaungsanthwin388@gmail.com?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(body)}`;
+            const recipients = [
+                'nyunthtay@seinnyaungso.com',
+                'Kyawwin@seinnyaungso.com',
+                'pyaephyohtoon@seinnyaungso.com',
+                'hninhninthidaaung@seinnyaungso.com'
+            ].join(',');
+
+            window.location.href = `mailto:${recipients}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(body)}`;
         }
 
         function toggleBranch(id) {
