@@ -242,7 +242,7 @@
                     <div class="practical-video-wraper">
                         <div class="video-item">
                             <iframe style="height: 300px;" class="w-full h-64 rounded-t-xl"
-                                    src="https://www.youtube.com/embed/RVUevz-yAE8?si=AEd5xZqUWrW3psda"
+                                    src="https://www.youtube.com/embed/rGBrUHlSTts"
                                     frameborder="0"
                                     allowfullscreen>
                             </iframe>
