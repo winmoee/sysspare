@@ -401,40 +401,7 @@
 
                 
 
-                <!-- Catalog Section -->
-                <div class="catalog-container bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-transform duration-300">
-                    <h2 class="text-xl font-bold text-gray-800 mb-6 flex items-center">
-                        <i class="fas fa-book-open text-green-600 mr-3"></i>
-                        Catalog
-                    </h2>
-                    <div class="space-y-4">
-                        <!-- Catalog Section - Side by Side Layout -->
-                        <div class="flex items-start gap-6">
-                            <!-- Catalog Image - Left Side -->
-                            <!-- <div class="catalog-image flex-shrink-0">
-                                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/yanmar/book357.webp" 
-                                     alt="Yanmar EF514T Catalog" 
-                                     class="w-15 h-20 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
-                            </div> -->
-                            
-                            <!-- Download Link - Right Side -->
-                            <div class="catalog-wraper bg-gray-50 rounded-lg p-4 hover:bg-green-50 transition-colors duration-200 flex-1">
-                            <a href="https://drive.google.com/uc?export=download&id=1NC2Ev5b6XJn_FA172uNHVP0oQ6VcGRVd"
-
-                                        class="text-green-600 hover:text-green-700 transition-colors duration-200"
-                                        target="_blank">
-                                <div class="flex items-center justify-between">
-                                    <div>
-                                        <h4 class="font-medium text-gray-800">Yanmar - Y2000SDU-4</h4> <!-- Keep specific title -->
-                                        <span class="text-sm text-green-600">Download</span>
-                                    </div>
-                                        <i class="fas fa-arrow-right"></i>
-                                </div>
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <!-- Service Experts and Services sections removed -->
             </div>
         </div>
