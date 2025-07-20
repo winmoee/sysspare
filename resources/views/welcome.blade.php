@@ -276,13 +276,13 @@
 
 <!-- Service Card 3 -->
 <a href="{{ url('/market') }}" class="bg-white rounded-lg p-4 shadow text-center hover:shadow-lg transition-shadow">
-    <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/kJVfUiw71DqocDSfGNee.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+    <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/kJVfUiw71DqocDSfGNee.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2" style="height: 255px;">
     <p class="text-green-600 font-medium">{{__('messages.second_hand_market')}}</p>
     <p class="text-sm text-gray-600">({{__('messages.second_hand_market')}})</p>
 </a>
     <!-- Service Card 4 -->
     <a href="{{ url('/feedback') }}" class="bg-white rounded-lg p-4 shadow text-center hover:shadow-lg transition-shadow">
-        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/nhPTrSfL9qirJwXCtdDs.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2">
+        <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/nhPTrSfL9qirJwXCtdDs.webp" alt="Service" class="w-auto h-auto mx-auto rounded-full mb-2" style="height: 255px;">
         <p class="text-green-600 font-medium">{{__('messages.service_and_products_fdb')}}</p>
         <p class="text-sm text-gray-600">({{__('messages.service_and_products_fdb')}})</p>
     </a>
