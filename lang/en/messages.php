@@ -182,9 +182,19 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'cash_down3'=>'➡ During the purchase process, you can pay directly in cash.',
 'hp_title'=>'Available for Hire Purchase!',
 'hp1'=>'You can now purchase our products without having to make a full payment upfront — thanks to the Hire Purchase (HP) system supported by Seinn Yaung So Company.',
-'hp2'=>'What is the Hire Purchase (HP) system?',
-'hp3'=>'When purchasing a product, a portion of the payment is made upfront, and the remaining balance is paid in installments over a specified period.
-        This system allows you to purchase a product without having to pay the full amount at once, instead making monthly or scheduled installment payments over the agreed period.',
+'hp2'=>'70% of the total value will be paid as an initial payment, and the remaining 30% will be deferred for six months.',
+'hp3'=>'In order to defer payment of the remaining 30% for six months, the following documents are required to be submitted:',
+'hp4'=>'- Copy of National Registration Card (NRC)',
+'hp5'=>'- Copy of Household Registration List',
+'hp6'=>'- Land Tax Form',
+'hp7'=>'- Land documents for ten acres',
+
+'mcb' => 'MCB (Myanmar Citizens Bank)',
+'mcb_title'=>' MCB (Myanmar Citizens Bank) Hire Purchase',
+'mcb1'=>'Seinn Yaung So and MCB (Myanmar Citizens Bank) will collaborate to provide credit sale services.',
+'mcb2'=>'Accordingly, customers are allowed to purchase goods, including motor vehicles and machinery, under MCB’s Hire Purchase system by paying an initial down payment of 60%, with the remaining balance payable in installments over six months.',
+'mcb3'=>'Seinn Yaung So will prepare the necessary documents related to the goods and collaborate with MCB to provide services, while MCB will systematically manage and supervise the payment plans.',
+
 'madb_title'=>'MADB (Myanmar Agricultural Development Bank)  Payment',
 'madb1'=>'Madb (Myanmar Agricultural Development Bank) is officially partnered with us, allowing you to purchase agricultural-related products with low-interest loan support.',
 'madb2'=>'The installment payment period is generally up to five years, enabling you to buy with confidence through monthly payments.',

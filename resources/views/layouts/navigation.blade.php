@@ -103,6 +103,10 @@
                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
                                        {{ __('messages.hp') }}
                                     </a>
+                                    <a href="{{ url('/sales#mcb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">
+                                       {{ __('messages.mcb') }}
+                                    </a>
                                     <a href="{{ url('/sales#meb') }}"
                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
                                        {{ __('messages.madb') }}
