@@ -57,6 +57,7 @@ return [
     'service_award' => 'Service Award',
     'yangon' => 'Yangon',
     'bayintnaung' => 'Bayintnaung',
+    'bayint' => 'Bayintnaung',
     'z5_showroom' => 'Z5 Showroom',
     'msy' => 'MSY',
     'external' => 'External',
