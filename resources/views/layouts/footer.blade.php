@@ -6,7 +6,7 @@
       <br>
       <div class="flex items-start mb-3">
         <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-        <span class="text-gray-800 text-base">No. (148/149), Anawrahta Road, Hlaing Tharyar Industrial Zone (5) Extension Hlaing Tharyar Township Yangon</span>
+        <span class="text-gray-800 text-base">No. (148/149), Anawrahta Road, Hlaing Tharyar Industrial Zone (5) Extension, Near Gate (86), Hlaing Tharyar Township, Yangon.</span>
       </div>
       <div class="flex items-center mb-3">
         <svg width="28" height="28" fill="#17633a" class="mr-4" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.21.49 2.53.76 3.88.76a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.35.26 2.67.76 3.88a1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>

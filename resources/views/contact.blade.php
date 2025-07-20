@@ -432,25 +432,25 @@
                             </div>
                         </div>
 
-                        <!-- SHAN -->
+                        <!-- SHAN (Branch 3) -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('spare')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('spare-branch')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch3') }}
                             </button>
-                            <div id="spare" class="hidden mt-2 pl-6">
+                            <div id="spare-branch" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch3add') }}</p>
-                                <p class="text-gray-600">Ph: (09) 798892678, (09) 798890818, (09) 798890815</p>
+                                <p class="text-gray-600">Ph:  (09) 798890818, (09) 798890819</p>
                             </div>
                         </div>
 
-                        <!-- NAYPYITAW -->
+                        <!-- NAYPYITAW (Branch 4) -->
                         <div class="pt-4">
-                            <button onclick="toggleBranch('service')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
+                            <button onclick="toggleBranch('service-branch')" class="w-full text-left flex items-center text-lg text-black hover:text-red-600 font-semibold transition-colors duration-300">
                                 <span class="mr-2">►</span>
                                 {{ __('messages.branch4') }}
                             </button>
-                            <div id="service" class="hidden mt-2 pl-6">
+                            <div id="service-branch" class="hidden mt-2 pl-6">
                                 <p class="text-gray-700 mb-2">{{ __('messages.branch4add') }}</p>
                                 <p class="text-gray-600">Ph: (09) 254334384, (09) 798892680</p>
                             </div>
@@ -638,7 +638,7 @@ ${message}
 
         function toggleBranch(id) {
             const content = document.getElementById(id);
-            const allContents = document.querySelectorAll('[id^="yangon"], [id^="showroom"], [id^="spare"], [id^="service"], [id^="pathein"],[id^="patheinservice"], [id^="hinthada"], [id^="shwebo"], [id^="taunggyi"]');
+            const allContents = document.querySelectorAll('[id^="yangon"], [id^="showroom"], [id^="spare-branch"], [id^="service-branch"], [id^="pathein"],[id^="patheinservice"], [id^="hinthada"], [id^="shwebo"], [id^="taunggyi"]');
             const allButtons = document.querySelectorAll('button[onclick^="toggleBranch"]');
 
             // Hide all other contents

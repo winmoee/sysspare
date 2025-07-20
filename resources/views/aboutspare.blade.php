@@ -1,11 +1,11 @@
 <x-app-layout>
     <!-- Showroom Slideshow -->
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
-        <h3 class="text-2xl font-semibold text-green-700 mb-6">Spare parts Shop</h3>
+        <h3 class="text-2xl font-semibold text-green-700 mb-6">{{__('messages.spare_parts_shop_title')}}</h3>
 
         <div class="bg-white rounded-lg p-4 shadow mb-4">
             <p class="text-gray-600 mb-2">
-                Spare parts Shop No. (148/149), Anawrahta Main Road, Industrial Zone (5) Extension, Near Gate (86), Hlaing Tharyar Township Yangon.
+                {{__('messages.spare_shop_address')}}
             </p>
 
             <a href="https://maps.app.goo.gl/L2SfCDJeAJBv35Gm8"

@@ -86,12 +86,12 @@
             <p class="text-gray-600 mb-4 leading-8">
                 {{ __('messages.cash_down1') }}
             </p>
-            <p class="text-gray-600 mb-4 leading-8">
+            {{-- <p class="text-gray-600 mb-4 leading-8">
                 {{ __('messages.cash_down2') }}
             </p>
             <p class="text-gray-600 mb-4 leading-8">
                 {{ __('messages.cash_down3') }}
-            </p>
+            </p> --}}
             {{-- <img src="https://images.stockcake.com/public/2/e/1/2e168899-32f9-4e17-a072-0627dda19ed7_large/farmer-holding-cash-stockcake.jpg" --}}
             {{-- style="width: 30%" height="30%"
                  alt="Training"
