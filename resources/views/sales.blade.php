@@ -40,14 +40,14 @@
         });
     </script>
 
-    <div class="bg-white">
+    {{-- <div class="bg-white">
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <h3 class="text-2xl font-semibold text-green-600">
 
                 {{ __('messages.sales_info') }}
             </h3>
         </div>
-    </div>
+    </div> --}}
 
     <!-- Mobile Navigation (visible on small screens) -->
     {{-- <div class="fixed bottom-0 left-0 right-0 bg-white shadow-up border-t md:hidden z-30">
@@ -134,10 +134,7 @@
                     {{ __('messages.mcb2') }}
 
                 </p>
-                <p class="text-gray-600 mb-4 leading-8">
-                    {{ __('messages.mcb3') }}
 
-                </p>
 
 
             </div>
