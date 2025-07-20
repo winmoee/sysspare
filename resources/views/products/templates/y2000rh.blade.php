@@ -439,7 +439,7 @@
            
                 <!-- Video Section -->
                 <div class="video-container bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-                    <div class="practical-video-wraper">
+                    <div class="practical-video-wraper" >
                         <div class="video-item">
                             <iframe style="height: 500px;" class="w-full h-64 rounded-t-xl"
                                     src="https://www.youtube.com/embed/D_MBzQY8u0Q?si=02qYxlPL2Q5UIXDl"
