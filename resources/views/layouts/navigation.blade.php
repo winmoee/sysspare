@@ -434,8 +434,10 @@
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
                         <a href="{{ url('/aboutspare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.spare_shop') }}</a>
+
                         <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
-                        <a href="{{ url('/catalog') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.catalog') }}</a>
+
+                        <a href="{{ url('/catalo') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.catalog') }}</a>
 
                     </div>
                 </div>
