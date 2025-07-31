@@ -407,17 +407,21 @@
                     <div x-show="showroomOpen" class="pl-4">
                         <div class="py-2 text-medium font-medium text-gray-600">{{ __('messages.pm') }}</div>
                         <a href="{{ url('/sales#cash_down') }}"
-                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">
-                           {{ __('messages.cash_down') }}
-                        </a>
-                        <a href="{{ url('/sales#madb') }}"
-                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
-                           {{ __('messages.madb') }}
-                        </a>
-                        <a href="{{ url('/sales#meb') }}"
-                           class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
-                           {{ __('messages.meb') }}
-                        </a>
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">
+                                       {{ __('messages.cash_down') }}
+                                    </a>
+                                    <a href="{{ url('/sales#madb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">
+                                       {{ __('messages.hp') }}
+                                    </a>
+                                    <a href="{{ url('/sales#mcb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-green-100">
+                                       {{ __('messages.mcb') }}
+                                    </a>
+                                    <a href="{{ url('/sales#meb') }}"
+                                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">
+                                       {{ __('messages.madb') }}
+                                    </a>
                     </div>
                 </div>
 
@@ -429,13 +433,10 @@
                         </svg>
                     </button>
                     <div x-show="showroomOpen" class="pl-4">
-                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
-                        <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.catalog') }}</a>
-                        // Change from:
-                        <a href="{{ url('/aboutspare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
-
-                        // To (redirect to spares catalog):
+                        <a href="{{ url('/aboutspare') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-red-100">{{ __('messages.spare_shop') }}</a>
                         <a href="{{ url('/spares') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-100">{{ __('messages.about_spare_parts') }}</a>
+                        <a href="{{ url('/catalog') }}" class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100">{{ __('messages.catalog') }}</a>
+
                     </div>
                 </div>
 
