@@ -45,7 +45,7 @@ return [
     'address' => 'Sales and Showroom Address - No. (148/149), Anawrahta Road, Hlaing Tharyar Industrial Zone (5) Extension.',
     'cash_down' => 'Cash Down',
     'hp' => 'Hire Purchase',
-    'madb' => 'MADB (Myanmar Agricultural Development Bank)',
+    'madb' => 'MADB Bank (JICA TWO STEP LOAN)',
     'catalog' => 'Catalog',
     'about_spare_parts' => 'About Spare Parts',
     'service_team' => 'Service Team',
@@ -191,7 +191,7 @@ Customers who choose to pay in cash can enjoy special discounted prices and more
 'hp6'=>'- Land Tax Form',
 'hp7'=>'- Land documents for ten acres',
 
-'mcb' => 'MCB (Myanmar Citizens Bank)',
+'mcb' => 'MCB (Myanmar Citizens Bank) Hire Purchase',
 'mcb_title'=>' MCB (Myanmar Citizens Bank) Hire Purchase',
 'mcb1'=>'Seinn Yaung So and MCB (Myanmar Citizens Bank) will collaborate to provide credit sale services.',
 'mcb2'=>'Accordingly, customers are allowed to purchase goods, including motor vehicles and machinery, under MCB’s Hire Purchase system by paying an initial down payment of 60%, with the remaining balance payable in installments over six months.',

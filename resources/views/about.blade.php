@@ -54,7 +54,7 @@
                         </div>
                         <div class="bg-blue-50 p-4 rounded-lg text-center">
                             <div class="text-2xl mb-2">🔋</div>
-                            <h5 class="font-semibold">{{ __('messages.de') }}</h5>
+                            <h5 class="font-semibold">Diesel Engine                            </h5>
                         </div>
                     </div>
 

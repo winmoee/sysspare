@@ -17,10 +17,10 @@
         <span class="text-gray-800 text-base">+95 9 443 121 333</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
 
-      <div class="flex items-center">
+      <!-- <div class="flex items-center">
         <svg width="28" height="28" fill="none" stroke="#17633a" stroke-width="2" class="mr-4" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#17633a" stroke-width="2" fill="none"/><path d="M3 7l9 6 9-6" stroke="#17633a" stroke-width="2" fill="none"/></svg>
         <span class="text-gray-800 text-base">seinnyaungso@gmail.com</span>
-      </div>
+      </div> -->
     </div>
     <!-- Social Media -->
     <div class="flex flex-col items-start text-left">
