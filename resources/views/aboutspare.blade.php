@@ -23,9 +23,9 @@
             <br>
         <div class="carousel-container" id="showroom-carousel" data-carousel-id="showroom-carousel">
             <div class="carousel-slides">
-                <div class="carousel-slide active">
+                {{-- <div class="carousel-slide active">
                     <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store4.jpg">
-                </div>
+                </div> --}}
                 <div class="carousel-slide">
                     <img class="w-full h-auto rounded-lg" src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/products/store5.jpg" alt="Showroom Image 2">
                 </div>
