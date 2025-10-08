@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response; 
+use Illuminate\Http\Response;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Storage;
@@ -16,153 +17,153 @@ class ProductController extends Controller
      * Display a listing of the resource.
      */
 
-     public function yanmar():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
+    public function yanmar(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
 
-    $yanmarProducts = Product::where('category_type', 'Yanmar')->get(); // get only Yanmar products
-    $yanmarProductsByType = $yanmarProducts->groupBy('category_type');
-    $yanmarProductsByCategory = $yanmarProducts->groupBy('category');
+        $yanmarProducts = Product::where('category_type', 'Yanmar')->get(); // get only Yanmar products
+        $yanmarProductsByType = $yanmarProducts->groupBy('category_type');
+        $yanmarProductsByCategory = $yanmarProducts->groupBy('category');
 
-    return view('products.yanmar', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType,
-        'yanmarProductsByCategory' => $yanmarProductsByCategory,
-        'yanmarProductsByType' => $yanmarProductsByType
-    ]);
-}
+        return view('products.yanmar', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType,
+            'yanmarProductsByCategory' => $yanmarProductsByCategory,
+            'yanmarProductsByType' => $yanmarProductsByType
+        ]);
+    }
 
-public function ace():View
-{
-    $allProducts = Product::all(); // get all products
-    $aceProducts = Product::where('category_type', 'ACE')->get(); // get only ACE products
-    
-    $allProductsByType = $allProducts->groupBy('category_type');
-    $allProductsByCategory = $allProducts->groupBy('category');
-    
-    $aceProductsByType = $aceProducts->groupBy('category_type');
-    $aceProductsByCategory = $aceProducts->groupBy('category');
+    public function ace(): View
+    {
+        $allProducts = Product::all(); // get all products
+        $aceProducts = Product::where('category_type', 'ACE')->get(); // get only ACE products
 
-    return view('products.ace', [
-        'allProductsByCategory' => $allProductsByCategory,
-        'allProductsByType' => $allProductsByType,
-        'aceProductsByCategory' => $aceProductsByCategory,
-        'aceProductsByType' => $aceProductsByType
-    ]);
-}
+        $allProductsByType = $allProducts->groupBy('category_type');
+        $allProductsByCategory = $allProducts->groupBy('category');
 
-public function sifang():View
-{
-    $allProducts = Product::all(); // get all products
-    $sifangProducts = Product::where('category_type', 'Sifang')->get(); // get only Sifang products
-    
-    $allProductsByType = $allProducts->groupBy('category_type');
-    $allProductsByCategory = $allProducts->groupBy('category');
-    
-    $sifangProductsByType = $sifangProducts->groupBy('category_type');
-    $sifangProductsByCategory = $sifangProducts->groupBy('category');
+        $aceProductsByType = $aceProducts->groupBy('category_type');
+        $aceProductsByCategory = $aceProducts->groupBy('category');
 
-    return view('products.sifang', [
-        'allProductsByCategory' => $allProductsByCategory,
-        'allProductsByType' => $allProductsByType,
-        'sifangProductsByCategory' => $sifangProductsByCategory,
-        'sifangProductsByType' => $sifangProductsByType
-    ]);
-}
+        return view('products.ace', [
+            'allProductsByCategory' => $allProductsByCategory,
+            'allProductsByType' => $allProductsByType,
+            'aceProductsByCategory' => $aceProductsByCategory,
+            'aceProductsByType' => $aceProductsByType
+        ]);
+    }
 
-public function otherbrands():View
-{
-    $allProducts = Product::all(); // get all products
-    $otherbrandsProducts = Product::where('category_type', 'Other Brands')->get(); // get only Sifang products
-    
-    $allProductsByType = $allProducts->groupBy('category_type');
-    $allProductsByCategory = $allProducts->groupBy('category');
-    
-    $otherbrandsProductsByType = $otherbrandsProducts->groupBy('category_type');
-    $otherbrandsProductsByCategory = $otherbrandsProducts->groupBy('category');
+    public function sifang(): View
+    {
+        $allProducts = Product::all(); // get all products
+        $sifangProducts = Product::where('category_type', 'Sifang')->get(); // get only Sifang products
 
-    return view('products.otherbrands', [
-        'allProductsByCategory' => $allProductsByCategory,
-        'allProductsByType' => $allProductsByType,
-        'otherbrandsProductsByCategory' => $otherbrandsProductsByCategory,
-        'otherbrandsProductsByType' => $otherbrandsProductsByType
-    ]);
-}
-    
+        $allProductsByType = $allProducts->groupBy('category_type');
+        $allProductsByCategory = $allProducts->groupBy('category');
+
+        $sifangProductsByType = $sifangProducts->groupBy('category_type');
+        $sifangProductsByCategory = $sifangProducts->groupBy('category');
+
+        return view('products.sifang', [
+            'allProductsByCategory' => $allProductsByCategory,
+            'allProductsByType' => $allProductsByType,
+            'sifangProductsByCategory' => $sifangProductsByCategory,
+            'sifangProductsByType' => $sifangProductsByType
+        ]);
+    }
+
+    public function otherbrands(): View
+    {
+        $allProducts = Product::all(); // get all products
+        $otherbrandsProducts = Product::where('category_type', 'Other Brands')->get(); // get only Sifang products
+
+        $allProductsByType = $allProducts->groupBy('category_type');
+        $allProductsByCategory = $allProducts->groupBy('category');
+
+        $otherbrandsProductsByType = $otherbrandsProducts->groupBy('category_type');
+        $otherbrandsProductsByCategory = $otherbrandsProducts->groupBy('category');
+
+        return view('products.otherbrands', [
+            'allProductsByCategory' => $allProductsByCategory,
+            'allProductsByType' => $allProductsByType,
+            'otherbrandsProductsByCategory' => $otherbrandsProductsByCategory,
+            'otherbrandsProductsByType' => $otherbrandsProductsByType
+        ]);
+    }
+
 
     public function index(): View
     {
         $products = Product::all();
-    
+
         $productsByType = $products->groupBy('category_type');
         $productsByCategory = $products->groupBy('category');
-        
+
         return view('products.index', compact('productsByType', 'productsByCategory'));
-        }
-
-        
-public function tractor():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
-
-    return view('products.tractor', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
-    ]);
-}
+    }
 
 
-public function walkingtractor():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
+    public function tractor(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
 
-    return view('products.walkingtractor', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
-    ]);
-}
+        return view('products.tractor', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType
+        ]);
+    }
 
-public function combineharvester():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
 
-    return view('products.combineharvester', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
-    ]);
-}
+    public function walkingtractor(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
 
-public function dieselengine():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
+        return view('products.walkingtractor', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType
+        ]);
+    }
 
-    return view('products.dieselengine', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
-    ]);
-}
+    public function combineharvester(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
 
-public function implements():View
-{
-    $products = Product::all(); // get all products
-    $productsByType = $products->groupBy('category_type');
-    $productsByCategory = $products->groupBy('category');
+        return view('products.combineharvester', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType
+        ]);
+    }
 
-    return view('products.implements', [
-        'productsByCategory' => $productsByCategory,
-        'productsByType' => $productsByType
-    ]);
-}
+    public function dieselengine(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
+
+        return view('products.dieselengine', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType
+        ]);
+    }
+
+    public function implements(): View
+    {
+        $products = Product::all(); // get all products
+        $productsByType = $products->groupBy('category_type');
+        $productsByCategory = $products->groupBy('category');
+
+        return view('products.implements', [
+            'productsByCategory' => $productsByCategory,
+            'productsByType' => $productsByType
+        ]);
+    }
     /**
      * Show the form for creating a new resource.
      */
@@ -191,9 +192,9 @@ public function implements():View
             'price_range' => 'nullable|string|max:255',
             'slug' => 'nullable|string|max:255',
         ]);
- 
+
         $request->user()->products()->create($validated);
- 
+
         return redirect(route('products.index'));
     }
 
@@ -250,7 +251,7 @@ public function implements():View
     public function edit(Product $product): View
     {
         Gate::authorize('update', $product);
- 
+
         return view('products.edit', [
             'product' => $product,
         ]);
@@ -262,7 +263,7 @@ public function implements():View
     public function update(Request $request, Product $product): RedirectResponse
     {
         Gate::authorize('update', $product);
- 
+
         $validated = $request->validate([
             'message' => 'nullable|string|max:255',
             'category' => 'nullable|string|max:255',
@@ -277,9 +278,9 @@ public function implements():View
             'price_range' => 'nullable|string|max:255',
             'slug' => 'nullable|string|max:255',
         ]);
- 
+
         $product->update($validated);
- 
+
         return redirect(route('products.index'));
     }
 
@@ -289,9 +290,9 @@ public function implements():View
     public function destroy(Product $product): RedirectResponse
     {
         Gate::authorize('delete', $product);
- 
+
         $product->delete();
- 
+
         return redirect(route('products.index'));
     }
 }

@@ -41,7 +41,8 @@ class ProductPolicy
             'kyawwin@seinnyaungso.com',
             'kyisinthein6940@gmail.com',
             'naychiwin04@gmail.com',
-            'kaungsanthin1111@gmail.com'
+            'kaungsanthin1111@gmail.com',
+            'sai.hanhtetsan@gmail.com'
         ]);
     }
 
