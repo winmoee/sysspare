@@ -9,12 +9,16 @@
     @media (max-width: 640px) {
         .relative {
             border-radius: 15px;
-
+            overflow: hidden;
         }
 
         .relative .mainimg {
             width: 100%;
-            height: 190px;
+            height: auto;
+            max-height: 220px;
+            object-fit: cover;
+            border-radius: 12px;
+            /* transform: scale(1.12); */
         }
     }
 </style>
@@ -25,9 +29,14 @@
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
             <div class="relative">
                 <!-- Main Hero Image -->
-                <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png"
+                <img
+                    src="{{ asset('images/sysheader.png') }}"
                     alt="စစ်မှန်စျေးချို စိမ်းရောင်စို"
                     class="w-full h-auto rounded-lg mainimg">
+                <!-- <img
+                    src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/sysheader.png"
+                    alt="စစ်မှန်စျေးချို စိမ်းရောင်စို"
+                    class="w-full h-auto rounded-lg mainimg"> -->
                 <!-- <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/0main/background/bbg.png" style="border-radius: 5px;"> -->
 
                 <!-- Hero Text Overlay -->
@@ -43,7 +52,6 @@
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
         <h3 class="text-xl font-medium text-green-600 mb-4">
             {{__('messages.sale_showroom')}}<br>
-
         </h3>
 
         <!-- Address Information -->
@@ -180,6 +188,7 @@
 
     {{-- <!-- NEW IMAGE -->
  <div class="max-w-7xl mx-auto p-6 lg:p-8"> --}}
+
     {{-- <div class="relative">
                 <img src="https://sys-shop.s3.ap-southeast-1.amazonaws.com/site/SLaxu5MEktimsQJmwNUF.webp"
                      alt="SYS"
@@ -190,7 +199,7 @@
 
 
     <!-- Service Section -->
-    <div class="max-w-7xl mx-auto p-6 lg:p-8">
+    <div class="max-w-7xl mt-8 mx-auto">
         <h3 class="text-xl font-medium text-green-600 mb-4">
             {{__('messages.service')}}<br>
             ({{__('messages.service_team')}})
