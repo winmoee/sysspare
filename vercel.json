@@ -1,0 +1,41 @@
+{
+  "version": 2,
+
+  // No specific framework since we're deploying a PHP (Laravel) app
+  "framework": null,
+
+  // Define the PHP runtime for the serverless function
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+
+  // Route all requests through Laravel's front controller
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ],
+
+  // Environment configuration optimized for Vercel
+  "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://yourprojectdomain.com",
+
+    // Temporary cache and compiled file paths (Vercel’s filesystem is read-only)
+    "APP_CONFIG_CACHE": "/tmp/config.php",
+    "APP_EVENTS_CACHE": "/tmp/events.php",
+    "APP_PACKAGES_CACHE": "/tmp/packages.php",
+    "APP_ROUTES_CACHE": "/tmp/routes.php",
+    "APP_SERVICES_CACHE": "/tmp/services.php",
+    "VIEW_COMPILED_PATH": "/tmp",
+
+    // Use non-persistent caching and cookie sessions
+    "CACHE_DRIVER": "array",
+    "LOG_CHANNEL": "stderr",
+    "SESSION_DRIVER": "cookie"
+  }
+}
